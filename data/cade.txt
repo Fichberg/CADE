@@ -1834,3 +1834,394 @@ EDITAL  Nº  152,  DE  27  DE  MAIO  DE  2016
 Nos  termos  do  art.  53,  §  2º,  da  Lei  nº  12.529/2011,  dá-se publicidade  ao  seguinte  ato  de  concentração:  Ato  de  Concentração  nº 08700.003952/2016-75.  Requerentes:  Colorcon  Inc.  e  Basf  SE.  Advogados:  Bruno  de  Luca  Drago,  Fabiana  Vieira  Barbosa  Morselli  e outros.  Natureza  da  operação:  Aquisição  de  ativos.  Setor  econômico envolvido:  revestimentos  farmacêuticos.
 
 KENYS  MENEZES  MACHADO, Superintendente  Adjunto
+
+
+À SUPERINTENDENCIA-GERAL DO CONSELHO ADMINISTRATIVO DE DEFESA ECONÔMICA - CADE
+
+Boehringer Ingelheim International GmbH ("BI"), sociedade limitada incorporada sob as leis da Alemanha, com sede em Binger Str. 173, 55216, Ingelheim am Rhein, Alemanha, e Sanofi ("Sanofi", e em conjunto com BI, as "Requerentes"), sociedade com sede em 54, rue La Boétie, 75008 Paris, França, neste ato representadas por seus advogados e bastante procuradores (Docs. n 01 e 02), vêm, respeitosamente, com base no artigo 88 da Lei n° 12.529/2011, submeter a operação a seguir exposta para a apreciação do Conselho Administrativo de Defesa Econômica ("CADE").
+
+I. DO PEDIDO DE ACESSO RESTRITO
+
+I.1 De acordo com o artigo 53 e seguintes do Regimento Interno do CADE, aprovado pela Resolução CADE n° 1/2012, as Requerentes solicitam seja concedido acesso restrito aos seguintes documentos e informações, que possuem caráter confidencial, cuja divulgação a terceiros pode vir a provocar danos ás empresas envolvidas na operação:
+
+- Versão de Acesso Restrito do Anexo I, da Resolução CADE n 2, por conter as seguintes informações de caráter privado e sigiloso:
+
+(i) Informações de faturamento das Requerentes e de seus respectivos grupos econômicos, indicadas em cinza nos itens 11.4, 11.8 e V.2 do Anexo 1, conforme previsto no artigo 53, inciso VI, do Regimento Interno do CADE;
+
+(ii) Descrição da estrutura societária da BI, indicada em cinza no item 11.5 e V.2 do Anexo I, conforme previsto no artigo 53, XIV, do Regimento Interno do CADE;
+
+(iii) Informações sobre disposições contratuais que formalizam o Ato de Concentração, indicados em cinza nos itens III.2.1, III.2.4, III.4, III.6 e IV.1 .d do Anexo I, conforme previsto no artigo 53, inciso VIII, do Regimento Interno do CADE;
+
+(iv) Estratégias comerciais e modo de atuação das Requerentes, indicados em cinza nos itens V.2.d, V.3, V.5, VI.4, Vl.6.a, VII.3, VII.7, VII.8, VII.9, VIII.1, IX.9, IX.17, IX.18, IX.19, IX.20 e IX.21 do Anexo I, conforme previsto no artigo 53, incisos IV e XIII, do Regimento Interno do CADE;
+
+(v) Dados de vendas e de mercado obtidos a partir das melhores estimativas das Requerentes e fornecidos conforme dados CEESA e IMSHealth, indicadas em cinza nos itens V.3, V.5, VI.4, e IX.21 do Anexo I, conforme previsto no artigo 53, inciso X, Do Regimento Interno do CADE;
+
+(vi) Informações sobre clientes das Requerentes, indicadas em cinza nos itens V.5, VII.1, VII.2, Vil.3, VII.6, VII.9 e IX.21 do Anexo I, conforme previsto no artigo 53, inciso XI, do Regimento Interno do CADE; e
+
+(vii) Direitos de propriedade intelectual detidos pelas Requerentes, indicados em cinza no item IX.4 do Anexo I, conforme previsto no artigo 53, incisos IV e V, do Regimento Interno do CADE.
+
+- Cópia dos organogramas contendo a estrutura societária dos grupos econômicos das Requerentes, ora apresentadas como Apartado de Acesso Restrito à Bi n° 01 e Apartado de Acesso Restrito à Sanofi n° 02. conforme previsto no artigo 53, inciso XIV, do Regimento Interno do CADE, por se tratarem de documentos que contêm informações societárias sensíveis e privadas dos grupos econômicos envolvidos na operação;
+
+- Cópia do Acordo de Exclusividade e seus Anexos, ora apresentada como Apartado de Acesso Restrito n° 03. conforme previsto no artigo 53, inciso VIII, do Regimento Interno do CADE, por se tratar de documento essencial à formalização da operação ora sob análise e que contém informações sensíveis e privadas das partes envolvidas;
+
+- Cópia da tradução para o vernáculo do Acordo de Exclusividade, ora apresentada como Apartado de Acesso Restrito n° 04. conforme previsto no artigo 53, inciso VIII, do Regimento Interno do CADE, por se tratar de documento essencial à formalização da operação ora sob análise e que contém informações sensíveis e privadas das partes envolvidas;
+
+- Cópia do Contrato AH, ora apresentada como Apartado de Acesso Restrito n° 05. conforme previsto no artigo 53, inciso XIV, do Regimento Interno do CADE, por se tratar de documento essencial à formalização da operação ora sob análise e que contém informações sensíveis e privadas das partes envolvidas;
+
+- Apresentações BI, ora apresentadas como Apartado de Acesso Restrito à BI n° 06. conforme previsto no artigo 53, inciso IX, do Regimento Interno do CADE, por se tratar de documento que contém informações sensíveis e privadas da BI;
+
+- Apresentação BI, ora apresentada como Apartado de Acesso Restrito à BI n° 07. conforme previsto no artigo 53, inciso IV, do Regimento Interno do CADE, por se tratar de documento que contém informações sensíveis e privadas da BI; e
+
+- Lista de patentes e licenças da Merial, ora apresentada como Apartado de Acesso Restrito à Sanofi n° 08, conforme previsto no artigo 53, incisos IV e V, do Regimento Interno do CADE, por se tratar de documento que contém informações sensíveis e privadas da Merial.
+
+II. DAS PARTES
+
+II.1 BI
+
+II.1.1 A BI é uma empresa familiar independente com sede em Ingelheim, na Alemanha. A BI atua mundialmente nos setores de desenvolvimento, produção, distribuição e comercialização de produtos farmacêuticos, em particular (i) produtos com prescrição médica (ii) produtos para cuidados com saúde pessoal (iii) produtos biofarmacêuticos e (iv) produtos para a saúde animal. No Brasil, a atuação da BI no setor de saúde animal limita-se a determinadas vacinas para suínos e animais de estimação.
+
+II.2 Sanofi
+
+II.2.1 A Sanofi é uma sociedade de capital aberto com sede em Paris, França, cujas ações são negociadas na Euronext e na bolsa de valores de Nova York (NYSE). A Sanofi também é a empresa controladora de um consolidado grupo com atuação mundial no setor de cuidados da saúde com cerca de 400 subsidiárias. A Sanofi não é direta ou indiretamente controlada por quaisquer terceiros. A Sanofi atua em pesquisa, desenvolvimento, fabricação e venda de produtos de cuidados com a saúde que engloba três atividades principais: (i) produtos farmacêuticos; (ii) vacinas para humanos; e (iii) saúde animal.
+
+III. Da Operação
+
+III.1 A operação proposta refere-se à aquisição indireta, pela BI, do negócio de saúde animal da Sanofi ("Merial") por meio de aquisição de ativos e ações (a "Operação"). A Operação faz parte de uma operação mais ampla referente à troca do negócio de saúde animal da Sanofi pelo negócio de cuidados com saúde pessoal da BI.
+
+V. DO MERCADO RELEVANTE
+
+V.1 No Brasil, as atividades das Requerentes se sobrepõem nos segmentos de saúde animal de vacinas suínas para (i) circovírus suíno (ii) mycoplasma hyopneumoniae, e (iíi) riníte atrófica, além de pequenas sobreposições horizontais potenciais em vacinas polivalentes para animais de estimação. A Operação não resulta em sobreposição horizontal em segmentos de produtos farmacêuticos para saúde animal nem em integrações verticais no Brasil. Conforme será demonstrado no formulário de Anexo I, a Operação é incapaz de ensejar quaisquer preocupações concorrenciais no Brasil e no mundo.
+
+VI. DOS PEDIDOS
+
+VI.1 Diante do exposto, que demonstra a total adequação da Operação às exigências impostas pela legislação brasileira aplicável, as Requerentes, em estrito cumprimento das disposições contidas no artigo 88 da Lei n° 12.529/2011, e ainda com fundamento no Regimento Interno do CADE, notificam a Operação.
+
+VI.2 As Requerentes solicitam a manifestação deste E. CADE no sentido de aprovar a Operação sem restrições, uma vez que a Operação é incapaz de ensejar quaisquer preocupações concorrenciais.
+
+VI.3 Para tanto, apresentam, nos termos do artigo 23 da Lei n° 12.529/2011, bem como do artigo 110, caput, do Regimento Interno do CADE, cópia autenticada do comprovante do pagamento da taxa processual exigida para a apresentação de atos de concentração (Doc. n° 03).
+
+VI.4 Finalmente, as Requerentes aproveitam para manifestar seus protestos de mais distinta consideração e declaram que continuam ao inteiro dispor de V. Sas. para fornecer quaisquer documentos e/ou informações que venham a ser considerados necessários para a análise e aprovação da Operação.
+
+Termos em que, pedem deferimento.
+
+De São Paulo para Brasília, 13 de julho de 2016.
+
+Pela BI: Maria Eugenia Novis, Ana Bátia Glenk Ferreira, Ursula Pereira Pinto, Carolina Maria Matos Vieira
+
+Pela SANOFI: Lauro Celidonio G. dos Reis Neto, Michelle Marques Machado, Ana Carolina Folgosi Bittar, Bárbara Decnop 
+
+CONSELHO  ADMINISTRATIVO  DE  DEFESA ECONÔMICA
+SUPERINTENDÊNCIA-GERAL
+
+Nº  217.  Nos  termos  do  art.  53,  §  2º,  da  Lei  nº  12.529/2011,  dá-se publicidade  ao  Ato  de  Concentração  n°  08700.005398/2016-61.  Requerentes: Boehringer Ingelheim International GmbH e Sanofi. Advs: Ana Bátia Glenk Ferreira, Lauro Celidonio G. dos Reis Neto e outros. Natureza  da  operação:  aquisição  do  negócio  de  saúde  animal  da Sanofi  (Merial).  Setor  econômico  envolvido:  vacinas  para  uso  veterinário  (CNAE  21.22.0/00).
+
+KENYS  MENEZES  MACHADO, Superintendente-Geral  Adjunto
+
+
+ILMO. Sr. Superintendente-Geral do Conselho administrativo de Defesa Econômica - CADE.
+
+S.C. Participações Empresariais Ltda. ("SCPE") sociedade empresária limitada, inscrita no CNPJ/MF sob o n 05.213.712/0001-02, com sede na Cidade de São Paulo, Estado de São Paulo, na Rua Olimpíadas, 100, 12 andar, Vila Olímpia, CEP 04551-000, controladora da Distribuidora de Medicamentos Santa Cruz Ltda., sociedade empresária limitada, inscrita no CNPJ/MF sob o n 61.940.292/0001-37. com sede na Cidade de Osasco, Estado de São Paulo, na Praça Agrícola La Paz Tristante, 144, Bairro Industrial Anhanguera, CEP 06276-035 ("Santa Cruz"); e CELESIO AG., sociedade estrangeira devidamente constituída sob as leis da Alemanha, com sede em Neckartalstrasse 155, 70376 Stuttgart, Alemanha, controladora das empresas alvo da Operação Proposta, (a) Panpharma Distribuidora de Medicamentos Ltda., sociedade empresária limitada, inscrita no CNPJ/MF sob o n 01.206.820/0015-00 (" Panpharma ") e (b) Onco Prod Distribuidora de Produtos Hospitalares e Oncológicos S.A., sociedade por ações de capital fechado, inscrita no CNPJ/MF sob o n 06.977.739/0001-34 ("Oncoprod". e em conjunto com Panpharma, "Empresas Objeto"), vêm, respeitosamente, por seus advogados (Doc. n 03), nos termos dos Arts. 53 e 88 da lei n 12.529, de 30 de novembro de 2011 ("Lei de Defesa da concorrência"), do Art. 108 e ss. da Resolução n 1, de 29 de maio de 2012 ("Regimento Interno do CADE OU RICADE") e do Art. 1 e ss. da Resolução n 2. conforme alterada pela Resolução n 9. de 1 de outubro de 2014, ("Resolução CADE n 2"), submeter à apreciação desse e. Conselho Administrativo de Defesa Econômica ("CADE"), o presente ATO DE CONCENTRACÃO ECONÔMICA com pedido de enquadramento no PROCEDIMENTO SUMÁRIO, fundamentado nos Arts. 5 e 8, inciso III, da Resolução CADE n 2 e com PEDIDO DE ACESSO RESTRITO fundamentado no Art. 53, incisos VI, VII, VIII, X e XIV do Regimento Interno do CADE. Para tanto, Santa Cruz, Panpharma e Oncoprod (as "Requerentes") expõem e solicitam o quanto segue;
+
+I. Das Partes do Ato de Concentração
+
+I.1 A SCPE é uma empresa holding, controlada por pessoa física, que tem por objeto a realização de investimentos em sociedades com atividades relacionadas ao setor farmacêutico, as quais compõem o grupo Santa Cruz ("Grupo Santa Cruz").
+
+I.2 A Santa Cruz atua no mercado atacadista de produtos farmacêuticos, distribuindo medicamentos em geral para uso humano ("MED"), cosméticos, perfumaria e produtos de higiene pessoal (Personal Care - "PEC") (conjuntamente denominados como "Produtos Farmacêuticos") detidos por diferentes indústrias às farmácias no Brasil.
+
+I.3 A Celesio AG ("Celesio") é a empresa holding controladora do grupo de empresas Celesio ("Grupo Cejesio"). A seu turno, a Celesio é controlada pela McKesson Corporation ("McKesson"), empresa holding controladora do grupo de empresas McKesson ("Grupo McKesson"), de modo que o Grupo McKesson é o controlador indireto do Grupo Celesio.
+
+I.4 O Grupo Celesio é de origem alemã, sendo que, no Brasil, atua por meio de suas subsidiárias integrais Panpharma e Oncoprod, ativas, respectivamente, nos mercados de distribuição de Produtos Farmacêuticos e cosméticos, e de distribuição de medicamentos de alta complexidade, produtos hospitalares e vacinas.
+
+II. Da Operação Submetida ao CADE
+
+II.1 A Operação Proposta consiste na aquisição, pela SCPE, controladora da Santa Cruz, da totalidade do capital social das Empresas Objeto, integrantes do Grupo Celesio (a "Operaçao Proposta" ).
+
+III. Dos Efeitos e das Razões da Operação
+
+III.1 A Operação Proposta não resultará em qualquer relação de integração vertical entre as atividades desenvolvidas pelo Grupo Santa Cruz e pelas Empresas Alvo.
+
+III.2 Importante notar que embora haja uma única empresa do Grupo Santa Cruz - Drogaria e Farmácia Ltda. ("Drogaserv") - que atua no comércio varejista de Produtos Farmacêuticos, a Operação Proposta não resultará em relação de integração vertical com a Panpharma. Isto porque a Drogaserv realiza vendas cativas de Produtos Farmacêuticos destinados exclusivamente aos empregados da Santa Cruz, sendo que, conforme apresentado no item II.10.1.1 do formulário Anexo II à Resolução CADE n 2, ora submetido a esse E. CADE ("Anexo II"), este estabelecimento apresentou faturamento insignificante justamente por não haver comercialização dos Produtos Farmacêuticos ao mercado.
+
+III.3 A Operação Proposta implicará, no entanto, sobreposição horizontal entre as atividades desenvolvidas por Santa Cruz e Panpharma, no mercado de distribuição de Produtos Farmacêuticos, restando ausente qualquer outra relação de sobreposição horizontal, real ou potencial, nos demais mercados de atuação das empresas envolvidas na Operação Proposta.
+
+III.4 Conforme detalhado no Anexo II. Santa Cruz e Panpharma, de um lado e, Oncoprod de outro, atuam em segmentos distintos e, com isso, a Operação Proposta resulta em sobreposição horizontal apenas entre as duas primeiras, no mercado de distribuição de Produtos Farmacêuticos (produtos MED e PEC). Isto posto, em decorrência da Operação Proposta, a Santa Cruz será entrante no mercado de distribuição de produtos para demandas especiais (medicamentos de alta complexidade destinados a hospitais e clínicas especializadas), segmento este em que, dentre as Requerentes, apenas a Oncoprod atua.
+
+III.5 Importa notar que a sobreposição horizontal acima mencionada não gera quaisquer preocupações de natureza concorrencial, na medida em que a soma da participação de mercado entre as Requerentes é inferior a 20%. Além disso, trata-se de mercado onde praticamente inexistem barreiras à entrada, estando presente na realidade intensa rivalidade entre distribuidores, que, competem, inclusive, com grandes redes varejistas de farmácias e drogarias, que possuem centros próprios de distribuição, mitigando ainda mais a possibilidade de eventual exercício de poder de mercado por parte do Grupo Santa Cruz.
+
+IV. Dos Documentos Anexos à Petição
+
+IV.1 Para subsidiar a análise da Operação Proposta, neste ato submetida ao exame e à aprovação desse E. CADE, as Requerentes apresentam os seguintes documentos: 
+
+IV.2 Dos Documentos Públicos
+
+Doc. n 1: Versão Pública do Anexo II à Resolução CADE n 2;
+
+Doc. n 2: Cópia simples do comprovante de recolhimento da taxa de submissão, no valor total de R$85,000,00 (oitenta e cinco mil reais), nos termos do Art.23 da Lei de Defesa da Concorrência, conforme alterado; e
+
+Doc. n 3; Cópia do instrumento de mandato outorgado pelas Requerentes a seus bastante procuradores e respectivo substabelecimento.
+
+Anexo VI.4; Relação de players membros de associações do setor.
+
+IV.3 Dos Documentos Confidenciais
+
+Doc. confidencial n 1: Versão de Acesso Restrito do Anexo II à Resolução CADE n  2 e dos Apartados de Acesso Restrito anexos de n: IV.1.1, IV.1.2, IV.4.1.1, IV.4.2.1 e IV.4.2.2
+
+Doc. confidencial N 2: Mídia não regravável (CD-ROM) da Petição de Submissão e do Anexo II, em suas versões pública e de acesso restrito, bem como todos os documentos que instruem a presente notificação.
+
+V. Da Confidenciabilidade das Informações
+
+V.1 As Requerentes solicitam, neste ato, com fundamento no Art. 53 do Regimento Interno do CADE, que a D. Superintendência-Geral do CADE defira tratamento sigiloso e confidencial às seguintes informações e documentos, destacados em cinza no Anexo II:
+
+(i) das informações sobre o faturamento bruto da Santa Cruz, constantes dos itens II.4.1 e II.6.1 do Anexo II (Art. 53, inciso VI do RICADE);
+
+(ii) das informações sobre o faturamento bruto da McKesson e da Celesio, no Brasil, constantes do item II.4.2.1 do Anexo II (Art 53, inciso VI do RICADE);
+
+(iii) das informações sobre o faturamento da Drogaserv, constantes dos itens II.10.1.1, II.10,1.2, V.5.25 e VI.3.1 do Anexo II (Art. 53, inciso VI do RICADE);
+
+(iv) do organograma que detalha a estrutura societária dos Grupos das Requerentes, constantes dos itens II.5.1.4, II.5.2.3 do Anexo II (Art 53, inciso VII do RICADE); 
+
+(v) do valor e forma de pagamento da Operação Proposta, constante do Item III.2(c) do Anexo II (Art. 53, inciso VII do RICADE):
+
+(vi) do inteiro teor da cláusula de não concorrência, constante do item III.6.1 do Anexo II (Art, 53. inciso VIII do RICADE);
+
+(VII) das informações de participação de mercado, valor e volume de vendas, constantes dos itens VI.2.1, VI.2.2, VI.2.8 do Anexo II (Art. 53, inciso X e XIV do RICADE);
+
+(viii) Apartado de Restrito II.10.1.1: cópia das demonstrações financeiras auditadas da Drogaserv (Art. 53. inciso X do RICADE).
+
+(ix) Apartado de Acesso Restrito IV.1.1: cópia do Contrato de Compra de Ações e Outras Avenças ("Share Purchase Agreement and Other Covenants"), celebrado em 31 de janeiro de 2016 (o "Contrato") (Art. 53, inciso VIII do RICADE).
+
+(x) Apartado de Acesso Restrito IV.4.1.1: cópia das demonstrações financeiras auditadas do Grupo Santa Cruz (Art. 53. inciso X do RICADE);
+
+(xi) Apartado de Acesso Restrito IV.4.2.1: cópia das demonstrações financeiras auditadas da Panpharma (Art 53. inciso X do RICADE); e
+
+(xii) Apartado de Acesso Restrito IV.4.2.2: cópia das demonstrações financeiras auditadas da Oncoprod (Art. 53, inciso X do RICADE).
+
+VI. Do Pedido
+
+VI.1 Em vista do quanto se expôs, considerando a ausência de preocupações concorrenciais decorrentes da Operação Proposta, dada a impossibilidade de ocorrerem eventuais integrações verticais e sobreposições horizontais envolvendo o segmento de serviços de assistência especializada, as Requerentes requerem:
+
+(i) seja deferida a confidencialidade das informações e documentos indicados no item V desta Petição:
+
+(ii) seja a Operação Proposta enquadrada no Procedimento Sumário, nos termos dos Arts. 5 e 8, inciso III, da Resolução CADE n 2  do CADE; e
+
+(iii) seja a Operação Proposta conhecida e aprovada pela Superintendência-Geral do CADE. sem a imposição de quaisquer restrições.
+
+VI.2 Por fim, nos termos do Art. 110, §3, do Regimento Interno do CADE, as Partes declaram serem verdadeiras as informações prestadas e autênticos os documentos fornecidos.
+
+Termos em que, pedem deferimento.
+
+De São Paulo para Brasília, 1 de fevereiro de 2016.
+
+Pelo Grupo Santa Cruz: Fabíola C.L. Cammarota de Abreu, Joyce Midori Honda, Ricardo Lara Gaillard 
+Pelo Grupo Celesio: Paulo Eduardo de Campos Lilla, Juliana Maia Daniel 
+
+CONSELHO  ADMINISTRATIVO  DE  DEFESA ECONÔMICA
+SUPERINTENDÊNCIA-GERAL
+
+EDITAIS  DE  4  DE  FEVEREIRO  DE  2016
+
+No 41.  Nos  termos  do  art.  53,  §  2º,  da  Lei  nº  12.529/2011, dá-se  publicidade  ao  seguinte  ato  de  concentração:  Ato  de  Concentração  nº  08700.000722/2016-54.  Requerentes:  S.C.  Participações Empresariais Ltda., Panpharma Distribuidora de Medicamentos Ltda., Oncoprod Distribuidora de Produtos Hospitalares e Oncológicos S.A. Advogados:  Fabíola  Carolina  Lisboa  Cammarota  de  Abreu  e  outros. Natureza  da  operação:  aquisição  de  controle.  Setor  econômico  envolvido:  Distribuição  de  medicamentos  e  drogas  para  uso  humano, cosméticos,  perfumaria  e  produtos  de  higiene.
+
+KENYS  MENEZES  MACHADO, Superintendente-Adjunto
+
+
+EGRÉGIO CONSELHO ADMINISTRATIVO DE DEFESA ECONÔMICA, NA PESSOA DO ILUSTRÍSSIMO SENHOR SUPERINTENDENTE-GERAL
+
+Atlas Copco AB ("Atlas Copco"), sociedade devidamente constituída segundo as leis da Suécia, com sede em Sickla Industriväg 19, Nacka, 105 23, Suécia, vem, por seus advogados abaixo assinados, nos termos do art. 53 e 88 da Lei n° 12.529/2011, submeter o presente ATO DE CONCENTRAÇÃO, apresentando, diante do disposto no art. 110 da Resolução CADE n 1/2012, o quanto previsto no Anexo I da Resolução CADE n 2/2012, de acordo com as melhores informações disponíveis no momento da presente notificação, acompanhado da guia comprobatória do recolhimento da taxa processual prevista no art. 23 da mesma Lei. 
+
+I - DOCUMENTOS E INFORMAÇÕES CONFIDENCIAIS: ACESSO RESTRITO
+
+1. Com fundamento no art. 22 da Lei n-12.527/2011, nos arts. 5, § 2 , e 6 ,1, do Decreto n° 7.724/2012, e nos arts. 50 e 53, incisos IV, VI, VIII, X, XI, e XIV, da Resolução CADE n- 1/2012, requer-se seja conferido tratamento de acesso restrito aos trechos destacados em cinza da versão do Anexo I indicada como tal, bem como aos documentos que a acompanham.
+
+2. Trata-se de pedido necessário para impedir que estejam acessíveis a concorrentes e a terceiros em geral alguns dos dados estratégicos de mercado e segredos de negócio de Atlas Copco e Leybold. Caso as autoridades entendam que o pedido de acesso restrito não deva ser integralmente deferido, solicita-se seja assegurada a oportunidade de prestar esclarecimentos adicionais para justificar o quanto requerido previamente à publicação das informações e documentos em comento.
+
+3. No mais, esclarece-se que a única diferença entre as versões pública e de acesso restrito do formulário é a omissão, na versão pública, das informações destacadas em cinza na versão de acesso restrito e dos documentos assinalados.
+
+II - DECLARAÇÃO
+
+4. Atesta-se e declara-se, para todos os fins que: (i) todas as informações apresentadas são, ao que é de conhecimento da Requerente, verdadeiras e corretas; (ii) todos os documentos, cópias de documentos e traduções de documentos anexos a presente notificação são autênticos ou cópias fiéis de suas versões originais; e (iii) todas as estimativas ora apresentadas foram feitas de boa fé, de acordo com as melhores informações disponíveis no momento da notificação da presente Operação.
+
+III - PEDIDOS
+
+5. Requer-se:
+
+a) A pronta e integral aprovação da operação objeto do Ato de Concentração ora submetido à apreciação do CADE.
+
+b) Conforme exposto nos itens 1-3 desta petição, seja conferido tratamento de acesso restrito aos trechos destacados em cinza na versão do Anexo I indicada como tal, bem como aos documentos que a acompanham.
+
+c) Que todas as intimações, comimicações e publicações referentes a este Ato de Concentração sejam feitas cumulativamente em nome de Barbara Rosenberg (OAB/SP n 156.832), Camila Paoletti (OAB/SP n 271.355), Isadora Postal Telli (OAB/SP n 310.024) e Maria Luiza Geraldi (OAB/SP n 366.956).
+
+Termos em que. Pede deferimento.
+
+De São Paulo para Brasília, em 27 de abril de 2016.
+
+
+CONSELHO  ADMINISTRATIVO DE  DEFESA  ECONÔMICA
+SUPERINTENDÊNCIA-GERAL
+
+EDITAL  No - 129,  DE  4  DE  MAIO  DE  2016
+
+Nos  termos  do  art.  53,  §  2º,  da  Lei  nº  12.529/2011,  dá-se publicidade  ao  Ato  de  Concentração  nº  08700.003421/2016-82.  Requerente:  Atlas  Copco  AB.  Advs:  Barbara  Rosenberg  e  outros.  Natureza  da  operação:  aquisição  de  controle  unitário  do  negócio  de soluções de vácuo (Leybold), pertencente à OC Oerlikon Corporation AG.  Setor  econômico  envolvido:  fabricação  de  bombas  à  vácuo (CNAE  2812-7/00).
+
+KENYS  MENEZES  MACHADO, Superintendente-Adjunto
+
+
+
+À SUPERINTENDÊNCIA-GERAL DO CONSELHO ADMINISTRATIVO DE DEFESA ECONÔMICA - CADE
+
+Diebold, Incorporated ("Diebold"), sociedade com sede em 5 995 Mayfair Road, North Canton, OH 44720, Estados Unidos, e Wincor Nixdorf Aktiengeseilschaft, sociedade com sede em 1 Heinz-Nixdorf-Ring, 33106 Paderbom, Alemanha ("Wincor Nixdorf e em conjunto com a Diebold, as "Requerentes"), neste ato representadas por seus advogados e bastante procuradores (Does. n° 1 e 2), vêm, respeitosamente, com base no artigo 88 da Lei n° 12.529/2011, submeter a operação a seguir exposta para a apreciação do Conselho Administrativo de Defesa Econômica ("CADE").
+
+I. DO PEDIDO DE ACESSO RESTRITO
+
+I.1 De acordo com o artigo 53 e seguintes do Regimento Interno do CADE, aprovado pela Resolução CADE n° 1/2012, as Requerentes solicitam seja concedido acesso restrito aos seguintes documentos e informações, que contêm caráter confidencial, cuja divulgação a terceiros pode vir a provocar danos às empresas envolvidas na Operação:
+
+- Versão de Acesso Restrito do Anexo I, da Resolução CADE n° 2, por conter as seguintes informações de caráter privado e sigiloso:
+
+(i) Informações de faturamento das Requerentes, indicadas em cinza nos itens II.4, II I.5 e V.1 do Anexo I, conforme previsto no artigo 53, inciso VI, do Regimento Interno do CADE;
+
+(ii) Informações sobre estratégias comerciais e modo de atuação das Requerentes e suas subsidiárias, indicadas em cinza nos itens II.8, V.1, V.5/V.6, VI.2, VI.4, VII.4, VII.9, IX.10, IX.15, IX.19 e X.1 do Anexo I, conforme previsto no artigo 53, inciso IV, do Regimento Interno do CADE;
+
+(iii) Descrição da estrutura da Operação, indicada em cinza no item III.2.1 do Anexo I, conforme previsto no artigo 53, inciso VII e XIV, do Regimento Interno do CADE;
+
+(iv) Informações sobre apresentações internas das Requerentes, indicadas em cinza no item IV.I.c do Anexo I, conforme previsto no artigo 53, inciso XIV, do Regimento Interno do CADE;
+
+(v) Dados de mercado fornecidos pela RBR às Requerentes sob cláusula de confidencialidade, indicados em cinza nos itens IV.2.b, VI.1 e Q VI.4 do Anexo I, conforme previsto no artigo 53, incisos X e XIV, do Regimento Interno do CADE;
+
+(vi) Informações sobre clientes e fornecedores das Requerentes e suas subsidiárias, indicadas em cinza nos itens V.1, V.5/V.6, VI.2, VI.4, VII.1/VII.2, VIII.1/VIII.2, VIII.8, IX.10 e IX.19 do Anexo I, conforme previsto no artigo 53, inciso XI, do Anexo I, do Regimento Interno do CADÊ;
+
+(vii)Informações e dados de vendas e de mercado obtidos a partir das melhores estimativas das Requerentes, indicados em cinza nos itens V.5/V.6, VI.2, VI.4, IX.8, IX.9 e IX.11 do Anexo I, conforme previsto no artigo 53, incisos X e XIV, do Regimento Interno do CADE; 
+
+(viii) Informações de capacidade instalada e ociosa, indicadas em cinza nos itens V.5/.V6 e IX. 10 do Anexo I, conforme previsto no artigo 53, incisos XII e XIV, do Regimento Interno do CADE.
+
+- Estruturas societárias dos grupos econômicos das Requerentes, ora apresentados como Apartado de Acesso Restrito n° 1 e Apartado de Acesso Restrito n° 2. conforme previsto no artigo 53, inciso XIV, do Regimento Interno do CADE, por se tratarem de documentos que contêm informações societárias sensíveis e privadas dos Grupos Diebold e Wincor Nixdorf;
+
+- Cópia do Business Combination Agreement (BOA), bem como cópia da sua tradução simples para vernáculo ora apresentados como Apartado de Acesso Restrito n° 3 e Apartado de Acesso Restrito n° 4. respectivamente, conforme previsto no artigo 53, inciso VIII, do Regimento Interno do CADE, por se tratar de documento essencial á formalização da Operação;
+
+- Apresentações submetidas como Apartado de Acesso Restrito n° 5. Apartado de Acesso Restrito n° 6 e Apartado de Acesso Restrito n° 7 respectivamente, conforme previsto no artigo 53, inciso XIV, do Regimento Interno do CADE, por se tratarem de documentos que contêm informações societárias sensíveis e privadas das Requentes;
+
+- Planilhas de Excel com dados de mercado apresentados na seção VI.4 do formulário de Anexo I, ora apresentadas como Apartado de Acesso Restrito n° 8, conforme previsto no artigo 53, inciso X, do Regimento Interno do CADE, por se tratarem de documentos que contêm informações de vendas e participações de mercado das Requerentes;
+
+- Listas dos principais clientes das Requerentes, ora apresentadas como Apartado de Acesso Restrito n° 9 e Apartado de Acesso Restrito n° 10. conforme previsto no artigo 53, inciso XI, do Regimento Interno do CADE, por se tratarem de documentos que contêm informações de clientes das Requentes;
+
+- Cópias de contratos, ora apresentadas como Apartado de Acesso Restrito n° 11. conforme previsto no artigo 53, inciso XI e XIV, do Regimento Interno do CADE, por se tratar de documento que contêm informações de clientes da Diebold, assim como de suas estratégias comerciais; e
+
+- Listas mais recentes de marcas e patentes detidas pelas Requerentes, ora apresentadas como Apartado de Acesso Restrito n° 12 e Apartado de Acesso Restrito n° 13. conforme previsto no artigo 53, inciso XIV, do Regimento interno do CADE, por se tratarem de documentos que contêm informações privadas das Requerentes.
+
+II. DAS PARTES
+
+II.1. Diebold II.1.1 A Diebold é uma sociedade anônima norte-americana listada na Bolsa de Valores de Nova Iorque. A Diebold é a controladora em última instância do Grupo Diebold. A Diebold presta serviços e oferta softwares voltados a soluções de FSS. Tais soluções incluem (i) serviços, (ii) softwares e (iii) hadware (ATMs). A Diebold oferta tais soluções de FSS (incluindo ATMs), produtos eletrônicos e físicos de segurança (incluindo cofres e sistemas de processamento de cédulas), softwares e sistemas integrados para os setores financeiro e comercial, dentre outros. A Diebold possui aproximadamente 16.000 funcionários e atua, diretamente ou por meio de distribuidores independentes, em mais de 90 países.
+
+II.2 Wincor Nixdorf II.2.1 A Wincor Nixdorf é uma sociedade anônima alemã listada na Bolsa de Valores de Frankfurt. A Wincor Nixdorf é a controladora em última instância do Grupo Wincor Nixdorf. A Wincor Nixdorf oferta serviços e soluções de TI para clientes dos setores bancário e varejista. Similarmente à Diebold, a Wincor Nixdorf oferta soluções de FSS para bancos, incluindo (i) serviços, (ii) softwares e (iii) hardwares (incluindo ATMs). A Wincor Nixdorf atua, diretamente ou por meio de seus distribuidores, em mais de 130 países e possui mais de 9.000 funcionários em todo o mundo, com mais da metade empregados fora da Alemanha.
+
+III. DA OPERAÇÃO III.1 A operação proposta trata da aquisição de controle unitário da Wincor Nixdorf pela Diebold por meio de uma oferta pública para a aquisição voluntária de todas as ações ordinárias emitidas e em circulação da Wincor Nixdorf. (a "Operação").
+
+IV. DO MERCADO RELEVANTE IV.1 No Brasil, as atividades das Requerentes sobrepõem-se em relação a soluções para clientes do setor financeiro {financial self service - "FSS"): (i) hardware (ATMs); (ii) software; e (iii) serviços. Há também uma integração vertical em relação a um componente exportado pela Cryptera, uma subsidiária da Diebold, para o Brasil, que é usado em hardwares de FSS. No entanto, conforme restará demonstrado no formulário de Anexo I, a Operação é incapaz de ensejar quaisquer preocupações concorrenciais no Brasil e no mundo.
+
+V. DOS PEDIDOS
+
+V.1 Diante do exposto, que demonstra a total adequação da Operação às exigências impostas pela legislação brasileira aplicável, as Requerentes, em estrito cumprimento das disposições contidas no artigo 88 da Lei n° 12.529/2011, e ainda com fundamento no Regimento Interno do CADE, notificam a Operação.
+
+V.2 As Requerentes solicitam a manifestação deste E. CADE no sentido de aprovar a Operação sem restrições, uma vez que a Operação é incapaz de ensejar quaisquer preocupações concorrenciais.
+
+V.3 Para tanto, apresentam, nos termos do artigo 23 da Lei n° 12.529/2011, bem como do artigo 110, caput, do Regimento Interno do CADE, cópia autenticada do comprovante do pagamento da taxa processual exigida para a apresentação de atos de concentração (Doc. n° 3).
+
+V.4 Finalmente, as Requerentes aproveitam para manifestar seus protestos de mais distinta consideração e declaram que continuam ao inteiro dispor de V. Sas. para fornecer quaisquer documentos e/ou informações que venham a ser considerados necessários para a análise e aprovação da Operação.
+
+Termos em que, pedem deferimento.
+
+De São Paulo para Brasília, 15 de abril de 2016.
+
+Pela Diebold: Tito Amaral de Andrade, Ana Bátia Glenk Ferreira
+
+Pela Wincor Nixdorf: Joana Temudo Cianfarani, Mario Glauco Pati Neto
+
+
+CONSELHO  ADMINISTRATIVO  DE  DEFESA ECONÔMICA
+SUPERINTENDÊNCIA-GERAL
+
+EDITAL  Nº  110,  DE  18  DE  ABRIL  DE  2016
+
+Nos  termos  do  art.  53,  §  2º,  da  Lei  nº  12.529/2011,  dá-se publicidade  ao  seguinte  ato  de  concentração:  Ato  de  Concentração  nº 08700.003045/2016-26.  Requerentes:  Diebold,  Incorporated  e  Wincor Nixdorf  Aktiengeseilschaft.  Advogados:  Tito  Amaral  de  Andrade, Joana  Temudo  Cianfarani  e  outros.  Natureza  da  operação:  aquisição de   controle.   Setor   econômico   envolvido:   Serviços,   softwares   e hardwares  (ATMs)  voltados  a  soluções  de  autoatendimento  para  o setor  financeiro.
+
+KENYS  MENEZES  MACHADO, Superintendente-Adjunto
+
+
+AO ilustríssimo senhor superintendente-geral do conselho ADMINISTRATIVO DE DEFESA ECONÔMICA - CADE
+
+Coty Inc. ("Coty"), sociedade com sede em Empire State Building, 350 Fifth Avenue, 19° andar, Nova York, NY. Estados Unidos, e Procter and Gamble Company ("P&G", conjuntamente com a Coty, as "Requerentes"), sociedade com sede em Procter and Gamble Plaza, 1. Cincinnati, OH, Estados Unidos, neste ato representadas por seus advogados e bastante procuradores (Does. n° 01 e 02), vêm, respeitosamente, com base no artigo 88 da Lei n° 12.529/2011, submeter a operação a seguir exposta para a apreciação do Conselho Administrativo de Defesa Econômica ("CADE").
+
+I. DO PEDIDO DE ACESSO RESTRITO
+
+I.1 De acordo com o artigo 53 e seguintes do Regimento interno do CADE, aprovado pela Resolução CADE n° 1/2012, as Requerentes solicitam seja concedido acesso restrito aos seguintes documentos e informações, que contêm caráter confidencial, cuja divulgação a terceiros pode vir a provocar danos às empresas envolvidas na operação:
+
+- Versão de Acesso Restrito do Anexo II. da Resolução CADE n® 2, por conter as seguintes informações de caráter privado e sigiloso:
+
+(i) Faturamento bruto da Coty e do Grupo JAB no Brasil e no mundo no ano de 2014, indicado em cinza nos itens II.4 e II.8 do Anexo 11, conforme previsto no artigo 53, inciso VI, do Regimento Interno do CADE;
+
+(ii) Faturamento bruto da P&G no Brasil e no mundo no ano fiscal de 2014/2015, indicado em cinza nos itens II.4 e II.8 do Anexo II, conforme previsto no artigo 53, inciso VI, do Regimento Interno do CADE;
+
+(iii) Valor da operação e forma de pagamento, indicado no item III.2.3 do Anexo II, conforme previsto no artigo 53, inciso Vil, do Regimento Interno do CADE;
+
+(iv) Estimativa das vendas e da participação de mercado das Requerentes e de seus concorrentes nos mercados afetados pela operação, indicado em cinza nos itens VI.1 e VI.2, conforme previsto no artigo 53. inciso X, do Regimento Interno do CADE.
+
+- Cópia do Transaction Agreement e de sua respectiva tradução para o vernáculo, ora apresentados como Apartado de Acesso Restrito n° 04 e Apartado de Acesso Restrito n® 05, conforme previsto no artigo 53, inciso VIII, do Regimento Interno do CADE, por se tratar de documento essencial à formalização da operação ora sob análise e que contêm informações sensíveis e privadas das partes envolvidas.
+
+- Organograma societário da Coty, ora apresentado como Apartado de Acesso Restrito n° 01. conforme previsto no artigo 53, inciso XIV, do Regimento Interno do CADE. por conter informações societárias sensíveis e privadas.
+
+- Organograma societário da P&G, ora apresentado como Apartado de Acesso Restrito n° 02. conforme previsto no artigo 53, inciso XIV, do Regimento Interno do CADE, por conter informações societárias sensíveis e privadas.
+
+- Organograma apresentando a reorganização do Negócio Alvo, ora apresentado como Apartado de Acesso Restrito n° 03. conforme previsto no artigo 53, inciso XIV, do Regimento Interno do CADE, por se tratar de documento essencial à formalização da operação ora sob análise e que contêm informações societárias sensíveis e privadas das partes envolvidas.
+
+- Demonstrações financeiras do Grupo JAB, ora apresentado como Apartado de Acesso Restrito n° 06. conforme previsto no artigo 53, inciso X, do Regimento Interno do CADE, por se tratar de documento essencial à formalização da operação ora sob análise e por conter informações sensíveis e privadas das partes envolvidas.
+
+II. DAS PARTES
+
+II.1. Coty Inc. ("Coty")
+
+II.1.1 A Coty é uma multinacional, fundada em Paris em 1904, que atua no segmento de beleza, ofertando produtos nas linhas de fragrâncias, cosméticos de cor e cuidados com a pele e corpo, que são vendidos em mais de 130 países e territórios.
+
+II.1.2 A Coty é controlada pela JAB Cosmetics B.V., uma empresa holding, subsidiária integral da JAB Holding Company s.à.r.l. ("JAB"). O Grupo JAB é um grupo de capital fechado voltado a investimentos de longo prazo em empresas com marcas premium no setor de bens de consumo, que vem crescendo rapidamente.
+
+II.2 Procter and Gamble Company ("P&G")
+
+II.2.1 A P&G é uma holding, de capital aberto, na qual nenhum de seus acionistas detêm mais de 10% de participação. A P&G é uma fabricante global de bens de consumo, incluindo produtos de cuidados com o lar, cuidados com a beleza, higiene pessoal, cuidados com a saúde, e produtos para cuidados com bebês, mulheres e a família.
+
+III. DA OPERAÇÃO
+
+III.1 A operação proposta consiste na aquisição, pela Coty, de parte significativa dos negócios globais de produtos de cuidados para cabelos para salão, coloração para cabelos, modeladores, cosméticos de cor e fragrâncias (o "Négocio Alvo") da P&G, nos termos do Transaction Agreement celebrado entre as Requerentes.
+
+IV. DO MERCADO RELEVANTE
+
+IV.1 Conforme será demonstrado no Formulário Anexo, a operação enseja algumas sobreposições entre as atividades das Requerentes que não suscitam qualquer tipo de preocupação concorrencial no Brasil.
+
+IV.2 A operação enseja pequenas sobreposições horizontais em (i) fragrâncias: (ii) coloração para cabelos - para uso doméstico e professional; e (iii) modeladores de cabelos - somente para uso profissional.
+
+IV.3 Diante da ausência de preocupações concorrenciais decorrentes da operação proposta, as Requerentes entendem que a definição de mercado relevante pode ser deixada em aberto.
+
+V. DOS PEDIDOS
+
+V.1 Diante do exposto, que demonstra a total adequação da operação apresentada às exigências impostas pela legislação brasileira aplicável, as Requerentes, em estrito cumprimento das disposições contidas no artigo 88 da Lei n° 12.529/2011, e ainda com fundamento no Regimento Interno do GADE, notificam a presente operação.
+
+VI.2 As Requerentes solicitam a manifestação deste E. GADE no sentido de aprovar a operação ora apresentada, sem restrições, sob o rito sumário, conforme o artigo 8°, III e V, da Resolução GADE n° 2/2012.
+
+VI.3 Para tanto apresentam, nos termos do artigo 23 da Lei n° 12.529/2011, bem como do artigo 110, caput. do Regimento Interno do GADE, cópia simples do comprovante do pagamento da taxa processual exigida para a apresentação de atos de concentração (Doc. n 03).
+
+VI.4 Finalmente, as Requerentes aproveitam para manifestar seus protestos de mais distinta consideração e declaram que continuam ao inteiro dispor de V. Sas. para fornecer quaisquer informações e/ou documentos que venham a ser considerados necessários para a análise e aprovação da presente operação.
+
+Termos em que, pedem deferimento.
+
+De São Paulo para Brasilia, 22 de fevereiro de 2016.
+
+Pela Coty: Tito Amaral de Andrade, Ana Bátia Glenk Ferreira, Beatriz Medeiros Navarro Santos, Carolina Maria Matos Vieira
+
+Pela P&G: Ubiratan Mattos, Rafaela Pozzi de Cálcena, Andrea Astorga dos Prazeres 
+
+
+CONSELHO  ADMINISTRATIVO  DE  DEFESA ECONÔMICA
+SUPERINTENDÊNCIA-GERAL
+
+EDITAL  Nº  120,  DE  26  DE  ABRIL  DE  2016
+
+Nos  termos  do  art.  53,  §  2º,  da  Lei  nº  12.529/2011,  dá-se publicidade  ao  Ato  de  Concentração  nº  08700.001221/2016-95.  Requerentes:  Coty  Inc.  e  The  Procter  and  Gamble  Company.  Advs:  Tito Amaral de Andrade, Ubiratan Mattos e outros. Natureza da operação: aquisição  de  controle  do  Negócio  Alvo.  Setor  econômico  envolvido: fabricação  de  cosméticos,  produtos  de  perfumaria  e  de  higiene  pessoal  (CNAE  2063-1/00).
+
+KENYS  MENEZES  MACHADO, Superintendente-Adjunto
