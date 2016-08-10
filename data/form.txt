@@ -2229,3 +2229,566 @@ Ato de Concentração nº 08012.005693/2010-80 Requerentes: FIP Kinea Real Estat
 Ato de Concentração nº 08012.002245/2010-24 Requerentes: FIP Kinea Real Estate e LN Participações e Investimentos S.A.  O ato de concentração foi aprovado sem restrições pelo CADE em 19 de maio de 2010.
 
 
+
+PROCESSO 08700.003024/2016-19
+
+
+
+Trata-se de Contrato de Compra e Venda de Ações ("Contrato") por meio do qual a DBTrans Administração de Meios de Pagamento Ltda. ("DBTrans") adquirirá ações representativas de 100% do capital social da Serviços e Tecnologia de Pagamentos 8.A. ("STP"), atualmente detidas por CCR S.A., Ivan Corrêa De Toledo Filho, Fundo de Investimento em Participações Venice, Raízen Combustíveis S.A., Arteris S.A.. GSMP S.A., Freelane I, L.L.C. e Freelane II. L.L.C. (conjuntamente apenas "Vendedores").
+
+A DBTrans é uma sociedade brasileira criada em 2001 com o objetivo de desenvolver meios de pagamento para atender às demandas do mercado de transporte rodoviário de cargas. Atualmente, a DBTrans oferta primordialmente (i) meios de pagamento em papel/voucher para pedágio, e (ii) cartões de pagamento para frete e combustível. Além disso, também oferta meios eletrônicos de pagamento baseados na tecnologia de identificação automática de veículos (AVI) em pedágios e estacionamentos, bem como mecanismos de controle de acesso de entrada, saída ou circulação interna de veículos em diversos locais ou instalações, tais como condomínios, empresas, aeroportos, shopping centers etc.
+
+A STP e uma sociedade holding sem atividades operacionais e oferta, por meio de suas sociedades controladas (Centro de Gestão de Meios de Pagamento S.A. - "CGMP", e Sociedade de Gestão de Meios de Pagamentos Ltda. - "SGMP"), meios de pagamento eletrônico de tarifa de pedágio em rodovias e, em escala bem menor, de preço de estacionamento em shoppings centers, aeroportos, e despesas de combustível.
+
+DBTrans e CGMP serão doravante denominadas em conjunto como "Requerentes".
+
+A operação gerará sobreposição horizontal no mercado de meios eletrônicos de pagamento baseados na tecnologia AVI para pedágios e estacionamentos. Contudo, conforme será melhor detalhado ao longo do presente formulário, referida sobreposição horizontal não acarreta maiores preocupações concorrenciais, uma vez que (i) trata-se de um grande e ainda inexplorado mercado, com elevado potencial de crescimento, (ii) a operação não alterará a estrutura altamente competitiva do mercado (a participação da DBTrans no mercado relevante é aproximadamente 0,5%), (iii) baixas barreiras à entrada de novos concorrentes e baixos custos de distribuição implicam contínua abertura a novos entrantes, (iv) há efetiva rivalidade e substitutibilidade de outros meios de pagamento, (v) as prestadoras de serviços operam em um ambiente altamente regulado, com regras que incentivam a concorrência, e (vi) a operação desconstituirá as integrações verticais existentes entre a CGMP e os acionistas da STF que atuam no mercado de concessão de rodovias e fornecimento de combustíveis.
+
+Sendo assim, uma vez que a operação não acarreta maiores alterações ou prejuízos à dinâmica concorrencial do segmento afetado, deve ser aprovada sem restrições.
+
+Para efeitos de publicação no Diário Oficial da União, sugere-se a adoção da seguinte redação: "Requerentes: DBTrans Administração de Meios de Pagamento Ltda. e Sen/iços e Tecnologia de Pagamentos S.A. Advogados: Guilherme Favaro Corvo Ribas, Enrico Spini Romanielo e Pedro Dutra. Natureza da operação: aquisição de controle. Setores econômicos envolvidos: Emissão de vales alimentação, vales transporte e similares (CNAE 82.99-7-02 e 82.99-7-99)".
+
+i. DBTrans Administração de Meios de Pagamento Ltda. ("DBTrans") CNPJ/MF; 04.467.870/0001-26 Forma legal; sociedade limitada. Avenida Rio Branco, 128, 12° Andar, Centro, Rio de Janeiro - RJ, CEP 20.040-006; www.dbtrans.com.br; Representante: Marcelo Castro de Aguiar (Diretor Financeiro); Tel.: (11) 3837-4280; E-mail: marcelo.aguiar@ctf.com.br
+
+ii. Centro de Gestão de Meios de Pagamento S.A. ("CGMP ") CNPJ/MF: 04.088.208/0001-65 Forma legal: sociedade por ações; Rua Minas Bogasian, 253, Centro, Osasco-SP, CEP 06013-010; www.semparar.com.br; Representante: Sra. Maria Norma Ushizima Pietro (Diretora Financeira); Tel.: (11)4573-2060.; Fax: (11)3651-8331.; E-mail: norma.pietro@semparar.net
+
+
+
+A DBTrans pertence à Fleetcor, que possui as seguintes sociedades operando no Brasil: Auto Expresso Tecnologia S.A., CTF Technologies do Brasil Ltda., VB - Serviços, Comércio e Administração Ltda.
+
+Tendo em vista o número de pessoas físicas e jurídicas que figuram como vendedores no Contrato, e que suas respectivas informações não parecem ser necessárias à análise concorrencial do negócio jurídico ora notificado, a CGMP solicita seja dispensada de apresentar informações relacionadas aos acionistas da STP.
+
+Fleetcor: norte-americano.
+
+CGMP: Tendo em vista o número de pessoas físicas e jurídicas que figuram como vendedores no Contrato, e que suas respectivas informações não parecem ser necessárias à análise concorrencial do negócio juridico ora notificado, a CGMP solicita seja dispensada de apresentar informações relacionadas aos acionistas da STP.
+
+Em maio de 2012, a Fleetcor adquiriu a CTF Technologies do Brasil Ltda.
+
+Em agosto de 2013, a Fleetcor adquiriu a VB - Serviços, Comércio e Administração Ltda.
+
+Em setembro de 2013, a Fleetcor adquiriu a DBTrans.
+
+Em dezembro de 2015, a Fleetcor adquiriu a Auto Expresso Tecnologia S.A.
+
+VERSÃO PUBLICA 11.7. Informe as operações realizadas durante os últimos cinco anos, peias pessoas listadas no item ii.5, e as respectivas decisões do CADE, quando for o caso. í. Fleetcor • Em maio de 2012, a Fleetcor adquiriu a CTF Technologies do Brasil Ltda. • Em agosto de 2013, a Fleetcor adquiriu a VB - Serviços, Comércio e Administração Ltda. • Em setembro de 2013, a Fleetcor adquiriu a DBTrans. • Em dezembro de 2015, a Fleetcor adquiriu a Auto Expresso Tecnologia S.A. Cumpre destacar que nentiuma das operações mencionadas atendia aos critérios legais para notificação ao CADE.
+
+Aquisição, pela Sampras Participações Ltda., de participação de 10% no capital social da STP (Ato de Concentração 08700.007780/2013-66, aprovado sem restrições pelo CADE em 11 de setembro de 2013).
+
+Aquisição, por Freelane I, LLC e Freelane II, LLC., de 2.544.693 ações ordinárias e nominativas da STP pertencentes a EcoRodovias Infraestrutura e Logística S.A., representativas de aproximadamente 11,41% do capital social da STP (Ato de Concentração 08700.001423/2014-75, não conhecido pelo CADE em 27 de fevereiro de 2014).
+
+A CGMP é uma sociedade brasileira criada em 2000, e tem como objetivo a prestação de meios de pagamento eletrônico de tarifa de pedágio em rodovias e, em escala bem menor, de preço de estacionamento em shoppings centers, aeroportos, e despesas de combustível, por meio da utilização de tecnologia de identificação veicular por radiofreqüência (AVI).
+
+O serviço oferecido pela CGMP opera sob a marca "Sem Parar", e está presente nos Estados de São Paulo, Rio de Janeiro, Minas Gerais, Espírito Santo, Paraná, Santa Catarina, Rio Grande do Sul, Mato Grosso, Mato Grosso do Sul, Goiás, Bahia, Pernambuco e Distrito Federal.
+
+Tendo em vista o número de pessoas físicas e jurídicas que figuram como vendedores no Contrato, e que suas respectivas informações não parecem ser necessárias à análise concorrencial do negócio jurídico ora notificado, a CGMP solicita seja dispensada de apresentar informações relacionadas aos acionistas da STF.
+
+A CGMP presta serviços para as seguintes concessionárias pertencentes ao Grupo COR, do qual a COR 8.A. é controladora: (i) Concessionária do Sistema Anhangüera-Bandeirantes S.A, (ii) Concessionária da Rodovia Presidente Dutra S.A, (iii) Concessionária do Rodoanel Oeste S.A., (iv) Rodovias Integradas do Oeste S.A., (v) Concessionária de Rodovias do Oeste de São Paulo - ViaOeste S.A., (vi) Rodonorte - Concessionária de Rodovias Integradas S.A., (vil) Concessionária da Rodovia dos Lagos S.A., (viii) Concessionária de Rodovia Sul- Matogrossense S.A. e (ix) Renovias Concessionária S.A.
+
+A CGMP presta serviços para as seguintes concessionárias pertencentes ao Grupo Arteris, do qual a Arteris S.A. é controladora: (i) Autovias S.A, (ii) Centrovias Sistemas Rodoviários S.A., (iii) Concessionária do Rodovias do Interior Paulista S.A., (iv) Vianorte S.A., (v) Autopista Regis Bittencourt S.A., (vi) Autopista Litoral Sul S.A., (vil) Autopista Fernão Dias S.A., (viii) Autopista Fluminense S.A. e (ix) Autopista Planalto Sul S.A.
+
+Quanto à Raizen Combustíveis S.A. ("Raízen"), a STP (controladora da CGMP) e Raízen celebraram um Acordo Operacional, no qual a CGMP é parte interveniente, que tem como objeto fixar as linhas gerais para a implantação do serviço de pagamento eletrônico operado pela CGMP nos postos de combustível nos postos da rede Raízen. A esse respeito, note-se que os contratos de prestação de serviços são celebrados diretamente entre a CGMP e os postos de combustível, e que estes não tem relação societária com a Raízen.
+
+Conforme mencionado anteriormente no item 1.1, trata-se de Contrato por meio do qual a DBTrans adquirirá 100% das ações da STP. As ações são atualmente detidas pelos Vendedores. Assim, a operação pode ser enquadrada no item 2 (aquisição de controle).
+
+
+ Trata-se de aquisição do controle da STF.
+
+A operação enquadra-se na hipótese do art. 9°, I, da Resolução CADE n° 02/2012, aquisição de participação societária que acarreta aquisição de controle.
+
+A operação será apresentada apenas às autoridades brasileiras
+
+As Requerentes esclarecem que, em seu melhor entendimento, a operação não está sujeita à aprovação prévia de outros órgãos reguladores no Brasil ou no mundo. Adicionalmente, as Requerentes informam que notificaram, para informação apenas, a Agência Nacional de Transportes Terrestres - ANTT, Agência Reguladora de Serviços Públicos Delegados de Transporte do Estado de São Paulo - ARTESP e Agência Reguladora de Serviços Públicos Delegados de Infraestrutura do Paraná - AGEPAR. Além disso, tão logo possível após a conclusão da aquisição, as Requerentes notificarão referidas agências novamente, para fins de atualização das autorizações por elas emitidas.
+
+Esclarece-se também que DBTrans e CGMP apresentaram pedidos ao Banco Central do Brasil para operarem como arranjos de pagamento fechado e instituições de pagamento, nos termos da Lei n° 12.865/13, sendo que estes pedidos ainda estão ainda em análise. Assim, é possível que as Requerentes tenham que buscar autorização do Banco Central, conforme definido na Cláusula 5.4 do Contrato, caso os referidos pedidos sejam analisados e concedidos até a conclusão da aquisição.
+
+A operação representa uma oportunidade para a Fleetcor expandir suas atividades no Brasil, que é um mercado que está passando por intenso crescimento, o que é ilustrado pelos seguintes fatos:
+
+O pagamento eletrônico de pedágios é um grande e inexplorado segmento com elevado potencial de crescimento.
+
+O Brasil tem a segunda maior rede de rodovias pedagiadas no mundo, tendo sido realizadas 1,7 bilhão de passagens e operações de pagamento de pedágio em 2014 por grande parte dos 63 milhões de veículos transitando no país, conforme indicado na Etapa VI abaixo. Ademais, espera-se que a malha rodoviária pedagiada mais do que dobre nos próximos cinco anos, de acordo com os pianos apresentados pelas autoridades governamentais estaduais e federais.
+
+O pagamento eletrônico de pedágio no Brasil cresceu significativamente nos últimos 10 anos (25% ao ano - CAGR), e espera-se que continue a crescer.
+
+O crescimento anual da frota brasileira de veículos foi de 7% entre 1998 a 2014, mas ainda há espaço a ser explorado (em uma perspectiva per capita) em comparação com países mais desenvolvidos. O país possui apenas 249 veículos a cada 1000 habitantes, o que é baixo em comparação com Estados Unidos, Austrália e Itália, que possuem respectivamente 809, 731 e 682 a cada 1000 habitantes, respectivamente.
+
+A penetração de tags para pagamento de pedágio no Brasil é menor do que 10%, menos da metade se comparado a mercados desenvolvidos.
+
+Em conjunto, o crescimento contínuo da base de veículos, da malha rodoviária e da penetração de tags (incluindo sua utilização em outros segmentos que não pedágio. sobretudo estacionamentos e outros estabelecimentos comerciais), determina a racionalidade econômica para o contínuo crescimento da CGMP.
+
+Estrategicamente, a FleetCor é uma empresa global com atuação voltada para soluções de pagamento relacionadas a transporte. Desta forma, o Brasil mostra-se como um excelente mercado para tais soluções, e a operação representa uma oportunidade para a Fleetcor expandir sua atuação nesta nova categoria em mercado altamente atrativo.
+
+O Contrato de Compra e Venda de Ações contém cláusulas padrão de não concorrência e não aliciamento, abaixo transcritas;
+
+As Requerentes entendem que as cláusulas aqui mencionadas estão em conformidade com a jurisprudência do CADE, e não levantam preocupações concorrenciais.
+
+O documento que formaliza a operação é o Contrato de Compra e Venda de Ações ("Contrato") (DOC. n° 07).
+
+Requer-se, respeitosamente, a dispensa de apresentação de eventuais outros documentos que foram ou possam vir a ser preparados para instrumentalizar aspectos específicos e operacionais da operação, incluindo os Anexos ao Contrato, uma vez que são irrelevantes e desnecessários para uma análise antitruste completa do negócio notificado.
+
+A DBTrans é uma sociedade brasileira criada em 2001 com o objetivo de desenvolver meios de pagamento para atender às demandas do mercado de transporte rodoviário de cargas. Atualmente, a DBTrans oferta primordialmente (i) meios de pagamento em papel/voucher para pedágio, e (ii) cartões de pagamento para frete e combustível. Além disso, também oferta meios eletrônicos de pagamento baseados na tecnologia de identificação automática de veículos (AVI) para pedágios e estacionamentos, bem como mecanismos de controle de acesso de entrada, saída ou circulação interna de veículos em diversos locais ou instalações, tais como condomínios, empresas, aeroportos, shopping centers etc.
+
+A CGMP é uma sociedade brasileira criada em 2000, e tem como objetivo a prestação de meios de pagamento eletrônico de tarifa de pedágio em rodovias e, em escala bem menor, de preço de estacionamento em shoppings centers, aeroportos, e despesas de combustível, por meio da utilização de tecnologia de identificação veicular por radiofreqüência (AVI).
+
+O serviço oferecido pela CGMP opera sob a marca "Sem Parar", e está presente nos Estados de São Paulo, Rio de Janeiro, Minas Gerais, Espírito Santo, Paraná, Santa Catarina, Rio Grande do Sul, Mato Grosso, Mato Grosso do Sul, Goiás, Bahia, Pernambuco e Distrito Federal.
+
+Tendo em vista o número de pessoas físicas e jurídicas que figuram como vendedores no Contrato, e que suas respectivas informações não parecem ser necessárias à análise concorrencial do negócio jurídico ora notificado, a CGMP solicita seja dispensada de apresentar informações relacionadas aos acionistas da STP.
+
+Primeiramente, cumpre esclarecer que a operação não resultará em qualquer integração vertical. Do contrário, promover-se-á uma verdadeira desverticalização, uma vez que serão desfeitas as integrações existentes com as atividades dos Vendedores (a saber, com a CCR S.A. e Arteris S.A., que são sociedades não operacionais detentoras que participação societária em concessionárias de rodovias, e com a Raízen, que comercializa combustível). De fato, o mercado está deixando de ser verticalizado (com concessionárias de rodovias) para uma situação de propriedade dos ativos por sociedades de meio de pagamento, o que, em última instância, trará incentivos à inovação e novos usuários, gerando maior penetração e melhor funcionalidade dos produtos. 
+
+Por outro lado, a operação gera sobreposição horizontal na oferta de meios eletrônicos de pagamento baseados na tecnologia AVI em estacionamentos e pedágios.
+
+De todo modo, e conforme será melhor detalhado abaixo, referida sobreposição horizontal não acarreta maiores preocupações concorrenciais, sobretudo porque:
+
+Trata-se de um grande e inexplorado mercado com elevado potencial de crescimento, o que é demonstrado pelas novas tecnologias e aplicações, crescente número de rodovias pedagiadas, e elevada quantidade de estacionamentos e outros estabelecimentos comerciais que atualmente não fazem uso de meios eletrônicos de pagamento baseados em AVI e que podem vir a se beneficiar destes.
+
+A operação não resultará em quaisquer impactos significativos ao mercado ou ao nível de concorrência, uma vez que:
+
+A DBTrans detém uma participação bastante reduzida no mercado de meios eletrônicos de pagamento baseados na tecnologia AVI em estacionamentos e pedágios (aproximadamente 0,5%, conforme mostrado na Etapa VI abaixo). Sendo assim, a operação é similar a uma substituição de agente econômico, e a estrutura do mercado restará virtualmente inalterada.
+
+A DBTrans oferta seus produtos e serviços principalmente para pessoas jurídicas, ao passo que a atuação da CGMP é mais voltada para consumidores pessoas físicas.
+
+Reduzidas barreiras à entrada e baixos custos de distribuição significam ameaça contínua de novos entrantes.
+
+Produto commodity: trata-se de um mercado único, em que os agentes têm o mesmo produto e rede. Todas as tags RFID são essencialmente a mesma tecnologia, uma vez que esta foi "padronizada" pelos principais órgãos reguladores. Mais ainda, tem-se idêntica aceitação em pedágios para todos os participantes do mercado atuais e novos entrantes; isso porque as concessionárias de rodovias devem, nos termos da regulação aplicável, atender os operadores de tags autorizados pelas respectivas autoridades reguladoras, sujeito ao cumprimento por estes prestadores de serviços de obrigações e condições mínimas estabelecidas pela regulamentação, e desde que a negociação contratual destes com as concessionárias seja realizada dentro de termos razoáveis e aceitos geralmente pelo mercado, conforme discutido na Etapa IX abaixo.
+
+Baixos custos de transferência para o consumidor: não há, essencialmente, quaisquer custos relevantes de transferência para o consumidor, uma vez que não há multa contratual a ele imposta ao trocar de fornecedor, sendo certo que o cliente pode rescindir o contrato a qualquer momento. Mais ainda, o próprio consumidor instala o adesivo no para-brisa de seu veículo.
+
+Entrada rápida/ baixa escala mínima eficiente: as tags são facilmente adquiridas de vários fornecedores. Mais ainda, economias de escala não são fundamentais para este mercado, de forma que a escala mínima eficiente para gerar lucro é bastante baixa. Com efeito, os maiores custos são relacionados a vendas e marketing/aquisição de clientes, não constituindo obstáculo para potenciais entrantes, especialmente para aqueles que já têm milhões de clientes em outros mercados.
+
+Reduzido capital exigido: a entrada no mercado brasileiro é caracterizada por reduzidíssimos capitais e investimentos. As concessionárias têm o ônus de investir em antenas e infraestrutura para capturar a radiofreqüência emitida pelas tags. Ademais, a tecnologia RFID pode ser facilmente adquirida de terceiros, não sendo necessários maiores investimentos. O mesmo racional aplica-se para o segmento de estacionamentos, especialmente considerando que, conforme será melhor explicado ao longo deste formulário, acordos entre agentes econômicos visando à prestação de serviços de leitura de etiquetas eletrônicas entre si tornar-se-ão cada vez mais comuns daqui em diante.
+
+Regulação favorável à concorrência: os órgãos reguladores brasileiros incentivam um ambiente competitivo para o pagamento eletrônico de pedágios. De fato, não há maiores barreiras legais ou regulatórias à entrada. Do contrário, os reguladores na verdade facilitam a entrada, sendo o principal interesse regulatório garantir mais usuários de tags. Autorizações para novos entrantes são prontamente disponibilizadas, sujeita ao cumprimento de obrigações e condições mínimas pelos prestadores de serviços, na forma da regulamentação vigente, e não há limites para quantidade de participantes do mercado. Por fim, não importa quem é o novo entrante, importam apenas estabilidade e segurança financeira deste.
+
+A iniciativa SINIAV pode revolucionar o mercado: a iniciativa SINIAV, que, conforme será melhor esclarecido ao longo do formulário, tornará obrigatório que todos os veículos automotores tenham um chip RFID instalado, reduzirá ainda mais os custos associados à atuação no mercado, bem como os (já baixos) custos de transferência do consumidor (uma vez que o veículo já estará "preparado" pra qualquer solução ou agente, que apenas "ligará" o serviço).
+
+Há efetiva rivalidade exercida por outros agentes do mercado: como exemplo, pode- se citar a ConectCar, cujo capital é detido pelo Grupo Ipiranga e pelo Grupo Itaú Unibanco, dois dos maiores conglomerados econômicos do Brasil, com elevada capacidade financeira e uma base de milhões de efetivos e potenciais clientes. Mais especificamente, a DBTrans estima que, só nos últimos 3 anos, após o início de sua operação com a Ipiranga (e apenas com a rede dela), a ConectCar capturou cerca de 5% a 7% de participação no mercado, além de 30%-40% do crescimento incrementai de tags no mercado. Com o investimento do Grupo Itaú Unibanco em 2015 (vide item V.5 abaixo para maiores detalhes), espera-se que tal participação aumente significativamente nos próximos anos, uma vez que o Grupo itaú Unibanco poderá utilizar sua base de clientes atual do mercado bancário para comercializar produtos de pedágio/estacionamento da ConectCar.
+
+Há vários potenciais novos entrantes, especialmente aqueles que pertencem a importantes grupos econômicos e que já atuam com outros meios de pagamento mais "tradicionais", conforme evidenciado na ilustração abaixo:
+
+Dinheiro sempre foi e sempre será o competidor mais efetivo de meios de pagamento baseados na tecnologia AVI (atualmente, dinheiro responde por quase metade de todas as transações de pedágio, conforme estimativas da DBTrans), uma vez que todas as rodovias pedagiadas e estacionamentos aceitam dinheiro como meio de pagamento. Com efeito, dinheiro é uma alternativa de baixo custo e que não envolve a contratação de qualquer serviço pelo consumidor.
+
+ispositivos móveis são comumente equipados com aplicações para se conectar com meios de pagamento, inclusive meios baseados na tecnologia AVI. Assim, é possível que os consumidores poderão, em um futuro próximo, utilizar seus smartphones como meios de pagamento de pedágio (e há, no Brasil, 1,4 assinaturas de serviços de telefonia móvel por pessoa no Brasil, na média).
+
+Os agentes econômicos atuam em um ambiente regulado que incentiva a competição e cria incentivos econômicos para entrada de novos players (especificamente com relação aos meios eletrônicos de pagamento de pedágio), conforme será demonstrado na Etapa IX abaixo.
+
+A conclusão da aquisição desconstituirá as integrações verticais existentes entre a CGMP e os acionistas da STP que atuam no mercado de concessões rodoviárias e de venda de combustível.
+
+A DBTrans oferta meios eletrônicos de pagamento baseados na tecnologia AVI para pedágios e estacionamentos nos seguintes Estados: Alagoas, Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Mato Grosso, Mato Grosso do Sul, Minas Gerais, Pará, Paraná, Pernambuco, Rio de Janeiro, Rio Grande do Sul, Rondônia, Santa Catarina, São Paulo, Sergipe e Tocantins.
+
+O serviço Sem Parar é ofertado nos seguintes Estados: São Paulo, Rio de Janeiro, Minas Gerais, Espírito Santo, Paraná, Santa Catarina, Rio Grande do Sul, Mato Grosso, Mato Grosso do Sul, Goiás, Bahia, Pernambuco e Distrito Federal.
+
+Primeiramente, é importante levar em consideração que o mercado em análise vem passando por significativa evolução e mudanças profundas, com expansão dos serviços e soluções ofertados pelas Requerentes e suas concorrentes. Como se demonstrará adiante, a definição que tem sido adotada pelo CADE para o mercado em que as Requerentes operam também evoluiu.
+
+Nesse sentido, o primeiro precedente relacionado ao setor refere-se á criação do Sem Parar (Ato de Concentração n° 08012.005635/2003-27, aprovado sem restrições em 15.02.2006). Naquela oportunidade, o CADE definiu o mercado relevante como sistemas de pedágio automático, "compreendendo os negócios relacionados, direta ou indiretamente, à capacidade de armazenamento e processamento de dados das etiquetas eletrônicas para identificação de veículos (TAG), instaladas para fins de identificação eletrônica, pelo sistema de pagamento automático de pedágio rodoviário".
+
+À época, os serviços em questão representavam uma nova solução de meio de pagamento para pedágios. Com o passar do tempo, contudo, a tecnologia AVI começou a se expandir, passou a ter outras aplicações e a ser utilizada em outros estabelecimentos e situações que não as praças de pedágios em rodovias e estradas. A título exemplificativo, os chamados tags começaram a ser aceitos em estacionamentos de shopping centers e aeroportos.
+
+Assim, a jurisprudência do CADE também evoluiu para acompanhar a nova dinâmica do mercado.
+
+Primeiramente, de acordo com as poucas informações públicas disponíveis na aprovação do Ato de Concentração n° 08700.004201/2012-42, relativo á criação da Conectcar, o CADE teria reconhecido a ampliação do uso da tecnologia de identificação eletrônica de veículos também para o pagamento de estacionamentos, e aparentemente não questionou ou rejeitou a definição proposta pelas então requerentes, qual seja, a de mercado de pagamento eletrônico para pedágio e estacionamento.
+
+Mais recentemente, em Consulta apresentada pela Conectcar e CGMP (Consulta n° 08700.007192/2015-94, julgada em 8 de setembro de 2015), o CADE analisou pormenorizadamente o mercado em questão e o definiu, genericamente, como o de identificação eletrônica de veículos em estacionamentos^. Nas palavras do Conselheiro Relator João Paulo de Resende:
+
+"O mercado relevante de identificação eletrônica de veículos em estacionamentos pode ser considerado tanto sob a perspectiva do motorista quanto sob a perspectiva dos proprietários dos estacionamentos (normalmente shopping centers), pois ambos mantêm relações de consumo com as operadoras (Consulentes), configurando-se uma plataforma de prestação de serviços. Portanto, consideraremos ambas as perspectivas na definição do mercado relevante."
+
+"No que diz respeito aos shoppings, do ponto de vista da demanda, define-se o mercado de produto como sendo o de identificação eletrônica de veículos em estacionamentos, excluindo-se, com isso, as empresas que prestam o serviço de identificação manual de veículos em estacionamentos. Isto porque, ao contratar os serviços das Consulentes, os shoppings buscam oferecer comodidade, rapidez e praticidade aos seus clientes, atributos que não podem ser perfeitamente substituídos pela identificação manual. Sob a ótica da oferta, temos que as empresas de identificação manual não podem facilmente passar a ofertar o serviço de identificação automática, tendo em vista os requisitos técnicos, os custos fixos (antenas) e as economias de escala e de escopo envolvidas". O mercado relevante geográfico, nesse caso, pode ser definido como nacional, pois, conforme consta no Anexo I do Contrato, as Consulentes atuam em shoppings de diversos estados da federação, em quase todas as regiões do país. Sendo este mercado derivado do mercado de identificação eletrônica de veículos em pedágios situados em rodovias federais e estaduais, depreende-se que as empresas conseguem, sem dificuldades técnicas, ofertar seus serviços em diversas localidades do território nacional."
+
+ "Quanto ao mercado relevante sob a perspectiva do motorista, entendo que o mercado de produto consiste na identificação de veículos em estacionamentos, incluindo as empresas que prestam o serviço de identificação manual de veículos. Para o motorista, prepondera a decisão de ir ao shopping de sua preferência e não propriamente a de utilizar o sistema de identificação eletrônica de veículos para adentrar ao estabelecimento comercial. Portanto, do ponto de vista da demanda, há substitutibilidade entre o sistema de identificação por TAG e o sistema de identificação por tickets avulsos. Por esse mesmo motivo, o mercado relevante geográfico é bem mais restrito sob a perspectiva do motorista, limitando-se às opções de acesso disponíveis no estacionamento do shopping que decidiu freqüentar."
+
+Por fim, no último precedente sobre o assunto, relativo à entrada do Grupo Itaú-Unibanco no controle da Conectcar (Ato de Concentração n° 08700.010672/2015-32, aprovado sem restrições em 06.11.2015), o CADE definiu o mercado como de arrecadação eletrônica automática de tarifas de pedágio e de estacionamento.
+
+VERSÃO PUBLICA freqüentar." Por fim, no último precedente sobre o assunto, relativo à entrada do Grupo Itaú-Unibanco no controle da Conectcar (Ato de Concentração n° 08700.010672/2015-32, aprovado sem restrições em 06.11.2015), o CADE definiu o mercado como de arrecadação eletrônica automática de tarifas de pedágio e de estacionamento. ii. A substitutibilidade da oferta e da demanda: a tendência para novas aplicações e rivalidade exercida por outros meios de pagamento a) Considerações iniciais Muito embora a jurisprudência do CADE garanta um bom ponto de partida para a definição de mercado relevante no presente caso, ela não pode ser simplesmente replicada sem maiores considerações e sem uma análise mais aprofundada das novas características do mercado e de suas tendências. Como destacado por Massimo Motta, ''consumer preferences and technologicaí conditions change over time and consistency in such cases migtit be at the cosi of making serious mistakes" (Competition Policy - Theory and Practice, p. 113).
+
+Sendo assim, antes de se propor a definição do mercado relevante para o presente caso, é importante esclarecer, conforme já antevisto acima, que o setor econômico em que as Requerentes atuam enfrenta mudanças tecnológicas profundas, com a expansão dos serviços e soluções ofertados.
+
+Com efeito, é possível traçar uma clara linha de evolução, que (i) se inicia com a aplicação da tecnologia de identificação eletrônica de veículos para o pagamento de pedágios, (ii) passa a ser utilizada também em estacionamentos, e (iii) chega, hoje em dia, a servir para aquisição de combustível (como fazem a ConectCar e a CGMP) e outros bens. No exterior, esta mesma tecnologia já é utilizada até para o pagamento de refeições em certos restaurantes. O desenvolvimento da tecnologia e a expansão de estabelecimentos cadastrados para aceitar tal meio de pagamento tende, portanto, ao crescimento e expansão.
+
+Nesse sentido, vale notar as declarações do Grupo Itaú Unibanco, feitas quando de seu ingresso no bloco de controle da ConectCar, sobre os novos usos para identificação eletrônica e a estratégia pretendida pela empresa:
+
+"Daqui para frente, a ConectCar tem dois grandes desafios: ter mais capilaridade, sendo aceita em mais lugares, e ter uma base maior de clientes. São duas coisas que o banco tem muito a complementar', afirma Milton Maluhy Filho, diretor- executivo do Itaú. A idéia é que a ConectCar vá muito além das estradas e postos de combustível. Na lista de possibilidades de uso da tecnologia, Maluhy cita itens como pagamento de Zona Azul, de pedágios urbanos, e um avanço para estacionamentos que não sejam apenas os de grandes shopping centers. Pelo lado da distribuição, o produto será também oferecido pelos canais do banco, não só para seus clientes pessoa física como também para empresas, mirando, por exemplo, os gestores de grandes frotas rodoviárias. O banco pretende usar sua operação de financiamento de veículos — que apesar de seguir em queda, ainda é uma das maiores do país — para vender o dispositivo. [...] De acordo com Maluhy, do Itaú, a aquisição de fatia da ConectCar faz com que a oferta de meios de pagamentos do banco vá além de ser uma "commodity", que seja mais diversificado, algo especialmente importante no mercado de captura de cartões no varejo. O Itaú é controlador da Rede (ex-Redecard), que será a empresa do grupo que fará a compra da fatia na ConectCar. A Rede tem enfrentado pressões competitivas crescentes, na medida em que avança a entrada de novos competidores nesse segmento, o que tem levado o banco a olhar para oportunidades como tal aquisição", (cf. Valor Econômico de 10.22.2015, disponível em http://www.portalvalor.com.br/financas/4283234/itau-preve-aumentar-escala-da- conectcar)
+
+Com efeito, aumentam a cada dia as tecnologias utilizadas no desenvolvimento de novos meios de pagamento, não limitadas a pedágio e estacionamento, por obviedade. Por exemplo, o desenvolvimento da Internet e do comércio eletrônico garantiu incentivos para o surgimento de novos participantes do mercado conhecidos como facilitadores, agentes que estão gradualmente começando a operar também em estabelecimentos físicos e a oferecer pressão competitiva para agentes mais tradicionais, como a própria Rede e a Cielo.
+
+Além disso, a popularização dos smartphones e da banda larga móvel resultou no desenvolvimento de novos meios de pagamento chamados mobile payment, por meio dos quais usuários podem usar seus dispositivos móveis para pagar por produtos e serviços, o que é possível se estender ao pagamento de pedágios, futuramente. Igualmente, esses agentes provavelmente oferecerão rivalidade para os meios de pagamento mais tradicionais, criando novos desafios para a definição de mercados relevantes pela autoridade concorrencial.
+
+A definição do mercado relevante, assim, não deve se ater aos poucos precedentes analisados pelo CADE (que mostram, acima de tudo, uma evolução do setor), mas sobretudo a uma aprofundada análise das substitutibilidade da demanda e da oferta. 
+
+Nesse sentido, é inegável que, do ponto de vista da demanda, o consumidor possui alternativas aos produtos e serviços das Requerentes. A título exemplificativo, e considerando apenas o pagamento de pedágios, consumidores possuem como alternativa primordial o dinheiro e, em escala reduzida, cartões de crédito e débito em algumas poucas concessionárias (mas amplamente aceitos em estacionamentos). Mais ainda, o mobile payment provavelmente será uma possível alternativa em um futuro próximo. Cada um desses meios de pagamento conta com suas especificidades, mas que, em última instância, cumprem função similar e garantem o mesmo nível de utilidade à demanda: realizar pagamentos em estabelecimentos por meio de um sistema eletrônico, com segurança (dispensando dinheiro em espécie, por exemplo) e rapidez.
+
+O formato, modo de uso ou plataforma específica utilizada para completar as transações não devem ser fatores suficientes para segmentar o mercado relevante se, em última análise, todos eles servem ao mesmo propósito para o usuário.
+
+Assim, pode-se dizer, sem sombra de dúvida, que, na medida em que a tecnologia de identificação eletrônica de veículos passe a ser aceita em cada vez mais estabelecimentos comerciais e a ser utilizada em aplicações distintas, as diferenças entre os meios de pagamento eletrônico hoje existentes (cartões de crédito, débito, facilitadores, mobile payment etc) passarão a ser cada vez menos perceptíveis para o consumidor, que atualmente já possui uma ampla gama de opções a seu dispor para realizar pagamentos. 
+
+Chega-se à mesma conclusão quando se analisa a questão sob a ótica dos estabelecimentos comerciais; o importante aqui é oferecer uma solução de pagamento a ser utilizada pelos seus consumidores, de forma a arrecadar o valor dos bens/serviços comercializados de maneira segura. Não há diferenças significativas se este serviço é prestado pela leitura do cartão do cliente por um terminal, por um aparelho que captura os sinais transmitidos para o seu celular, por uma antena instalada para capturar o sinal emitido por uma tag instalada em seu veículo, ou até mesmo pela coleta de dinheiro. O propósito final, i.e., vender bens e serviços e ser pago por eles, será alcançado sem grandes comprometimentos pelo vendedor.
+
+Além disso, é importante notar que agentes econômicos que operam em mercados mais tradicionais ofertando outros meios de pagamento eletrônico podem facilmente começar a ofertar também meios eletrônicos de pagamento baseados na tecnologia AVI em estacionamentos e em pedágios, neste caso sujeito à regulamentação aplicável. Sendo assim, embora possa haver alguns usos e localidades específicos em que, sob a ótica da demanda, a identificação eletrônica de veículos teria uma vantagem (e, portanto, em que não se observaria substitutibilidade imediata), há substitutibilidade sob a ótica da oferta.
+
+Como será demonstrado neste formulário, não há barreiras significativas para entrar e começar a operar no mercado com a tecnologia de identificação eletrônica de veículos.
+
+Ademais, as agências reguladoras já determinaram (i) que as concessionárias responsáveis pelas rodovias devem, nos termos da regulação aplicável, atender os operadores de tags autorizados pelas respectivas autoridades reguladoras, sujeito ao cumprimento por estes prestadores de serviços de obrigações e condições mínimas estabelecidas pela regulamentação, e desde que a negociação contratual com as concessionárias seja realizada dentro de termos razoáveis e aceitos geralmente pelo mercado, conforme discutido na Etapa IX abaixo; e (ii) o padrão setorial; a faixa de radiofreqüência de 915l\/IHz é o padrão e deve estar disponível para compra de fabricantes independentes. Esses fatores reduziram significativamente os custos associados à prestação do serviço, sobretudo porque o equipamento a ser utilizado com este novo padrão é fabricado e/ou montado no Brasil.
+
+Além disso, novos agentes não terão de investir em antenas e outros elementos de infraestrutura para capturar os sinais de radiofreqüência emitidos pelas tsgs, uma vez que, de acordo com a regulamentação aplicável, os investimentos de infraestrutura devem ser feitos pelas concessionárias de rodovias.
+
+Vale mencionar também que, apesar de uma autorização do Banco Central do Brasil ser necessária para se operar como um meio de pagamento, isso não seria aplicável (ou ao menos não significaria dificuldades significativas) para agentes que já operam meios de pagamento (bem como por outras sociedades, uma vez que é bastante simples a obtenção de referida autorização).
+
+Por fim, e conforme adiantado acima, espera-se que as (baixas) barreiras à entrada sejam ainda mais reduzidas quando a iniciativa do Sistema Nacional de Identificação Automática de Veículos ("SINIAV"), capitaneada pelo Contran e Detran, entrar em vigor. Como se sabe, tal iniciativa tornará obrigatório por lei que carros instalem chips para identificação por radiofreqüência (RFID), o que resultará na identificação eletrônica de placas Instaladas em veículos, antenas, centros de processamento e sistemas de informação integradas. Referida iniciativa busca aprimorar a gestão e inspeção, aumentar a segurança mediante a redução do índice de roubos, além de garantir a melhor aplicação das leis tributárias e de trânsito, aumentando a coleta de multas e tributos aplicáveis.
+
+Nesse sentido, uma vez que os carros já possuirão as tags, provavelmente com "slots" abertos para que novos números de identificação sejam incluídos, será ainda mais fácil para um novo participante de mercado concorrer e capturar novos clientes, uma vez que ele não apenas terá a mesma rede/produto que seus concorrentes (o que já existe hoje), como realizará investimentos muito baixos em tags a serem fornecidas ao consumidor, e sequer terá que incentivar o consumidor a remover as tags até então utilizadas (já que o consumidor será obrigado a ter tal dispositivo instalado no veiculo, nos termos da legislação nacional).
+
+Essa situação se eqüivale à portabilidade numérica no mercado de Serviço Móvel Pessoal (SMP), com a vantagem de que na indústria de identificação eletrônica não há prazos estipulados em contrato, que podem ser rescindidos a qualquer momento (com custo de transferência virtualmente inexistente). Neste cenário, é praticamente certo que empresas como bancos e outros agentes que ofertem meios de pagamento entrariam no mercado.
+
+Portanto sob a ótica da oferta, e considerando o teste do monopolista hipotético, um eventual aumento de preços imposto pelas Requerentes (i) criaria incentivos para que os consumidores passassem a usar serviços concorrentes já existentes ou novos meios eletrônicos de pagamento; (ii) levaria estabelecimentos comerciais a aceitar outros meios de pagamento; e (iii) imediatamente atrairia novos agentes econômicos para o mercado, especialmente grandes grupos que já operam outros meios de pagamento.
+
+Por exemplo, agora que o Grupo Itaú Unibanco está presente no mercado relevante (uma vez que adquiriu ações da ConectCar), é possivel (e provável) que outros grandes bancos brasileiros entrem no mercado para fazer frente às ofertas que o Grupo Itaú Unibanco está fazendo (ou fará) aos seus (e aos de seus concorrentes) clientes bancários, conforme indicado na ilustração abaixo;
+
+É razoável assumir que tais grupos não teriam (ou teriam pouquíssima) dificuldade para entrar no mercado ora analisado, e não apenas já possuem considerável base de clientes para oferecer sua nova linha de produto, mas também detêm negócios de adquirência (e.g., Cielo, GetNet etc.) e contratos com estabelecimentos comerciais/rede credenciada, os quais necessitariam de pequenos ajustes para as novas atividades.
+
+Da mesma forma, o próprio CADE já reconheceu a substitutibilidade existente entre os meios de pagamento com identificação eletrônica e os tickets utilizados em estacionamentos. Com efeito, em setembro de 2015, ao declarar de forma unânime que o contrato de prestação de serviços de leitura de etiquetas eletrônicas pretendido entre a ConectCar e a CGMP não violava à legislação antitruste (Consulta n° 08700.007192/2015-94), o CADE concluiu que haveria uma substitutibilidade quase perfeita entre os serviços prestados pelos Consulentes em estacionamentos. De acordo com o Conselheiro Relator:
+
+"[...] O acesso a estacionamentos com a utilização da tecnologia dos TAG é uma facilidade que compreende, basicamente, a economia de tempo do usuário por não enfrentar filas na cancela da entrada do estacionamento e no pagamento de seu bilhete. Ainda que relevante, essa facilidade não parece ser tão significativa a ponto de impedir que os usuários de veículos e os estacionamentos facilmente abandonem o serviço prestado pelas Consulentes caso o preço por elas cobrado se torne minimamente abusivo. Assim, os contratos em questão não excluirão a necessidade de que cada Consulente negocie com os estacionamentos seus preços e demais condições comerciais, de forma que qualquer combinação entre as Consulentes no sentido de aumentar seus preços poderão ter como efeito a perda significativa de mercado. Assim, como visto, os contratos não impõem cláusulas restritivas de exclusividade, preservam a independência comercial das empresas e tentam evitar a possibilidade de coordenação entre as contratantes. A meu ver, os contratos aqui analisados, na medida em que permitirão a concorrência em locais onde, atualmente, apenas uma das Consulentes atua, e na medida em que geram grandes eficiências no mercado em tela, possuem potenciais efeitos pró-competitivos e devem ser reconhecidos como lícitos. Registro que meu entendimento se coaduna à manifestação da Procuradoria Federal Especializada junto ao CADE exaurida no citado Parecer n° 349/2015."
+
+Em outras palavras, as vantagens conferidas pelos meios de pagamento baseados na identificação eletrônica não são suficientes para impedir a concorrência exercida por outros meios de pagamento (inclusive aqueles não eletrônicos). Esta conclusão é igualmente válida para outras aplicações da tecnologia de identificação eletrônica de veículos (para pedágios, a principal alternativa atualmente continua sendo dinheiro em espécie, conforme explicado ao longo deste formulário).
+
+Em suma, e diante dos argumentos e fatos acima explicados, conclui-se que a identificação eletrônica é apenas outra tecnologia utilizada para a oferta de meios de pagamentos para clientes e estabelecimentos comerciais. Considerando seu atual estado de evolução e a tendência de expansão, não há razões para a segmentação do mercado relevante neste caso: a substitutibilidade entre meios de pagamento, que já é alta sob a ótica da demanda e da oferta, apenas aumentará no futuro.
+
+Ademais, é razoável concluir que o consumidor poderá utilizar vários outros meios de pagamento caso esteja insatisfeito com o serviço de identificação eletrônica. Essa rivalidade é, no mínimo, suficiente para impedir qualquer tentativa de abuso de poder de mercado pelas Requerentes ou por outros agentes que operam com esta tecnologia.
+
+Diante dos esclarecimentos prestados acima, as Requerentes entendem que o mercado relevante poderia ser definido de forma bastante abrangente. De toda forma, para fins de completude, e com o intuito de demonstrar a completa ausência de efeitos anticompetitivos advindos da presente operação, as Requerentes adotarão a seguinte definição de mercado relevante: mercado nacional de meios eletrônicos de pagamento baseados na tecnologia AVI para pedágio e estacionamento.
+
+Ressalve-se, em tempo, que a presente notificação está sendo realizada sob o rito ordinário de forma conservadora e tão somente em razão da participação de mercado da CGMP, caso o CADE decida segmentar o mercado da maneira proposta pelas Requerentes.
+
+Não há diferenciação entre os produtos e serviços prestados no mercado relevante. Do contrário, todos os participantes do mercado possuem o mesmo produto e rede, já que a tecnologia RFID das tags foi padronizada pelos órgãos reguladores, e há aceitação idêntica para os produtos de quaisquer concorrentes nas rodovias pedagiadas, nos termos da regulamentação aplicável. Com efeito, os principais elementos neste mercado são (i) a qualidade do serviço prestado ao consumidor, (ii) o preço ao usuário, e (iii) as estratégias de marketing.
+
+Apesar de o mercado relevante ser o de meios de pagamento eletrônico baseados na tecnologia AVI para pedágio e estacionamento, as Requerentes apresentarão nesta etapa do questionário dados relativos á participação de mercado {market share) e índice Herfindahl- Hirschman (HHI) considerando apenas pedágios. Isso porque: (1) Não há dados confiáveis para o segmento de estacionamentos; e (2) O segmento de estacionamentos representa uma porcentagem muito pequena do negócio (aproximadamente 8% do total de transações, de acordo com estimativas das Requerentes). Trata-se, ao menos atualmente, de uma aplicação complementar dos meios eletrônicos de pagamento baseados na tecnologia AVI. Com efeito, ao analisar Consulta apresentada pela Conectcar e CGMP (Consulta n° 08700.007192/2015-94, julgada em 08.09.2015), o Conselheiro Relator João Paulo de Resende destacou que a oferta do serviço em estacionamentos é complementar e derivada à oferta do serviço em pedágios, uma vez que não é economicamente viável a oferta individualizada de serviços de pagamento em estacionamentos.
+
+As Requerentes entendem que essa abordagem não resultará em qualquer prejuízo para a análise antitruste da presente operação, especialmente porque se refere a um cenário ainda mais restrito, culminando em market shares certamente superestimados.
+
+Considerando todos os meios de pagamento utilizados em pedágios, o market share conjunto das Requerentes é reduzido, não levantando qualquer preocupação concorrencial, conforme demonstrado na tabela abaixo
+
+Chega-se à mesma conclusão quando se analisa o mercado relevante definido (i.e., mercado nacional de meios eletrônicos de pagamento baseados na tecnologia AVI em pedágios e estacionamento), sobretudo em virtude da participação irrelevante da DBTrans:
+
+Vide item VI.2 acima, que já apresenta os dados para todas as empresas que atuam no mercado relevante pertencentes aos grupos econômicos envolvidos na operação.
+
+De acordo com o novo Guia de Análise de Atos de Concentração Horizontal do CADE, que, apesar de atualmente estar sob Consulta Pública, reflete o entendimento da autoridade sobre o assunto, o cálculo do HHI é um primeiro passo para avaliar os efeitos de uma concentração no mercado e os impactos causados por uma operação.
+
+Nesse sentido, mercados podem ser considerados como (i) desconcentrados (HHI menor que 1500 pontos), (ii) moderadamente concentrados (HHI entre 1500 e 2500 pontos), e (iii) altamente concentrados (HHI superior a 2500 pontos).
+
+Mais ainda, referido guia estabelece que o CADE deve levar em consideração os seguintes critérios ao analisar atos de concentração horizontal: 
+
+(1) Pequena alteração na concentração: operações que resultem em variações de HHI inferiores a 100 pontos (delta < 100) provavelmente não geram efeitos competitivos adversos e, portanto, usualmente não requerem análise mais detalhada;
+
+Mercados não concentrados: se o mercado após a operação permanecer com HHI inferior a 1.500 pontos, a operação não deve gerar efeitos negativos, não requerendo, usualmente, análise mais detalhada;
+
+Mercados moderadamente concentrados: operações que resultem em mercados com HHI entre 1.500 e 2.500 pontos e envolvam variação do índice superior a 100 pontos (delta HHI > 100) têm potencial de gerar preocupações concorrenciais, tornando recomendável uma análise mais detalhada;
+
+Mercados altamente concentrados: operações que resultem em mercados com HHI acima de 2.500 pontos, e envolvam variação do índice entre 100 e 200 pontos (100 < delta HHI < 200) têm potencial de gerar preocupações concorrenciais, sugerindo uma análise mais detalhada. Operações que resultem em mercados com HHI acima de 2.500 pontos, e envolvam variação do índice acima de 200 pontos (delta HHI > 200) presumivelmente geram aumento de poder de mercado. Essa presunção poderá ser refutada por evidências persuasivas em sentido contrário.
+
+Os dados estão certamente superestimados, uma vez que não incluem informações sobre (i) a utilização de outros meios de pagamento que, conforme discutido anteriormente, exercem efetiva rivalidade sobre as Requerentes; e (ii) a utilização de meios eletrônicos de pagamento baseados na tecnologia AVI para estacionamentos, que certamente reduziriam as participações de mercado das Requerentes (e, consequentemente, os HHIs antes e depois da operação).
+
+O mercado relevante já era concentrado antes da operação.
+
+A DBTrans não é uma empresa maverick.
+
+Cumpre notar que, ainda assim, a variação do HHI considerando-se os gastos totais é abaixo de 100, o que indica, de acordo com o mencionado aula, uma pequena alteração na concentração que provavelmente não gera efeitos competitivos negativos e. portanto, sequer demanda uma análise mais detalhada. Mesmo considerando-se o número de transações, a alteração do HHI é apenas 6 pontos acima deste patamar que presume a inexistência de preocupações concorrenciais.
+
+Portanto, a análise do HHI demonstra que a operação não possui qualquer preocupação concorrencial, e deve ser aprovada sem restrições.
+
+Mais ainda, as seguintes características do mercado e da dinâmica competitiva certamente reforçam tal conclusão;
+
+Analisando-se os dados de participação de mercado e de HHI para 2016 (utilizando-se estimativas conservadoras da DBTrans, e não assumindo a entrada de qualquer novo agente econômico), os resultados são ainda mais claros a demonstrar a inexistência de preocupações antitruste.
+
+Com efeito, uma análise concorrencial dinâmica deveria ser realizada pelo CADE, utilizando os dados estimados para 2016, especialmente porque (i) trata-se de um grande e inexplorado mercado com elevado potencial de crescimento, (ii) o mercado está se desenvolvendo rapidamente, e (iii) a ConectCar é de fato uma concorrente maverick, que pertence a grupo econômico muito forte, com interesse e recursos para investir em sua operação (conforme visto por meio de declaração do próprio Grupo Itaú Unibanco nos press releases mencionados acima).
+
+Os dados abaixo reforçam a inexistência de preocupações concorrenciais, mostrando que a variação do HHI é menor que 100 considerando-se as estimativas para 2016, seja para total de transações ou gastos totais:
+
+Trata-se de um grande e inexplorado mercado com elevado potencial de crescimento, o que é demonstrado pelas novas tecnologias e aplicações, crescente número de rodovias pedagiadas e elevada quantidade de estacionamentos e outros estabelecimentos comerciais que atualmente não fazem uso de meios eletrônicos de pagamento baseados em AVI.
+
+Reduzidas barreiras à entrada e baixos custos de distribuição significam ameaça contínua de novos entrantes.
+
+Produto commodity: trata-se de um mercado único, em que os agentes têm o mesmo produto e rede. Todas as tags RFID são essencialmente a mesma tecnologia, uma vez que esta foi "padronizada" pelos principais órgãos reguladores. Mais ainda, tem-se idêntica aceitação em pedágios para todos os participantes do mercado atuais e novos entrantes: isso porque as concessionárias de rodovias devem, nos termos da regulação aplicável, aceitar os operadores de tags autorizados pelas respectivas autoridades reguladoras, o sujeito ao cumprimento por estes prestadores de serviços de obrigações e condições mínimas, e desde que a negociação contratual destes com as concessionárias seja realizada dentro de termos razoáveis e aceitos geralmente pelo mercado, o que garante que todos os agentes econômicos tenham acesso a praticamente a mesma rede.
+
+Baixos custos de transferência para o consumidor: em essência, não há custos de transferência para o consumidor, uma vez que não há multa contratual imposta em caso de troca de fornecedor, sendo certo que o cliente pode rescindir o contrato a qualquer momento. Mais ainda, o próprio consumidor instala o adesivo no para-brisa de seu veículo.
+
+Entrada rápida/baixa escala mínima eficiente: componentes dos produtos são facilmente adquiridos de vários fornecedores. Mais ainda, economias de escala não são fundamentais para este mercado, de forma que a escala mínima eficiente para gerar lucro é bastante baixa. Com efeito, os maiores custos são relacionados a vendas e marketing/aquisição de clientes, não constituindo obstáculo para potenciais entrantes, especialmente para aqueles que já têm milhões de clientes em outros mercados.
+
+Reduzido capital exigido: a entrada no mercado brasileiro é caracterizada por reduzidíssimos capitais e investimentos. As concessionárias têm o ônus de investir em antenas e infraestrutura para capturar a radiofreqüência emitida pelas tags. Ademais, a tecnologia RFID pode ser facilmente adquirida de terceiros, não sendo necessários maiores investimentos. O mesmo racional aplica-se para o segmento de estacionamentos, especialmente considerando que, conforme será melhor explicado ao longo deste formulário, acordos entre agentes econômicos visando à prestação de serviços de leitura de etiquetas eletrônicas entre si estão tornando-se cada vez mais comuns.
+
+Regulação favorável à concorrência: os órgãos reguladores brasileiros incentivam um ambiente competitivo para o pagamento eletrônico de pedágios. De fato, não há maiores barreiras legais ou regulatórias á entrada. Do contrário, os reguladores na verdade incentivam a entrada, sendo o principal interesse regulatório garantir mais usuários de tags. Autorizações para novos entrantes são prontamente disponibilizadas, sujeita ao cumprimento de obrigações e condições mínimas pelos prestadores de serviços, na forma da regulamentação vigente, e não há limites para quantidade de participantes do mercado. Por fim, não importa quem é o novo entrante, importam apenas estabilidade e segurança financeira deste.
+
+A iniciativa SINIAV pode revolucionar o mercado: a iniciativa SINIAV, que, conforme será melhor esclarecido ao longo do formulário, tornará obrigatório que todos os veículos automotores tenham um chip RFID instalado, reduzirá ainda mais os custos associados á atuação no mercado, bem como os (já baixos) custos de transferência do consumidor.
+
+Há efetiva rivalidade exercida por outros agentes do mercado.
+
+A DBTrans estima que, só nos últimos 3 anos, após o início de sua operação com a Ipiranga, a ConectCar (que pode ser considerada uma empresa maverick) capturou cerca de 5% a 7% de participação no mercado, além de 30%-40% do crescimento incrementai de tags no mercado. Com o investimento do Grupo Itaú Unibanco em 2015, espera-se que tal participação aumente significativamente nos próximos anos, uma vez que o Grupo Itaú Unibanco poderá utilizar seus clientes atuais do mercado bancário para comercializar produtos de pedágio/estacionamento da ConectCar (como já declarou ser sua intenção, conforme visto nos press releases mencionados acima).
+
+O HHI tem se reduzido significativamente nos últimos cinco anos (de 9.586 para 8.143 considerando-se o total de transações, e de 9.593 para 8.421®, considerando-se gastos totais), sobretudo em virtude da entrada de novos agentes econômicos. Com efeito, a tendência é uma redução ainda maior do HHI no futuro próximo.
+
+Há vários potenciais novos entrantes, especialmente aqueles que pertencem a importantes grupos econômicos e que já atuam com outros meios de pagamento mais "tradicionais".
+
+Há efetiva rivalidade e substitutibilidade de outros meios de pagamento.
+
+Dinheiro sempre foi e sempre será o competidor mais efetivo de meios de pagamento baseados na tecnologia AVI (atualmente, dinheiro responde por quase metade de todas as transações de pedágio, conforme estimativas das Requerentes), uma vez que todas as rodovias pedagiadas e estacionamentos aceitam dinheiro como meio de pagamento. Com efeito, dinheiro é uma alternativa de baixo custo e que não envolve a contratação de qualquer serviço pelo consumidor.
+
+Dispositivos móveis são comumente equipados com aplicações para se conectar com meios de pagamento baseados na tecnologia AVI. Assim, consumidores poderão muito provavelmente, em um futuro próximo, utilizar seus smartphones como meios de pagamento (e há, no Brasil, 1,4 assinaturas de serviços de telefonia móvel por pessoa no Brasil, na media).
+
+Os agentes econômicos atuam em um ambiente altamente regulado que incentiva a competição, conforme será demonstrado na Etapa IX abaixo.
+
+A conclusão da aquisição desconstituirá as integrações verticais existentes entre a CGMP e os acionistas da STP.
+
+Conectcar Endereço: Alameda Rio Negro. 585, Andar 12, Conjunto 121, Torre C, Alphaville Industrial, Barueri - SP Número de telefone/fax: (11) 3290-8500 /(II) 3290-8518 Sítio eletrônico: www.conectcar.com
+
+Move Mais Endereço: Avenida Rodrigo Fernando Grillo, 207, Sala 906, Araraquara - SP Número de telefone/fax: (11) 3035-1100 Sítio eletrônico: www.movemais.com
+
+Passe Expresso Endereço: Rua Monteiro da Luz, S/N, Parte, Água Santa, Rio de Janeiro - RJ Número de telefone/fax: (21) 2114-1700 / (21) 2114-1726 Sítio eletrônico: www.passeexpresso.com.br
+
+Via Expressa Endereço: Rua Tenente Mário Francisco Brito, 415, Enseada do Suá, Vitória - ES Número de telefone/fax: (27) 3334-7859 / (27) 3334-7850 Sitio eletrônico: www.rodosol.com.br/via-expressa
+
+Faixa Verde Endereço: Rua Domingos José Martins, 75, Saia 305/306, Recife - PE Número de telefone/ fax: (81) 2138-6100 / (81) 2138-6149 Sítio eletrônico: www.faixaverde.com.br
+
+A DBTrans não faz parte de qualquer associação comercial relacionada a este mercado relevante.
+
+A CGMP não faz parte de qualquer associação comerciai relacionada a este mercado relevante.
+
+O mercado relevante conta com elevado grau de dispersão de clientes, já que os serviços são prestados majoritariamente para pessoas físicas.
+
+Não há segmentação relevante de clientes em diferentes grupos, nem discriminação das condições de comercialização dos produtos e/ou serviços. De toda forma, é possível identificar os seguintes segmentos de consumidores; (i) pessoas físicas e (ii) pessoas jurídicas que, por sua vez, podem ser divididos em a) veículos leves (carros, vans e pick-ups) e b) veículos pesados (veículos classe 6-8). Contudo, as condições comerciais e produtos/serviços ofertados não possuem diferenças significativas a serem relatadas.
+
+As Requerentes respeitosamente solicitam ser dispensadas de apresentar contratos de fornecimento recentes com os principais clientes, uma vez que se tratam de contratos padrão, não impõem quaisquer condições abusivas (sendo certo que os clientes podem rescindir os contratos a qualquer momento sem a imposição de multas, conforme detalhado ao longo deste formulário), e, portanto, não parecem ser necessários para uma completa e adequada análise antitruste da presente operação (que, conforme demonstrado, não levanta maiores preocupações concorrenciais).
+
+Os canais de distribuição e a rede de serviços utilizados e/ou disponíveis pela DBTrans são constituídos por reduzida força de venda ([Acesso Restrito]), sítio eletrônico, call centers e um departamento de ombudsman. Estes canais e serviços, muito relevantes para as suas atividades, são prestados diretamente pela própria DBTrans.
+
+Os canais de distribuição e a rede de serviços utilizados e/ou disponíveis pela CGMP são constituídos por uma grande força de vendas (superior a [Acesso Restrito]), sítio eletrônico, call centers e uma ouvidoria. Estes canais e serviços, muito relevantes para as sua atividades, são prestados pela própria CGMP ou terceirizados (serviços de call centet).
+
+Não há serviços exclusivos ou contratos de distribuição exclusiva celebrados pelas Requerentes.
+
+DBTrans determina seus preços de forma uniforme para todo o território nacional.
+
+A CGMP possui aproximadamente 7 diferentes planos, que incluem tanto planos nacionais (Clássico, Adesão Zero) quanto planos regionais, sendo que estes planos regionais buscam oferecer alternativas mais baratas devido à área de cobertura restrita a regiões específicas.
+
+Não há custos significativos de transferência, uma vez que o cliente não incorrerá em qualquer multa contratual e poderá rescindir o contrato a qualquer momento. O único custo seria a aquisição de uma nova tag e a contratação de um novo plano de um prestador de serviços diferente. Nesse sentido, é importante notar que vários participantes do mercado têm planos que não exigem qualquer pagamento antecipado.
+
+A inexistência de custos de transferência é evidenciada por ao menos dois fatores:
+
+A DBTrans estima que a ConectCar conquistou cerca de 600-700 mil novos clientes nos últimos 3 anos (aproximadamente 30-40% do crescimento incrementai de tags no mercado). Estima-se, ainda, que grande parte desse número seja composto por antigos clientes da CGMP.
+
+As Requerentes respeitosamente solicitam ser dispensadas de apresentar uma lista com exemplos de contratos de fornecimento, uma vez que não parecem ser necessários para uma análise antitruste completa da operação (que, conforme demonstrado, não levanta maiores preocupações concorrenciais).
+
+Não há custos de transferência para os fornecedores, uma vez que eles não incorrem em qualquer multa contratual relevante ao rescindir os contratos e podem ainda oferecer seus produtos/serviços para outras empresas e potenciais clientes.
+
+Como pode ser visto em seus sítios eletrônicos, os fornecedores indicados no item VIII.1 acima são grandes grupos empresariais, que oferecem uma variedade de serviços e produtos além daqueles utilizados pelas Requerentes no mercado relevante de meios eletrônicos de pagamento baseados na tecnologia AVI para pedágio e estacionamento. Por exemplo, esses mesmos fornecedores também atendem agentes econômicos que ofertam outros meios eletrônicos de pagamento e operadoras de telecomunicações, além de vender mecanismos de controle de acesso de entrada, saída e circulação interna de veículos.
+
+Há poder compensatório por parte dos fornecedores. Trata-se de grandes grupos empresariais que ofertam serviços para diferentes mercados e agentes econômicos.
+
+Conforme será demonstrado nesta Etapa, não há barreiras à entrada no mercado relevante, especialmente em virtude dos seguintes fatores:
+
+Produto Commoditv. (i) trata-se de um mercado único, em que os agentes têm o mesmo produto e rede; (ii) todas as tags RFID são essencialmente a mesma tecnologia, uma vez que foi "padronizada" pelos órgãos reguladores e (iii) há idêntica aceitação em pedágios para todos os participantes do mercado atuais e novos entrantes, uma vez que as concessionárias de rodovias devem, nos termos da regulação aplicável, atender os operadores de tags autorizados pelas respectivas autoridades reguladoras, sujeito ao cumprimento por estes prestadores de serviços de obrigações e condições mínimas, e desde que a negociação contratual destes com as concessionárias seja realizada dentro de termos razoáveis e aceitos geralmente pelo mercado.
+
+Baixos custos de transferência para os consumidores: (i) não há custos de transferência para o consumidor (não há multa contratual, o cliente pode rescindir o contrato a qualquer momento); e (ii) o próprio consumidor instala o fag/adesivo no para-brisa de seu veículo.
+
+Entrada rápida/baixa escala minima eficiente: (i) os componentes são facilmente adquiridos de vários fornecedores; (ii) economias de escala não são fundamentais (escala mínima eficiente para gerar lucro é bastante baixa); e (iii) os maiores custos são relacionados a vendas e marketing/aquisição de clientes, e não constituem obstáculo para potenciais entrantes, especialmente para aqueles que já têm milhões de clientes.
+
+Reduzido capital exigido; (i) as concessionárias de rodovias têm o ônus de investir em antenas e infraestrutura para capturar a radiofreqüência emitida pelas tags-, e (ii) a tecnologia RFID pode ser facilmente adquirida de terceiros, não sendo necessários maiores investimentos nesse sentido.
+
+Reguladores pró-concorrência; (i) não há maiores barreiras legais ou regulatórias à entrada (na verdade, os órgãos reguladores incentivam a entrada de novos agentes, sendo seu principal interesse regulatório garantir mais usuários de fags); (ii) não importa quem é o novo entrante, importam apenas estabilidade e segurança financeira deste; (iii) autorizações para novos entrantes são prontamente disponibilizadas, sujeitas a obrigações e condições mínimas, não havendo limites para quantidade de players', e (iv) concessionárias de rodovias devem, nos termos da regulação aplicável, atender os operadores de tags autorizados pelas respectivas autoridades reguladoras, sujeito ao cumprimento destes de obrigações e condições mínimas, e desde que a negociação contratual por estes com as concessionárias seja realizada dentro de termos razoáveis e aceitos geralmente pelo mercado.
+
+iniciativa SINIAV pode revolucionar o mercado: a iniciativa SINIAV tornará obrigatório que todos os veículos tenham um chip RFID instalado, reduzindo ainda mais custos de operação e os custos de transferência para o consumidor, conforme antecipado acima e melhor detalhado nesta Etapa.
+
+Não há maiores barreiras legais ou regulamentares à entrada.
+
+De acordo com a Lei n° 12.865/2016, novos participantes do mercado devem apenas requerer autorização perante o Banco Central do Brasil para operar como instituição de pagamento. Isso, contudo, não se constitui uma barreira à entrada, uma vez que (i) não há requisitos relevantes para a concessão de tal autorização; e (ii) não há limites para a quantidade de participantes operando no mercado.
+
+Especialmente em relação ao pagamento eletrônico de pedágios, o agente interessado deve apresentar seu requerimento acompanhado da respectiva documentação à autoridade reguladora competente. Nesse sentido, para rodovias federais, a Resolução ANTT n° 4.281/2014 prevê regras de padronização, implementação e operação de sistemas de pagamento eletrônico de pedágios em rodovias federais reguladas pela autoridade. Ainda, são também criados os requisitos para se operar como Administradora de Meios de Pagamento para Arrecadação de Pedágio - AMAP. 
+
+Os requisitos para se operar como AMAR não são restritivos, e consistem, basicamente, em apresentar à ANTT um requerimento acompanhado de documentos padrão, tais como contrato social, declaração de capacidade técnica, certidão de regularidade de débitos federais, estaduais e municipais, planos de negócios do modelo de operação pretendido, calendário de implementação, minuta do contrato a ser celebrado com as concessionárias de rodovias e minuta de contrato a ser celebrado com os consumidores.
+
+É importante notar que a Resolução ANTT n° 4.281/2014 requer que as concessionárias de rodovias federais reguladas pela ANTT operem com qualquer AMAR (cumpridas certas condições), o que evidentemente incentiva a competição e a entrada no mercado.
+
+A regulação do Estado de São Paulo também contém previsões semelhantes de incentivo à competição. Por exemplo, a Resolução da Secretaria de Logística e Transportes do Estado de São Paulo n° 13/2011 e a Resolução ANTT n° 4.281/2014 estabeleceram regras de padronização para pagamento eletrônico de pedágios no Estado de São Paulo, com requisitos similares para que uma empresa se torne uma Operadora dos Sen/iços de Arrecadação ("OSA"). É importante destacar a declaração da ARTESP sobre o assunto:
+
+"Como parte de uma política pública adotada pela Secretaria de Logística e Transportes, em 2012, a Artesp abriu o mercado de pagamento eletrônico de pedágios para a entrada de novas operadoras do serviço, A medida incentiva a concorrência das empresas para baixar os custos de transporte, ampliar os serviços agregados (estacionamento, combustível entre outros) e as formas de pagamento (pós e pré pago). Também é uma maneira de aumentar a base de usuários do pagamento eletrônico, o que tornará o serviço cada vez mais moderno e eficiente. Ao todo já são três empresas autorizadas a atuar no Estado de São Paulo (SEM PARAR, DBTrans e Conectcar), o que já fez com que os custos do serviço caíssem até 67% após a abertura do mercado"
+
+Além do mais, um novo participante do mercado não tem que investir em antenas e outros itens de infraestrutura para capturar os sinais de radiofreqüência emitidos pelas tags', de acordo com a regulamentação aplicável, ao menos às rodovias federais e às estaduais de São Paulo, tais investimentos devem ser feitos pelas concessionárias de rodovias.
+
+Sendo assim, ao padronizar a tecnologia utilizada para meios eletrônicos de pagamento de pedágio utilizando-se a tecnologia AVI, estabelecer critérios objetivos para a outorga de autorizações aos participantes interessados em entrar no mercado, e ainda requerer que as concessionárias de rodovias negociem com as AMAPs e OSAs, em condições de mercado, e na forma da regulamentação aplicável, além de não criar barreiras à entrada, a regulação incentiva ativamente a competição e a entrada de novos participantes no mercado, gerando benefícios significativos para os consumidores.
+
+Por fim, espera-se que as (baixas) barreiras à entrada sejam ainda mais reduzidas quando a iniciativa do Sistema Nacional de Identificação Automática de Veículos ("SINIAV"), capitaneada pelo Contran e Detran, entrar em vigor. Como se sabe, tal iniciativa tornará obrigatório por lei que carros instalem chips para identificação por radiofreqüência (RFID), o que resultará na identificação eletrônica de placas instaladas em veículos, antenas, centros de processamento e sistemas de informação integradas. Referida iniciativa busca aprimorar a gestão e inspeção, aumentar a segurança mediante a redução do índice de roubos, além de garantir a melhor aplicação das leis tributárias e de trânsito, aumentando a coleta de multas e tributos aplicáveis.
+
+Nesse sentido, uma vez que os carros jà terão as tags RFID com "slots" abertos para que novos números de identificação sejam incluídos, será muito mais fácil para um novo p/ayer concorrer e capturar novos clientes, uma vez que ele não apenas terá a mesma rede/produto que seus concorrentes (o que jà existe hoje), como realizará investimentos muito baixos em tags a serem enviadas ao consumidor, e sequer terá que incentivar o consumidor a remover as tags até então utilizadas (jà vez que o consumidor será obrigado a ter tal dispositivo instalado no veículo).
+
+Essa situação se eqüivale à portabilidade numérica no mercado de Serviço Móvel Pessoal (SMP), com a vantagem de que na indústria de meios de pagamento eletrônico baseados na tecnologia AVI, via de regra, não há prazos estipulados em contrato, que podem ser rescindidos a qualquer momento (com custo de transferência virtualmente inexistente). Neste cenário, é praticamente certo que prestadores de serviços como bancos e outros agentes que ofertem meios de pagamento entrariam no mercado.
+
+Não há barreiras significativas relativas ao acesso a insumos ou infraestrutura.
+
+Em primeiro lugar, não há maiores dificuldades no acesso à tecnologia para exploração do negócio, que consiste principalmente na aquisição de tags para operar na mesma radiofreqüência que as antenas instaladas (para pedágio, por exemplo, os outros equipamentos pertencem às concessionárias de rodovias).
+
+Ademais, uma vez que a tecnologia é padronizada por determinação regulatória, e uma faixa de radiofreqüência de 915MHz foi definida como padrão, os custos associados foram reduzidos de maneira significativa (e tendem a diminuir ainda mais conforme o serviço se torne mais popular entre os usuários), especialmente porque os novos equipamentos a serem utilizados com este padrão são produzidos por diferentes fornecedores no Brasil e no mundo, incluindo multinacionais com forte presença local no pais.
+
+Vale mencionar, em tempo, que o CADE já declarou que um contrato celebrado entre a ConectCar e a CGMP para que as empresas prestassem uma à outra serviços de leitura de etiquetas eletrônicas em estacionamentos não violaria a Lei de Defesa da Concorrência (Consulta n° 08700,007192/2015-94), especialmente porque permaneceria aberto para terceiros, e as empresas enfrentariam rivalidade dos tickets nessas localidades (o que as impediria de exercer poder de mercado).
+
+Por fim, embora sejam necessárias mão de obra especializada e alguma experiência para operar no mercado relevante, as Requerentes entendem que essas características não podem ser entendidas como barreiras à entrada.
+
+Não há restrições relevantes criadas pela existência de patentes, know how e outros direitos de propriedade intelectual, e nem pela concessão de licenças relativas a tais direitos.
+
+A DBTrans recentemente apresentou pedido de registro de patente relacionada ao desenvolvimento de cobrança de pedágio por quilômetro (P164204). A patente ainda não foi concedida. Há também um pedido relacionado à identificação automática de veículos para pagamento de combustíveis - a autoridade competente (INPI), contudo, apresentou um parecer afirmando que a tecnologia não era novidade em nível internacional. Adicionalmente, a DBTrans detém uma série de patentes relacionadas a sistemas de identificação automática de acordo com o uso de estradas em áreas urbanas (PI0203684-3) e de acordo com a demanda (PI0905249-6).
+
+A CGMP possui os seguintes pedidos de patente depositados:
+
+Pedido de patente do processo de meios eletrônicos de pagamento por meio da tecnologia AVI (BR 10 2013 032721 2);
+
+Pedido de patente de um sistema de classificação de veículos por contagem de eixos, com identificação de eixos suspensos (P11102631-6 A2);
+
+Pedido de patente de uma interface multiplexadora, e respectivo processo operacional (PI 1001769-0):
+
+Pedido de patente internacional (PCT) do processo de pagamento eletrônico de venda por meio da tecnologia AVI (BR 10 2013 032721 2); e
+
+Pedidos de patente de etiqueta autoadesiva de identificação veicular por radiofreqüência (BR 10 2015 0282435 e BR 10 2014 0291547).
+
+Os pedidos de patente acima relacionados ainda não foram apreciados pelo INPI.
+
+Embora não sejam capazes de estimar com precisão, as Requerentes acreditam que economias de escala e de escopo não são fundamentais neste mercado relevante. Isso se deve ao fato de as tags serem fornecidas por diferentes fabricantes (apesar de a CGMP também produzir seus tags) e a infraestrutura de antenas em pedágios ser mantida e custeada pelas concessionárias de rodovias (em estacionamentos, aliás, a infraestrutura vem sendo compartilhada).
+
+Dessa forma, a escala mínima eficiente para o negócio ser lucrativo é bastante baixa. Prova disso é a existência de prestadoras de serviços que operam em uma pequena escala, com atuação restrita a algumas rodovias especificas, tais como a Passe Expresso, Via Expressa e Faixa Verde.
+
+As Requerentes acreditam que os seguintes custos poderiam ser considerados irrecuperáveis: (i) marketing (na verdade um custo semivariável); (ii) desenvolvimento ou aquisição de software para processamento e gestão de dados; e (iii) despesas gerais como salários de administradores e aluguel.
+
+Não há barreiras derivadas da preferência dos consumidores em termos de lealdade à marca e diferenciação dos produtos e/ou serviços. Com efeito, os principais elementos neste mercado são (i) preço, (ii) qualidade do serviço prestado ao consumidor e (iii) estratégias de marketing.
+
+Nesse ponto, é importante destacar que há disposições regulatórias que determinam a interoperabilidade em pedágios (vide item IX. 1 acima), de forma que qualquer participante começando a prestar o serviço pode apenas negociar com as concessionárias de rodovias em condições de mercado (e estas devem atender qualquer AMAP ou OSA, em condições de mercado, e na forma da regulamentação aplicável). Como resultado, a rede de todo participante do mercado (e, portanto, também seu produto) será virtualmente idêntica.
+
+Mais ainda, vale lembrar que, com relação à utilização dos meios eletrônicos de pagamento baseados na tecnologia AVI em estacionamentos, há acordos entre agentes para prestar serviços de leitura de etiquetas eletrônicas entre si, tornando possível que várias empresas estejam presentes na mesma localidade.
+
+As Requerentes não são capazes de estimar com precisão uma escala mínima viável para que um entrante possa ser considerado competidor efetivo. A despeito disso, é importante notar que a própria DBTrans, que é uma sociedade bastante pequena e detém uma participação de mercado extremamente reduzida, é considerada uma concorrente neste mercado.
+
+Além disso, há outras prestadoras de serviço que operam em escalas menores, com atuação restrita a algumas estradas em localidades especificas, tais como a Passe Expresso, Via Expressa e a Faixa Verde.
+
+Assim, e considerando as características do mercado relevante traçadas até o momento, é válido assumir que uma start-up teria o mesmo produto de seus concorrentes desde o seu início: ela pode adquirir as tags (que já estarão disponíveis) de terceiros fornecedores e ter acesso à mesma rede credenciada que os demais (de acordo com a regulamentação aplicável, como visto acima, suas tags devem ser aceitas em todos os postos de pedágio no Brasil, ao menos aqueles regulados pela ANTT e ARTESP, desde que as condições regulatórias sejam atendidas e cumpridas, e que os acordos com as concessionárias sejam negociados e celebrados em termos razoáveis e geralmente aceitos pelo mercado). O simples fato de que cada participante atual ou potencial tem o mesmo produto cria um claro limite de preços que um agente pode cobrar pelo serviço.
+
+Sendo assim, as Requerentes entendem que a escala mínima viável para uma prestadora de serviços ser considerada como efetiva concorrente não é muito significativa.
+
+Embora as Requerentes não tenham uma fonte segura para as informações aqui requeridas, estimam que a entrada no mercado não levaria mais de um ano. Com efeito, a DBTrans estima que a ConectCar alcançou cerca de 600-700 mil usuários ativos em três anos. É de se esperar que qualquer dos potenciais competidores identificados (bancos, prestadoras de serviços que ofertam outros meios de pagamento, fornecedoras de combustível, concessionárias de rodovias, proprietários de redes de estacionamento, entre outros) teriam resultado semelhante (ou de forma ainda mais rápida) ao da ConectCar.
+
+Conforme demonstrado acima, não há maiores restrições regulatórias para operar com meios eletrônicos de pagamento de pedágio utilizando-se a tecnologia AVI: um novo agente teria apenas que apresentar um requerimento á autoridade competente {e.g., ANTT, ARTESP, Banco Central do Brasil ou AGERAR) e solicitar autorização.
+
+Além disso, há disposições regulatórias prevendo a interoperabilidade nos pedágios (vide item IX. 1 acima), de forma que qualquer participante do mercado começando a operar pode negociar com as concessionárias (que devem, conforme regulamentação aplicável, aceitar qualquer AMAR ou OSA, desde que certas condições regulatórias sejam atendidas e cumpridas, e que os acordos sejam negociados e celebrados em termos razoáveis e geralmente aceitos pelo mercado).
+
+Nesse sentido, após conceder uma autorização a um determinado agente, a ANTT oficia as concessionárias de rodovias, que tem 10 dias para começar as negociações para a implementação das operações deste agente. Embora não tenha sido possível encontrar disposições similares em relação às rodovias estaduais, as obrigações de interoperabilidade são também aplicáveis.
+
+Em relação aos estacionamentos, as Requerentes entendem que a entrada levaria ainda menos tempo, uma vez que seria necessário apenas negociar contratos com os estabelecimentos comerciais e obter acesso aos equipamentos necessários (como antenas, por exemplo). Sobre o assunto, cumpre reforçar que o CADE concluiu que o contrato de prestação de serviços de leitura de etiquetas eletrônicas por radiofreqüência celebrado entre a ConectCar e a CGMP não violaria á Lei de Defesa da Concorrência (Consulta n° 08700,007192/2015-94), especialmente porque as prestadoras de serviços enfrentavam pressão competitiva dos tickets naquelas localidades (o que as impediria de exercer poder de mercado).
+
+Por fim, a entrada seria ainda mais rápida se o potencial novo agente já operasse outros meios de pagamento, uma vez que então ele já deteria a infraestrutura e a rede credenciada necessária para processar os pagamentos, uma base de clientes para ofertar o novo serviço e até mesmo a relação com diversos estabelecimentos comerciais.
+
+Sim, um entrante poderia capturar uma parcela suficientemente alta do mercado. Por exemplo, com a entrada da ConectCar no mercado relevante, a empresa conseguiu aumentar rapidamente sua participação para aproximadamente 5-7% em 2015 (com potencial de se chegar a mais de 7-10% em 2016), de acordo com estimativas da DBTrans, sem que tenha havido qualquer elevação nos preços.
+
+A possibilidade de capturar participação de mercado é amplamente reconhecida pelos próprios concorrentes. Por exemplo, em 2012, com a criação da ConectCar, o Grupo Odebrecht endereçou expressamente esta possibilidade, e emitiu uma declaração á imprensa reconhecendo o crescimento potencial do mercado e as oportunidades que viriam com este crescimento:
+
+"As tendências de consumo no Brasil criam condições adequadas para o lançamento da ConectCar. O tráfego de veículos em pedágios tem apresentado crescimento robusto de 20% ao ano no passado recente, impulsionado pela expansão da frota de veículos, pelo crescimento do PIB e pela maior renda da população brasileira, além do aumento na extensão de rodovias pedagiadas. Em paralelo, o uso do pagamento eletrônico em estacionamentos tem crescido fortemente, em linha com a expansão da frota e do número de shoppings centers no Brasil. O crescimento destes mercados e as novas regras criadas pelo governo de Sâo Paulo para incentivar a competição e permitir maior eficiência para os usuários das rodovias levaram ao lançamento da nova empresa", (cf, press release do Group Odebrecht datado de 12.05.2012, disponível em: <http://odebrecht,com/pt- br/comunicacao/releases/ipiranga-e-odebrecht-transport-anunciam-a-criacao-da- conectcar-companhia-de>)
+
+Uma declaração semelhante foi feita pelo Grupo Itaú Unibanco quando comprou parte das ações da ConectCar:
+
+Daqui para frente, a ConectCar tem dois grandes desafios: ter mais capilaridade, sendo aceita em mais lugares, e ter uma base maior de clientes, São duas coisas que o banco tem muito a complementar", afirma Milton Maluhy Filho, diretor- executivo do Itaú. A idéia é que a ConectCar vá muito além das estradas e postos de combustível. Na lista de possibilidades de uso da tecnologia, Maluhy cita itens como pagamento de Zona Azul, de pedágios urbanos, e um avanço para estacionamentos que não sejam apenas os de grandes shoppings centers. Pelo lado da distribuição, o produto será também oferecido pelos canais do banco, não só para seus clientes pessoa física como também para empresas, mirando, por exemplo, os gestores de grandes frotas rodoviárias. O banco pretende usar sua operação de financiamento de veículos — que apesar de seguir em queda, ainda é uma das maiores do país — para vender o dispositivo. [...] De acordo com Maluhy, do Itaú, a aquisição de fatia da ConectCar faz com que a oferta de meios de pagamentos do banco vá além de ser uma "commodity", que seja mais diversificado, algo especialmente importante no mercado de captura de cartões no varejo. O Itaú é controlador da Rede (ex-Redecard), que será a empresa do grupo que fará a compra da fatia na ConectCar. A Rede tem enfrentado pressões competitivas crescentes, na medida em que avança a entrada de novos competidores nesse segmento, o que tem levado o banco a olhar para oportunidades como tal aquisição", (cf. Valor Econômico datado de 10.22.2015. disponível em: <http://www.portalvalor.com.br/financas/4283234/itau-preve- aumentar-escala-da-conectcar>)
+
+Mais ainda, é importante considerar a inexistência de barreiras à entrada, como descrito acima, o que torna possível que novos players adentrem ao mercado e adquiram participação de mercado suficientemente elevada. Essa possibilidade é consideravelmente aumentada se considerada a iniciativa SINIAV: uma vez que os carros já terão as tags RFID com "slots" abertos para que novos números de identificação sejam incluídos, será muito mais fácil para um novo player concorrer e capturar novos clientes, uma vez que ele não apenas terá a mesma rede/produto que seus concorrentes (o que já existe hoje), como realizará investimentos muito baixos em tags a serem enviadas ao consumidor, e sequer terá que incentivar o consumidor a remover as tags até então utilizadas.
+
+Essa situação se eqüivale á portabilidade numérica no mercado de Serviço Móvel Pessoal (SMP), com a vantagem de que na indústria de identificação eletrônica não há prazos estipulados em contrato, que podem ser rescindidos a qualquer momento (com custo de transferência virtualmente inexistente). Neste cenário, é praticamente certo que prestadores de serviços como bancos e outros agentes que ofertem meios de pagamento entrariam no mercado.
+
+À luz de todo o exposto, as Requerentes acreditam que o mercado relevante é de potencial altamente competitivo e está passando por expressivo processo de expansão e crescimento (especialmente com a adoção das medidas regulatórias que incentivam a competição, conforme destacado no item IX. 1 acima), e que um entrante certamente poderia capturar uma parcela de participação de mercado suficientemente alta caso haja aumento de preços.
+
+As Requerentes entendem que o mercado relevante está passando por intenso crescimento, o que é ilustrado pelos seguintes fatos:
+
+Trata-se de um grande e ainda inexplorado mercado, com elevado potencial de crescimento. Com efeito, o segmento de pagamento eletrônico de pedágios cresceu significativamente nos últimos dez anos, e espera-se que cresça ainda mais. Mais ainda, o Brasil tem a segunda maior rede de rodovias pedagiadas no mundo, tendo sido realizadas 1,7 bilhão passagens e operações de pagamento de pedágio em 2014 por grande parte dos 63 milhões de veículos transitando no país. Ademais, espera-se que a malha rodoviária pedagiada mais do que dobre nos próximos cinco anos. Por fim, a obrigação regulatória de interoperabilidade foi estabelecida em 2012, e desde então tem impactado significativamente o mercado, conferindo incentivos para a entrada de novos agentes.
+
+O número de automóveis no Brasil cresceu 7% ao ano de 1998 a 2014, mas o país segue com uma baixa penetração per capita se comparado aos países mais desenvolvidos. Além disso, o Brasil possui apenas 249 veículos para cada 1000 pessoas, o que é relativamente baixo se comparado a países como Estados Unidos, Austrália e Itália, que possuem respectivamente 809, 731, e 682 veículos para cada 1000 pessoas, conforme dados do Banco Mundial.
+
+A penetração de tags no Brasil é baixa (menor que 10%), menos da metade daquela observada em mercados desenvolvidos, Hoje, pouco mais da metade do pagamento de pedágios no Brasil é feita de forma eletrônica, contra mais de 75% em mercados mais desenvolvidos.
+
+Espera-se que a iniciativa SINIAV tenha um grande impacto na penetração do produto.
+
+Juntos, o crescimento da frota automobilística, da malha rodoviária pedagiada e da penetração de tags no mercado confere racionalidade econômica para o contínuo crescimento da empresa.
+
+O mercado está caminhando para detenção dos ativos por prestadoras de meios eletrônicos de pagamento, o que certamente incentivará inovação e novos usuários, gerando maior penetração e melhor funcionalidade do produto, conforme ilustrado abaixo.
+
+Cumpre destacar que este entendimento está em conformidade com os precedentes do CADE, que considera o mercado como em plena expansão e com uma grande gama de clientes potenciais.
+
+Sim, houve entradas significativas no mercado relevante nos últimos 5 anos. Por exemplo, a ConectCar foi uma joint venture constituída em 2012, e aprovada sem restrições pelo CADE em 01.08.2012 (Ato de Concentração n° 08700.004201/2012-42)." Além disso, a Move Mais entrou no mercado em 2013, depois de obter todas as licenças e aprovações regulatórias.
+
+Não houve saída nos últimos 5 anos. As Requerentes não possuem elementos suficientes para estimar a facilidade de saída do mercado. Entretanto, considerando que os custos irrecuperáveis não são significativos, é relativamente seguro assumir que a saída do mercado não é difícil.
+
+Eventuais barreiras enfrentadas pela DBTrans (ou outros participantes) para entrar no mercado no passado não são mais aplicáveis, sobretudo em razão das significativas mudanças regulatórias, que incentivam a entrada e a livre competição. Nesse sentido, vide itens IX. 1 e IX.2 acima.
+
+A CGMP possui certo grau de verticalização, uma vez que conta com a participação em seu grupo econômico de concessionárias de rodovias (COR e Arteris) e empresas que ofertam combustivel (Raízen). A DBTrans, por sua vez, não é um agente verticalizado.
+
+Com relação a seus principais concorrentes, a ConectCar é um exemplo de participante do mercado verticalmente integrado, uma vez que pertence a um grupo econômico atuante no varejo e distribuição especializada de combustíveis (Ipiranga). Além disso, a aquisição de parte de suas ações pelo Grupo Itaú Unibanco certamente terá um impacto no mercado, sobretudo em razão da participação do Grupo Itaú Unibanco no mercado de meios de pagamento eletrônico. Aliás, como mostrado no item IX,11, o Grupo Itaú Unibanco declarou sua intenção de ofertar os serviços prestados pela ConectCar para sua própria base de clientes.
+
+A despeito disso, a integração vertical não é crucial para a atuação no mercado, nem implica necessariamente prejuízos à livre competição. Nesse sentido, o CADE permitiu que a STP se verticalizasse, concluindo que não haveria qualquer possibilidade de fechamento de mercado ou de elevação de custos de rivais em virtude, inter alia, da competição exercida por outros meios de pagamento (refere-se aqui especificamente à aprovação do AC n° 08700,007780/2013-66, que implicou aquisição indireta de participação societária da STP pela Raízen).
+
+Por fim, vale mencionar que, como demonstrado, a operação sob análise desconstituirá a integração existente com entre a CGMP e os acionistas da STP (mais especificamente, com a CCR, Arteris e Raízen).
+
+A DBTrans celebrou contrato com a Passe Expresso para compartilhar antenas e outros elementos de Infraestrutura para identificação de tags em rodovias e estacionamentos. Esse tipo de contrato é marcadamente eficiente (e mesmo utilizado usualmente em outros mercados, especialmente os regulados) e tende a incentivar a competição, reduzir barreiras à entrada e facilitar a presença de mais de um competidor na mesma localidade. Contudo, o acordo teve reduzida (quase nula) implementação e efeitos.
+
+Além disso, é importante notar que em julho de 2015, a CGMP e a Conectcar apresentaram Consulta ao CADE a fim de que a autoridade se manifestasse sobre a licitude de "Contrato de Prestação de Serviços de Leitura de Etiquetas Eletrônicas por Radiofreqüência" que pretendiam firmar. O objetivo era tornar possível que as duas empresas pudessem ofertar serviços de meios eletrônicos de pagamento baseados na tecnologia AVI nessas localidades (uma vez que, por razões técnicas, não é viável instalar mais de uma antena da mesma radiofreqüência na mesma localidade).
+
+Assim, em setembro de 2015, o Plenário do CADE, por unanimidade, manifestou-se pela licitude concorrencial dos contratos, especialmente porque (i) o contrato permitia expressamente a participação de terceiros sob os mesmos termos e condições, o que foi considerado suficiente pelo CADE para afastar os riscos de fechamento de mercado, e (ii) havia um substituto quase perfeito para os serviços dos Consulentes, i.e., os tickets.
+
+Considerando que o CADE já analisou o contrato apresentado pela CGMP e pela ConectCar, tendo concluído por sua eficiência e ausência de riscos anticompetitivos no mercado de estacionamento, as Requerentes respeitosamente pedem dispensa de apresentar cópias de contratos similares.
+
+Há significativo grau de competição (atual e potencial), especialmente porque não há relevantes barreiras à entrada (como demonstrado nos itens IX. 1 e IX.2 acima). Com a entrada de novos agentes no mercado, houve concorrência efetiva, o que pode ser demonstrado pela participação de mercado obtida pela ConectCar desde sua constituição (vide Etapa VI acima).
+
+Com efeito, alguns desses novos participantes de mercado pertencem a importantes grupos econômicos - tais como a ConectCar, cujas ações são detidas pelo Grupo Ipiranga e pelo Grupo Itaú Unibanco. Nesse sentido, vale notar as declarações do Grupo Itaú Unibanco, feitas quando de seu ingresso no bloco de controle da ConectCar, sobre os novos usos para os meios eletrônicos de pagamento que utilizam identificação eletrônica e a estratégia pretendida pela empresa:
+
+"Daqui para frente, a ConectCar tem dois grandes desafios: ter mais capilaridade, sendo aceita em mais lugares, e ter uma base maior de clientes, São duas coisas que o banco tem muito a complementar", afirma Milton Maluhy Filho, diretor- executivo do Itaú. A idéia é que a ConectCar vá muito além das estradas e postos de combustível. Na lista de possibilidades de uso da tecnologia, Maluhy cita itens como pagamento de Zona Azul, de pedágios urbanos, e um avança para estacionamentos que não sejam apenas os de grandes shopping centers. Pelo lado da distribuição, o produto será também oferecido pelos canais do banco, não só para seus clientes pessoa física como também para empresas, mirando, por exemplo, os gestores de grandes frotas rodoviárias. O banco pretende usar sua operação de financiamento de veículos — que apesar de seguir em queda, ainda é uma das maiores do país — para vender o dispositivo. [...] De acordo com Maluhy, do Itaú, a aquisição de fatia da ConectCar faz com que a oferta de meios de pagamentos do banco vá além de ser uma "commodity", que seja mais diversificado, algo especialmente importante no mercado de captura de cartões no varejo. O Itaú é controlador da Rede (ex-Redecard), que será a empresa do grupo que fará a compra da fatia na ConectCar. A Rede tem enfrentado pressões competitivas crescentes, na medida em que avança a entrada de novos competidores nesse segmento, o que tem levado o banco a olhar para oportunidades como tal aquisição", (cf. Valor Econômico de 10.22.2015. Disponível em http://www.portalvalor.com.br/financas/4283234/itau-preve-aumentar-escala-da- conectcar)
+
+Pode-se perceber, pois, a postura agressiva adotada pelo Grupo Itaú Unibanco quanto à rivalidade que seria (e realmente o é) exercida no mercado, inclusive pelo uso das outras atividades verticalmente relacionadas do grupo como meio de promover suas atividades no mercado relevante.
+
+A principal estratégia das Requerentes e de seus concorrentes é ofertar serviços de qualidade, tentando diferenciá-los com a associação de tantas aplicações quanto possíveis (tais como seu uso em pedágios, estacionamentos, postos de gasolina, lojas de conveniência e etc).
+
+Dessa forma, a redução de custos para o pagamento eletrônico de pedágios pode ser vista como um resultado do aumento da rivalidade, conforme reconhecido pela ARTESP: "Como parte de uma política pública adotada pela Secretaria de Logística e Transportes, em 2012, a Artesp abriu o mercado de pagamento eletrônico de pedágios para a entrada de novas operadoras do serviço, A medida incentiva a concorrência das empresas para baixar os custos de transporte, ampliar os serviços agregados (estacionamento, combustível entre outros) e as formas de pagamento (pós e pré pago). Também é uma maneira de aumentar a base de usuários do pagamento eletrônico, o que tornará o serviço cada vez mais moderno e eficiente. Ao todo já são três empresas autorizadas a atuar no Estado de São Paulo (SEM PARAR, DBtrans e Conectcar), o que já fez com que os custos do serviço caíssem até 67% após a abertura do mercado". (Disponível em http://www, artesp, sp, gov, br/rodovias-aítemativas-para-o-pagamento-eletronico-de- pedagios-new-RetumUri-altemativas-para-o-pagamento-eletronico-de- pedagios.html. Acesso em 05.03.2016)
+
+Ademais, como demonstrado, há efetiva rivalidade e substitutibilidade de outros meios de pagamento não ofertados pelas Requerentes.
+
+As Requerentes informam que, como conseqüência direta das disposições regulatórias de interoperabilidade em rodovias federais e estaduais, os players de pagamento eletrônico de pedágios compartilham o "Sistema de Leitura dos Tags" ("SLT"), que pertence às concessionárias. Isso torna possível que mais players operem no mercado, ao mesmo tempo que não há compartilhamento de informações concorrencialmente sensíveis (ou de qualquer informação, aliás) entre concorrentes.
+
+Além do mais, uma vez que o CADE reconheceu que este tipo de contrato não viola a Lei n" 12,529/11 (Consulta n° 08700.007192/2015-94), contratos de prestação de serviços de leitura de etiquetas eletrônicas por radiofreqüência em estacionamentos para permitir mais de um agente econômico na mesma localidade devem tornar-se comuns. Tais contratos, de acordo com a decisão do CADE, trariam eficiências econômicas significativas e gerariam efeitos prò- competitivos.
+
+Sim, há poucos participantes no mercado, conforme indicado na Etapa Vi acima. Entretanto, como já destacado neste formulário, o mercado passa por um processo de evolução e de mudanças profundas, com a expansão dos serviços e soluções ofertadas pelas Requerentes e seus concorrentes. Nesse sentido, há muitos novos entrantes em potencial, especialmente grupos econômicos que já operam outros meios de pagamento eletrônico "tradicionais". 
+
+Mais ainda, há efetiva e crescente rivalidade exercida por outros agentes atuantes no mercado, pertencentes a importantes grupos econômicos. A título exemplificativo, as ações representativas do capital social da ConectCar pertencem aos grupos Ipiranga e Itaú Unibanco - que, como visto, declarou ter interesse em ampliar ainda mais as aplicações do produto, bem como sua atuação e rivalidade no mercado, ofertando os serviços para sua base de clientes bancários.
+
+Outra questão a ser levada em consideração é a efetiva rivalidade e substitutibilidade de outros meios de pagamento não ofertados pelas Requerentes. Essa competição já foi reconhecida pelo CADE no Ato de Concentração n° 08700.007780/2013-66 (ao menos para aquisição de combustível).
+
+Além disso, não apenas não há barreiras à entrada no mercado, como também a regulação confere incentivos econômicos para que novos participantes entrem no mercado de pagamento eletrônico de pedágios, conforme visto nos itens IX. 1 e IX.2 acima.
+
+Por fim, o CADE concluiu que um contrato de prestação de serviços de leitura de etiquetas eletrônicas por radiofreqüência celebrado pela ConectCar e CGMP não violaria à Lei de Defesa da Concorrência, sobretudo porque as partes sofriam pressão competitiva de tickets naquelas localidades (o que as impediriam de exercer poder de mercado). Esse tipo de contrato, de acordo com o CADE, tende a aumentar o número de agentes prestando serviços de pagamento eletrônico automático em estacionamentos, resultando em significativas eficiências econômicas e gerando resultados pró-competitivos.
+
+Sim. A capilaridade da rede é homogênea por determinação legal e regulatôria, assim como a funcionalidade e freqüência dos tags.
+
+Um simples estudo de mercado baseado inteiramente em informações públicas é suficiente para saber os preços praticados pelos participantes de mercado. Contudo, informações sensíveis como custo, quantidade ofertada e planos estratégicos não estão disponíveis.
+
+Procedimento Preparatório de Inquérito Administrativo n° 08012008426/2011-45, instaurado para apurar supostas infrações da STP e COR, consistentes em preços abusivos, recusa de contratação, criação de barreiras ao desenvolvimento de concorrentes e cartel. O processo foi arquivado pelo CADE em 3 de junho de 2013.
+
+Não, as condições de demanda e oferta no mercado não são estáveis. De forma similar, o nível de inovação, lançamento de novos produtos e atributos e a complexidade do mercado não podem ser considerados baixos. Com efeito, como destacado acima, o mercado passa por um significativo processo de evolução e de profundas mudanças, com a expansão dos serviços e soluções ofertados pelas Requerentes, seus concorrentes e potencialmente o governo (e,g,. mediante o SINIAV).
+
+Como demonstrado, a identificação eletrônica de veicules foi inicialmente desenvolvida para o pagamento de pedágios, e é atualmente utilizada no Brasil também em estacionamentos e postos de gasolina. Com a padronização da tecnologia (conforme determinação das autoridades reguladoras), a tendência é a entrada de novos agentes e a utilização da tecnologia em novas aplicações. Em Portugal, por exemplo, usuários da Via Verde podem usar seus dispositivos de identificação eletrônica para comprar refeições em certos restaurantes do McDonalds.
+
+s ordens de compra são pequenas e os contratos são geralmente de curto-prazo (á exceção dos acordos operacionais celebrados com as concessionárias de rodovias). Os contratos com clientes não têm prazo estabelecido e podem ser rescindidos a qualquer tempo.
+
+Há alguns participantes do mercado verticalizados, tais como a CGMP, que conta com a participação em seu grupo econômico de agentes atuantes no mercado de combustível e de concessão de rodovias. A ConectCar também é integrada, uma vez que pertence ao mesmo grupo econômico que a Ipiranga e Itaú Unibanco.
+
+A despeito disso, a integração vertical não é crucial para a atuação no mercado, nem implica necessariamente em prejuízos à livre competição. Nesse sentido, o CADE permitiu que a STF se verticalizasse, concluindo que não haveria qualquer possibilidade de fechamento de mercado ou de elevação de custos de rivais em virtude, inter alia, da competição exercida por outros meios de pagamento (refere-se aqui especificamente à aprovação do AC n" 08700.007780/2013-66, que implicou aquisição de participação societária da STF pela Raízen).
+
+For fim, vale mencionar que, como demonstrado, a operação sob análise desconstituirá a integração existente entre a CGMF e os acionistas da Raízen.
+
+A operação gerará sobreposição horizontal no mercado de meios eletrônicos de pagamento baseados na tecnologia AVI para pedágios e estacionamentos. Contudo, conforme detalhado ao longo do presente formulário, referida sobreposição horizontal não acarreta maiores preocupações concorrenciais e nem alterará significativamente as condições elencadas no item X,1, uma vez que (i) trata-se de um grande e ainda inexplorado mercado, com elevado potencial de crescimento, (ii) a operação não alterará a estrutura altamente competitiva do mercado, (iii) baixas barreiras à entrada a novos participantes no mercados e baixos custos de distribuição implicam contínua abertura a novos entrantes, (iv) há efetiva rivalidade e substitutibilidade de outros meios de pagamento e (v) as prestadoras de serviços operam em um ambiente regulado que incentiva a competição.
+
+For outro lado, a operação desconstituirá as integrações verticais existentes entre a CGMF e os acionistas da STF.
+
+Considerando que operação não causa mudanças significativas no mercado, como destacado acima, a provável configuração futura do mercado caso a operação não seja implementada é aquela analisada nos precedentes do CADE. De todo modo, a tendência à expansão e crescimento ainda seria observada, e as Requerentes acreditam que a utilização de meios eletrônicos de pagamento baseados na tecnologia AVI continuaria sendo progressivamente mais utilizada em outros segmentos e aplicações.
+
+Importante reiterar que as Requerentes entendem que a presente operação não levanta maiores preocupações concorrenciais, uma vez que (i) trata-se de um grande e ainda inexplorado mercado, com elevado potencial de crescimento, (ii) a operação não alterará a estrutura altamente competitiva do mercado, (iii) baixas barreiras à entrada de novos participantes e baixos custos de distribuição implicam contínua abertura para novos entrantes, (iv) há efetiva rivalidade e substitutibilidade de outros meios de pagamento, (v) os agentes econômicos operam em um ambiente regulado que incentiva a competição, e (vi) desconstituirá as integrações verticais existentes entre a CGMP e os acionistas da STP.
+
+Assim, diante do exposto, as Requerentes solicitam a aprovação da operação sem restrições, já que não acarretará maiores efeitos anticompetitivos.
+
+Por fim, e conforme solicitado na petição de encaminhamento da presente operação, requer-se sejam as informações tarjadas em cinza, bem como os documentos assim identificados, devidamente mantidas sob acesso restrito, conforme previsto nos arts. 53 e 55, do Regimento interno do CADE.
+
+
+
+
