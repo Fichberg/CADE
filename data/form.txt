@@ -8846,3 +8846,97 @@ Pelo  contrário,  a  Operação  será  positiva sob  o  viés concorrencial, s
 Por todo o exposto, os Requerentes entendem que a Operação é incapaz de limitar e/ou falsear a concorrência no mercado brasileiro, não gerando impedimentos significativos à concorrência, nem criando  e/ou  promovendo  posição  dominante  ou  dominação  de  mercado  relevante.  Conforme detalhado,  as  relações  horizontais  existentes  são  incapazes  de  suscitar  preocupações  de natureza  concorrencial,  e  as  relações  verticais  são  relativizadas,  haja  vista  a  natureza  pré-existente  das  mesmas.  Com  efeito,  a  Operação  é  positiva  sob  o  viés  concorrencial,  propiciando benefícios agregados para os clientes dos Requerentes, ao mesmo tempo em que colabora para a  dinamização  do  setor  bancário  brasileiro,  que  é  marcado  tanto  pela  presença  de  grandes players, quanto  pela existência  de players de  menor  porte  que  também exercem  pressão competitiva  e  rivalizam  em  certos  mercados.  Nesses  termos,  a  Operação  faz  jus  à  aprovação célere e sem restrições. 
 
 
+
+
+PROCESSO 08700.001192/2016-61
+
+
+A presente parceria envolve a formação de uma aliança comercial no Brasil (“Aliança” ou “Operação”) entre Cisco Comércio e Serviços de Hardware e Software do Brasil Ltda. e Cisco Systems, Inc. (juntas “Cisco”) e a Ericsson Telecomunicações S.A. (“Ericsson” e, juntamente com a Cisco, as “Requerentes” ou “Partes”). Essa Aliança é formada com a celebração do “Alliance Agreement”, que estabelece objetivos de cooperação de longo prazo no Brasil. O objetivo da cooperação é promover soluções que integrem o potencial da  Ericsson  para  o  desenvolvimento,  integração  e  suporte  de  redes  sem  fio,  com  o potencial  da  Cisco  para  o  desenvolvimento  e  suporte de  produtos  de  rede  que  usam  o padrão familiar de protocolo de internet para comunicação de dados. 
+
+Assim, o escopo da Aliança inclui: (i) venda, pela Ericsson, dos produtos e serviços da Cisco,  integrando  o  portfólio  da  Cisco  ao  portfólio de  produtos  e  serviços  da  própria Ericsson  no  Brasil;  (ii)  objetivos  de  curto  prazo  e iniciativas  para  integrar  e  otimizar alguns  dos  produtos  e  serviços  já  comercializados  pelas  Partes,  visando  a  desenvolver soluções integradas a serem oferecidas no mercado brasileiro; e (iii) objetivos de longo-prazo  no  sentido  de  desenvolver  tecnologias  de  última  geração  e  aprimorar  redes  e infraestruturas de TI já existentes no mercado brasileiro. 
+
+Com  o  objetivo  de  alcançar  essas  metas  da  Aliança, as  Partes  firmaram  (ou  firmarão) contratos   específicos,   incluindo   (i)   “Reseller   Agreement”;   (ii)   “OEM   Sourcing Agreement”;  (iii)  “Patent  Cross  Licensing  Agreement”;  e  (iv)  “Professional  Services Subcontract Agreement”. 
+
+A  Aliança  ora  notificada  não  cria  uma  entidade  autônoma,  nem  tampouco  envolve  a transferência  de  ativos.  Além  disso,  a  Aliança  não estabelece  qualquer  relação  de exclusividade  entre  as  Requerentes,  cada  qual  permanecendo  livre  para,  de  modo independente, buscar oportunidades de mercado, seja diretamente ou por meio de outros parceiros.  Nesse  sentido,  os  componentes  e  serviços já  ofertados  pelas  Requerentes permanecerão  disponíveis  no  mercado,  por  meio  de  canais  de  venda  e  revendedores  já existentes.  Excepcionalmente,  soluções  desenvolvidas  no  contexto  da  Aliança  poderão estar sujeitas a condições de exclusividade (estabelecidas em contratos separados), mas tais condições de exclusividade só se aplicariam às soluções desenvolvidas no contexto da Aliança, não afetando componentes já existentes desenvolvidos de forma independente por cada uma das Partes. 
+
+A Aliança apenas cria uma relação vertical entre as Partes, tendo em vista que a Ericsson tornar-se-á revendedora dos produtos Cisco. Como os produtos de cada uma das Partes continuarão  a  ser  vendidos  no  mercado  através  de  canais  independentes,  a  Cisco  e  a Ericsson não estão combinando suas atividades em nenhum mercado, sendo a Operação eminentemente vertical em sua natureza. 
+
+Como  resultado  da  Operação,  a  Ericsson  receberá  o  selo  de  “Cisco  Gold  Certified Partner”,  dentro  do  programa  de  certificação  da  Cisco  para Revendedores  –  “Resale Partner   Program”.   Essa   relação   vertical   claramente   não   resultará   em   efeitos anticompetitivos,   uma   vez   que,   com   exceção   dos   produtos   que   venham   a   ser desenvolvidos em conjunto pela Cisco e pela Ericsson para os quais as partes acordarem exclusividade  (ver  parágrafo  acima),  nem  a  Cisco  e nem  a  Ericsson  se  tornarão revendedoras exclusivas uma da outra. Na realidade, a Cisco conta com inúmeros canais de distribuição, com mais de mil revendedores autorizados no Brasil. Tais acordos não serão afetados pela Aliança, que apenas oferecerá uma nova alternativa aos consumidores que compram produtos e serviços Cisco. A Cisco e a Ericsson preveem que, pelo menos inicialmente, os clientes que entenderão essa alternativa adicional atrativa são operadoras que  atuam  na  prestação  de  serviços  de  telecomunicação  sem  fio,  muitas  das  quais possuem relação com a Ericsson para a compra de produtos de rede de acesso por rádio (“RAN”) e serviços correlatos. 
+
+As atividades das Requerentes são, em geral, complementares, mas é possível identificar alguns  segmentos  nos  quais  ambas  as  Partes  atuam  (apesar  de,  como  mencionado,  o escopo  da  Operação  ser  essencialmente  vertical).  Mesmo  nesses  mercados,  claramente não há qualquer preocupação concorrencial decorrente da Operação, uma vez que tanto os  produtos  da  Cisco  quanto  da  Ericsson  continuarão disponíveis  através  de  canais independentes. Em outras palavras, a Aliança não implica uma fusão entre as Requerentes e, assim sendo, para fins da análise concorrencial, não há sobreposição efetiva. 
+
+A  Ericsson  e  a  Cisco  continuarão  atuando  de  forma  completamente  independente  no mercado, mantendo seus canais de venda autônomos já existentes; assim, a Ericsson não terá condições de controlar a oferta de produtos Cisco no mercado (e vice-versa). Dessa forma, a despeito da formação da Aliança, Cisco e Ericsson continuarão competindo nas áreas  e  segmentos  de  produtos  nos  quais  já  competem atualmente.  De  qualquer  forma, mesmo que uma tradicional análise de sobreposições horizontais seja realizada – hipótese meramente argumentativa, em linha com o que foi exposto acima – as participações de mercado totais ficam, em sua maioria, abaixo de 20%, ou há elevação pouco significativa de  participações  de  mercado  pré-existentes.  A  Aliança  não  gera,  desse  modo,  qualquer preocupação concorrencial. 
+
+Nome Ericsson Telecomunicações S.A. CNPJ 33.067.745/0001-27 Forma legal Sociedade anônima fechada  Endereço corporativo Rua Maria Prestes Maia, 300 São Paulo, SP, Brasil CEP 02047-901 Contato  Carolina Azevedo, Diretora Jurídica América Latina carolina.azevedo@ericsson.com Telefone (11) 2224-5107 
+
+O Grupo Ericsson é sediado na Suécia. 
+
+Ato de Concentração nº 08012.004908/2010. Em 21 de abril de 2010, a Ericsson adquiriu 50% do total de ações emitidas e em circulação + 1 ação da LG-Nortel Co. Ltd., da Nortel Networks Limited. A operação foi notificada ao CADE em 10 de maio de 2010 e aprovada sem restrições em 09 de junho de 2010.  
+
+Ato de Concentração nº 08012.011119/2010-61. Em 24 de setembro de 2010, a Ericsson  adquiriu  todos  os  ativos  relacionados  às  Switches  Multi-serviços  (MSS)  da Nortel. A operação foi notificada ao CADE em 18 de outubro de 2010 e aprovada sem restrições em 24 de novembro de 2010.  
+
+Ato de Concentração nº 08012.013102/2010-48. Em 22 de dezembro de 2010, a Ericsson adquiriu todos os ativos e subisidárias da Optimi Corporation. A operação foi notificada  ao  CADE  em  27  de  dezembro  de  2010  e  aprovada  sem  restrições  em  27  de julho de 2011.  
+
+Ato   de Concentração   nº   08012.007090/2011-01.   Aquisição   da   Telcordia Technologies Inc. A operação foi notificada ao CADE em 05 de julho de 2011 e aprovada com restrições em 09 de novembro de 2011.  
+
+Ato de Concentração nº 08012.011976/2011-41. Em 27 de outubro de 2011, a Sony Corporation adquiriu a totalidade das ações da Joint Venture Sony Ericsson Mobile Communications AB. A operação foi notificada ao CADE em 16 de novembro de 2011 e aprovada sem restrições em 27 de janeiro de 2012.
+
+Ato  de Concentração  nº  08012.003282/2012-11.  Acordo  Associativo  entre Ericsson Telecomunicações S.A. e Portugal Telecom Inovação Brasil Ltda. A operação foi  notificada  ao  CADE  em  30  de  abril  de  2012  e  aprovada  com  restrições  em  12  de setembro de 2012.  
+
+Ato   de Concentração   nº   08700.004538/2013-30.   Aquisição   do   negócio Mediaroom     (até     então     de     propriedade     da     Microsoft     Corporation)     pela Telefonaktiebolaget LM Ericsson. A operação foi notificada ao CADE em 17 de maio de 2013 e aprovada sem restrições em 06 de junho de 2013.  
+
+Ato  de Concentração  nº  08700.000970/2015-14.  Aquisição  pela  Jabil  Circuit Inc. dos ativos da Ericsson localizados em Marcianise, Itália. A operação foi notificada ao CADE em 13 de fevereiro de 2015 e aprovada sem restrições em 02 de março de 2015. 
+
+O Grupo Cisco possui sede nos Estados Unidos.
+
+Ato   de   Concentração   nº   08012.008514/2009-22:   aquisição   pela   Cisco   da Tandberg ASA. Operação aprovada sem restrições em 03 de novembro de 2010.
+
+Ato  de  Concentração  nº  08012.002359/2011-55:  aquisição  pela  Cisco  da  Inlet Technologies, Inc. Operação aprovada sem restrições em 4 de maio de 2011. 
+
+Ato de Concentração nº 08012.008492/2011-15: aquisição pela Hon Hai Precision Ind. Co. Ltd, que controla o Grupo Foxconn Technology, das ações na SA Holdings and SA  Mexico,  subsidiária  da  Scientific-Atlanta,  membro  do  Grupo  Cisco.  Operação aprovada sem restrições em 26 de outubro de 2011. 
+
+Ato  de  Concentração  nº  08012.002265/2012-67:  aquisição  pela  Cisco  da  NDS Group Limited. Operação aprovada sem restrições em 04 de julho de 2012.  
+
+Ato    de    Concentração    nº    08700.008908/2014-90:    aquisição,    pela    EMC Corporation,  do  controle  unitário  da  VCE  Company,  LLC.  Operação  aprovada  sem restrições em 19 de novembro de 2014. 
+
+Ato de Concentração nº 08700.009018/2015-86: aquisição, pela Technicolor S.A., da divisão de negócios da Cisco’s Connected Devices. Operação aprovada sem restrições em 22 de janeiro de 2016. 
+
+A  Cisco  Comércio  e  Serviços  de  Hardware  e  Software do  Brasil  Ltda.
+
+Outra forma de operação (contrato associativo).
+
+A  Aliança  é  formada  por  meio  do Alliance  Agreement,  que  estabelece  objetivos  de cooperação de longo prazo no Brasil. A cooperação terá como foco as áreas em que as Partes oferecem produtos e serviços complementares (ver os considerandos do Alliance Agreement),   visando   combinar   o   potencial   da   Ericsson   para   o desenvolvimento, integração e suporte de redes sem fio com o potencial da Cisco para o desenvolvimento e suporte de produtos de rede que usam o padrão protocolo de internet (“Internet Protocol Standard”) para comunicação de dados. 
+
+O escopo da Aliança compreende: (i) venda, pela Ericsson e suas afiliadas, dos produtos e serviços da Cisco (e de suas afiliadas) no Brasil; (ii) objetivos de curto prazo e iniciativas para integrar e otimizar alguns dos produtos e serviços já comercializados pelas Partes, visando  a  desenvolver  soluções  integradas  para  clientes  brasileiros;  e  (iii)  objetivos  de longo-prazo no sentido de desenvolver tecnologias de última geração e aprimorar redes e infraestruturas de TI já existentes para clientes Brasileiros. 
+
+A  Aliança  tem  como  principal  objetivo  o  desenvolvimento  das  “redes  do  futuro” (networks of the future). Por meio da Aliança, as Requerentes pretendem estabelecer uma parceria e integrar tecnologias no Brasil, o que promoverá crescimento e inovação, além de acelerar os processos de transformação digital  que são demandados por clientes nas mais diversas indústrias. 
+
+Inicialmente,  as  Requerentes  ressaltam  que  as  relações  decorrentes  da  Aliança  são predominantemente verticais, pelas seguintes razões: 
+
+Antes da Aliança, um relacionamento vertical entre os portfólios das Partes já existia em determinadas situações nas quais o cliente final procurava a Ericsson para uma solução completa. Nestes casos, a Ericsson atuava como integradora de sistemas, selecionando os componentes  apropriados  em  conjunto  com  o  cliente  final.  A  Ericsson  podia  escolher comprar produtos de um revendedor da Cisco para soluções específicas. A Ericsson podia também  integrar  produtos  da  Cisco  adquiridos  diretamente  pelo  cliente  a  suas  próprias soluções. Esta forma de relacionamento, no entanto, não era muito frequente.  
+
+Como parte da Aliança, a Ericsson irá se tornar uma revendedora do portfólio de produtos da  Cisco  no  Brasil  e  se  comprometeu  a  promover  os  produtos  Cisco.  Neste  sentido,  a operação consolida e amplia a relação vertical entre as Partes.  
+
+É  necessário  destacar,  no  entanto,  que  tais  coincidências  não  devem  ser  consideradas como sobreposições (como tecnicamente definido no contexto de uma análise antitruste), posto  que  não  há  concentração  de  mercado  resultante da  operação  (uma  vez  que  as atividades  das  Requerentes  não  estão  sendo  combinadas).  É  importante  enfatizar  que  a operação não resulta em fusão entre as duas empresas nem possui efeitos comparáveis a uma fusão completa ou joint-venture. De fato, não haverá nova entidade corporativa ou transferência de ativos, e as Partes continuarão livres para competir, inclusive uma com a  outra,  e  seguir  vendendo  por  meio  dos  canais  existentes  e  revendedores.  Em  outras palavras, mesmo que a Ericsson possa oferecer a um cliente seus próprios produtos assim como  soluções  da  Cisco,  os  produtos  da  Cisco  continuarão  disponíveis  para  quaisquer outros  clientes  atuais  ou  potenciais  (outros  revendedores  e  integradores),  incluindo  os concorrentes da Ericsson. Igualmente, a Ericsson continuará a ter contratos de tecnologia e revenda com outros players (incluindo concorrentes da Cisco).   
+
+A Aliança consolida uma relação vertical entre Ericsson e Cisco, permitindo à Ericsson revender  o  portfólio  completo  de  produtos  e  serviços  da  Cisco.  Considerando  que  a integração  vertical  resultante  do  Contrato  de  Revenda  não  estabelece  nenhum  tipo  de exclusividade entre as empresas ou o compartilhamento de lucros e prejuízos, a relação vertical claramente não desperta preocupações concorrenciais.
+
+Nos     atos     de     concentração     nº     08012.006989/2006-31     (Nokia/Siemens)     e 08012.013102/2010-48 (Ericsson/Optimi), o CADE e a SEAE diferenciaram aplicações fixas  para  OSS  e  aplicações  móveis  para  OSS.  Para  ambos  segmentos,  o  CADE considerou o mercado global. 
+
+Uma análise das participações de mercado mundial em 2014 em  cada segmento indica que a agregação das participações de mercado da Ericsson e da Cisco não resultaria em sobreposições significativas: 
+
+Na  decisão  do  Ato  de  Concentração  nº  08012.002088/2007-51  (Ericsson/Tandberg Television),  o  CADE  identificou  um  mercado  para  soluções  de  TV  paga,  incluindo  os segmentos de vídeos head-end, sistemas de acesso (i.e. ADSL, FTTC, FTTH) e software middleware.
+
+No Ato de Concentração nº 08012.002265/2012-67 (Cisco/NDS), o CADE definiu um mercado para serviços técnicos para fornecedores de TV paga, e se referiu a segmentos de  CA,  middleware,  gravação  de  vídeo  digital  (DVR) e  guia  de  programa  eletrônico (EPG).     
+
+Mais recentemente, no Ato de Concentração nº 08700.004538/2013-30 (Ericsson/Microsoft),  a  Superintendência  do  CADE  deixou  a  definição  de  mercado  em aberto,  mas  analisou  segmentos  específicos  incluindo head  end,  sistema  de  acesso, middleware,  STB  e  DRM/CAS.  A  Superintendência  pareceu  concordar  quanto  à dimensão geográfica do mercado ser global.  
+
+De acordo com a Resolução CADE nº 2/2012 (artigo 8º, item I e VI), e tendo em vista as informações  prestadas  acima,  as  Partes  requerem  que o  CADE  adote  o  Procedimento Sumário para esta notificação. 
+
+De  acordo  com  as  informações  prestadas  acima,  é  possível  concluir  de  plano  que  a Aliança  não  gera  efeitos  anticompetitivos  no  Brasil,  devendo  portanto  ser  prontamente aprovada pelo CADE. 
+
+De  acordo  com  a  solicitação  de  confidencialidade  realizada  na  petição  inicial,  todas  as informações  grifadas  de  cinza  –  nas  etapas  II,  III e  V,  bem  como  os  documentos identificados   como   confidenciais,   devem   ser   mantidos   confidenciais,   conforme estipulado no artigo 53 da Resolução CADE nº 1/2012. 
+
+As Requerentes informam que, de acordo com o artigo 55 da Resolução CADE nº 1/2012, a única diferença entre as versões pública e de acesso restrito dessa notificação é que a versão pública não contém as informações grifadas de cinza na versão confidencial, tendo em vista a justificativa apresentada detalhadamente na petição inicial. 
+
+Conforme estipulado pelo artigo 110, § 3º, da Resolução CADE nº 1/2012, cada uma das Requerentes  declara  que  (i)  toda  a  informação  aqui submetida  é,  no  melhor  de  seu conhecimento,  verdadeira  e  correta  no  que  diz  respeito  a  si  mesma;  (ii)  todos  os documentos e cópias de documentos anexos fornecidos pela Parte são autênticos e cópias verdadeiras das versões originais; e (iii) todas as estimativas aqui contidas foram feitas de  boa-fé,  em  conformidade  com  a  melhor  informação disponível  no  momento  da notificação. 
