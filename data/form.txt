@@ -172,6 +172,8 @@ Para a Santa Cruz, a Operação representa uma boa oportunidade para expandir os
 
 Para a Celesio, a Operação está em linha com sua estratégia de negócios de concentrar suas operações no mercado consumidor europeu.
 
+Com relação ao Herfmdahl-Hirschman Index ("HHI") pós-Operação, apesar de não ser possível calculá-lo com precisão em razão da ausência de dados precisos dos concorrentes nos mercados afetados pela Operação, em simulações feitas a partir da participação de mercado das Requerentes e da categoria "Outros" foi possível verificar que tal índice resultará em variação inferior a 200 pontos, presumindo, portanto, que a Operação é simples o suficiente para ser analisada sob o rito sumário nos termos da Resolução CADE n. 2/2012. 
+
 ETAPA V
 
 A SCPE é uma empresa holding, controlada por pessoa física, que tem por objeto a realização de investimentos em sociedades com atividades relacionadas ao setor farmacêutico, as quais compõem o Grupo Santa Cruz.
@@ -186,9 +188,9 @@ Assim, a Operação gera relação de sobreposição horizontal entre a Santa Cr
 
 Importante ressaltar que a Operação não resultará relação de integração vertical entre a Panpharma e a Drogaserv, empresa do Grupo Santa Cruz que atua no comércio varejista de Produtos Farmacêuticos. Isso porque, a Drogaserv realiza vendas exclusivamente aos empregados locados no centro de distribuição da Santa Cruz, localizado em Curitiba/PR e aufere faturamento insignificante para o Grupo Santa Cruz.
 
- Segundo entendimento consolidado do E. CADE, é possível definir que a Santa Cruz e a Panpharma, de um lado e, a Oncoprod de outro, atuam em segmentos distintos e, com isso, a Operação Pretendida resulta em sobreposição horizontal apenas entre as duas primeiras. Isto posto, como decorrência da Operação, a Santa Cruz será entrante no mercado de distribuição de produtos para demandas especiais (medicamentos de alta complexidade], no qual já atua a Oncoprod.
+Segundo entendimento consolidado do E. CADE, é possível definir que a Santa Cruz e a Panpharma, de um lado e, a Oncoprod de outro, atuam em segmentos distintos e, com isso, a Operação Pretendida resulta em sobreposição horizontal apenas entre as duas primeiras. Isto posto, como decorrência da Operação, a Santa Cruz será entrante no mercado de distribuição de produtos para demandas especiais (medicamentos de alta complexidade], no qual já atua a Oncoprod.
 
- Nota-se que a sobreposição horizontal mencionada não gera quaisquer preocupações de natureza concorrencial, na medida em que a soma da participação de mercado entre as Requerentes é inferior a 20%. Além disso, trata-se de mercado onde praticamente inexistem barreiras à entrada, estando presente na realidade intensa rivalidade entre os distribuidores, que competem, inclusive, com as grandes redes varejistas de farmácias e drogarias, que possuem centros próprios de distribuição, mitigando ainda mais a possibilidade de eventual exercício de poder de mercado por parte do Grupo Santa Cruz.
+Nota-se que a sobreposição horizontal mencionada não gera quaisquer preocupações de natureza concorrencial, na medida em que a soma da participação de mercado entre as Requerentes é inferior a 20%. Além disso, trata-se de mercado onde praticamente inexistem barreiras à entrada, estando presente na realidade intensa rivalidade entre os distribuidores, que competem, inclusive, com as grandes redes varejistas de farmácias e drogarias, que possuem centros próprios de distribuição, mitigando ainda mais a possibilidade de eventual exercício de poder de mercado por parte do Grupo Santa Cruz.
 
 Por fim, também não há que se falar em relação de integração vertical entre as Requerentes. Com relação ao mercado de distribuição de Produtos Farmacêuticos, as Requerentes esclarecem que, embora a Drogaserv integre o Grupo Santa Cruz, este estabelecimento, situado dentro do centro de distribuição da filial da Santa Cruz, em Curitiba/PR, realiza vendas de Produtos Farmacêuticos destinados exclusivamente aos empregados da Santa Cruz.
 
@@ -2459,7 +2461,7 @@ Ressalve-se, em tempo, que a presente notificação está sendo realizada sob o 
 
 Não há diferenciação entre os produtos e serviços prestados no mercado relevante. Do contrário, todos os participantes do mercado possuem o mesmo produto e rede, já que a tecnologia RFID das tags foi padronizada pelos órgãos reguladores, e há aceitação idêntica para os produtos de quaisquer concorrentes nas rodovias pedagiadas, nos termos da regulamentação aplicável. Com efeito, os principais elementos neste mercado são (i) a qualidade do serviço prestado ao consumidor, (ii) o preço ao usuário, e (iii) as estratégias de marketing.
 
-Apesar de o mercado relevante ser o de meios de pagamento eletrônico baseados na tecnologia AVI para pedágio e estacionamento, as Requerentes apresentarão nesta etapa do questionário dados relativos á participação de mercado {market share) e índice Herfindahl- Hirschman (HHI) considerando apenas pedágios. Isso porque: (1) Não há dados confiáveis para o segmento de estacionamentos; e (2) O segmento de estacionamentos representa uma porcentagem muito pequena do negócio (aproximadamente 8% do total de transações, de acordo com estimativas das Requerentes). Trata-se, ao menos atualmente, de uma aplicação complementar dos meios eletrônicos de pagamento baseados na tecnologia AVI. Com efeito, ao analisar Consulta apresentada pela Conectcar e CGMP (Consulta n° 08700.007192/2015-94, julgada em 08.09.2015), o Conselheiro Relator João Paulo de Resende destacou que a oferta do serviço em estacionamentos é complementar e derivada à oferta do serviço em pedágios, uma vez que não é economicamente viável a oferta individualizada de serviços de pagamento em estacionamentos.
+Apesar de o mercado relevante ser o de meios de pagamento eletrônico baseados na tecnologia AVI para pedágio e estacionamento, as Requerentes apresentarão nesta etapa do questionário dados relativos á participação de mercado (market share) e índice Herfindahl- Hirschman (HHI) considerando apenas pedágios. Isso porque: (1) Não há dados confiáveis para o segmento de estacionamentos; e (2) O segmento de estacionamentos representa uma porcentagem muito pequena do negócio (aproximadamente 8% do total de transações, de acordo com estimativas das Requerentes). Trata-se, ao menos atualmente, de uma aplicação complementar dos meios eletrônicos de pagamento baseados na tecnologia AVI. Com efeito, ao analisar Consulta apresentada pela Conectcar e CGMP (Consulta n° 08700.007192/2015-94, julgada em 08.09.2015), o Conselheiro Relator João Paulo de Resende destacou que a oferta do serviço em estacionamentos é complementar e derivada à oferta do serviço em pedágios, uma vez que não é economicamente viável a oferta individualizada de serviços de pagamento em estacionamentos.
 
 As Requerentes entendem que essa abordagem não resultará em qualquer prejuízo para a análise antitruste da presente operação, especialmente porque se refere a um cenário ainda mais restrito, culminando em market shares certamente superestimados.
 
@@ -2475,7 +2477,7 @@ Nesse sentido, mercados podem ser considerados como (i) desconcentrados (HHI men
 
 Mais ainda, referido guia estabelece que o CADE deve levar em consideração os seguintes critérios ao analisar atos de concentração horizontal: 
 
-(1) Pequena alteração na concentração: operações que resultem em variações de HHI inferiores a 100 pontos (delta < 100) provavelmente não geram efeitos competitivos adversos e, portanto, usualmente não requerem análise mais detalhada;
+Pequena alteração na concentração: operações que resultem em variações de HHI inferiores a 100 pontos (delta < 100) provavelmente não geram efeitos competitivos adversos e, portanto, usualmente não requerem análise mais detalhada;
 
 Mercados não concentrados: se o mercado após a operação permanecer com HHI inferior a 1.500 pontos, a operação não deve gerar efeitos negativos, não requerendo, usualmente, análise mais detalhada;
 
@@ -3535,7 +3537,7 @@ Ademais, é importante observar que as participações de mercado apresentadas a
 Toda a prestação de serviços "on top" prestados para fornecedores internacionais de produtos de consumo de marcas líderes realizados pelo Casino ocorrem por meio da IRTS. Deste modo, favor referir-se ao item VI.2 acima.
 
 
-Conforme previamente mencionado no item V,3. as Requerentes compreendem que a Operação Proposta nâo H resultar em nenhuma sobreposiçSo horizontal, visto que os serviços ofertados pelas partes não são substitutos perfeitos. Não obstante isso, ainda qne seja considerado qne a Operação Proposta resniton era uma sobreposição horizontal, deve-se reconhecer qne esta sobreposição seria insignificante. De fato, de acordo com o disposto no artigo 8", inciso V da Resolução n« 02 do CADE, caso a variação do HHI se,a inferior a 200 pontos, esta Operação Proposta poderá ser analisada no procedimento sumário.
+Conforme previamente mencionado no item V.3, as Requerentes compreendem que a Operação Proposta nâo H resultar em nenhuma sobreposiçSo horizontal, visto que os serviços ofertados pelas partes não são substitutos perfeitos. Não obstante isso, ainda qne seja considerado qne a Operação Proposta resniton era uma sobreposição horizontal, deve-se reconhecer qne esta sobreposição seria insignificante. De fato, de acordo com o disposto no artigo 8", inciso V da Resolução n« 02 do CADE, caso a variação do HHI se,a inferior a 200 pontos, esta Operação Proposta poderá ser analisada no procedimento sumário.
 
 Deste modo, eonfonne explicado aqui, no item in.2 acima e ao longo deste formulário, as Partes concluem que a Operaçio Proposta não causará nenhum um impacto no mercado varejistas brasileiro.
 
@@ -4081,7 +4083,7 @@ Conforme exigido no artigo 110, §3° da Resolução do CADE n° 1/2012, cada Pa
 
 
 
-PROCESSOS 08700.003462/2016-79
+PROCESSO 08700.003462/2016-79
 
 
 
@@ -4140,7 +4142,7 @@ Ato de Concentração n° 08012.012023/2011-0') Partes: Flora Produtos de Higien
 
 Ato de Concentração n° 08012.011235/2011-ft1 Partes: Hypermarcas S.A. e Bunge Alimentos S.A. Resumo: Transferência do negócio de alimentos (fabricação e comercialização de produtos das marcas "Etti", "Salsaretti", "Cajamar", "PuraPolpa" e "Puropurê") da Hypermarcas para a Bunge Alimentos. A operação foi aprovada sem restrições pelo CADE em 14 de março de 2012
 
-■Ato de Concentração n° 08012.009005/2011-11 Partes: Hypermarcas S.A. e Active Indústria e Comércio de Produtos e Higiene Pessoal e Cosméticos Ltda. Resumo: Aquisição pela Cosmed (subsidiária da Hypermarcas) da produção, comercialização, importação, e exploração" de fraldas descartáveis da Active. A operação foi aprovada sem restrições pelo CADE em 23 de novembro de 2011
+Ato de Concentração n° 08012.009005/2011-11 Partes: Hypermarcas S.A. e Active Indústria e Comércio de Produtos e Higiene Pessoal e Cosméticos Ltda. Resumo: Aquisição pela Cosmed (subsidiária da Hypermarcas) da produção, comercialização, importação, e exploração" de fraldas descartáveis da Active. A operação foi aprovada sem restrições pelo CADE em 23 de novembro de 2011
 
 Ato de Concentração n° 08012.003789/2011-94 Partes: Amgen Brasil Biofarmacêutica Ltda. e Mantecorp Indústria Química e Farmacêutica Ltda. (subsidiária da Hypermarcas) . Resumo: Aquisição de todos os ativos relacionados a medicamentos da Amgen. A operação foi aprovada sem restrições pelo CADE em 15 de junho de 2011
 
@@ -4191,11 +4193,11 @@ A Operação é regida pelo Contrato de Compra e Venda de Ações e Outras Aven�
 
 No fechamento da Operação, as Partes celebrarão os seguintes contratos adicionais (cujas minutas são anexas ao Contrato), como forma de garantir a transição dos ativos e um fornecimento transitório dos produtos até que a RB tenha obtido todas as licenças necessárias para assumir e conduzir integralmente a o Negócio de Bem-estar Sexual, objeto da Operação:
 
-Contrato de Fnrnerim^nto: por meio do qual a Hypermarcas fabricará os produtos do Negócio de Bem-estar Sexual, utilizando-se dos ativos objeto do Contrato de Comodato referido no item (ii) abaixo, e os fornecerá à RS, até que esta obtenha os registros e permissões necessários para fabricar tais produtos;
+Contrato de Fornecimento: por meio do qual a Hypermarcas fabricará os produtos do Negócio de Bem-estar Sexual, utilizando-se dos ativos objeto do Contrato de Comodato referido no item (ii) abaixo, e os fornecerá à RS, até que esta obtenha os registros e permissões necessários para fabricar tais produtos;
 
-Contrato de Comodat^: por meio do qual a BR Co. cederá à Hypermarcas, em comodato, todos os ativos da fábrica localizada na Cidade de São Roque, Estado de São Paulo, necessários para que a Hypermarcas fabrique, embale e forneça à RB os produtos objeto do Contrato de Fornecimento;
+Contrato de Comodat: por meio do qual a BR Co. cederá à Hypermarcas, em comodato, todos os ativos da fábrica localizada na Cidade de São Roque, Estado de São Paulo, necessários para que a Hypermarcas fabrique, embale e forneça à RB os produtos objeto do Contrato de Fornecimento;
 
-Contrato de Licenra de Marra: por meio do qual a Hypermarcas transferirá à BR Co. os registros de marcas relacionados ao objeto da Operação (e que, consequentemente, serão transferidos à RB após o fechamento da Operação);
+Contrato de Licença de Marra: por meio do qual a Hypermarcas transferirá à BR Co. os registros de marcas relacionados ao objeto da Operação (e que, consequentemente, serão transferidos à RB após o fechamento da Operação);
 
 Contrato de Subiorarão: em relação à sublocação da propriedade localizada na Rua Piracicaba 137, Marmaleiros, CEP 18131-230, São Paulo-SP, Brasil (área em que o imóvel da fábrica de São Roque esta localizado), de acordo com os termos e condições do Contrato; e
 
@@ -4212,6 +4214,10 @@ No Brasil, o Grupo RB tem atividades nos segmentos de limpeza doméstica, produt
 A Hypermarcas é uma empresa brasileira de produtos de saúde e bem-estar. As atividades da Hypermarcas podem ser divididas em duas linhas principais de negócios: (i) Farma, que engloba todas as suas atividades relacionadas com ao setor farmacêutico; e (ii) Consumo, que engloba as suas atividades nos mercados de beleza e higiene pessoal, adoçantes e bem-estar sexual.
 
 A Operação gera sobreposição horizontal nos mercados privados de (a) preservativos masculinos e de (b) lubrificantes íntimos.
+
+O incremento no HHI será [CONFIDENCIAL]. A concentração é, portanto, pré-existente à Operação. O cálculo do HHI, por valor e por volume, segue como Documento VLI.(iv) Confidencial.
+
+O índice HHI de concentração de mercado antes da Operação é [CONFIDENCIAL], o que aponta para um mercado moderadamente concentrado. O índice [CONFIDENCÍAL]. No entanto, a dinâmica do mercado indica uma tendência de desconcentração, com forte pressão competitiva exercida sob a marca líder KY por marcas concorrentes. O cálculo do HHI, por valor e por volume, segue como Docurnentd )/1.1.(vii) Confidencial. 
 
 A atuação da RB nesses dois mercados é recente: em fevereiro de 2014 a RB lançou a marca "Durex" de preservativos masculinos e lubrificantes íntimos no Brasil e em outubro de 2014 passou a comercializar os ativos globalmente adquiridos da Johnson & Johnson relacionados à linha "KY" de lubrificantes íntimos.
 
@@ -4883,6 +4889,8 @@ A C&V atua no mercado de venda a varejo de bens de consumo duráveis em lojas f�
 Por  sua  vez,  a  Brasbunker (atual  Bravante) é  sociedade  que  explora,  direta  ou indiretamente, as atividades de (i) transporte marítimo de petróleo e seus derivados, seus ativos relacionados e de serviços de apoio portuário; (ii) prestação de serviço de navegação de apoio  marítimo  (offshore  supply)  e  seus  ativos  relacionados;  (iii) prestação  de  serviços  de  consultoria, prevenção  ambiental  e  combate  à  poluição, relacionados  ao  derramamento  de  petróleo,  seus  derivados  e  produtos  químicos, comercialização de produtos e equipamentos de combate à poluição decorrente do vazamento   de   petróleo,   seus   derivados   e   produtos   químicos e   seus   ativos relacionados;  (iv)  construção,  manutenção  e  reparação  de  embarcações  e  seus ativos relacionados; e (v) atividade de robótica.
 
 Inicialmente,   é   importante   esclarecer   que de   acordo   com   a   jurisprudência consolidada do CADE, a ULL não atua no mesmo mercado relevante que a C&V.
+
+As  Partes  não  dispõem  de  informações  minimamente  credíveis  a  respeito  dos faturamentos obtidos por linha de produto por cada um dos principais agentes que ofertam os Produtos Relevantes em cada um dos Municípios Relevantes. Por   isso,   entendem   que   apresentar   um   cálculo   baseado   em   suposições   e especulações seria pouco profícuo para a análise antitruste. 
 
 De fato, enquanto a C&V possui atuação mais pulverizada em diversos segmentos do  comércio  varejista,  o  que  lhe  credencia  como  uma  empresa de  varejo  de  bens duráveis, a atuação da ULL se concentra majoritariamente no comércio varejista de vestuário, calçados e acessórios.
 
@@ -6696,7 +6704,7 @@ Além da evidente possibilidade de entrada no mercado de distribuição, os dist
 
 É nesse contexto que se conclui que a operação não gera qualquer preocupação concorrencial, estando presentes os requisitos para sua aprovação sem restrições.
 
-Vide item VI. 1 acima. Dado que a operação apenas representa o ingresso da Souza Cruz na atividade de distribuição de bebidas alcoólicas, e que a Diageo não é obrigada a distribuir exclusivamente com a Souza Cruz em razão da presente operação, respeitosamente requer- se a dispensa da apresentação de cálculos de variação de HHI.
+Vide item VI. 1 acima. Dado que a operação apenas representa o ingresso da Souza Cruz na atividade de distribuição de bebidas alcoólicas, e que a Diageo não é obrigada a distribuir exclusivamente com a Souza Cruz em razão da presente operação, respeitosamente requer-se a dispensa da apresentação de cálculos de variação de HHI.
 
 Dado que a operação apenas representa o ingresso da Souza Cruz na atividade de distribuição de bebidas alcoólicas, e que a Diageo não é obrigada a distribuir exclusivamente com a Souza Cruz em razão da presente operação, respeitosamente requer-se a dispensa da apresentação destas informações.
 
@@ -8346,7 +8354,6 @@ Além disso, com relação aos pequenos acréscimos de market share nos mercados
 
 Por fim, além de absolutamente inexpressiva, a relação vertical entre a fabricação e comercialização  de  PVC,  de  um  lado,  e  o  fornecimento  de  EDC,  de  outro,  não  desperta  preocupações  por ser pré - existente à operação.
 
-
 Unipar Carbocloro S.A. (“ Unipar Carbocloro ”) 33.958.695/0001 - 78 . Sociedade anônima de capital aberto . Rua Joaquim Floriano, n.º 960 - 15º andar Itaim Bibi 04534 - 004 - São Paulo - SP http://www.uniparcarbocloro.com.br
 
 O  capital  social  da Unipar  Carbocloro é  composto  por  83.550.206 ações,  sendo  33,33% delas ações ordinárias e 66,67% ações preferenciais . O quadro abaixo indica a atual estrutura do grupo controlador da Unipar Carbocloro :
@@ -8402,6 +8409,8 @@ No  Brasil, essa  operação  resultará  na  aquisição ,  de  forma indireta 
 Como exposto acima, a operação ora notificada envolverá a aquisição do controle societário da Solvay Indupa pela Unipar Carbocloro e, portanto, abrangerá todas as atividades operacionais da Solvay Indupa e de suas subsidiárias no Brasil ( Indupa Brasil ) e na Argentina ( Solalbán ).  
 
 Trata - se da aquisição, pela Unipar Carbocloro , de participação societária na Solvay Indupa
+
+As  Requerentes  não  têm  acesso  a  informações  sobre  o  volume  de  vendas  e  o  faturamento  de seus concorrentes no mercado de soda cáustica e, portanto, não são capazes de estimar o market share de cada um deles e/ou calcular os índices de HHI antes e após a operação.
 
 III.2 ( c ) Descreva a operação notificada, indicando: o valor da operação e a forma d e pagamento. O valor da operação está estimado em US$ 202 milhões, sujeito aos ajustes previstos nas cláusu- las 2.1 e 2.4 d a Oferta de Compra de Ações .  [ A CESSO R ESTRITO ] O valor a ser pago p elas ações da Solvay Indupa negociadas na Bols a de Comercio de Bu enos Aires ( BCBA ) será de 3,47 pesos argentinos, nos termos e condições ajustados pelas partes nos documentos anexos. III.2 ( d ) Descreva a operação notificada, indicando: todos  os  ativos  adquiridos,  tangíveis  e/ou  intangíveis,  se  aplicável.    No  caso dos at ivos tangíveis, indicar a localização (endereço e CEP). Trata - se da aquisição, pela Unipar Carbocloro , de participação societária na Solvay Indupa . A  operação  envolverá,  de  forma  indireta,  a  transferência,  para  a Unipar  Carbocloro ,  de  duas plantas  de  produção  de  PVC e de soda cáustica – uma  delas  na cidade  de  Bahía  Blanca,  na Argentina, e a outra no município de Santo André, Estado de São Paulo – e dos ativos de geração de  energia  elétrica  detidos  pela Solalbán na  Argentina.   No  Brasil,  os  ativos de  produção que serão  objeto  de  transferência  estão  localizados  na Estrada  de  Ferro  Santos  Jundiaí,  km  38,  s/n , 09154 - 900, no município de Santo André, no Estado de São Paulo.  Na Argentina, os ativos de produção de PVC, soda cáustica e de geração de energia elétrica estão localizados em Bahía Blanca, Buenos Aires, Argentina.
 
@@ -8566,6 +8575,10 @@ Cumpre ressaltar que a Vallée, por meio de Contratos de Produção de Vacina co
 Não há barreiras relativas ao acesso a insumos ou infraestrutura. Além disso, existem várias formas pelas quais novos entrantes podem ingressar no mercado de saúde animal do Brasil. Da mesma forma, concorrentes existentes que desejarem ampliar suas atividades, têm a opção de terceirizar a fabricação e distribuição de seus produtos, reduzindo assim os custos associados à entrada no mercado. 
 
 Não há nos mercados analisados barreira mercadológica que impeça a entrada de novos concorrentes com valores mínimos. Os mercados analisados são muito pulverizados.  
+
+Com relação ao mercado de vacina contra febre aftosa – que possui variação de HHI superior a 200 pontos – as Requerentes informam que, [Acesso Restrito] 
+
+Em outros mercados, a variação de HHI é inferior a 200 pontos, o que indica que a Operação Proposta tem baixa probabilidade de gerar aumento de poder de mercado após sua concretização. 
 
 Outros  mercados  muito  sensíveis  a  variações  de  preço  são  os  de  vacinas.  A homogeneidade do produto faz com que a escolha seja basicamente por preço, gerando forte competição entre os players. Além disso, os setores caracterizam-se por capacidade ociosa elevada que acirra ainda mais a competição via preço.  
 
@@ -8917,7 +8930,11 @@ Antes da Aliança, um relacionamento vertical entre os portfólios das Partes j�
 
 Como parte da Aliança, a Ericsson irá se tornar uma revendedora do portfólio de produtos da  Cisco  no  Brasil  e  se  comprometeu  a  promover  os  produtos  Cisco.  Neste  sentido,  a operação consolida e amplia a relação vertical entre as Partes.  
 
+Como  demonstrado  acima,  mesmo  que  as  participações de  mercado  das  Partes  fossem somadas, o aumento de participação de mercado seria irrelevante e a variação do índice HHI seria inferior a 120 pontos, o que torna possível excluir de pronto qualquer potencial preocupação concorrencial.   
+
 É  necessário  destacar,  no  entanto,  que  tais  coincidências  não  devem  ser  consideradas como sobreposições (como tecnicamente definido no contexto de uma análise antitruste), posto  que  não  há  concentração  de  mercado  resultante da  operação  (uma  vez  que  as atividades  das  Requerentes  não  estão  sendo  combinadas).  É  importante  enfatizar  que  a operação não resulta em fusão entre as duas empresas nem possui efeitos comparáveis a uma fusão completa ou joint-venture. De fato, não haverá nova entidade corporativa ou transferência de ativos, e as Partes continuarão livres para competir, inclusive uma com a  outra,  e  seguir  vendendo  por  meio  dos  canais  existentes  e  revendedores.  Em  outras palavras, mesmo que a Ericsson possa oferecer a um cliente seus próprios produtos assim como  soluções  da  Cisco,  os  produtos  da  Cisco  continuarão  disponíveis  para  quaisquer outros  clientes  atuais  ou  potenciais  (outros  revendedores  e  integradores),  incluindo  os concorrentes da Ericsson. Igualmente, a Ericsson continuará a ter contratos de tecnologia e revenda com outros players (incluindo concorrentes da Cisco).   
+
+Enquanto a Cisco é líder de mercado, a Ericsson é uFm player muito pequeno e, mesmo se suas  atividades  fossem  somadas,  o  aumento  de  participação  de  mercado  seria  mínimo. Portanto,  a  operação  não  pode  ser  presumida  como  resultando  em  quaisquer  efeitos anticompetitivos.  Mesmo  que  a  Ericsson  se  tornasse revendedora  exclusiva  ou  que  as empresas  se  fundissem  (o  que  não  é  o  caso),  as  participações  de  mercado  agregadas seriam relativamente baixas (por volta de 30%) e a posição inicial da Cisco seria apenas marginalmente incrementada pelas vendas da Ericsson (com uma variação de índice HHI inferior a 200 pontos).   
 
 A Aliança consolida uma relação vertical entre Ericsson e Cisco, permitindo à Ericsson revender  o  portfólio  completo  de  produtos  e  serviços  da  Cisco.  Considerando  que  a integração  vertical  resultante  do  Contrato  de  Revenda  não  estabelece  nenhum  tipo  de exclusividade entre as empresas ou o compartilhamento de lucros e prejuízos, a relação vertical claramente não desperta preocupações concorrenciais.
 
@@ -9616,6 +9633,8 @@ As Requerentes e a JV - em seus respectivos segmentos de atuação -, operam / o
 
 A Operação se refere ao mercado IAM, tendo em vista que envolve o fornecimento de produtos à oficinas mecânicas, apenas para veículos leves. 
 
+Além disso, considerando não haver soma de market share (na medida em que a JV é um projeto greenfield) não há que se falar em cálculo de HHI. 
+
 A  Operação  envolve,  portanto, o fornecimento de  autopeças para  veículos  leves,  no  mercado de reposição, por distribuidores independentes para oficinas mecânicas. 
 
 Assim, de acordo com os dados do SINDIPEÇAS, o mercado de comercialização de peças de reposição seria da ordem de R$13,86 bilhões em 2015. O relatório mostra também que se trata de um mercado altamente pulverizado. 
@@ -9706,6 +9725,8 @@ O grupo Cargill alienou seus ativos brasileiros de produção de farinha de trig
 
 Nos  termos  da  jurisprudência  do  CADE farinha  de  trigo  é  um  mercado  em  si mesmo em razão de suas características físico-químicas.
 
+Considerando  os  pequenos market  sharesbdas  Requerentes  a  variação  do  HHI  será muito  pequena,  inferior  a  2  pontos,  o  que  comprova  que  o  presente  negócio  não  gera qualquer preocupação sob o ponto de vista da defesa da concorrência.
+
 Do ponto de vista geográfico o mercado de farinha de trigo é considerado nacional em razão do baixo volume de importações. 
 
 Os market  shares dos  grupos  das Requerentes no  mercado  brasileiro  demonstram que o negócio pretendido não gera qualquer preocupação sob o ponto de vista da defesa da concorrência e deve ser aprovado sem restrições.
@@ -9774,6 +9795,14 @@ Nos termos do Acordo de Subscrição de Ações e Outras Avenças (“Acordo de 
 A  operação  ora  notificada  consiste  na subscrição  e  integralização  pela CBR de  participação societária  na Tecnisa e,  portanto,  abrange  todas  as  atividades  econômicas  direta  ou  indiretamente desenvolvidas por esta empresa.
 
 Não aplicável. Conforme  visto  no  item  III.2  (a)  acima,  trata-se  de  operação  de  subscrição  e integralização, pela CBR, de ações representativas do capital social total da Tecnisa.
+
+Empreendimentos imobiliários residenciais . Os dados e estimativas indicados no Relatório de Empreendimentos das Requerentes para os municípios em que foram identificadas sobrep o- sições horizon tais (“Relatório de Empreendimentos”), que integra essa notificação como ANEXO DE ACESSO RESTRITO , revelam que a operação resultará  em concentração horizontal nos mercados de incorporação de empreendimento s residenciais das zonas Norte , Sul, Leste e Oeste da  cidade  de  São  Paulo. Além  disso,  os  dados  revelam  que  os  índices  de  concentração  de mercado são incapazes de despertar preocupações concorrenciais: na Zona Oeste de São Paulo, a participação de mercado conjunta das Requerentes é de [ACESSO RESTRITO]; na Zona Sul de São  Paulo, a participação de mercado  conjunta  das Requerentes é de [ACESSO RESTRITO]; já nas zonas Norte e Leste, a participação conjunta não extrapola [ACESSO RESTRITO] e o acréscimo de market  share para o Grupo Cyrela como resultado da  operação será de, no máximo, [ACESSO RESTRITO]. Se considerados especificamente os bairros em que haverá sobreposição horizontal (Campo  Belo,  Ipiranga, Mooca, Morumbi/Panamby,  Santo Amaro, Vila Prudente, Vila Maria e Sacomã), a participação de mercado conjunta das Requerentes só supera o patamar de [ACESSO RESTRITO] nos bairros do Ipiranga ( [ACESSO RESTRITO] ) e do Sacomã ([ACESSO RESTRITO ]); mas , ainda assim, o HHI não extrapola 200 em qualquer desses cenários . 
+
+Empreendimentos imobiliários residenciais. Tanto o Grupo Cyrela quanto a Tecnisa são pouco represent ativos no mercado de incorporação de empreendimentos residenciais do município  de  Santos.    Os  números  indicados  no Relatório  de  Empreendimentos revelam  que,  em conjunto,  as  Requerentes  respondem  por  apenas [ACESSO RESTRITO] do  estoque  de  VGV total de unidades em estoque de empreendimentos residenciais na cidade. Em nível local, haverá sobreposição horizontal na área central e portuária da cidade: o Grupo Cyrela e a Tecnisa respondem  por [ACESSO RESTRITO] do  VGV  total  de  unidades  em  estoque  de  empreendimentos nessa região.  Apenas se considerado isoladamente o bairro de Marapé (que se encontra dentro da área central e portuária), a despeito do HHI ultrapassar 200 pontos (em apenas 22 pontos), a participação de mercado conjunta do Grupo Cyrela e da Tecnisa chega a, no máximo, [ACESSO RESTRITO]. Contudo, considerando  a  dimensão  do  município  de  Santos  (população estimada de 433.966 habitantes em 2015 21) e diante de todos os demais números relativos a esse município, as Requerentes entendem que a análise por bairro, nesse caso especifico, representa medida excessivamente conservadora e, portanto, pedem a dispensa da apresentação de análise mais aprofundada das condições de concorrência nesse cenário específico.
+
+Empreendimentos imobiliários residenciais. Em Diadema, a participação de mercado conjunta das Requerentes é de [ACESSO RESTRITO], com um HHI de 197 pontos.
+
+Considerando  os  esclarecimentos  acima,  o market  share do Grupo  Cyrela no  cenário  pós-operação ficará em torno de [ACESSO RESTRITO] em âmbito municipal.  Se considerada apenas a região em que haverá de fato sobreposição entre empreendimentos das Requerentes (Região Batel), o resultado da operação será um market share de [ACESSO RESTRITO]. No entanto, em qualquer desses dois cenários (municipal ou local), o HHI é inferior a 200. 
 
 Como  detalhado  no  item  III.2(a)  acima, como  parte  da  operação, a Tecnisa deverá  realizar aumento  de  capital social  no  montante  de  até  R$ 200.000.000,00  (duzentos  milhões  de  reais), com a subscrição particular de até 100.000.000 (cem milhões) de novas ações ordinárias, nom inativas,  escriturais  e  sem  valor  nominal.    A CBR deverá  subscrever  e  integralizar  um  total de 36.675.752 (trinta e seis milhões, seiscentos e setenta e cinco mil, setecentas e cinquenta e duas) a  50.000.000 (cinquenta  milhões) dessas  novas  ações  ordinárias – o  que  corresponderá  a percentual que pode variar entre 13,4% a 19,3% d o capital social total da Tecnisa.  Considerando a estrutura atual do capital social da Tecnisa, com o aumento do capital social aqui descrito, a CBR deverá se tornar, portanto, o segundo maior acionista da Tecnisa.
 
@@ -10065,6 +10094,8 @@ Ato   de   Concentração   nº   08700.005633/2013-51.      Requerentes:   Aeth
 
 Neste   sentido,   pelo   calculo   apresentado,   as   Requerentes   afirmam   que   suas   participações nos mercados relevantes de implementos agrícolas, peças de reposição e produtos de manutenção para máquinas e implementos agrícolas é inferior a 20%.
 
+Em  virtude  da  ausência  de  informações  públicas  detalhadas  a  respeito  do  setor, as Requerentes  não  são  capazes  de  estimara participação  de  mercado  de  seus concorrentes nos mercados relevantes, ou tampouco a própria participação em termos de faturamento. 
+
 De acordo com Resolução nº 2/2012 (art. 8º, IV), e diante das informações fornecidas neste  formulário,  solicita-se  seja  aplicado  o  tratamento  sumário  a  este  Ato  de  Concentração. 
 
 De  fato,  após  a  análise  das  informações  prestadas  acima,  é  possível  concluir  que  a  Operação  não  resulta  na  criação  ou  fortalecimento  de  posição  dominante,  ou  tampouco   na   possibilidade   de   fechamento de mercado.  Deve, portanto, ser prontamente aprovada por esse e. CADE. 
@@ -10258,6 +10289,10 @@ Não há qualquer outra companhia na qual a Francisco Partners detenha pelo meno
 
 Não há qualquer companhia, na qual a Elliott (ou suas respectivas subsidiárias) detenha pelo  menos  10%  do  capital  votante  ou  do  capital  social  total, que  possua atividades horizontalmente relacionadas ao negócio objeto da operação proposta (i.e., softwares incluindo sistemas de gerenciamento, segurança e software de gerenciamento de informações).
 
+Se  as participações  mundiais  individualmente  consideradas  da subsidiária da  Dell, SonicWALL, e da WatchGuard fossem consideradas em conjunto (o que as partes consideram não ser adequado, dado que as empresas não serão integradas de qualquer forma), a participação seria ainda inferior a 20%, sendo de apenas [Informação de Acesso Restrito – acesso ao CADE  e  às Vendedoras,  apenas],  e  a  variação  de  HHI seria de [ Informação  de  Acesso Restrito – acesso  ao  CADE  e  às Vendedoras,  apenas]. É evidente  que  a potencial sobreposição advinda da operação proposta não suscita quaisquer preocupações concorrenciais neste possível mercado relevante produto, dispensando a análise concorrencial mais profunda.
+
+Da mesma forma, se as participações individualmente consideradas da subsidiária da Dell, SonicWALL, e da WatchGuard fossem consideradas em conjunto (o que as partes consideram não ser adequado, dado que as empresas não serão integradas de qualquer forma), a participação seria de  apenas [Informação  de  Acesso  Restrito – acesso  ao  CADE  e  às Vendedoras, apenas], ainda abaixo de 20%, e a variação do HHI seria de [Informação de Acesso Restrito – acesso ao CADE e às Vendedoras, apenas] – abaixo de 200 pontos. É evidente que, sob essa   perspectiva,   a   operação   proposta   também   não   suscita   quaisquer   preocupações concorrenciais no possível mercado relevante produto considerado, não havendo a necessidade, portanto, de uma análise concorrencial mais profunda.
+
 De  acordo  com os  termos do  Contrato  de  Compra  e  Venda de  Ações  celebrado entre Seahawk  Holding  (Cayman)  Limited, Dell  Inc. e Dell  International  L.L.C. ("SPA"), a operação proposta consiste na aquisição da s ações detidas pelas Vendedoras nas empresas que integram o  negócio  de DSG  (softwares  incluindo  sistemas  de  gerenciamento,  segurança  e  software  de gerenciamento  de  informações). Como  resultado  da  presente  operação, Seahawk adquirirá o controle sobre a unidade de negócios do DSG. No Brasil, a Seahawk irá adquirir o controle sobre a Dell Software Ltda.
 
 A operação se enquadra no artigo 9, inciso I da Resolução CADE nº 2/2012 (aquisição de controle unitário).
@@ -10271,7 +10306,6 @@ O Grupo  Dell,  através  dos  negócios  do  DSG  que  incluem  a SonicWALL,  e
 Não existem barreiras relevantes que afetam a importação de produtos de segurança de rede  para  o  Brasil.  É  importante  notar  que  é  perfeitamente  viável  se  tornar  um  competidor relevante no Brasil por meio de importações.
 
 Como  resultado,  a  operação  proposta  não  altera  de  qualquer  forma  o  cenário competitivo,  que  continuará  contando  com  diversos  concorrentes  efetivamente  inseridos  e conhecidos no segmento de soluções de segurança de rede em todo o mundo e também no Brasil.
-
 
 
 PROCESSO 08700.005387/2016-81
