@@ -991,37 +991,15 @@ DBTRANS ADMINISTRAÇÃO DE MEIOS DE PAGAMENTO LIDA., sociedade empresária limit
 
 1. DOCUMENTOS ANEXOS À PETIÇÃO
 
-(i) Documentos públicos:
+(i) Documentos públicos: Cópia dos instrumentos de mandato outorgados pela DBTrans e CGMP (Doc. 01); Comprovantes de recoihimento da taxa processual (Doc. 02); e Versão pública do Anexo i à Resolução CADE n° 02/2012 (Doc. 03).
 
-Cópia dos instrumentos de mandato outorgados pela DBTrans e CGMP (Doc. 01);
-
-Comprovantes de recoihimento da taxa processual (Doc. 02); e
-
-Versão pública do Anexo i à Resolução CADE n° 02/2012 (Doc. 03).
-
-(ii) Documentos de acesso restrito:
-
-Versão de Acesso Restrito do Anexo I á Resolução CADE n 02/2012 (Doc. 04);
-
-Organograma societário simplificado da Fleetcor (Doc. 05);
-
-Relação de membros de órgãos de gestão da STP e seus acionistas (DOC. 06);
-
-Cópia do Contrato de Compra e Venda de Ações (Doc. 07);
-
-Cópia do Acordo de Acionistas (Doc. 08);
-
-[Ãcesso Restrito] (Doc. 09):
-
-[Acesso Restrito] (Doc. 10);
-
-Demonstrações financeiras da DBTrans referentes ao exercício findo em 31 de dezembro de 2014 (Doc. 11); e
-
-Demonstrações financeiras da CGMP referentes ao exercício findo em 31 de dezembro de 2015 (Doc. 12).
+(ii) Documentos de acesso restrito: Versão de Acesso Restrito do Anexo I á Resolução CADE n 02/2012 (Doc. 04); Organograma societário simplificado da Fleetcor (Doc. 05); Relação de membros de órgãos de gestão da STP e seus acionistas (DOC. 06); Cópia do Contrato de Compra e Venda de Ações (Doc. 07); Cópia do Acordo de Acionistas (Doc. 08); Demonstrações financeiras da DBTrans referentes ao exercício findo em 31 de dezembro de 2014 (Doc. 11); e Demonstrações financeiras da CGMP referentes ao exercício findo em 31 de dezembro de 2015 (Doc. 12).
 
 2. ACESSO RESTRITO
 
-Requer-se sejam as informações tarjadas em cinza ao longo do formulário de notificação, bem como os documentos acima indicados, devidamente mantidos sob acesso restrito, conforme previsto nos arts. 53 e 55, do Regimento interno do CADE. O Doc. n. 10 deve ser mantido de acesso restrito apenas à DBTrans
+Requer-se sejam as informações tarjadas em cinza ao longo do formulário de notificação, bem como os documentos acima indicados, devidamente mantidos sob acesso restrito, conforme previsto nos arts. 53 e 55, do Regimento interno do CADE.
+
+O Doc. n. 10 deve ser mantido de acesso restrito apenas à DBTrans
 
 3. PEDIDOS
 
@@ -1032,7 +1010,6 @@ Por fim, as Requerentes declaram serem verdadeiras as informações prestadas e 
 Termos em que, P. Deferimento.
 
 São Paulo, 13 de abril de 2016 
-
 
 CONSELHO  ADMINISTRATIVO  DE  DEFESA ECONÔMICA
 SUPERINTENDENCIA-GERAL
@@ -1050,21 +1027,29 @@ NA Group Co., Ltd. ("HNA") e gategroup Holding AG ("gategroup"), (conjuntamente 
 
 1. DAS PARTES 
 
-A HNA é  uma emp r esa chinesa fundada em 1993 que atua no mercado de transporte aéreo, nos setores de aviação, infraestrutura e imobiliário, serviços financeiros, turismo, logística e tecnologia ambiental. A HNA pertence ao Grupo HNA. 
+A HNA é  uma emp r esa chinesa fundada em 1993 que atua no mercado de transporte aéreo, nos setores de aviação, infraestrutura e imobiliário, serviços financeiros, turismo, logística e tecnologia ambiental.
+
+A HNA pertence ao Grupo HNA. 
 
 Em razão do crescimento do mercado asiático dos últimos anos, o Grupo HNA vem realizando uma série de investimentos em empresas internacionais de modo que a Operação Proposta se mostra consonante com a política de investimentos internacionais do Grupo. 
 
 A gategroup é uma holding não operacional suíça pertencente ao Grupo Gate que, por sua vez, é um provedor global de produtos, serviços e soluções relacionados ao transporte aéreo de passageiros .   O foco de atuação principal do Grupo consiste em serviços de catering e fornecimento de produtos de bordo a  companhias aéreas. 
 
-O Grupo Gate fornece seus serviços mundialmente através de quatro segmentos distintos: (i) Europa, Oriente Médio, África e Comunidade de Estados Independentes, (ii) América do Norte, (iii) América Latina e (iv) ÁSia - Pacífico. No Brasil, a  principal atividade do Grupo Gate é  realizada através de sua subsidiária Gate Gourmet, que presta serviços de bordo em transporte aéreo, serviços de catering e  outras atividades relacionadas. 
+O Grupo Gate fornece seus serviços mundialmente através de quatro segmentos distintos: (i) Europa, Oriente Médio, África e Comunidade de Estados Independentes, (ii) América do Norte, (iii) América Latina e (iv) ÁSia - Pacífico.
+
+No Brasil, a  principal atividade do Grupo Gate é  realizada através de sua subsidiária Gate Gourmet, que presta serviços de bordo em transporte aéreo, serviços de catering e  outras atividades relacionadas. 
 
 2. DA PRESENTE OPERAÇÃO 
 
 A  pretendida operação ("Operação Proposta") consiste na proposta de Oferta Pública não hostil apresentada pela HNA Aviation (Hong Kong), Air Catering Holding Co., Ltd. ("HNA Aviation") para a  aquisição de ações -   até o  controle total (100%) da gategroup. 
 
-Por meio da presente operação, a HNA visa a obter benefícios econômicos decorrentes dos novos investimentos para expansão dos negócios da gategroup, bem como a  estabilidade e  continuidade do plano estratégico denominado Gateway 2020, lançado pela gategroup em 2015, com foco em inovação, expansão geográfica e eficiência. A Operação Proposta é, portanto, parte da política de investimentos de longo prazo da HNA e consoante aos planos de expansão da gategroup. 
+Por meio da presente operação, a HNA visa a obter benefícios econômicos decorrentes dos novos investimentos para expansão dos negócios da gategroup, bem como a  estabilidade e  continuidade do plano estratégico denominado Gateway 2020, lançado pela gategroup em 2015, com foco em inovação, expansão geográfica e eficiência.
 
-No Brasil, a Operação Proposta representará a  inclusão de um novo serviço ao portfólio do Grupo HNA, bem como a  sua entrada no mercado de catering aéreo. Para a gategroup, representará a oportunidade de novos investimentos na Gate Gourmet, contribuindo para uma futura entrada da empresa em aeroportos ainda não atendidos. 
+A Operação Proposta é, portanto, parte da política de investimentos de longo prazo da HNA e consoante aos planos de expansão da gategroup. 
+
+No Brasil, a Operação Proposta representará a  inclusão de um novo serviço ao portfólio do Grupo HNA, bem como a  sua entrada no mercado de catering aéreo. 
+
+Para a gategroup, representará a oportunidade de novos investimentos na Gate Gourmet, contribuindo para uma futura entrada da empresa em aeroportos ainda não atendidos. 
 
 A Operação Proposta está relacionada com os seguintes segmentos em relação ao mercado brasileiro: (i) prestação de serviços de transporte aéreo por meio da Azul S.A. ("Azul") - co mpanhia aérea brasileira na qual a HNA detém participação minoritária; e (ii) prestação de serviços de catering aéreo por meio da Gate Gourmet, cujo controle pretende ser adquirido pela HNA. 
 
@@ -1072,53 +1057,15 @@ A Operação Proposta está relacionada com os seguintes segmentos em relação 
 
 Conforme mais bem descrito ao longo do Anexo II - CAOE, a Operação Proposta acarretará numa possível integração vertical entre as atividades de transporte aéreo de passageiros ofertadas pela Azul e  os serviços de catering aéreo prestados pela Gate Gourmet nos três aeroportos brasileiros atendidos por ambas as empresas: Aeroporto Internacional de Guarulhos (GRU -  São Paulo), Aeroporto Internacional do Rio de Janeiro (GIG - Rio de Janeiro) e Aeroporto do Rio de Janeiro Santos Oumont (SOU - Rio de Janeiro). 
 
-As Requerentes destacam que a Operação Proposta não implicará qualquer preocupação concorrencial, na medida em que: 
-
-(i) não resultará sobreposição horizontal, considerando que as outras empresas integrantes do Grupo HNA e do Grupo Gate não atuam nos mesmos mercados no Brasil; e 
-
-(ii) ainda que se entenda possível resultar em integração vertical, não representa quaisquer riscos de fechamento de mercado a jusante ou a montante, considerando, principalmente, a baixa participação da Azul no mercado de transporte aéreo em GIG, GRU e  SOU, e  a sua reduzida representatividade de demanda por serviços de catering aéreo nesses mercados em 2015. 
+As Requerentes destacam que a Operação Proposta não implicará qualquer preocupação concorrencial, na medida em que: (i) não resultará sobreposição horizontal, considerando que as outras empresas integrantes do Grupo HNA e do Grupo Gate não atuam nos mesmos mercados no Brasil; e (ii) ainda que se entenda possível resultar em integração vertical, não representa quaisquer riscos de fechamento de mercado a jusante ou a montante, considerando, principalmente, a baixa participação da Azul no mercado de transporte aéreo em GIG, GRU e  SOU, e  a sua reduzida representatividade de demanda por serviços de catering aéreo nesses mercados em 2015. 
 
 4. DOS DOCUMENTOS ANEXOS 
 
-As Requerentes requerem a juntada aos autos dos documentos abaixo descritos:
-
-(i) Versão Pública do Formulário, em conformidade com a Resolução nO 2/2012; 
-
-(ii)  Versão de Acesso Restrito do Formulário, em conformidade com a Resolução nO 2/2012 [ACESSO RESTRITO]; 
-
-(iii)  Comprovante de pagamento da taxa processual devida ao CADE, no valor total de R$ 85.000,00 (quarenta e  cinco mil reais), nos termos do art. 110 do Regimento Interno do CADE (Resolução nO 1/2012); 
-
-(iv)  Procuração outorgada pela Requerente HNA aos seus advogados; 
-
-(v)  Procuração outorgada pela Requerente gategroup aos seus advogados; 
-
-(vi)  Cópia do Contrato de Transação (Transaction Agreement) , datado e assinado em 10 de abril de 2016, com a respectiva tradução juramentada para o vernáculo [ACESSO RESTRITO]; 
-
-(vii)  Cópia da Oferta Pública de Aquisição (Public Tender Offer), datada de 20 de maio de 2016, com a respectiva tradução juramentada para o vernáculo; 
-
-(viii)  Organograma societário da HNA [ACESSO RESTRITO]; 
-
-(ix)  Organograma societário da gategroup [ACESSO RESTRITO]; e 
-
-(x)  Cópias das Demonstrações financeiras do Grupo HNA, referente ao ano de 2015 [ACESSO RESTRITO]. 
+As Requerentes requerem a juntada aos autos dos documentos abaixo descritos: (i) Versão Pública do Formulário, em conformidade com a Resolução nO 2/2012; (ii)  Versão de Acesso Restrito do Formulário, em conformidade com a Resolução nO 2/2012 [ACESSO RESTRITO]; (iii)  Comprovante de pagamento da taxa processual devida ao CADE, no valor total de R$ 85.000,00 (quarenta e  cinco mil reais), nos termos do art. 110 do Regimento Interno do CADE (Resolução nO 1/2012); (iv)  Procuração outorgada pela Requerente HNA aos seus advogados; (v)  Procuração outorgada pela Requerente gategroup aos seus advogados; (vi)  Cópia do Contrato de Transação (Transaction Agreement) , datado e assinado em 10 de abril de 2016, com a respectiva tradução juramentada para o vernáculo [ACESSO RESTRITO]; (vii)  Cópia da Oferta Pública de Aquisição (Public Tender Offer), datada de 20 de maio de 2016, com a respectiva tradução juramentada para o vernáculo; (viii)  Organograma societário da HNA [ACESSO RESTRITO]; (ix)  Organograma societário da gategroup [ACESSO RESTRITO]; e (x)  Cópias das Demonstrações financeiras do Grupo HNA, referente ao ano de 2015 [ACESSO RESTRITO]. 
 
 5. DA CONfiDENCIALIDADE 
 
-Com fulcro no artigo 53 da Resolução CADE nO 1/2012, requerem seja conferido ACESSO RESTRITO aos seguintes documentos e  informações que contêm caráter confidencial e cuja divulgação a terceiros pode implicar prejuízos às empresas envolvidas na Operação Proposta: 
-
-(i) Versão de Acesso Restrito do Anexo I, da Resolução CADE nO 2, por conter as seguintes informações de caráter privado e sigiloso; 
-
-(ii) Cópia do Contrato de Transação, bem como cópia da sua tradução para vernáculo ora apresentados, conforme previsto no artigo 53, inciso VIII, do Regimento Interno do CADE; 
-
-(iii) Faturamento bruto das Partes direta e indiretamente envolvidas na Operação no Brasil e no Mundo, indicados em cinza no Anexo I, conforme previsto no artigo 53, inciso VI, do Regimento Interno do CADE; 
-
-(iv) Lista das empresas dos Grupos, indicadas em cinza no Anexo I, conforme previsto no artigo 53, inciso IV, do Regimento Interno do CADE; 
-
-(v) Cópias das Demonstrações financeiras do Grupo HNA, referente ao ano de 2015, indicado em cinza no Anexo I, conforme previsto no artigo 53, inciso IX, do Regimento Interno do CADE; 
-
-(vi) Organograma societário da HNA, indicado em cinza no Anexo I, conforme previsto no artigo 53, inciso IV, do Regimento Interno do CADE; e 
-
-(vii) Organograma societário da gategroup, indicado em cinza no Anexo I, conforme previsto no artigo 53, inciso IV, do Regimento Interno do CADE. 
+Com fulcro no artigo 53 da Resolução CADE nO 1/2012, requerem seja conferido ACESSO RESTRITO aos seguintes documentos e  informações que contêm caráter confidencial e cuja divulgação a terceiros pode implicar prejuízos às empresas envolvidas na Operação Proposta: (i) Versão de Acesso Restrito do Anexo I, da Resolução CADE nO 2, por conter as seguintes informações de caráter privado e sigiloso; (ii) Cópia do Contrato de Transação, bem como cópia da sua tradução para vernáculo ora apresentados, conforme previsto no artigo 53, inciso VIII, do Regimento Interno do CADE; (iii) Faturamento bruto das Partes direta e indiretamente envolvidas na Operação no Brasil e no Mundo, indicados em cinza no Anexo I, conforme previsto no artigo 53, inciso VI, do Regimento Interno do CADE; (iv) Lista das empresas dos Grupos, indicadas em cinza no Anexo I, conforme previsto no artigo 53, inciso IV, do Regimento Interno do CADE; (v) Cópias das Demonstrações financeiras do Grupo HNA, referente ao ano de 2015, indicado em cinza no Anexo I, conforme previsto no artigo 53, inciso IX, do Regimento Interno do CADE; (vi) Organograma societário da HNA, indicado em cinza no Anexo I, conforme previsto no artigo 53, inciso IV, do Regimento Interno do CADE; e (vii) Organograma societário da gategroup, indicado em cinza no Anexo I, conforme previsto no artigo 53, inciso IV, do Regimento Interno do CADE. 
 
 A fim de assegurar que terceiros não tenham acesso a essas informações sigilosas, requer-se a AUTUAÇÃO EM APARTADO dos documentos e informações acima mencionados. 
 
@@ -1148,7 +1095,9 @@ ILUSTRÍSSIMO  SENHOR  DOUTOR  EDUARDO  FRADE  RODRIGUES, SUPERINTENDENTE  GERAL
 
 Hamburg  Südamerkanische  Dampfschifftsfahrts  Gesellschaft  KG (“HSDG”), empresa  com  sede  em  Willy-Brandt  Strasse  59-61,  20 457,  Hamburgo, Alemanha e CMA CGM S.A. (“CMA”) , empresa com sede em 4 Quai D’Arenc, 13235 Marseille cedex 02, França, (conjuntamente, “Requer entes”) vêm, respeitosamente, por seus advogados  infra-assinados  (Docs.  02  e  03),  com  fulcro  no  art.  88,  da  Lei  12.529/2011, submeter para aprovação do Conselho Administrativo de Defesa Econômica (“CADE”), o Contrato de Afretamento de Espaço entre as Requerentes. 
 
-Requer-se, com base no disposto nos artigos 53 e 55 do Regimento Interno do CADE, seja concedido acesso restrito às informações identificadas como confidenciais nos documentos submetidos a este CADE relacionados à operação ora notificada, dada sua natureza confidencial ou comercialmente sensível, e os prejuízos potencialmente causados por sua divulgação a terceiros. Neste sentido, apresenta-se o Formulário “Anexo II” da Resolução CADE n. 2/2012, na versão confidencial (Doc. 04), e pública (Doc. 05), e a confidencialidade dos documentos anexados a esta petição são identificados na lista abaixo. 
+Requer-se, com base no disposto nos artigos 53 e 55 do Regimento Interno do CADE, seja concedido acesso restrito às informações identificadas como confidenciais nos documentos submetidos a este CADE relacionados à operação ora notificada, dada sua natureza confidencial ou comercialmente sensível, e os prejuízos potencialmente causados por sua divulgação a terceiros.
+
+Neste sentido, apresenta-se o Formulário “Anexo II” da Resolução CADE n. 2/2012, na versão confidencial (Doc. 04), e pública (Doc. 05), e a confidencialidade dos documentos anexados a esta petição são identificados na lista abaixo. 
 
 
 1. Doc. 01: Comprovantes de pagamento da Guia de Recolhimento da União - GRU no  valor  total  de  R$  85.000,00  (oitenta  e  cinco  mil reais),  correspondentes  ao pagamento  integral  da  taxa  processual  do  SBDC,  conforme  art.  23  da  Lei 12.529/2011; 
@@ -1179,7 +1128,9 @@ I. PEDIDOS
 
 As  Requerentes  requerem  a  juntada  dos  documentos  indicados  no  item precedente,  anexos  a  esta  petição,  e  requerem  que  seja  concedido  acesso  restrito  aos documentos indicados como confidenciais, cujo acesso deve ser restrito aos procuradores das Requerentes. 
 
-As  Requerentes  esclarecem  que  apresentam  essa  operação ad  cautelam ,  e requerem  que  não  seja  conhecida,  por  não  se  caracterizar  como  hipótese  de  contrato associativo. Caso, contudo, esta D. Superintendência-Geral entenda pelo conhecimento da operação, requerem que seja aprovada incondicionalmente em virtude da inexistência de preocupações de ordem concorrencial – de fato, a operação é pró-competitiva. 
+As  Requerentes  esclarecem  que  apresentam  essa  operação ad  cautelam ,  e requerem  que  não  seja  conhecida,  por  não  se  caracterizar  como  hipótese  de  contrato associativo.
+
+Caso, contudo, esta D. Superintendência-Geral entenda pelo conhecimento da operação, requerem que seja aprovada incondicionalmente em virtude da inexistência de preocupações de ordem concorrencial – de fato, a operação é pró-competitiva. 
 
 Nos termos dos artigos 45 e 110 do Regimento Interno do CADE, cada uma das  Requerentes  declara  serem  verdadeiras  as  suas  respectivas  informações,  bem  como autênticos os documentos apresentados. Termos em que pede deferimento. 
 
@@ -1198,29 +1149,41 @@ KENYS  MENEZES  MACHADO, Superintendente-Geral  Adjunto
 
 ILUSTRÍSSIMO SENHOR SUPERINTENDENTE GERAL DO CONSELHO ADMINISTRATIVO DE DEFESA ECONÔMICA - CADE
 
-DIA BRASIL SOCIEDADE LTDA., sociedade limilada, com sede na Avenida Dr Cardoso De Melo. n 1855, 1 Andar. São Paulo, SP. CEP 04548-005, Brasil, inscrita no CNPJ/MF sob o n 03.476.811/0001-51 ("Dia Brasil") e INTERNATIONAL RETAIL & TRADE SERVICES SÀRL. sociedade devidamente constituída sob as leis da Suiça,  com sede na 29 Route de l'aéroport CP415 CH-1225 1215 Geneva 15. Suiça. devidamente representada na forma de seus instrumentos constitutivos ("IRST" e em conjunto com Dia Brasil, "Partes"), vem, respeitosamente, por meio de seus procuradores (Docs. 03 e 04), submeter o presente:
-
-PEDIDO DE APROVAÇÃO DE ATO DE CONCENTRAÇÃO ECONÔMICA
-
-nos termos do artigo 53 e seguintes da Lei n 12.529/2011, e das Resoluções 01 e 02/2012 do CADE, pelos fatos e fundamentos expostos a seguir.
+DIA BRASIL SOCIEDADE LTDA., sociedade limilada, com sede na Avenida Dr Cardoso De Melo. n 1855, 1 Andar. São Paulo, SP. CEP 04548-005, Brasil, inscrita no CNPJ/MF sob o n 03.476.811/0001-51 ("Dia Brasil") e INTERNATIONAL RETAIL & TRADE SERVICES SÀRL. sociedade devidamente constituída sob as leis da Suiça,  com sede na 29 Route de l'aéroport CP415 CH-1225 1215 Geneva 15. Suiça. devidamente representada na forma de seus instrumentos constitutivos ("IRST" e em conjunto com Dia Brasil, "Partes"), vem, respeitosamente, por meio de seus procuradores (Docs. 03 e 04), submeter o presente: PEDIDO DE APROVAÇÃO DE ATO DE CONCENTRAÇÃO ECONÔMICA nos termos do artigo 53 e seguintes da Lei n 12.529/2011, e das Resoluções 01 e 02/2012 do CADE, pelos fatos e fundamentos expostos a seguir.
 
 1. Das partes e da operação notificada
 
-Os Grupos DIA e Casino decidiram criar uma nova aliança internacional com a finalidade de promover a negociação de serviços prestados aos fornecedores internacionais de produtos de consumo (doravante denominada "Aliança"). A Aliança foi estruturada por meio de uma nova sociedade de propriedade conjunta das partes constituída de acordo com as leis da Suiça. sob a denominação social ICDC Services Sàrl (doravante denominada "ICDC" ou "Sociedade Conjunta"). A ICDC irá negociar os chamados serviços internacionais "on top" como acesso a bancos de dados, estudos de marketing, iniciativas específicas de marketing e suporte comercial multinacional aos fornecedores internacionais de produtos de consumo de marcas lideres.
+Os Grupos DIA e Casino decidiram criar uma nova aliança internacional com a finalidade de promover a negociação de serviços prestados aos fornecedores internacionais de produtos de consumo (doravante denominada "Aliança").
 
-A presente notificação refere-se ao Acordo de Colaboração da América Latina ("Latin American Callaboration Agreement"), firmado entre os Grupos DIA e Casino, no dia 29 de novembro de 2015, por meio do qual a Sociedade Conjunta passará a ofertar serviços internacionais a países que incluem a América Látina (doravante denominada como a "Operação Proposta").
+A Aliança foi estruturada por meio de uma nova sociedade de propriedade conjunta das partes constituída de acordo com as leis da Suiça. sob a denominação social ICDC Services Sàrl (doravante denominada "ICDC" ou "Sociedade Conjunta").
 
-Os objetivos da Aliança são somente a expansão (notavelmente em termos de presença geográfica), melhoria e promoção dos referidos serviços internacionais que são ofertados aos fornecedores internacionais de produtos de consumo de marcas líderes, com o intuito de melhorar a remuneração de tais serviços e as condições oferecidas a seus clientes, É importante salientar que, conforme constantemente admitido por autoridades de defesa da concorrência em todo o mundo, fornecedores internacionais de produtos de consumo de marcas líderes detêm um forte poder de barganha e, portanto, a Aliança não seria capaz de gerar quaisquer preocupações concorrenciais.
+A ICDC irá negociar os chamados serviços internacionais "on top" como acesso a bancos de dados, estudos de marketing, iniciativas específicas de marketing e suporte comercial multinacional aos fornecedores internacionais de produtos de consumo de marcas lideres.
+
+A presente notificação refere-se ao Acordo de Colaboração da América Latina ("Latin American Callaboration Agreement"), firmado entre os Grupos DIA e Casino, no dia 29 de novembro de 2015, por meio do qual a Sociedade Conjunta passará a ofertar serviços internacionais a países que incluem a América Latina (doravante denominada como a "Operação Proposta").
+
+Os objetivos da Aliança são somente a expansão (notavelmente em termos de presença geográfica), melhoria e promoção dos referidos serviços internacionais que são ofertados aos fornecedores internacionais de produtos de consumo de marcas líderes, com o intuito de melhorar a remuneração de tais serviços e as condições oferecidas a seus clientes.
+
+É importante salientar que, conforme constantemente admitido por autoridades de defesa da concorrência em todo o mundo, fornecedores internacionais de produtos de consumo de marcas líderes detêm um forte poder de barganha e, portanto, a Aliança não seria capaz de gerar quaisquer preocupações concorrenciais.
 
 Em termos de abrangência geográfica, DIA e Casino são dois grupos complementares, e não concorrentes diretos. De fato, eles apenas concorrem em mercados territoriais muito limitados (Brasil e Argentina). No que se refere a outros países, Casino está presente principalmente na França, Colômbia, Tailândia, Uruguai, e Vietnã, enquanto que o DIA está presente essencialmente na Espanha, Portugal e China.
 
-A Operação Proposta refere-se principalmente aos serviços internacionais e condições "on top" aos fornecedores internacionais de produtos de consumo de marcas líderes, de modo global. Visto que tanto DIA quanto Casino atuam no mercado de varejo, ambos os grupos adotaram todas as precauções e controles necessários para limitar a troca de informações e garantir que tanto DIA quanto Casino continuem a desempenhar suas atividades de varejo de modo totalmente independente. Tais disposições foram objeto de acordo e constam do Acordo de Colaboração Latino-Americano celebrado entre as Partes. Como resultado, a Operação Proposta irá gerar eficiências para ambos os grupos, beneficiando os fornecedores e consumidores, sem reduzir o grau de concorrência no mercado.
+A Operação Proposta refere-se principalmente aos serviços internacionais e condições "on top" aos fornecedores internacionais de produtos de consumo de marcas líderes, de modo global.
+
+Visto que tanto DIA quanto Casino atuam no mercado de varejo, ambos os grupos adotaram todas as precauções e controles necessários para limitar a troca de informações e garantir que tanto DIA quanto Casino continuem a desempenhar suas atividades de varejo de modo totalmente independente.
+
+Tais disposições foram objeto de acordo e constam do Acordo de Colaboração Latino-Americano celebrado entre as Partes.
+
+Como resultado, a Operação Proposta irá gerar eficiências para ambos os grupos, beneficiando os fornecedores e consumidores, sem reduzir o grau de concorrência no mercado.
 
 II. Das razões para a aprovação da Operação
 
-Conforme exposto no Anexo I, a Operação Proposta refere-se a uma aliança internacional que terá efeitos bastante limitados no Brasil. De fato, a Operação tem como finalidade exclusiva em relação à América do Sul a oferta de serviços internacionais "on top", de forma multinacional, para uma lista limitada de fornecedores internacionais de produtos de consumo de marcas líderes, os quais serão prestados pelas próprias Partes.
+Conforme exposto no Anexo I, a Operação Proposta refere-se a uma aliança internacional que terá efeitos bastante limitados no Brasil.
 
-Além disso, as Partes adotaram todas as medidas necessárias para garantir que a Operação Proposta não enseje nenhuma preocupação concorrencial, especialmente em relação ao mercado varejista. De acordo com as disposições contidas nos contratos firmados pelas Partes, a Joint-Venture deverá tomar todas os precauções para limitar a troca de informações e deverá garantir que tanto DIA quanto Casino desempenhem suas atividades de modo independente, de modo a assegurar que nenhuma informação comercialmente sensível seja trocada entre as Partes. 
+De fato, a Operação tem como finalidade exclusiva em relação à América do Sul a oferta de serviços internacionais "on top", de forma multinacional, para uma lista limitada de fornecedores internacionais de produtos de consumo de marcas líderes, os quais serão prestados pelas próprias Partes.
+
+Além disso, as Partes adotaram todas as medidas necessárias para garantir que a Operação Proposta não enseje nenhuma preocupação concorrencial, especialmente em relação ao mercado varejista.
+
+De acordo com as disposições contidas nos contratos firmados pelas Partes, a Joint-Venture deverá tomar todas os precauções para limitar a troca de informações e deverá garantir que tanto DIA quanto Casino desempenhem suas atividades de modo independente, de modo a assegurar que nenhuma informação comercialmente sensível seja trocada entre as Partes. 
 
 Ante todo o exposto, torna-se forçoso reconhecer que a Operação em tela não tem a capacidade, nem o potencial, de limitar ou de qualquer forma restringir a livre concorrência, e muito menos resulta no controle de parcela substancial de mercado.
 
@@ -1230,9 +1193,9 @@ As Requerentes apresentam os seguintes documentos para subsidiar a analise do pr
 
 III.1 Dos documentos públicos
 
-Versão Pública do formulário de notificação.
+Versão Pública do formulário de notificação. 
 
-Docs. 01 e 02 - Comprovantes de recolhimento da taxa processual.
+Docs. 01 e 02 - Comprovantes de recolhimento da taxa processual. 
 
 Doc. 03 - Procuração do Dia.
 
@@ -1302,7 +1265,9 @@ As Requerentes requerem que seja deferida a confidencialidade em relação:
 
 (viii) Relatórios confidenciais sobre a posição de mercado das Requerentes e de seus grupos econômicos nos mercados relevantes.
 
-As Requerentes informam que destacaram em cinza as informações confidenciais constantes do formulário. Desse modo, as Requerentes solicitam que a versão confidencial do formulário e os documentos confidenciais sejam juntados em apartados de acesso restrito nos termos dos artigos 53, incisos I, II, IV, VI, VII, VIII, IX, X, XI e XV, e 110, § 2 da Resolução 01/2012.
+As Requerentes informam que destacaram em cinza as informações confidenciais constantes do formulário.
+
+Desse modo, as Requerentes solicitam que a versão confidencial do formulário e os documentos confidenciais sejam juntados em apartados de acesso restrito nos termos dos artigos 53, incisos I, II, IV, VI, VII, VIII, IX, X, XI e XV, e 110, § 2 da Resolução 01/2012.
 
 V. Do protocolo físico da presente notificação
 
@@ -1324,7 +1289,9 @@ Nesses termos, Pedem deferimento.
 
 De São Paulo para Brasília, 20 de abril de 2016.
 
-Por DIA: Joyce Ruiz Rodrigues Alves Por Casino: Marcelo Calliari, Daniel Oliveira Andreoli, Mario Glauco Pati Neto, Rodrigo Almeida Edington
+Por DIA: Joyce Ruiz Rodrigues Alves 
+
+Por Casino: Marcelo Calliari, Daniel Oliveira Andreoli, Mario Glauco Pati Neto, Rodrigo Almeida Edington
 
 CONSELHO  ADMINISTRATIVO  DE  DEFESA ECONÔMICA
 SUPERINTENDÊNCIA-GERAL
