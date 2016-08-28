@@ -1313,15 +1313,23 @@ I. Partes e seus Grupos econômicos
 
 1. A Ambev S.A., empresa pertencente ao Grupo A-B Inbev, atua na produção e comercialização de cervejas, bebidas não alcoólicas carbonatadas (refrigerantes) e não carbonatadas (sucos e refrescos), compostos para refrigerantes, malte e demais produtos relacionados à produção de bebidas no Brasil.
 
-2. Por sua vez, a Brasil Kirin, pertencente ao Grupo Kirin, atua diretamente na produção e comercialização de cervejas, refrigerantes e sucos industrializados. Em complemento a tais produtos, vale destacar que o Grupo Kirin tem atuação mais abrangente que inclui a comercialização/fabricação de outros produtos, como águas minerais, achocolatados, energéticos, bebidas à base de soja, chás prontos, água de coco e bebidas alcoólicas destiladas.
+2. Por sua vez, a Brasil Kirin, pertencente ao Grupo Kirin, atua diretamente na produção e comercialização de cervejas, refrigerantes e sucos industrializados.
+
+Em complemento a tais produtos, vale destacar que o Grupo Kirin tem atuação mais abrangente que inclui a comercialização/fabricação de outros produtos, como águas minerais, achocolatados, energéticos, bebidas à base de soja, chás prontos, água de coco e bebidas alcoólicas destiladas.
 
 II. Descrição da operação
 
-3. A presente operação refere-se à aquisição, pela Ambev S.A. ("Ambev"), da planta industrial de produção e envase de bebidas alcoólicas e não-alcoólicas (refrigerantes, sucos e águas minerais), da Brasil Kirin Bebidas Ltda. ("Brasil Kirin") ("em conjunto denominados Requerentes"), localizada em Cachoeiras de Macacu, no Estado do Rio de Janeiro ("Unidade Macacu") ("Operação"). Para tanto, a Operação será formalizada pela aquisição de 100% do capital social de emissão de sociedade subsidiária da Brasil Kirin, detentora dos ativos e passivos dessa planta.
+3. A presente operação refere-se à aquisição, pela Ambev S.A. ("Ambev"), da planta industrial de produção e envase de bebidas alcoólicas e não-alcoólicas (refrigerantes, sucos e águas minerais), da Brasil Kirin Bebidas Ltda. ("Brasil Kirin") ("em conjunto denominados Requerentes"), localizada em Cachoeiras de Macacu, no Estado do Rio de Janeiro ("Unidade Macacu") ("Operação").
 
-4. A operação se justifica por se inserir no contexto de uma revisão de dimensionamento de capacidade produtiva por parte da Brasil Kirin, de um lado, e busca por expansão, otimização e alocação de capacidade produtiva da Ambev no mercado de cerveja, refrigerantes e bebidas não alcoólicas não carbonatadas, de outro. Assim, diante da intenção da Brasil Kirin de alienar uma unidade produtiva na Região Sudeste, a realização da Operação faz convergir os interesses das Requerentes.
+Para tanto, a Operação será formalizada pela aquisição de 100% do capital social de emissão de sociedade subsidiária da Brasil Kirin, detentora dos ativos e passivos dessa planta.
 
-5. Importante ressaltar que a Unidade Macacu é uma planta industrial multiproduto, pois produz tanto cervejas quanto refrigerantes, sucos e água mineral. Tendo em vista que é economicamente inviável adaptar a linha de produção de sucos e refrigerantes para a produção de cervejas, a aquisição desta planta industrial estaria, necessariamente, limitada a potenciais interessados em produzir esses diferentes tipos de bebidas no mercado brasileiro.
+4. A operação se justifica por se inserir no contexto de uma revisão de dimensionamento de capacidade produtiva por parte da Brasil Kirin, de um lado, e busca por expansão, otimização e alocação de capacidade produtiva da Ambev no mercado de cerveja, refrigerantes e bebidas não alcoólicas não carbonatadas, de outro.
+
+Assim, diante da intenção da Brasil Kirin de alienar uma unidade produtiva na Região Sudeste, a realização da Operação faz convergir os interesses das Requerentes.
+
+5. Importante ressaltar que a Unidade Macacu é uma planta industrial multiproduto, pois produz tanto cervejas quanto refrigerantes, sucos e água mineral.
+
+Tendo em vista que é economicamente inviável adaptar a linha de produção de sucos e refrigerantes para a produção de cervejas, a aquisição desta planta industrial estaria, necessariamente, limitada a potenciais interessados em produzir esses diferentes tipos de bebidas no mercado brasileiro.
 
 III. Pedidos
 
@@ -1337,11 +1345,15 @@ III. Pedidos
 
 8. A restrição ao acesso dessas informações tem por fundamento o artigo 53, incisos VI, VIII, IX, X, XI e XIV, do Regimento Interno do CADE, por se tratarem de informações sobre faturamento, documentos que formalizam o ato de concentração, demonstrações financeiras, clientes e fornecedores, valor e quantidade de vendas e outras hipóteses.
 
-9. Ainda, nos termos do art. 110, § 3.°, do Regimento Interno, declara-se que cópias simples apresentadas conferem com o original. Solicita-se ainda que publicações, intimações e notificações sejam feitas em nome de todos os advogados listados no item 11.3 do formulário anexo, nos endereços apresentados ou por meio do telefone ou fax ali designados.
+9. Ainda, nos termos do art. 110, § 3.°, do Regimento Interno, declara-se que cópias simples apresentadas conferem com o original.
+
+Solicita-se ainda que publicações, intimações e notificações sejam feitas em nome de todos os advogados listados no item 11.3 do formulário anexo, nos endereços apresentados ou por meio do telefone ou fax ali designados.
 
 Termos em que, pedem deferimento. De São Paulo para Brasília, 04 de abril de 2016.
 
-Ambev S.A.: Caio Mario da Silva Pereira Neto, Schermann Chrystie Miranda e Silva, Daniel Tinoco Douek, Fernando Stival Brasil Kirin Bebidas Ltda.: Daniel Andreoli, Vivian Anne F. do Nascimento Arruda, Mariana Bleeke 
+Ambev S.A.: Caio Mario da Silva Pereira Neto, Schermann Chrystie Miranda e Silva, Daniel Tinoco Douek, Fernando Stival Brasil
+
+Kirin Bebidas Ltda.: Daniel Andreoli, Vivian Anne F. do Nascimento Arruda, Mariana Bleeke 
 
 CONSELHO  ADMINISTRATIVO  DE  DEFESA ECONÔMICA DIRETORIA  ADMINISTRATIVA COORDENAÇÃO-GERAL  PROCESSUAL
 
@@ -1349,8 +1361,8 @@ SUPERINTENDÊNCIA-GERAL
 
 EDITAL  DE  5  DE  ABRIL  DE  2016
 No - 98.  Nos  termos  do  art.  53,  §  2º,  da  Lei  nº  12.529/2011, dá-se  publicidade  ao  Ato  de  Concentração  nº  08700.002432/2016-45. Requerentes:  Ambev  S/A  e  Brasil  Kirin  Bebidas  Ltda.  Advogados: Caio  Mario  da  Silva  Pereira  Neto,  Daniel  Oliveira  Andreoli  e  outros. Natureza  da  operação:  Aquisição  de  ativos.  Setor  econômico  envolvido: Fabricação de cerveja, chope e refrigerante. CNAE: 11.13-5-02/11.22-4-01.
-DIOGO  THOMSON  DE  ANDRADE, Superintendente-Geral Substituto
 
+DIOGO  THOMSON  DE  ANDRADE, Superintendente-Geral Substituto
 
 SUPERINTENDfiNCIA-GERAL - CONSELHO ADMINISTRATIVO DE DEFESA ECONÔMICA - CADE
 
@@ -1378,9 +1390,13 @@ Nos termos do Contrato de Compra de Ativos (Master Asset Purchase Agreement - �
 
 III. DAS PARTES
 
-A Colorcon é uma empresa norte-americana que atua no fornecimento de uma ampla gama de peliculas de revestimento farmacêutico, além de assisténcia no desenvolvimento de formulações farmacêuticas. Seus sistemas completos de peliculas de revestimento, tecnologias de liberação modificadas e excipientes, auxiliam as empresas farmacêuticas e de nutrição suplementar no desenvolvimento de produtos de alta qualidade e custo-beneficio. Maiores informações sobre a Colorcon encontram-se disponiveis em www.colorcon.com.
+A Colorcon é uma empresa norte-americana que atua no fornecimento de uma ampla gama de peliculas de revestimento farmacêutico, além de assisténcia no desenvolvimento de formulações farmacêuticas. Seus sistemas completos de peliculas de revestimento, tecnologias de liberação modificadas e excipientes, auxiliam as empresas farmacêuticas e de nutrição suplementar no desenvolvimento de produtos de alta qualidade e custo-beneficio. 
 
-A BASF é uma empresa europeia (societas europaea). Seu negécio esta organizado em cinco segmentos: Produtos Quimicos; Produtos de Performance; Materiais Funcionais e Soluções; Soluções Agricolas; e petróleo e Gas. Maiores informações sobre a BASF encontram-se disponiveis em www.basf.com.
+Maiores informações sobre a Colorcon encontram-se disponiveis em www.colorcon.com.
+
+A BASF é uma empresa europeia (societas europaea). Seu negécio esta organizado em cinco segmentos: Produtos Quimicos; Produtos de Performance; Materiais Funcionais e Soluções; Soluções Agricolas; e petróleo e Gas.
+
+Maiores informações sobre a BASF encontram-se disponiveis em www.basf.com.
 
 IV. DOS MERCADOS AFETADOS
 
@@ -1467,19 +1483,35 @@ II. DAS PARTES
 
 II.1 BI
 
-II.1.1 A BI é uma empresa familiar independente com sede em Ingelheim, na Alemanha. A BI atua mundialmente nos setores de desenvolvimento, produção, distribuição e comercialização de produtos farmacêuticos, em particular (i) produtos com prescrição médica (ii) produtos para cuidados com saúde pessoal (iii) produtos biofarmacêuticos e (iv) produtos para a saúde animal. No Brasil, a atuação da BI no setor de saúde animal limita-se a determinadas vacinas para suínos e animais de estimação.
+II.1.1 A BI é uma empresa familiar independente com sede em Ingelheim, na Alemanha. 
+
+A BI atua mundialmente nos setores de desenvolvimento, produção, distribuição e comercialização de produtos farmacêuticos, em particular (i) produtos com prescrição médica (ii) produtos para cuidados com saúde pessoal (iii) produtos biofarmacêuticos e (iv) produtos para a saúde animal.
+
+No Brasil, a atuação da BI no setor de saúde animal limita-se a determinadas vacinas para suínos e animais de estimação.
 
 II.2 Sanofi
 
-II.2.1 A Sanofi é uma sociedade de capital aberto com sede em Paris, França, cujas ações são negociadas na Euronext e na bolsa de valores de Nova York (NYSE). A Sanofi também é a empresa controladora de um consolidado grupo com atuação mundial no setor de cuidados da saúde com cerca de 400 subsidiárias. A Sanofi não é direta ou indiretamente controlada por quaisquer terceiros. A Sanofi atua em pesquisa, desenvolvimento, fabricação e venda de produtos de cuidados com a saúde que engloba três atividades principais: (i) produtos farmacêuticos; (ii) vacinas para humanos; e (iii) saúde animal.
+II.2.1 A Sanofi é uma sociedade de capital aberto com sede em Paris, França, cujas ações são negociadas na Euronext e na bolsa de valores de Nova York (NYSE).
+
+A Sanofi também é a empresa controladora de um consolidado grupo com atuação mundial no setor de cuidados da saúde com cerca de 400 subsidiárias.
+
+A Sanofi não é direta ou indiretamente controlada por quaisquer terceiros.
+
+A Sanofi atua em pesquisa, desenvolvimento, fabricação e venda de produtos de cuidados com a saúde que engloba três atividades principais: (i) produtos farmacêuticos; (ii) vacinas para humanos; e (iii) saúde animal.
 
 III. Da Operação
 
-III.1 A operação proposta refere-se à aquisição indireta, pela BI, do negócio de saúde animal da Sanofi ("Merial") por meio de aquisição de ativos e ações (a "Operação"). A Operação faz parte de uma operação mais ampla referente à troca do negócio de saúde animal da Sanofi pelo negócio de cuidados com saúde pessoal da BI.
+III.1 A operação proposta refere-se à aquisição indireta, pela BI, do negócio de saúde animal da Sanofi ("Merial") por meio de aquisição de ativos e ações (a "Operação").
+
+A Operação faz parte de uma operação mais ampla referente à troca do negócio de saúde animal da Sanofi pelo negócio de cuidados com saúde pessoal da BI.
 
 V. DO MERCADO RELEVANTE
 
-V.1 No Brasil, as atividades das Requerentes se sobrepõem nos segmentos de saúde animal de vacinas suínas para (i) circovírus suíno (ii) mycoplasma hyopneumoniae, e (iíi) riníte atrófica, além de pequenas sobreposições horizontais potenciais em vacinas polivalentes para animais de estimação. A Operação não resulta em sobreposição horizontal em segmentos de produtos farmacêuticos para saúde animal nem em integrações verticais no Brasil. Conforme será demonstrado no formulário de Anexo I, a Operação é incapaz de ensejar quaisquer preocupações concorrenciais no Brasil e no mundo.
+V.1 No Brasil, as atividades das Requerentes se sobrepõem nos segmentos de saúde animal de vacinas suínas para (i) circovírus suíno (ii) mycoplasma hyopneumoniae, e (iíi) riníte atrófica, além de pequenas sobreposições horizontais potenciais em vacinas polivalentes para animais de estimação.
+
+A Operação não resulta em sobreposição horizontal em segmentos de produtos farmacêuticos para saúde animal nem em integrações verticais no Brasil. 
+
+Conforme será demonstrado no formulário de Anexo I, a Operação é incapaz de ensejar quaisquer preocupações concorrenciais no Brasil e no mundo.
 
 VI. DOS PEDIDOS
 
@@ -1509,7 +1541,9 @@ KENYS  MENEZES  MACHADO, Superintendente-Geral  Adjunto
 
 ILMO. Sr. Superintendente-Geral do Conselho administrativo de Defesa Econômica - CADE.
 
-S.C. Participações Empresariais Ltda. ("SCPE") sociedade empresária limitada, inscrita no CNPJ/MF sob o n 05.213.712/0001-02, com sede na Cidade de São Paulo, Estado de São Paulo, na Rua Olimpíadas, 100, 12 andar, Vila Olímpia, CEP 04551-000, controladora da Distribuidora de Medicamentos Santa Cruz Ltda., sociedade empresária limitada, inscrita no CNPJ/MF sob o n 61.940.292/0001-37. com sede na Cidade de Osasco, Estado de São Paulo, na Praça Agrícola La Paz Tristante, 144, Bairro Industrial Anhanguera, CEP 06276-035 ("Santa Cruz"); e CELESIO AG., sociedade estrangeira devidamente constituída sob as leis da Alemanha, com sede em Neckartalstrasse 155, 70376 Stuttgart, Alemanha, controladora das empresas alvo da Operação Proposta, (a) Panpharma Distribuidora de Medicamentos Ltda., sociedade empresária limitada, inscrita no CNPJ/MF sob o n 01.206.820/0015-00 (" Panpharma ") e (b) Onco Prod Distribuidora de Produtos Hospitalares e Oncológicos S.A., sociedade por ações de capital fechado, inscrita no CNPJ/MF sob o n 06.977.739/0001-34 ("Oncoprod". e em conjunto com Panpharma, "Empresas Objeto"), vêm, respeitosamente, por seus advogados (Doc. n 03), nos termos dos Arts. 53 e 88 da lei n 12.529, de 30 de novembro de 2011 ("Lei de Defesa da concorrência"), do Art. 108 e ss. da Resolução n 1, de 29 de maio de 2012 ("Regimento Interno do CADE OU RICADE") e do Art. 1 e ss. da Resolução n 2. conforme alterada pela Resolução n 9. de 1 de outubro de 2014, ("Resolução CADE n 2"), submeter à apreciação desse e. Conselho Administrativo de Defesa Econômica ("CADE"), o presente ATO DE CONCENTRACÃO ECONÔMICA com pedido de enquadramento no PROCEDIMENTO SUMÁRIO, fundamentado nos Arts. 5 e 8, inciso III, da Resolução CADE n 2 e com PEDIDO DE ACESSO RESTRITO fundamentado no Art. 53, incisos VI, VII, VIII, X e XIV do Regimento Interno do CADE. Para tanto, Santa Cruz, Panpharma e Oncoprod (as "Requerentes") expõem e solicitam o quanto segue;
+S.C. Participações Empresariais Ltda. ("SCPE") sociedade empresária limitada, inscrita no CNPJ/MF sob o n 05.213.712/0001-02, com sede na Cidade de São Paulo, Estado de São Paulo, na Rua Olimpíadas, 100, 12 andar, Vila Olímpia, CEP 04551-000, controladora da Distribuidora de Medicamentos Santa Cruz Ltda., sociedade empresária limitada, inscrita no CNPJ/MF sob o n 61.940.292/0001-37. com sede na Cidade de Osasco, Estado de São Paulo, na Praça Agrícola La Paz Tristante, 144, Bairro Industrial Anhanguera, CEP 06276-035 ("Santa Cruz"); e CELESIO AG., sociedade estrangeira devidamente constituída sob as leis da Alemanha, com sede em Neckartalstrasse 155, 70376 Stuttgart, Alemanha, controladora das empresas alvo da Operação Proposta, (a) Panpharma Distribuidora de Medicamentos Ltda., sociedade empresária limitada, inscrita no CNPJ/MF sob o n 01.206.820/0015-00 (" Panpharma ") e (b) Onco Prod Distribuidora de Produtos Hospitalares e Oncológicos S.A., sociedade por ações de capital fechado, inscrita no CNPJ/MF sob o n 06.977.739/0001-34 ("Oncoprod". e em conjunto com Panpharma, "Empresas Objeto"), vêm, respeitosamente, por seus advogados (Doc. n 03), nos termos dos Arts. 53 e 88 da lei n 12.529, de 30 de novembro de 2011 ("Lei de Defesa da concorrência"), do Art. 108 e ss. da Resolução n 1, de 29 de maio de 2012 ("Regimento Interno do CADE OU RICADE") e do Art. 1 e ss. da Resolução n 2. conforme alterada pela Resolução n 9. de 1 de outubro de 2014, ("Resolução CADE n 2"), submeter à apreciação desse e. Conselho Administrativo de Defesa Econômica ("CADE"), o presente ATO DE CONCENTRACÃO ECONÔMICA com pedido de enquadramento no PROCEDIMENTO SUMÁRIO, fundamentado nos Arts. 5 e 8, inciso III, da Resolução CADE n 2 e com PEDIDO DE ACESSO RESTRITO fundamentado no Art. 53, incisos VI, VII, VIII, X e XIV do Regimento Interno do CADE.
+
+Para tanto, Santa Cruz, Panpharma e Oncoprod (as "Requerentes") expõem e solicitam o quanto segue;
 
 I. Das Partes do Ato de Concentração
 
@@ -1517,7 +1551,9 @@ I.1 A SCPE é uma empresa holding, controlada por pessoa física, que tem por ob
 
 I.2 A Santa Cruz atua no mercado atacadista de produtos farmacêuticos, distribuindo medicamentos em geral para uso humano ("MED"), cosméticos, perfumaria e produtos de higiene pessoal (Personal Care - "PEC") (conjuntamente denominados como "Produtos Farmacêuticos") detidos por diferentes indústrias às farmácias no Brasil.
 
-I.3 A Celesio AG ("Celesio") é a empresa holding controladora do grupo de empresas Celesio ("Grupo Cejesio"). A seu turno, a Celesio é controlada pela McKesson Corporation ("McKesson"), empresa holding controladora do grupo de empresas McKesson ("Grupo McKesson"), de modo que o Grupo McKesson é o controlador indireto do Grupo Celesio.
+I.3 A Celesio AG ("Celesio") é a empresa holding controladora do grupo de empresas Celesio ("Grupo Cejesio").
+
+A seu turno, a Celesio é controlada pela McKesson Corporation ("McKesson"), empresa holding controladora do grupo de empresas McKesson ("Grupo McKesson"), de modo que o Grupo McKesson é o controlador indireto do Grupo Celesio.
 
 I.4 O Grupo Celesio é de origem alemã, sendo que, no Brasil, atua por meio de suas subsidiárias integrais Panpharma e Oncoprod, ativas, respectivamente, nos mercados de distribuição de Produtos Farmacêuticos e cosméticos, e de distribuição de medicamentos de alta complexidade, produtos hospitalares e vacinas.
 
@@ -1535,7 +1571,9 @@ III.3 A Operação Proposta implicará, no entanto, sobreposição horizontal en
 
 III.4 Conforme detalhado no Anexo II. Santa Cruz e Panpharma, de um lado e, Oncoprod de outro, atuam em segmentos distintos e, com isso, a Operação Proposta resulta em sobreposição horizontal apenas entre as duas primeiras, no mercado de distribuição de Produtos Farmacêuticos (produtos MED e PEC). Isto posto, em decorrência da Operação Proposta, a Santa Cruz será entrante no mercado de distribuição de produtos para demandas especiais (medicamentos de alta complexidade destinados a hospitais e clínicas especializadas), segmento este em que, dentre as Requerentes, apenas a Oncoprod atua.
 
-III.5 Importa notar que a sobreposição horizontal acima mencionada não gera quaisquer preocupações de natureza concorrencial, na medida em que a soma da participação de mercado entre as Requerentes é inferior a 20%. Além disso, trata-se de mercado onde praticamente inexistem barreiras à entrada, estando presente na realidade intensa rivalidade entre distribuidores, que, competem, inclusive, com grandes redes varejistas de farmácias e drogarias, que possuem centros próprios de distribuição, mitigando ainda mais a possibilidade de eventual exercício de poder de mercado por parte do Grupo Santa Cruz.
+III.5 Importa notar que a sobreposição horizontal acima mencionada não gera quaisquer preocupações de natureza concorrencial, na medida em que a soma da participação de mercado entre as Requerentes é inferior a 20%.
+
+Além disso, trata-se de mercado onde praticamente inexistem barreiras à entrada, estando presente na realidade intensa rivalidade entre distribuidores, que, competem, inclusive, com grandes redes varejistas de farmácias e drogarias, que possuem centros próprios de distribuição, mitigando ainda mais a possibilidade de eventual exercício de poder de mercado por parte do Grupo Santa Cruz.
 
 IV. Dos Documentos Anexos à Petição
 
@@ -1602,6 +1640,7 @@ Termos em que, pedem deferimento.
 De São Paulo para Brasília, 1 de fevereiro de 2016.
 
 Pelo Grupo Santa Cruz: Fabíola C.L. Cammarota de Abreu, Joyce Midori Honda, Ricardo Lara Gaillard 
+
 Pelo Grupo Celesio: Paulo Eduardo de Campos Lilla, Juliana Maia Daniel 
 
 CONSELHO  ADMINISTRATIVO  DE  DEFESA ECONÔMICA
@@ -1622,7 +1661,9 @@ I - DOCUMENTOS E INFORMAÇÕES CONfiDENCIAIS: ACESSO RESTRITO
 
 1. Com fundamento no art. 22 da Lei n-12.527/2011, nos arts. 5, § 2 , e 6 ,1, do Decreto n° 7.724/2012, e nos arts. 50 e 53, incisos IV, VI, VIII, X, XI, e XIV, da Resolução CADE n- 1/2012, requer-se seja conferido tratamento de acesso restrito aos trechos destacados em cinza da versão do Anexo I indicada como tal, bem como aos documentos que a acompanham.
 
-2. Trata-se de pedido necessário para impedir que estejam acessíveis a concorrentes e a terceiros em geral alguns dos dados estratégicos de mercado e segredos de negócio de Atlas Copco e Leybold. Caso as autoridades entendam que o pedido de acesso restrito não deva ser integralmente deferido, solicita-se seja assegurada a oportunidade de prestar esclarecimentos adicionais para justificar o quanto requerido previamente à publicação das informações e documentos em comento.
+2. Trata-se de pedido necessário para impedir que estejam acessíveis a concorrentes e a terceiros em geral alguns dos dados estratégicos de mercado e segredos de negócio de Atlas Copco e Leybold.
+
+Caso as autoridades entendam que o pedido de acesso restrito não deva ser integralmente deferido, solicita-se seja assegurada a oportunidade de prestar esclarecimentos adicionais para justificar o quanto requerido previamente à publicação das informações e documentos em comento.
 
 3. No mais, esclarece-se que a única diferença entre as versões pública e de acesso restrito do formulário é a omissão, na versão pública, das informações destacadas em cinza na versão de acesso restrito e dos documentos assinalados.
 
@@ -1698,13 +1739,29 @@ I.1 De acordo com o artigo 53 e seguintes do Regimento Interno do CADE, aprovado
 
 II. DAS PARTES
 
-II.1. Diebold II.1.1 A Diebold é uma sociedade anônima norte-americana listada na Bolsa de Valores de Nova Iorque. A Diebold é a controladora em última instância do Grupo Diebold. A Diebold presta serviços e oferta softwares voltados a soluções de FSS. Tais soluções incluem (i) serviços, (ii) softwares e (iii) hadware (ATMs). A Diebold oferta tais soluções de FSS (incluindo ATMs), produtos eletrônicos e físicos de segurança (incluindo cofres e sistemas de processamento de cédulas), softwares e sistemas integrados para os setores financeiro e comercial, dentre outros. A Diebold possui aproximadamente 16.000 funcionários e atua, diretamente ou por meio de distribuidores independentes, em mais de 90 países.
+II.1. Diebold II.1.1 A Diebold é uma sociedade anônima norte-americana listada na Bolsa de Valores de Nova Iorque.
 
-II.2 Wincor Nixdorf II.2.1 A Wincor Nixdorf é uma sociedade anônima alemã listada na Bolsa de Valores de Frankfurt. A Wincor Nixdorf é a controladora em última instância do Grupo Wincor Nixdorf. A Wincor Nixdorf oferta serviços e soluções de TI para clientes dos setores bancário e varejista. Similarmente à Diebold, a Wincor Nixdorf oferta soluções de FSS para bancos, incluindo (i) serviços, (ii) softwares e (iii) hardwares (incluindo ATMs). A Wincor Nixdorf atua, diretamente ou por meio de seus distribuidores, em mais de 130 países e possui mais de 9.000 funcionários em todo o mundo, com mais da metade empregados fora da Alemanha.
+A Diebold é a controladora em última instância do Grupo Diebold.
+
+A Diebold presta serviços e oferta softwares voltados a soluções de FSS. Tais soluções incluem (i) serviços, (ii) softwares e (iii) hadware (ATMs). 
+
+A Diebold oferta tais soluções de FSS (incluindo ATMs), produtos eletrônicos e físicos de segurança (incluindo cofres e sistemas de processamento de cédulas), softwares e sistemas integrados para os setores financeiro e comercial, dentre outros.
+
+A Diebold possui aproximadamente 16.000 funcionários e atua, diretamente ou por meio de distribuidores independentes, em mais de 90 países.
+
+II.2 Wincor Nixdorf II.2.1 A Wincor Nixdorf é uma sociedade anônima alemã listada na Bolsa de Valores de Frankfurt.
+
+A Wincor Nixdorf é a controladora em última instância do Grupo Wincor Nixdorf.
+
+A Wincor Nixdorf oferta serviços e soluções de TI para clientes dos setores bancário e varejista. Similarmente à Diebold, a Wincor Nixdorf oferta soluções de FSS para bancos, incluindo (i) serviços, (ii) softwares e (iii) hardwares (incluindo ATMs).
+
+A Wincor Nixdorf atua, diretamente ou por meio de seus distribuidores, em mais de 130 países e possui mais de 9.000 funcionários em todo o mundo, com mais da metade empregados fora da Alemanha.
 
 III. DA OPERAÇÃO III.1 A operação proposta trata da aquisição de controle unitário da Wincor Nixdorf pela Diebold por meio de uma oferta pública para a aquisição voluntária de todas as ações ordinárias emitidas e em circulação da Wincor Nixdorf. (a "Operação").
 
-IV. DO MERCADO RELEVANTE IV.1 No Brasil, as atividades das Requerentes sobrepõem-se em relação a soluções para clientes do setor financeiro {financial self service - "FSS"): (i) hardware (ATMs); (ii) software; e (iii) serviços. Há também uma integração vertical em relação a um componente exportado pela Cryptera, uma subsidiária da Diebold, para o Brasil, que é usado em hardwares de FSS. No entanto, conforme restará demonstrado no formulário de Anexo I, a Operação é incapaz de ensejar quaisquer preocupações concorrenciais no Brasil e no mundo.
+IV. DO MERCADO RELEVANTE IV.1 No Brasil, as atividades das Requerentes sobrepõem-se em relação a soluções para clientes do setor financeiro {financial self service - "FSS"): (i) hardware (ATMs); (ii) software; e (iii) serviços.
+
+Há também uma integração vertical em relação a um componente exportado pela Cryptera, uma subsidiária da Diebold, para o Brasil, que é usado em hardwares de FSS. No entanto, conforme restará demonstrado no formulário de Anexo I, a Operação é incapaz de ensejar quaisquer preocupações concorrenciais no Brasil e no mundo.
 
 V. DOS PEDIDOS
 
@@ -1769,11 +1826,15 @@ II.1. Coty Inc. ("Coty")
 
 II.1.1 A Coty é uma multinacional, fundada em Paris em 1904, que atua no segmento de beleza, ofertando produtos nas linhas de fragrâncias, cosméticos de cor e cuidados com a pele e corpo, que são vendidos em mais de 130 países e territórios.
 
-II.1.2 A Coty é controlada pela JAB Cosmetics B.V., uma empresa holding, subsidiária integral da JAB Holding Company s.à.r.l. ("JAB"). O Grupo JAB é um grupo de capital fechado voltado a investimentos de longo prazo em empresas com marcas premium no setor de bens de consumo, que vem crescendo rapidamente.
+II.1.2 A Coty é controlada pela JAB Cosmetics B.V., uma empresa holding, subsidiária integral da JAB Holding Company s.à.r.l. ("JAB").
+
+O Grupo JAB é um grupo de capital fechado voltado a investimentos de longo prazo em empresas com marcas premium no setor de bens de consumo, que vem crescendo rapidamente.
 
 II.2 Procter and Gamble Company ("P&G")
 
-II.2.1 A P&G é uma holding, de capital aberto, na qual nenhum de seus acionistas detêm mais de 10% de participação. A P&G é uma fabricante global de bens de consumo, incluindo produtos de cuidados com o lar, cuidados com a beleza, higiene pessoal, cuidados com a saúde, e produtos para cuidados com bebês, mulheres e a família.
+II.2.1 A P&G é uma holding, de capital aberto, na qual nenhum de seus acionistas detêm mais de 10% de participação.
+
+A P&G é uma fabricante global de bens de consumo, incluindo produtos de cuidados com o lar, cuidados com a beleza, higiene pessoal, cuidados com a saúde, e produtos para cuidados com bebês, mulheres e a família.
 
 III. DA OPERAÇÃO
 
