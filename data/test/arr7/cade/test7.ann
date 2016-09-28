@@ -1,0 +1,270 @@
+T1	ORGANIZACAO 56 90	ADMINISTRATIVO DE DEFESA ECONÔMICA
+T2	PESSOA 96 119	Eduardo Frade Rodrigues
+T3	ORGANIZACAO 410 418	Conselho
+T4	OPERACAO 421 429	operação
+T5	ORGANIZACAO-NOME 1257 1266	ELOG S.A.
+T6	DOCUMENTO 1431 1441	DOCUMENTOS
+T7	REQUERENTES 1513 1524	Requerentes
+T8	DOCUMENTO 1536 1582	Comprovante de recolhimento da taxa processual
+T9	ORGANIZACAO-NOME 1793 1807	Grupo Multilog
+T10	ORGANIZACAO-NOME 1845 1862	Grupo EcoRodovias
+T11	DOCUMENTO 1874 1969	Contrato de Compra e Venda de Quotas (Doc. 07); Demonstrações financeiras auditadas da Multilog
+T12	ACESSO 2101 2116	ACESSO RESTRITO
+T13	DOCUMENTO 2137 2192	informações tarjadas em cinza ao longo do formulário de
+T14	DOCUMENTO 2218 2228	documentos
+T15	OPERACAO 2404 2421	presente operação
+T16	RITO 2450 2462	rito sumário
+T17	DOCUMENTO 2550 2563	formulário de
+T18	OPERACAO 2579 2587	operação
+T19	CH 2610 2633	sobreposição horizontal
+T20	IV 2637 2656	integração vertical
+T21	MERCADO 2707 2741	mercados geográficos completamente
+T22	ORGANIZACAO 3021 3067	CONSELHO  ADMINISTRATIVO  DE  DEFESA ECONÔMICA
+T23	ATO-DE-CONCENTRACAO 3235 3242	ato  de
+T24	ATO-DE-CONCENTRACAO 3259 3306	Ato  de  Concentração  nº  08700.005387/2016-81
+T25	ORGANIZACAO 3341 3399	Elog  S.A.  Advogados:  Guilherme  Ribas,  Paola  Pugliese
+T26	PESSOA 3611 3666	KENYS  MENEZES  MACHADO, Superintendente-Geral  Adjunto
+T27	ORGANIZACAO 3728 3771	CONSELHO ADMINISTRATIVO DE DEFESA ECONÔMICA
+T28	ORGANIZACAO 3780 3811	UNIPAR CARBOCLORO S.A. (“Unipar
+T29	FORMA-LEGAL 3826 3861	sociedade anônima de capital aberto
+T30	FORMA-LEGAL 4105 4140	sociedade anônima de capital aberto
+T31	ORGANIZACAO 4305 4333	SOLVAY INDUPA DO BRASIL S.A.
+T32	FORMA-LEGAL 4429 4465	sociedade anônima de capital fechado
+T33	ORGANIZACAO 4722 4765	Conselho Administrativo de Defesa Econômica
+T34	DOCUMENTO 4795 4821	artigos 53, 88 e 90 da Lei
+T35	OPERACAO-OBJETO 4859 4901	aquisição do controle societário da Solvay
+T36	ACESSO 5140 5155	ACESSO RESTRITO
+T37	DOCUMENTO 5159 5190	informações destacadas em cinza
+T38	DOCUMENTO 5527 5712	documentos indicados como ANEXO DE ACESSO RESTRITO nas Etapas IV, VI, no item VII.5, VIII.4, IX.10 do Anexo I - Formulário Procedimento Não-Sumário. Essas informações e dados de mercado
+T39	DOCUMENTO 5859 5889	artigo 25 da Lei n 12.529/2011
+T40	REQUERENTES 5894 5905	Requerentes
+T41	DOCUMENTO 5917 5960	comprovante de pagamento da taxa processual
+T42	REQUERENTES 6090 6096	Partes
+T43	DOCUMENTO 6252 6262	documentos
+T44	DOCUMENTO 6265 6285	cópias de documentos
+T45	OPERACAO 6531 6539	operação
+T46	DOCUMENTO 6591 6636	Anexo 1 - Formulário Procedimento Não-Sumário
+T47	PESSOA 6741 6759	advogados listados
+T48	DOCUMENTO 6786 6826	Formulário Procedimento Não-Sumário, nos
+T49	DOCUMENTO 6968 7027	instrumento de mandato da Solvay Indupa e da Indupa Brasil,
+T50	PESSOA 7236 7257	Ana Paula Paschoalini
+T51	PESSOA 7279 7383	Indupa Brasil: Bárbara Rosenberg, Luis Bernardo Coelho Cascão, Luiz Antônio Galvão, André Luís Menegatti
+T52	ORGANIZACAO 7386 7429	CONSELHO ADMINISTRATIVO DE DEFESA ECONÔMICA
+T53	ATO-DE-CONCENTRACAO 7572 7578	ato de
+T54	ATO-DE-CONCENTRACAO 7593 7635	Ato de Concentração n 08700.005683/2016-81
+T55	CNAE 7911 7920	2011-8/00
+T56	PESSOA 7923 7975	KENYS MENEZES MACHADO, Superintendente-Geral Adjunto
+T57	ORGANIZACAO 8012 8055	Conselho administrativo de Defesa Econômica
+T58	ORGANIZACAO 8065 8102	S.C. Participações Empresariais Ltda.
+T59	ORGANIZACAO 8767 8775	empresas
+T60	OPERACAO 8784 8792	Operação
+T61	ORGANIZACAO-NOME 9141 9150	Panpharma
+T62	PESSOA 9198 9212	seus advogados
+T63	DOCUMENTO 9490 9512	Resolução n 9. de 1 de
+T64	ORGANIZACAO 9585 9628	Conselho Administrativo de Defesa Econômica
+T65	ATO-DE-CONCENTRACAO 9641 9679	presente ATO DE CONCENTRACÃO ECONÔMICA
+T66	REQUERENTES 10023 10029	Partes
+T67	ATO-DE-CONCENTRACAO 10033 10052	Ato de Concentração
+T68	ORGANIZACAO-NOME 10060 10064	SCPE
+T69	PRODUTO 10212 10217	setor
+T70	ORGANIZACAO 10257 10288	Santa Cruz ("Grupo Santa Cruz")
+T71	PESSOA 10297 10302	Santa
+T72	MERCADO 10316 10412	mercado atacadista de produtos farmacêuticos, distribuindo medicamentos em geral para uso humano
+T73	PRODUTO 10447 10474	produtos de higiene pessoal
+T74	ORGANIZACAO 10768 10788	McKesson Corporation
+T75	ORGANIZACAO-NOME 10896 10910	Grupo McKesson
+T76	ORGANIZACAO-NOME 10939 10952	Grupo Celesio
+T77	ORGANIZACAO-NOME 10961 10974	Grupo Celesio
+T78	MERCADO 11112 11136	mercados de distribuição
+T79	PRODUTO 11233 11264	produtos hospitalares e vacinas
+T80	ORGANIZACAO-NOME 11296 11300	CADE
+T81	OPERACAO 11309 11326	Operação Proposta
+T82	ORGANIZACAO 11425 11453	Empresas Objeto, integrantes
+T83	ORGANIZACAO 11457 11470	Grupo Celesio
+T84	OPERACAO 11531 11539	Operação
+T85	OPERACAO 11549 11566	Operação Proposta
+T86	PESSOA 11663 11679	Grupo Santa Cruz
+T87	ORGANIZACAO 11688 11701	Empresas Alvo
+T88	ORGANIZACAO 11794 11808	Farmácia Ltda.
+T89	MERCADO 11837 11867	comércio varejista de Produtos
+T90	OPERACAO 11885 11902	Operação Proposta
+T91	OPERACAO 12383 12400	Operação Proposta
+T92	CH 12424 12447	sobreposição horizontal
+T93	MERCADO 12513 12536	mercado de distribuição
+T94	ORGANIZACAO 12686 12705	empresas envolvidas
+T95	OPERACAO 12709 12717	Operação
+T96	DOCUMENTO 12757 12793	Anexo II. Santa Cruz e Panpharma, de
+T97	OPERACAO 12868 12885	Operação Proposta
+T98	CH 12886 12920	resulta em sobreposição horizontal
+T99	MERCADO 12956 12979	mercado de distribuição
+T100	OPERACAO 13058 13066	Operação
+T101	MERCADO 13107 13166	mercado de distribuição de produtos para demandas especiais
+T102	ORGANIZACAO-NOME 13307 13315	Oncoprod
+T103	REQUERENTES 13509 13520	Requerentes
+T104	ORGANIZACAO-NOME 13911 13927	Grupo Santa Cruz
+T105	OPERACAO 14000 14008	Operação
+T106	REQUERENTES 14080 14091	Requerentes
+T107	DOCUMENTO 14106 14126	seguintes documentos
+T108	DOCUMENTO 14229 14284	Cópia simples do comprovante de recolhimento da taxa de
+T109	DOCUMENTO 14753 14791	Apartados de Acesso Restrito anexos de
+T110	DOCUMENTO 14998 15008	documentos
+T111	REQUERENTES 15097 15108	Requerentes
+T112	DOCUMENTO 15149 15185	Art. 53 do Regimento Interno do CADE
+T113	DOCUMENTO 15272 15293	seguintes informações
+T114	DOCUMENTO 15331 15339	Anexo II
+T115	ORGANIZACAO-NOME 15860 15866	Grupos
+T116	OPERACAO 16006 16014	Operação
+T117	DOCUMENTO 16530 16752	Apartado de Acesso Restrito IV.1.1: cópia do Contrato de Compra de Ações e Outras Avenças ("Share Purchase Agreement and Other Covenants"), celebrado em 31 de janeiro de 2016 (o "Contrato") (Art. 53, inciso VIII do RICADE)
+T118	DOCUMENTO 16759 16893	Apartado de Acesso Restrito IV.4.1.1: cópia das demonstrações financeiras auditadas do Grupo Santa Cruz (Art. 53. inciso X do RICADE);
+T119	DOCUMENTO 16900 17028	Apartado de Acesso Restrito IV.4.2.1: cópia das demonstrações financeiras auditadas da Panpharma (Art 53. inciso X do RICADE); e
+T120	DOCUMENTO 17036 17161	Apartado de Acesso Restrito IV.4.2.2: cópia das demonstrações financeiras auditadas da Oncoprod (Art. 53, inciso X do RICADE)
+T121	OPERACAO 17283 17291	Operação
+T122	PRODUTO 17423 17446	serviços de assistência
+T123	REQUERENTES 17465 17476	Requerentes
+T124	DOCUMENTO 17530 17541	informações
+T125	DOCUMENTO 17544 17554	documentos
+T126	OPERACAO 17603 17620	Operação Proposta
+T127	OPERACAO 17745 17762	Operação Proposta
+T128	ORGANIZACAO 17789 17811	Superintendência-Geral
+T129	REQUERENTES 17938 17944	Partes
+T130	DOCUMENTO 18013 18034	documentos fornecidos
+T131	PESSOA 18229 18243	Grupo Celesio:
+T132	PESSOA 18244 18294	Paulo Eduardo de Campos Lilla, Juliana Maia Daniel
+T133	ORGANIZACAO 18296 18342	CONSELHO  ADMINISTRATIVO  DE  DEFESA ECONÔMICA
+T134	ATO-DE-CONCENTRACAO 18512 18519	ato  de
+T135	ATO-DE-CONCENTRACAO 18536 18583	Ato  de  Concentração  nº  08700.000722/2016-54
+T136	ORGANIZACAO 18737 18764	Oncológicos S.A. Advogados:
+T137	PRODUTO 18997 19018	produtos  de  higiene
+T138	PESSOA 19021 19069	KENYS  MENEZES  MACHADO, Superintendente-Adjunto
+T139	OCUPACAO 19091 19112	SUPERINTENDENTE-GERAL
+T140	ORGANIZACAO 19116 19159	CONSELHO ADMINISTRATIVO DE DEFESA ECONOMICA
+T141	PESSOA 19172 19195	EDUARDO FRADE RODRIGUES
+T142	ATO-DE-CONCENTRACAO 19213 19242	ATO DE CONCENTRACAO ECONOMICA
+T143	ORGANIZACAO 19264 19284	EMPREENDIMENTOS S.A.
+T144	PESSOA 19487 19518	seus advogados abaixo assinados
+T145	ORGANIZACAO 19753 19762	Grupo GPS
+T146	ORGANIZACAO 19776 19813	TOP SERVICE SERVICOS E SISTEMAS LTDA.
+T147	ORGANIZACAO-NOME 19820 19829	Service”)
+T148	ORGANIZACAO 19883 19910	OSMARINO FERREIRA DE CASTRO
+T149	ORGANIZACAO 19944 19987	empresas MAGNUM SERVICOS EMPRESARIAIS LTDA.
+T150	ORGANIZACAO 20001 20036	METODO ASSESSORIA EMPRESARIAL LTDA.
+T151	DOCUMENTO 20108 20175	Instrumento Particular de Compra e Venda de Quotas e Outras Avencas
+T152	ORGANIZACAO 20225 20234	Grupo GPS
+T153	ORGANIZACAO 20249 20255	grupos
+T154	MERCADO 20265 20332	setor de prestacao de servicos de recursos humanos e especializados
+T155	MERCADO 20375 20410	mercado de transporte rodoviario de
+T156	ORGANIZACAO-NOME 20842 20846	CADE
+T157	ORGANIZACAO-NOME 21732 21736	CADE
+T158	ORGANIZACAO-NOME 21767 21776	Grupo GPS
+T159	ORGANIZACAO-NOME 21826 21838	Grupo Magnum
+T160	DOCUMENTO 22356 22373	demais documentos
+T161	RITO 22505 22517	RITO SUMARIO
+T162	ATO-DE-CONCENTRACAO 23078 23086	presente
+T163	ACESSO 23398 23413	ACESSO RESTRITO
+T164	DOCUMENTO 23468 23478	documentos
+T165	ORGANIZACAO 23563 23606	Conselho Administrativo de Defesa Economica
+T166	ORGANIZACAO-NOME 23646 23656	Requerente
+T167	DOCUMENTO 23788 23798	documentos
+T168	ORGANIZACAO-NOME 24026 24035	Grupo GPS
+T169	ORGANIZACAO-NOME 24040 24052	Grupo Magnum
+T170	ORGANIZACAO 24294 24340	CONSELHO  ADMINISTRATIVO  DE  DEFESA ECONÔMICA
+T171	ATO-DE-CONCENTRACAO 24509 24516	ato  de
+T172	ATO-DE-CONCENTRACAO 24533 24580	Ato  de  Concentração  nº 08700.004768/2016-42.
+T173	ORGANIZACAO 24596 24835	GPS  Participações  e  Empreendimentos  S.A.,  Top  Service  Serviços  e  Sistemas  Ltda.,  Magnum  Serviços  Empresariais  Ltda.  e  Método  Assessoria  Empresarial  Ltda.  Advogados:  Priscila  Brolio  Gonçalves,  Camila  Pires  Rocha  e
+T174	ATO-DE-CONCENTRACAO 25108 25117	7830-2/00
+T175	PESSOA 25155 25210	KENYS  MENEZES  MACHADO, Superintendente-Geral  Adjunto
+T176	ORGANIZACAO 25240 25283	CONSELHO ADMINISTRATIVO DE DEFESA ECONÔMICA
+T177	ORGANIZACAO-NOME 25286 25290	CADE
+T178	ORGANIZACAO 25292 25339	HS Aquisições Holding Ltda. ("HS Aquisições" ou
+T179	PESSOA 25451 25465	seus advogados
+T180	PESSOA 25468 25489	bastante procuradores
+T181	PESSOA 25814 25823	advogados
+T182	PESSOA 25826 25847	bastante procuradores
+T183	DOCUMENTO 25918 25948	artigo 88 da Lei n 12.529/2011
+T184	OPERACAO 25961 25969	operação
+T185	ORGANIZACAO 26008 26051	Conselho Administrativo de Defesa Econômica
+T186	ACESSO 26079 26094	ACESSO RESTRITO
+T187	DOCUMENTO 26116 26199	artigo 53 e seguintes do Regimento interno do aprovado pela Resolução CADE n 1/2012
+T188	REQUERENTES 26204 26215	Requerentes
+T189	ACESSO 26245 26260	acesso restrito
+T190	DOCUMENTO 26265 26285	seguintes documentos
+T191	ORGANIZACAO 26352 26361	terceiros
+T192	REQUERENTES 26391 26410	empresas envolvidas
+T193	DOCUMENTO 26427 26485	Versão de Acesso Restrito do Anexo II. da Resolução CADE n
+T194	ORGANIZACAO 26638 26655	grupos econômicos
+T195	ORGANIZACAO-NOME 26835 26844	Grupo HSI
+T196	DOCUMENTO 27023 27062	Informações sobre a operação e forma de
+T197	REQUERENTES 27731 27737	partes
+T198	REQUERENTES 27831 27842	Requerentes
+T199	MERCADO 27846 27906	mercado de distribuição de produtos e serviços odontoiógicos
+T200	ORGANIZACAO-NOME 28132 28144	Grupo Tarpon
+T201	DOCUMENTO 28168 28210	Apartado de Acesso Restrito n 01. conforme
+T202	DOCUMENTO 28293 28303	documentos
+T203	DOCUMENTO 28352 28385	Cópia do Contrato de Investimento
+T204	DOCUMENTO 28395 28421	respectiva tradução para o
+T205	DOCUMENTO 28455 28487	Apartado de Acesso Restrito n 02
+T206	OPERACAO 28627 28651	operação ora sob análise
+T207	REQUERENTES 28702 28708	partes
+T208	DOCUMENTO 28724 28804	Cópia do Contrato de Compra e Venda de Ações e de sua respectiva tradução para o
+T209	DOCUMENTO 28838 28870	Apartado de Acesso Restrito n 04
+T210	OPERACAO 29011 29035	operação ora sob análise
+T211	REQUERENTES 29086 29092	partes
+T212	DOCUMENTO 29108 29196	Cópia do Contrato de Não Concorrência da Cremer S.A. e de sua respectiva tradução para o
+T213	DOCUMENTO 29230 29262	Apartado de Acesso Restrito n 06
+T214	OPERACAO 29403 29427	operação ora sob análise
+T215	REQUERENTES 29478 29484	partes
+T216	DOCUMENTO 29500 29557	Cópia das demonstrações financeiras da Dental Cremer, ora
+T217	DOCUMENTO 29575 29617	Apartado de Acesso Restrito n 08. conforme
+T218	DOCUMENTO 29704 29713	documento
+T219	DOCUMENTO 29762 29933	Dados do Censo de Odontologia Brasileira elaborado pela Associação Brasileira da Indústria de Artigos e Equipamentos Médicos, Odontológicos, Hospitalares e de Laboratórios
+T220	DOCUMENTO 29967 30009	Apartado de Acesso Restrito n 09. conforme
+T221	DOCUMENTO 30092 30101	documento
+T222	REQUERENTES 30156 30162	PARTES
+T223	ORGANIZACAO-NOME 30321 30330	Grupo HSI
+T224	PRODUTO 30350 30358	serviços
+T225	ORGANIZACAO-NOME 30518 30527	Grupo HSI
+T226	ORGANIZACAO 30545 30562	Dental Speedgraph
+T227	PRODUTO 30759 30773	equipamentos e
+T228	PRODUTO 30774 30828	outros produtos e serviços utilizados em procedimentos
+T229	PESSOA 30976 30979	sua
+T230	PRODUTO 31384 31393	vestuário
+T231	PRODUTO 31396 31413	produtos de saúde
+T232	OPERACAO 31424 31432	OPERAÇÃO
+T233	OPERACAO 31443 31451	operação
+T234	OPERACAO-OBJETO 31477 31486	aquisição
+T235	ORGANIZACAO-NOME 31535 31538	CMN
+T236	ORGANIZACAO 31563 31584	HS Aquisições Holding
+T237	ORGANIZACAO-NOME 31617 31625	Operação
+T238	PRODUTO 31726 31734	produtos
+T239	REQUERENTES 31887 31898	Requerentes
+T240	ORGANIZACAO-NOME 31938 31946	Operação
+T241	MERCADO 31951 31986	mercado de distribuição de produtos
+T242	MERCADO 31989 31997	serviços
+T243	OPERACAO 32032 32040	Operação
+T244	CH 32066 32089	sobreposição horizontal
+T245	MERCADO 32153 32213	mercado de distribuição de produtos e serviços odontológicos
+T246	MARKET-SHARE 32380 32411	baixas participações de mercado
+T247	REQUERENTES 32416 32427	Requerentes
+T248	MERCADO 32448 32471	mercado de distribuição
+T249	DOCUMENTO 32512 32534	formulário de Anexo II
+T250	DOCUMENTO 32761 32855	artigo 88 da Lei n 12.529/2011, e ainda com fundamento no Regimento Interno do CADE, notificam
+T251	REQUERENTES 32886 32897	Requerentes
+T252	ORGANIZACAO-NOME 32932 32936	CADE
+T253	OPERACAO 32961 32973	operação ora
+T254	DOCUMENTO 33126 33156	artigo 23 da Lei n 12.529/2011
+T255	DOCUMENTO 33240 33283	comprovante do pagamento da taxa processual
+T256	ATO-DE-CONCENTRACAO 33315 33335	atos de concentração
+T257	REQUERENTES 33358 33369	Requerentes
+T258	ORGANIZACAO-NOME 33487 33490	CMN
+T259	ORGANIZACAO-NOME 33498 33504	Dental
+T260	PESSOA 33516 33520	seus
+T261	REQUERENTES 33559 33570	Requerentes
+T262	DOCUMENTO 33721 33748	documentos e/ou informações
+T263	PESSOA 33995 34022	Carolina Maria Matos Vieira
+T264	PESSOA 34085 34138	Ana Paula Paschoalini, Marcela Junqueira Cesar Pirola
+T265	ORGANIZACAO 34140 34183	CONSELHO ADMINISTRATIVO DE DEFESA ECONÔMICA
+T266	ATO-DE-CONCENTRACAO 34324 34330	ato de
+T267	ATO-DE-CONCENTRACAO 34345 34387	Ato de Concentração n 08700.001872/2016-85
+T268	ORGANIZACAO 34403 34523	HS Aquisições Holding Ltda., CMN Solution A018 Participações S.A. e Dental Cremer Produtos Odontológicos S.A. Advogados:
+T269	PESSOA 34550 34572	Ana Paula  Paschoalini
+T270	PESSOA 34718 34766	KENYS  MENEZES  MACHADO, Superintendente-Adjunto
