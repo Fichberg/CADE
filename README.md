@@ -1,4 +1,3 @@
-# ml-cade
 /bin - OpenNLP and Brat binaries compressed in their respective folders.
 
 /data/corpus-brat - Contains the corpus and its brat annotations.
