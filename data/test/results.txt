@@ -1,0 +1,65 @@
+Errors:
+
+E1: Missed Entity. That is, did not mark entity when it should. Example: Had to mark one organization, but skipped it.
+E2: Missed Classification. That is, marked a correct entity with the wrong classification. Example: an organization was marked as person.
+E3: Precision Error. That is, within the annotation there is, indeed, part of what is considered to be correct. Example: Should mark "Braco do Brasil S.A.", but found "Banco do Brasil". E3 is considered to happen if we could easily correct just increasing or decreasing lower and higher bounds of the annotations indexes. For a more rigid consideration, precision error E3 + E2 are both errors that should never happen. E3 is being taken in consideration because most of the time it is not really a bad error, but just undesirable.
+
+Arrangement 1: 774 real, 327 found
+E1 = (774 - (327 - E2)) = 461
+E2 = 327 - 313 = 14
+E3 = 313 - 258 = 55
+A  = 258
+
+Arrangement 2: 527 real, 263 found
+E1 = (527 - (263 - E2)) = 272
+E2 = 263 - 255 = 8
+E3 = 255 - 208 = 47
+A  = 208
+
+Arrangement 3: 491 real, 218 found
+E1 = (491 - (218 - E2)) = 286
+E2 = 218 - 205 = 13
+E3 = 205 - 168 = 37
+A  = 168
+
+Arrangement 4: 741 real, 324 found
+E1 = (741 - (324 - E2)) = 431
+E2 = 324 - 310 = 14
+E3 = 310 - 248 = 62
+A  = 248
+
+Arrangement 5: 653 real, 293 found
+E1 = (653 - (293 - E2)) = 379
+E2 = 293 - 274 = 19
+E3 = 274 - 231 = 43
+A  = 231
+
+Arrangement 6: 520 real, 210 found
+E1 = (520 - (210 - E2)) = 323
+E2 = 210 - 197 = 13
+E3 = 197 - 162 = 35
+A  = 162
+
+Arrangement 7: 702 real, 270 found
+E1 = (702 - (270 - E2)) = 443
+E2 = 270 - 259 = 11
+E3 = 259 - 208 = 51
+A  = 208
+
+Arrangement 8: 623 real, 263 found
+E1 = (623 - (263 - E2)) = 371
+E2 = 263 - 252 = 11
+E3 = 252 - 210 = 42
+A  = 210
+
+Arrangement 9: 587 real, 220 found
+E1 = (587 - (220 - E2)) = 375
+E2 = 220 - 212 = 8
+E3 = 212 - 179 = 33
+A  = 179
+
+Arrangement 10: 605 real, 243 found
+E1 = (605 - (243 - E2)) = 375
+E2 = 243 - 230 = 13
+E3 = 230 - 184 = 46
+A  = 184

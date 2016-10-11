@@ -1,5 +1,0 @@
-Errors:
-
-Type 1: Missed Entity. That is, did not mark entity when it should. Example: Had to mark one organization, but it was skipped.
-
-Type 2: Missed Classification. That is, marked a correct entity with the wrong classification. Example: an organization was marked as person.

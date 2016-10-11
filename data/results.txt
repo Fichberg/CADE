@@ -1,4 +1,0 @@
-A:  Verdadeiros Positivos
-E1: Não marcou.
-E2: Entidade errada.
-E3: Posicional
