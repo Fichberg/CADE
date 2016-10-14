@@ -7,12 +7,13 @@
 \usepackage{textcomp}
 \usepackage[bottom]{footmisc}
 \usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{mathtools}
+
 \definecolor{sblue}{rgb}{0, 0, 1}
 \definecolor{blue}{rgb}{0, 0.55, 1}
 \definecolor{red}{rgb}{1, 0, 0}
 \newcommand{\quotes}[1]{``#1''}
-
-
 \pagestyle{fancy}
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
 \fancyhf{}
@@ -51,7 +52,8 @@
 
 \pagebreak
 \thispagestyle{empty}
-\section*{Agradecimentos}
+\chapter*{Agradecimentos}
+\markboth{UNNUMBERED CHAPTER}{}
 
 \indent\indent Este trabalho, apesar de ter apenas um autor, possui muito das experiências e conhecimento que acumulei ao longo
 do curso de Bacharelado em Ciência da Computação e, reconheço, não seria possível realizá-lo não fosse o aprendizado e o incentivo que tive, de várias
@@ -80,6 +82,8 @@ E finalmente, a todos os professores que tive a oportunidade de conhecer e apren
 
 \pagebreak
 \thispagestyle{empty}
+\chapter*{}
+\markboth{UNNUMBERED CHAPTER}{}
 
 \vspace*{\fill}
 \textit{\quotes{The voice that navigated was definitely that of a machine, and yet you could tell that the machine was a woman, which hurt my mind a little. How can machines have genders? The machine also had an American accent. How can machines have nationalities? This can't be a good idea, making machines talk like real people, can it? Giving machines humanoid identities?}}
@@ -88,7 +92,8 @@ E finalmente, a todos os professores que tive a oportunidade de conhecer e apren
 
 \pagebreak
 \thispagestyle{empty}
-\section*{Resumo}
+\chapter*{Resumo}
+\markboth{UNNUMBERED CHAPTER}{}
 
 \indent\indent O Conselho Administrativo de Defesa Econônima (CADE) é um orgão independente que reporta ao Ministério da Justiça e possui como missão garantir ao máximo a livre
 concorrência de mercado em todo o território Brasileiro e realiza as suas funções legais de acordo com a Lei Nº 12.529/2011\footnote[1]{Acesso à Informação: Conheça o CADE}.
@@ -110,7 +115,8 @@ foram aprendidas ao longo do trabalho que poderiam, talvez, melhorar a precisão
 
 \pagebreak
 \thispagestyle{empty}
-\section*{Abstract}
+\chapter*{Abstract}
+\markboth{UNNUMBERED CHAPTER}{}
 
 \indent\indent The Administrative Council for Economic Defense (CADE) is an independent agency reporting to the Ministry of Justice and has as mission to ensure to the maximum the free
 market competition over the entirety of the Brazilian territory and performs its legal functions according to the Law Nº 12.529/2011\footnote[2]{Acesso à Informação: Conheça o CADE}.
@@ -132,7 +138,8 @@ were learned throughout this project that could, maybe, increase the precision a
 
 \pagebreak
 \thispagestyle{empty}
-\section*{Glossário de Siglas}
+\chapter*{Glossário de Siglas}
+\markboth{UNNUMBERED CHAPTER}{}
 
 \indent\indent As siglas descritas a seguir aparecem em partes diversas desta monografia. Confira abaixo
 os seus significados:
@@ -148,6 +155,9 @@ os seus significados:
 \noindent CADE - Conselho Administrativo de Defesa Econômica
 
 \vspace*{8px}
+\noindent DOU - Diário Oficial da União
+
+\vspace*{8px}
 \noindent IA - Inteligência Artificial
 
 \vspace*{8px}
@@ -158,14 +168,15 @@ os seus significados:
 
 \pagebreak
 \thispagestyle{empty}
-\section*{Índice}
+\chapter*{Índice}
+\markboth{UNNUMBERED CHAPTER}{}
 
 \pagebreak
 \chapter{Introdução}
 \indent\indent Neste primeiro capítulo será abordado um pouco da motivação para o desenvolvimento deste trabalho bem como os seus objetivos e o problema envolvido.
 Todo e qualquer conteúdo mais técnico mencionado aqui será melhor explorado nos capítulos sucessivos, desde assuntos relacionados a áreas da computação, tais como
 Reconhecimento de Entidades Mencionadas, até o funcionamento do Conselho Administrativo de Defesa Econômica, seus processos e a sua base de dados. Assim sendo, o
-leitor não deve ser preocupar com eventuais dúvidas técnicas que possam surgir com a leitura deste capítulo meramente introdutório.
+leitor não deve se preocupar com eventuais dúvidas técnicas que possam surgir com a leitura deste capítulo meramente introdutório.
 
 \section{Motivação}
 \indent\indent O tema do projeto é atraente uma vez que está diretamente ligado à realidade da nossa sociedade. O CADE tem um papel
@@ -173,7 +184,7 @@ fundamental para manter a concorrência de mercado entre competidores de todos o
 particularmente importante para dar alguma garantia aos pequenos negócios de não serem engolidos por \textit{players} veteranos, que
 já atuam em determinado mercado há mais tempo e, portanto, já dominam fatias consideráveis do público de interesse.
 
-É conhecido também o fato de que processos judiciais tendem a ser demorados e mesmo que os Atos de Concentração tratados pelo CADE, objetos de estudo deste
+É conhecido também o fato de que os processos judiciais tendem a ser demorados e mesmo que os Atos de Concentração tratados pelo CADE, objetos de estudo deste
 trabalho, sejam mais rápidos quando comparados a outros de diferente natureza, tentar torná-los ainda mais rápidos definitivamente é algo bem vindo, uma vez que
 tais processos judiciais podem demorar até seis meses para terem um tipo de rito escolhido.
 
@@ -186,7 +197,7 @@ para resolver problemas similares com outros tipos de processos judiciais ou mes
 \indent\indent Para o CADE, isso representaria a possibilidade de resolver mais processos em um mesmo intervalo de tempo, e para organizações ou mesmo cidadãos isso representaria
 terem uma resposta mais rápida para planejarem as suas próximas ações. Em especial, é importante ressaltar que estamos lidando com o mercado, que é uma
 entidade abstrata muito volátil, isto é: os mercados, de um modo geral, são flutuantes, de tal forma que a sua capacidade de se transformar é altíssima.
-Um dado mercado pode estar em alta em um dia e em queda no mês seguinte. Devido em grande a parte globalização, mercados constituem entidades de difícil previsão
+Um dado mercado pode estar em alta em um mês e em queda no mês seguinte. Devido em grande a parte globalização, mercados constituem entidades de difícil previsão
 mesmo para \textit{experts} em economia.
 
 À luz do que foi dito, portanto, quanto antes uma resposta for obtida, melhor será, já que ela teoricamente será mais fiel a configuração do mercado no momento da petição.
@@ -263,7 +274,111 @@ econômico e a análise dos atos de concentração\footnote[2]{Acesso à Informa
 
 \section{Atos de Concentração Econômica}
 
+\indent\indent Os Atos de Concentração Econômicas são caracterizados por operações que envolvem duas ou mais empresas independentes, conforme descrito no artigo 90 da Lei 12.529/2011. Tais operações
+podem ser aquisições de controle ou incorporações de uma ou mais empresas por outras ou ainda a celebração de contratos associativos, consórcios ou \textit{joint ventures} entre duas
+empresas ou mais.
+
+\subsection{Operações}
+
+\indent\indent São as operações, aliadas ao faturamento bruto anual ou volume de negócios no Brasil dos agentes econômicos envolvidos, que caracterizam a necessidade de existência dos
+Atos de Concentração analisados pelo CADE. Quando o faturamento de uma das empresas envolvidas atinge o patamar mínimo de R\$ 750 milhões e o de uma outra, também envolvida na operação,
+de pelo menos R\$ 75 milhões.
+
+Considerando esta informação, é particularmente interessante que a aplicação desenvolvida saiba identificar as operações de um dado processo, especialmente
+pela razão de que certas operações tendem a seguir mais um ou outro tipo de rito. É relevante ressaltar a observação, no entanto, que o tipo de operação não é uma condição suficiente
+para identificar o tipo de rito, mas é um bom indicativo para buscarmos o mais provável\footnote[3]{Perguntas frequentes sobre Atos de Concentração Econômica}. Seguem abaixo
+os possíveis tipos de operações que um AC pode ter:
+
+\begin{itemize}
+  \item \textbf{Fusão}: são caracterizadas pela união de duas ou mais empresas distintas para formar um novo agente econômico único.
+  \item \textbf{Incorporação}: são caracterizadas pelo ato de uma ou mais empresas incorporar total ou parcialmente outras empresas dentro de uma mesma pessoa jurídica,
+  de tal forma que o incorporado desaparece como pessoa jurídica, mas o incorporador mantém a sua identidade jurídica após a operação.
+  \item \textbf{Aquisição}: são caracterizadas pelo ato de uma empresa adquirir o controle total ou parcial da participação acionária de outra empresa.
+  \item \textbf{\textit{Joint venture}}: são caracterizadas pela criação de uma nova empresa a partir da associação entre duas ou mais empresas, de tal forma
+  que as empresas que se associaram mantém normalmente suas identidades jurídicas pós operação.
+\end{itemize}
+
 \section{Base de Dados Pública}
+
+\indent\indent O CADE possui uma base de dados\footnote[4]{Base de Dados Pública do CADE: Pesquisa Processual} com processos datados desde 1980 até os dias atuais, de tal forma que
+para uma pessoa que não sabe ao certo o que está procurando facilmente pode se perder em meio a tantos tipos de processos. Para nós, porém, eram relevantes apenas
+os tipos de processo \quotes{Finalístico: Ato de Concentração Ordinário} e \quotes{Finalístico: Ato de Concentração Sumário}, uma vez que foram os objetos de estudo deste trabalho.
+
+Além dos tipos de processo, há outras informações que podem alimentar o sistema de recuperação de informação para que encontremos o que buscamos, tais como buscar um processo pelo
+seu número ou dentro de um determinado período cronológico. Uma vez selecionado um dos tipos de processo que nos é relevante (um dos Atos de Concentração mencionados no parágrafo
+anterior), é importante identificarmos os tipos de documentos que nos são relevantes para sabermos onde buscarmos as informações que precisamos.
+
+A lista de tipos de documentos é deveras extensa e para alguém que desconhece o tipo de informação que está contido em cada um destes tipos de documentos, descobrir pode ser uma tarefa
+bastante demorada. Precisamos, portanto, de alguma heurística para encontrarmos tipos de documentos que sejam potenciais candidatos a serem considerados de alta relevância para nós.
+
+\subsection{Heurística de Seleção de Tipos de Documentos}
+
+\indent\indent Queremos descobrir, dentre os mais de 100 diferentes tipos de documentos presentes na base de dados, aqueles que devem
+ter as informações mais pertinentes para nós analisarmos os dados e tentarmos descobrir em qual rito determinado futuro processo será classificado.
+Ignorando os tipos de documentos por um instante e acessando os diferentes Atos de Concentração que aparecem em uma pesquisa \quotes{crua} (isto é, com apenas um dos tipos de
+processo selecionado), comparando-os um a um, é fácil de identificar que a maioria dos ACs, salve pouquíssimas exceções que provavelmente constituem em processos confidenciais,
+possuem os tipos de documentos \quotes{Notificação}, \quotes{Formulário de Notificação} e \quotes{Publicação no DOU}.
+
+Notavelmente, tais tipos de documentos, de acordo com as informações presentes na base de dados, sempre estão entre os primeiros documentos submetidos no instante em que um
+Ato é dado como público. Para nós, o instante em que um AC é dado como público tem o mesmo efeito de encará-lo como inicializado, uma vez que não temos qualquer acesso
+a documentos confidenciais, e portanto nada podemos inferir sobre eles.
+Desta forma, chegamos à seguinte heurística para termos um ponto de partida e selecionarmos os tipos de documentos potencialmente mais interessantes, descrita abaixo:
+
+\begin{enumerate}[label=\textbf{\arabic*.}]
+\item Buscamos documentos que frequentemente \quotes{abrem} um Ato de Concentração.
+\item Olhamos uma quantidade razoável de processos, digamos 50, e vemos em quantos deles tais documentos estão presentes
+\item Supomos que tais documentos não são específicos a um AC e portanto devem ter as informações necessárias para que um novo Ato seja consolidado.
+\item Como todo Ato obrigatoriamente segue um dos dois tipos de rito, as informações necessárias devem estar presente nos tipos de documentos selecionados.
+\end{enumerate}
+
+O item \textbf{1} da heurística é particularmente importante pois ele encapsula todo o objetivo da nossa aplicação: \textit{não queremos apenas identificar o mais provável tipo de rito
+de um determinado Ato de Concentração, mas queremos fazer isso com o mínimo possível de informações}, ou seja: quanto menor o número de análises forem
+necessárias por parte do CADE para chegar a uma conclusão relacionada ao rito, melhor.
+
+Está idéia está diretamente relacionada ao \textit{pipeline} mencionado no capítulo 1 - Introdução, seção 1.1 - Motivação. Suponhamos aqui para ilustrar a idéia do
+\textit{pipeline} de análise que um determinado AC pode ter no máximo \textit{n} fases $F_i$ e que $F_1$ e $F_n$ sejam suas fases inicial e final, respectivamente.
+Suponhamos ainda que existam vários tipos de documentos $D_j$ que podem fazer parte do AC, mas que certos documentos só podem aparecer em uma fase $F_i$ específica.
+Diremos que o valor $V_j$ de um dado documento $D_j$ é tão maior quanto menor for o valor de \textit{i}, para $i = 1, 2, 3 ... n$ e que $V_i \in [0, 1]$ de tal
+forma que $V_1 = 1$ é o valor máximo de um documento e $V_n = 0$ o valor mínimo.
+Consideremos, finalmente, o AC de \textit{n} = 5 fases composto dos 10 documentos $D_j, 1 \leq j \leq 10$ tais que:
+
+\begin{itemize}
+  \item $D_1, D_2, D_3 \in F_1$ documentos que abriram o Ato de Concentração.
+  \item $D_4 \in F_2$ documento que foi produzido após análise da fase $F_1$.
+  \item $D_5, D_6, D_7 \in F_3$ documentos que foram produzidos após a análise da fase $F_2$.
+  \item $D_8 \in F_4$ documento que foi produzido após a análise da fase $F_3$.
+  \item $D_9, D_{10} \in F_5$ documentos que foram produzido após a análise da fase $F_4$. Encerramento do Ato de Concentração. Como o rito já foi decidido pelo Conselho,
+  não possuem valor para nós.
+\end{itemize}
+
+Conseqüentemente, temos a seguinte relação para os valores de cada um dos \textit{j} documentos considerando o \textit{pipeline} $F_i, 1 \leq i \leq 5$:
+\begin{center}
+  $1 = V_1 = V_2 = V_3 > V_4 > V_5 = V_6 = V_7 > V_8 > V_9 = V_{10} = 0$
+\end{center}
+
+Assim sendo, concluímos que os documentos de maior valor para nós são os mais próximos da fase inicial. Há, porém, uma pergunta que deve ser feita: por qual razão,
+necessariamente, deveríamos considerar esta interpretação correta? Está questão já foi respondida: tempo. Existe ainda um outro fator que não foi mencionado aqui e será abordado
+no capítulo 3 - PLN, seção 3.2 - Criação do Córpus, que responde a pergunta de outra maneira e portanto complementa a nossa resposta. Para adiantar a idéia, considere que os 3 tipos de
+documentos presentes na fase inicial, \quotes{Notificação}, \quotes{Formulário de Notificação} e \quotes{Publicação no DOU} possuem diferentes padrões uma vez que a própria
+estrutura dos documentos são diferentes. Para completar o raciocínio, lembre-se: algoritmos de aprendizado de máquina aprendem com base em padrões aprendidos no modelo
+de trainamento\footnote[5]{Documentação OpenNLP: REM} (ao menos os das ferramentas usadas neste trabalho)!
+
+Abaixo, é exposto um pouco do que cada um destes tipos de documentos contém e a diferença estrutural de cada um deles:
+
+\begin{enumerate}[label=\textbf{\arabic*.}]
+\item \textbf{Notificação}: Tem uma estrutura informativa acerca da operação, dos agentes econômicos envolvidos e dos documentos anexos a relevantes ao Ato, com pedidos
+de acesso restrito para os anexos que contém informações críticas que, na opinião das empresas requerentes, caso os seus concorrentes viessem a conhecer prejudicaria o seu negócio.
+\item \textbf{Formulário de Notificação}: Tem uma estrutura de perguntas e respostas, onde os agentes econômicos envolvidos respondem ao formulário do CADE. Nem todas as perguntas
+são respondidas, pois mais uma vez, certas respostas as requerentes querem que se mantenham confidenciais.
+\item \textbf{Publicação no DOU}: Contém poucas linhas, com informações gerais do Ato tais como as organizações envolvidas, seus advogados, número do processo, operação objeto
+e setor econômico envolvido, declarando o AC público.
+\end{enumerate}
+
+\section{Ritos de um Ato de Concentração}
+
+\subsection{Sumário}
+
+\subsection{Ordinário}
 
 \pagebreak
 \chapter{PLN}
@@ -294,10 +409,15 @@ econômico e a análise dos atos de concentração\footnote[2]{Acesso à Informa
 \subsection{Aprendizado de Máquina}
 
 \pagebreak
-\section*{Referências}
+\chapter*{Referências}
+\markboth{UNNUMBERED CHAPTER}{}
 
-[1] Acesso à Informação: Conheça o CADE. Disponível em: \textless http://www.cade.gov.br/acesso-a-informacao/institucional \textgreater. Acesso em: 13 de outubro de 2016.
-
-\noindent[2] Assessoria de Comunicação Social. Acesso à Informação: Histórico do CADE. Disponível em: \textless http://www.cade.gov.br/acesso-a-informacao/institucional/historico-do-cade \textgreater. Acesso em: 13 de outubro de 2016.
+\begin{enumerate}[label={[\arabic*]}]
+\item Acesso à Informação: Conheça o CADE. Disponível em: \textless\enspace http://www.cade.gov.br/acesso-a-informacao/institucional\enspace\textgreater. Acesso em: 13 de outubro de 2016.
+\item Assessoria de Comunicação Social. Acesso à Informação: Histórico do CADE. Disponível em: \textless\enspace http://www.cade.gov.br/acesso-a-informacao/institucional/historico-do-cade\enspace\textgreater. Acesso em: 13 de outubro de 2016.
+\item Assessoria de Comunicação Social. Perguntas frequentes sobre Atos de Concentração Econômica. Disponível em: \textless\enspace http://www.cade.gov.br/servicos/perguntas-frequentes/perguntas-sobre-atos-de-concentracao-economica\enspace\textgreater. Acesso em: 14 de outubro de 2016.
+\item Base de Dados pública do CADE: Pesquisa Processual. Disponível em: \newline\textless\enspace http://www.cade.gov.br/assuntos/processos-1\enspace\textgreater. Acesso em: 14 de outubro de 2016.
+\item Documentação OpenNLP: REM. Disponível em: \newline\textless\enspace https://opennlp.apache.org/documentation/manual/opennlp.html\#tools.namefind \enspace\textgreater. Acesso em: 14 de outubro de 2016.
+\end{enumerate}
 
 \end{document}
