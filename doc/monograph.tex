@@ -3,16 +3,22 @@
 \usepackage[utf8]{inputenc}
 \usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
 \usepackage[a4paper,margin={1in}]{geometry}
-\usepackage{graphicx}
 \usepackage{color}
-\usepackage{pifont}
 \usepackage{textcomp}
-\usepackage{caption}
-\usepackage{pgfplots}
+\usepackage[bottom]{footmisc}
+\usepackage{fancyhdr}
 \definecolor{sblue}{rgb}{0, 0, 1}
 \definecolor{blue}{rgb}{0, 0.55, 1}
 \definecolor{red}{rgb}{1, 0, 0}
 \newcommand{\quotes}[1]{``#1''}
+
+
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\fancyhf{}
+\fancyhead[RE]{\chaptername~\thechapter}
+\fancyhead[LO]{\leftmark}
+\cfoot{\thepage}
 
 \begin{document}
 
@@ -66,19 +72,27 @@ Daniel Paulino Alves, que sempre tinham algo de novo a ensinar.
 
 Aos meus grandes amigos do colégio, Jonathan Schiriak, Allon Rozansky, Aaron Zarenczanski e Walter Caspari, pelos bons momentos, eventuais apoios e conselhos.
 
-Aos colaboradores deste trabalho, William Collen, Kemil Raje e o meu orientador Prof. Dr. Marcelo Finger, por toda a paciência que tiveram com as minhas tantas dúvidas e
-sugestões de estratégias e ferramentas para solucionar os problemas que iam surgindo.
+Aos colaboradores deste trabalho, William Collen, Kemil Raje Jarude e o meu orientador Prof. Dr. Marcelo Finger, por toda a paciência que tiveram com as minhas tantas dúvidas e
+sugestões de estratégias e ferramentas para solucionar os problemas que foram surgindo.
 
 E finalmente, a todos os professores que tive a oportunidade de conhecer e aprender algo. Todos foram essenciais para a minha trajetória.
+
+\pagebreak
+\thispagestyle{empty}
+
+\vspace*{\fill}
+\textit{\quotes{The voice that navigated was definitely that of a machine, and yet you could tell that the machine was a woman, which hurt my mind a little. How can machines have genders? The machine also had an American accent. How can machines have nationalities? This can't be a good idea, making machines talk like real people, can it? Giving machines humanoid identities?}}
+\begin{flushright} - Matthew Quick, The Good Luck of Right Now \end{flushright}
+\vspace*{\fill}
 
 \pagebreak
 \thispagestyle{empty}
 \section*{Resumo}
 
 \indent\indent O Conselho Administrativo de Defesa Econônima (CADE) é um orgão independente que reporta ao Ministério da Justiça e possui como missão garantir ao máximo a livre
-concorrência de mercado em todo o território Brasileiro e realiza as suas funções legais de acordo com a Lei Nº 12.529/2011. O CADE dispõem de uma base de dados bastante extensa,
-com processos judiciais de vários tipos distintos datados do ano de 1980 até os dias atuais e mais de 100 tipos diferentes de documentos, desde formulários, notificações de processos
-e cópias escaneadas de documentos diversos até arquivos de áudio e vídeo.
+concorrência de mercado em todo o território Brasileiro e realiza as suas funções legais de acordo com a Lei Nº 12.529/2011\footnote[1]{Acesso à Informação: Conheça o CADE}.
+O CADE dispõem de uma base de dados bastante extensa, com processos judiciais de vários tipos distintos datados do ano de 1980 até os dias atuais e mais de 100 tipos diferentes de
+documentos, desde formulários, notificações de processos e cópias escaneadas de documentos diversos até arquivos de áudio e vídeo.
 
 O trabalho foi divido em duas partes distintas: a primeira se constituiu de explorar parte dos vários processos judiciais presentes na base de dados pública do CADE relacionados a Atos de
 Concentração com finalísticos Sumário ou Ordinário e montar um Córpus com os tipos de documentos que foram julgados pertinentes em primeira análise. Em seguida, a partir de anotações
@@ -88,7 +102,7 @@ algoritmos de Aprendizado de Máquina, considerando as entidades que foram encon
 
 Este trabalho trata especificamente da primeira parte e serão aqui abordados assuntos relacionados a ela, tais como Processamento de Linguagem Natural, Reconhecimento de Entidades
 Mencionadas e algumas ferramentas de \textit{software} que foram usadas para solucionar o problema em questão. A segunda parte, que infelizmente não foi desenvolvida por falta de tempo,
-será discutida menos detalhadamente na seção \textbf{TODO: COLOCAR SEÇÃO AQUI}.
+será discutida menos detalhadamente no capítulo 7, seção 7.2.1 - Aprendizado de Máquina.
 
 Por fim, além destes conteúdos, também serão compartilhados experimentos e resultados obtidos por meio de validação cruzada com o Córpus desenvolvido, junto de possíveis estratégias que
 foram aprendidas ao longo do trabalho que poderiam, talvez, melhorar a precisão e a corretude das anotações.
@@ -98,18 +112,19 @@ foram aprendidas ao longo do trabalho que poderiam, talvez, melhorar a precisão
 \section*{Abstract}
 
 \indent\indent The Administrative Council for Economic Defense (CADE) is an independent agency reporting to the Ministry of Justice and has as mission to ensure to the maximum the free
-market competition over the entirety of the Brazilian territory and performs its legal functions according to the Law Nº 12.529/2011. The CADE owns an extense enough database, with
-judicial processes of many distinct types dated from the year of 1980 to the present days and over 100 types of different documents, from formularies, process notifications and scanned
-copies of diverse documents to audio and video files.
+market competition over the entirety of the Brazilian territory and performs its legal functions according to the Law Nº 12.529/2011\footnote[2]{Acesso à Informação: Conheça o CADE}.
+The CADE owns an extense enough database, with judicial processes of many distinct types dated from the year of 1980 to the present days and over 100 types of different documents,
+from formularies, process notifications and scanned copies of diverse documents to audio and video files.
 
 The work was divided in two distinct parts: the first one constituted of exploring part of the many judicial processes within the public database owned by CADE related to Concentrations
 Acts with final procedure being either \quotes{Sumario} or \quotes{Ordinario} and build a Corpus with the document types that were considered pertinent in first analysis. After that,
-considering manual annotations of entities and its relationships done over the built Corpus, identify automatically the entities in the future judicial processes that can be relevant to the
-final classification between the two types of rite: \quotes{Sumario} or \quotes{Ordinario}. The second part constitutes of the classification of the judicial process in one of the
-mentioned rites through the use of Machine Learning algorithms, considering the entities that were found automatically in the documents of the given process.
+considering manual annotations of entities and its relationships done over the built Corpus, identify automatically the entities in the future judicial processes that can be relevant
+to the final classification between the two types of rite: \quotes{Sumario} or \quotes{Ordinario}. The second part constitutes of the classification of the judicial process in one of
+the mentioned rites through the use of Machine Learning algorithms, considering the entities that were found automatically in the documents of the given process.
 
 This work covers specifically the first part and will be discussed here subjects related to it, like Natural Language Processing, Named Entity Recognition and some of software tools that
-were used to solve the introduced problem. The second part, which unfortunately was not developed duo to the lack of time, will be briefly discussed in the section \textbf{TODO: COLOCAR SEÇÃO AQUI}.
+were used to solve the introduced problem. The second part, which unfortunately was not developed duo to the lack of time, will be briefly discussed in chapter 7,
+section 7.2.1 - Aprendizado de Máquina.
 
 At last, in addition to these contents, will also be shared experiments and results obtained through the use of cross validation with the created Corpus, along with possible strategies that
 were learned throughout this project that could, maybe, increase the precision and correctness of the annotations.
@@ -126,25 +141,13 @@ os seus significados:
 \noindent AC - Ato de Concentração
 
 \vspace*{8px}
-\noindent AI - \textit{Artificial Inteligence}
-
-\vspace*{8px}
 \noindent AM - Aprendizado de Máquina
 
 \vspace*{8px}
 \noindent CADE - Conselho Administrativo de Defesa Econômica
 
 \vspace*{8px}
-\noindent AI - Inteligência Artificial
-
-\vspace*{8px}
-\noindent ML - \textit{Machine Learning}
-
-\vspace*{8px}
-\noindent NER - \textit{Named Entity Recognition}
-
-\vspace*{8px}
-\noindent NLP - \textit{Natural Language Processing}
+\noindent IA - Inteligência Artificial
 
 \vspace*{8px}
 \noindent PLN - Processamento de Linguagem Natural
@@ -158,10 +161,10 @@ os seus significados:
 
 \pagebreak
 \chapter{Introdução}
-\indent\indent Neste primeiro capítulo será abordado um pouco da motivação para o desenvolvimento deste trabalho bem como os seus objetivos. Todo e qualquer conteúdo
-mais técnico mencionado aqui será melhor explorado nos capítulos sucessivos, desde assuntos relacionados a áreas da computação, tais como Reconhecimento de Entidades
-Mencionadas, até o funcionamento do Conselho Administrativo de Defesa Econômica, seus processos e a sua base de dados. Assim sendo, o leitor não deve ser preocupar
-com eventuais dúvidas técnicas que possam surgir com a leitura deste capítulo meramente introdutório.
+\indent\indent Neste primeiro capítulo será abordado um pouco da motivação para o desenvolvimento deste trabalho bem como os seus objetivos e o problema envolvido.
+Todo e qualquer conteúdo mais técnico mencionado aqui será melhor explorado nos capítulos sucessivos, desde assuntos relacionados a áreas da computação, tais como
+Reconhecimento de Entidades Mencionadas, até o funcionamento do Conselho Administrativo de Defesa Econômica, seus processos e a sua base de dados. Assim sendo, o
+leitor não deve ser preocupar com eventuais dúvidas técnicas que possam surgir com a leitura deste capítulo meramente introdutório.
 
 \section{Motivação}
 \indent\indent O tema do projeto é atraente uma vez que está diretamente ligado à realidade da nossa sociedade. O CADE tem um papel
@@ -179,48 +182,121 @@ para resolver problemas similares com outros tipos de processos judiciais ou mes
 
 \subsection{Retorno}
 
-\indent\indent Para o CADE, isso representaria a possibilidade de resolver mais processos em um mesmo intervalo de tempo, e para organizações ou cidadãos isso representaria
+\indent\indent Para o CADE, isso representaria a possibilidade de resolver mais processos em um mesmo intervalo de tempo, e para organizações ou mesmo cidadãos isso representaria
 terem uma resposta mais rápida para planejarem as suas próximas ações. Em especial, é importante ressaltar que estamos lidando com o mercado, que é uma
-entidade abstrata muito volátil, isto é: o mercado tem uma capacidade de se transformar muito rápida, portanto, quanto antes uma resposta for obtida, melhor, pois ela será,
-teoricamente, mais fiel ao estado do mercado no momento da petição.
+entidade abstrata muito volátil, isto é: os mercados, de um modo geral, são flutuantes, de tal forma que a sua capacidade de se transformar é altíssima.
+Um dado mercado pode estar em alta em um dia e em queda no mês seguinte. Devido em grande a parte globalização, mercados constituem entidades de difícil previsão
+mesmo para \textit{experts} em economia.
 
+À luz do que foi dito, portanto, quanto antes uma resposta for obtida, melhor será, já que ela teoricamente será mais fiel a configuração do mercado no momento da petição.
 
+\section{Problema}
+
+\indent\indent Dado um conjunto de processos judiciais com ritos conhecidos, queremos buscar saber em quais ritos os processos futuros se encaixarão. Temos dois tipos de classes possíveis para os ritos:
+Ordinário e Sumário. Desta forma, este é claramente um problema de classificação binária e já existem maneiras conhecidas de resolvê-lo eficientemente a partir
+de técnicas e algoritmos clássicos de AM.
+
+Para conseguirmos desempenhar esta função, porém, é necessário estudarmos as especificidades do problema proposto e, em particular e principalmente,
+do tipo de dados com que estamos lidando. Informações com relações a isso serão tratadas no capítulo 2 - CADE, na seção 2.2 - Base de Dados Pública.
+Note que esta etapa é essencial para garantirmos não apenas uma maior eficiência na classificação final, mas também que o algoritmo está sendo treinado sobre
+documentos totalmente fiéis à realidade.
+
+Acerca do então exposto, surge naturalmente um segundo problema do qual o nosso \textit{approach} por AM irá depender diretamente: construir um Córpus para servir de modelo de
+treinamento para identificar entidades chaves que podem ser determinantes no julgamento da classe do rito de um futuro processo.
+
+Assim, uma das possibilidades que surge é usar REM para identificar tais entidades e, a partir destas, buscar alguma relação entre as entidades encontradas e um dos tipos de rito, com
+base nos padrões que foram aprendidos a partir do Córpus de treinamento criado com processos antigos, presentes na base de dados pública do CADE. Focamos
+a nossa atenção, portanto, em primeiramente resolver o problema da construção do Córpus para treinamento.
 
 \section{Objetivos}
 
+\indent\indent O principal objetivo deste trabalho foi estudar os ACs analisados pelo CADE para poder então, criar um Córpus de treinamento e a partir deste classificar
+o AC em um dos ritos. Infelizmente, conforme já mencionado no Resumo, o escopo acabou revelando-se grande demais para o tempo disponível, e portanto teve de ser reduzido
+ao primeiro problema. Mais sobre isso será discutido no capítulo 7, seção 7.1 - Dificuldades Encontradas.
 
+Ainda, houve também um estudo do próprio funcionamento do CADE para entender mais sobre o problema e, em particular, um estudo voltado para a sua coletânea de processos
+armazenada na sua extensa base de dados pública com o intuito de identificar os tipos de documentos que poderiam ser mais pertinentes à análise dos processos no que diz respeito
+à classificação final do rito e também à forma que tais processos deveriam ser tratados para que fossem extraídas destes informações relevantes. Todo este conteúdo pode ser encontrado no
+capítulo 2 - CADE.
 
-\pagebreak
-\section{Conselho Administrativo de Defesa Econômica (CADE)}
-\subsection{Base de Dados pública}
+Como objetivo também existiu a necessidade de estudar assuntos relacionados a AI, tais como PLN e REM, que serão abordados nos capítulos 3 e 4, respectivamente.
+Ademais, foram estudadas ferramentas de \textit{software} que trabalham com PLN e REM: OpenNLP e o BRAT. Mais será dito sobre elas no capítulo 5, em suas
+respectivas seções. Nestas seções será apresentado um estudo de como funcionam as funcionalidades usadas destas ferramentas e também como tais ferramentas foram
+utilizadas para que os resultados apresentados no capítulo 6 - Resultados fossem alcançados.
 
-\pagebreak
-\section{Processamento de Linguagem Natural}
-\subsection{Criação do Córpus}
-\subsection{Tamanho do Córpus}
-\subsubsection{Anotações}
-\subsection{Tokenização}
-\subsection{Detecção de Setenças}
-
-\pagebreak
-\section{Reconhecimento de Entidades Mencionadas}
-
-\pagebreak
-\section{Ferramentas Utilizadas}
-
-\subsection{BRAT}
-
-\subsection{OpenNLP}
+Finalmente, foi estudado a partir da técnica estatística de validação cruzada o desempenho do Córpus criado e os tipos de erros que surgiram no processo de geração automatizada
+de anotações de entidades mencionadas a partir do modelo de treinamento do Córpus, de tal forma que foram percebidas algumas boas práticas com relação ao uso destas ferramentas
+para aumentar a eficácia e a acurácia das marcações. Tais percepções serão comentadas, também, no capítulo 6 - Resultados.
 
 \pagebreak
-\section{Resultados}
+\chapter{CADE}
+
+\indent\indent Neste capítulo serão abordados assuntos relacionados ao CADE, aos Atos de Concentração que devem ser legalmente submetidos a ele e à base de dados pública que ele possui e
+que contém tais processos judiciais. Sobre o CADE, será exposto um pouco da sua história e da sua função, para em seguida falarmos sobre o que são os ACs que cabem à sua competência
+a análise e, finalmente, sobre a base de dados pública que foi usada para obter os Atos de Concentração que compõem o Córpus construído, posteriormente usado para treinarmos um modelo
+que busca entidades mencionadas de forma automatiza. Mais informações sobre o Córpus serão abordadas no capítulo 3 - PLN e as suas entidades mencionadas no capítulo 4 - REM.
+
+\section{Quem é o CADE?}
+
+\indent\indent Criado pela Lei n° 4.137/62 como um orgão do Ministério da Justiça, o CADE hoje é uma autarquia em regime especial com jurisdição em todo o território nacional. Inicialmente,
+era da responsabilidade do Conselho a fiscalização da gestão econômica e do regime de contabilidade das empresas, atraves da Lei n° 8.884/1994, o CADE transformou-se em uma
+autarquia vinculada ao Ministério da Justiça.
+
+Tal Lei definia as atribuições do CADE e de outros órgãos que formavam juntos com o Conselho Administrativo de Defesa Econômica o Sistema Brasileiro de Defesa da Concorrência e tinham
+como missão garantir a política de defesa da livre concorrência em todo o território nacional. O CADE, em particular, era responsável pelo julgamento dos processos administrativos
+que tinham relação com condutas anticompetitivas e também por apreciar Atos de Concentração, tais como aquisições, fusões, \textit{joint ventures} e outros que fossem submetidos
+à sua aprovação.
+
+Com a entrada da Lei nº 12.529/2011 em maio de 1012, esta uma nova Lei de Defesa da Concorrência, houve uma reestruturação do Sistema Brasileiro de Defesa da Concorrência e a política
+da qual ele era encarregado, de defesa da concorrência, passou por mudanças significativas. Em especial, pela nova legislação, o CADE passou a ser responsável por competências até
+então dos outros órgãos do Sistema Brasileiro de Defesa da Concorrência: instruir processos administrativos de apuração de infrações à ordem econômica e também de processos de análise
+de Atos de Concentração. Ainda sobre a Lei nº 12.529/2011, a principal mudança introduzida consistia na exigência de submissão
+prévia ao CADE de fusões e aquisições de empresas que podem proporcionar efeitos anticompetitivos no mercado, algo que no período anterior a esta Lei poderia ser feito depois destas
+operações serem consumadas. Para o CADE, passou a existir então um prazo máximo de dozentos e quarenta (240) dias para análise das operações, prorrogáveis por mais noventa (90) dias
+em casos de operações demasiadamente complexas.
+
+Estruturalmente, com a Lei nº 12.529/2011 em vigor, tambem houveram mudanças: o CADE passou a ser constítuido pelo Tribunal Administrativo de Defesa Econômica, pelo Departamento de
+Estudos Econômicos e pela Superintendência-Geral. A esta última cabe desempenhar no novo sistema grande parte das funções realizadas pelos outrora pelos órgãos que compunham junto
+ao CADE o Sistema Brasileiro de Defesa Econômica antes da entrada da nova Lei de meio de 2012, tais como a investigação e a instrução de processos de repressão ao abuso do poder
+econômico e a análise dos atos de concentração\footnote[2]{Acesso à Informação: Histórico do CADE}.
+
+\section{Atos de Concentração Econômica}
+
+\section{Base de Dados Pública}
 
 \pagebreak
-\section{Conclusão}
-\subsection{Dificuldades encontradas}
-\subsubsection{Aprendizado de Máquina}
+\chapter{PLN}
+\section{O que é um Córpus?}
+\section{Criação do Córpus}
+\section{Tamanho do Córpus}
+\subsection{Anotações}
+\section{Tokenização}
+\section{Detecção de Setenças}
 
 \pagebreak
-\section{Referências}
+\chapter{REM}
+
+\pagebreak
+\chapter{Ferramentas Utilizadas}
+
+\section{BRAT}
+
+\section{OpenNLP}
+
+\pagebreak
+\chapter{Resultados}
+
+\pagebreak
+\chapter{Conclusão}
+\section{Dificuldades encontradas}
+\section{Próximo Passo}
+\subsection{Aprendizado de Máquina}
+
+\pagebreak
+\section*{Referências}
+
+[1] Acesso à Informação: Conheça o CADE. Disponível em: \textless http://www.cade.gov.br/acesso-a-informacao/institucional \textgreater. Acesso em: 13 de outubro de 2016.
+
+\noindent[2] Assessoria de Comunicação Social. Acesso à Informação: Histórico do CADE. Disponível em: \textless http://www.cade.gov.br/acesso-a-informacao/institucional/historico-do-cade \textgreater. Acesso em: 13 de outubro de 2016.
 
 \end{document}
