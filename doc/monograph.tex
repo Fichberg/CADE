@@ -405,10 +405,40 @@ procedimento Ordinário, mostrando que, de fato, o que difere um rito do outro �
 
 \pagebreak
 \chapter{PLN}
-\section{O que é um Córpus?}
-\section{Criação do Córpus}
-\section{Tamanho do Córpus}
-\subsection{Anotações}
+
+\indent\indent Neste capítulo falaremos um pouco sobre Processamento de Linguagem Natural (PLN), um campo da Ciência da Computação já bastante maduro que começou a ser muito
+explorado a partir do ano de 1950, apesar de ainda antes desta data ser possível encontrarmos trabalhos realizados em PLN. Problemas relacionados a
+Processamento de Linguagem Natural envolvem o entendimento de linguagens naturais por parte das máquinas ou mesmo geração de linguagem natural (isto é, a conversão
+de uma representação entendida por computadores em uma representação em linguagem natural).
+
+Estamos particularmente interessados na primeira
+categoria de problemas de PLN mencionada, uma vez que os Atos de Concentração estão escritos em linguagem natural, mais especificamente o português, e buscamos extrair informações
+deles. Isso significa, naturalmente, que é necessário que exista algum entendimento por parte da máquina sobre o conteúdo presente nos ACs, usados para construir nosso Córpus. Sendo
+assim, nosso ponto de partida neste capítulo será justamente o Córpus.
+
+\section{Córpus}
+
+\indent\indent Já falamos muitas vezes a palavra Córpus neste trabalho, mas afinal, o que é um Córpus? Um Córpus é, como o próprio nome em latim sugere, um corpo composto de textos.
+Uma coleção destes corpos é o que chamamos de \textit{Corpora}. Para trabalhar com um Córpus ou um \textit{Corpora}, é necessário que este que este seja suficientemente extenso.
+
+Mas de quão extenso estamos falando, afinal? Um exemplo de Córpus extenso é o Brown University Standard Corpus of Present-Day American English\footnote[7]{
+Versões do Brown Corpus podem ser encontradas na internet.} (ou apenas Brown Corpus), compilado na década de 1960 na universidade de Brown, Providence, Rhode Island, como um Corpus de
+propósito geral no campo de linguística de corpus. Ele contém 500 exemplares de textos em inglês americano, com cerca de um milhão de palavras. Um Córpus mais modesto é o Susanne Corpus,
+com aproximadamente cento e trinta mil palavras, que é na realidade um subconjunto do Brown Corpus. Mais será discutido sobre tamanho de Córpus, na seção 3.1.2 - Tamanho do Córpus,
+deste mesmo capítulo.
+
+De acordo com os autores Christopher D. Manning e Hinrich Schuetze [12], apenas para fazer a ordenação do Brown Corpus e criar uma lista de palavras nos primeiros anos de trabalho na
+sua construção era necessário 17 horas dedicadas de tempo de processamento, uma vez que os computadores tinham poucos kilobytes de memória. E os problemas não terminavam por aí,
+uma vez que para trabalhar com documentos deste tamanho também necessitava de discos rígidos grandes o suficiente para armazená-los. Isso significa que, apesar de PLN ser uma área
+que já vem sendo explorada há algum tempo, a tecnologia poderia facilmente ser o gargalo a depender da estratégia que fosse escolhida para buscar a solução do problema. Felizmente,
+com simples computadores atuais podemos realizar estas mesmas tarefas em questão de minutos.
+
+Agora que já sabemos de que se trata um Córpus, falaremos sobre o que precisamos ter em mente para criarmos um Córpus na seção a seguir.
+
+\subsection{Criação do Córpus}
+\subsection{Tamanho do Córpus}
+\subsection{Anotações sobre o Córpus}
+
 \section{Tokenização}
 \section{Detecção de Setenças}
 
@@ -444,6 +474,17 @@ procedimento Ordinário, mostrando que, de fato, o que difere um rito do outro �
 \item CADE. Resolução nº 2, de 29 de maio de 2012. Seção 2, página 3. Disponível em: \textless\enspace http://www.cade.gov.br/assuntos/normas-e-legislacao/resolucao/resolucao-2\_2012-analise-atos-concentracao.pdf \enspace\textgreater. Acesso em: 14 de outubro de 2016.
 \item CADE. Resolução nº 2, de 29 de maio de 2012. Anexo I - Formulário Procedimento Não-Sumário. Disponível em: \newline\textless\enspace http://www.cade.gov.br/assuntos/normas-e-legislacao/resolucao/resolucao-2\_2012-analise-atos-concentracao.pdf \enspace\textgreater. Acesso em: 14 de outubro de 2016.
 \item CADE. Resolução nº 2, de 29 de maio de 2012. Anexo II - Formulário Procedimento Sumário. Disponível em: \newline\textless\enspace http://www.cade.gov.br/assuntos/normas-e-legislacao/resolucao/resolucao-2\_2012-analise-atos-concentracao.pdf \enspace\textgreater. Acesso em: 14 de outubro de 2016.
+\item WIKIPEDIA. Natural Language Processing. Disponível em: \newline\textless\enspace https://en.wikipedia.org/wiki/Natural\_language\_processing \enspace\textgreater. Acesso em: 15 de outubro de 2016.
+\item WIKIPEDIA. Brown Corpus. Disponível em: \textless\enspace https://en.wikipedia.org/wiki/Brown\_Corpus \enspace\textgreater. Acesso em: 15 de outubro de 2016.
+\item SAMPSON, Geoffrey. The Susanne Corpus. Disponível em: \newline\textless\enspace http://www.essex.ac.uk/linguistics/external/clmt/w3c/corpus\_ling/content/\newline corpora/list/public/susanne.html \enspace\textgreater. Acesso em: 15 de outubro de 2016.
+\item MANNING, Christopher D., SCHUETZE, Hinrich. Foundations of Statistical Natural Language Processing, MIT Press. Cambridge, MA: May 1999.
 \end{enumerate}
+
+
+As we will see, there are a number of
+difficult issues in determining what is a word and what is a sentence. In
+practice these decisions are generally made by imperfect heuristic meth-
+ods, and it is thus important to remember that the inaccuracies of these
+methods affect all subsequent results. Livro NLP
 
 \end{document}
