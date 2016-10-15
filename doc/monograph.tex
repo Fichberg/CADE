@@ -270,7 +270,7 @@ em casos de operações demasiadamente complexas.
 Estruturalmente, com a Lei nº 12.529/2011 em vigor, tambem houveram mudanças: o CADE passou a ser constítuido pelo Tribunal Administrativo de Defesa Econômica, pelo Departamento de
 Estudos Econômicos e pela Superintendência-Geral. A esta última cabe desempenhar no novo sistema grande parte das funções realizadas pelos outrora pelos órgãos que compunham junto
 ao CADE o Sistema Brasileiro de Defesa Econômica antes da entrada da nova Lei de meio de 2012, tais como a investigação e a instrução de processos de repressão ao abuso do poder
-econômico e a análise dos atos de concentração\footnote[2]{Acesso à Informação: Histórico do CADE}.
+econômico e a análise dos atos de concentração\footnote[3]{Acesso à Informação: Histórico do CADE}.
 
 \section{Atos de Concentração Econômica}
 
@@ -286,7 +286,7 @@ de pelo menos R\$ 75 milhões.
 
 Considerando esta informação, é particularmente interessante que a aplicação desenvolvida saiba identificar as operações de um dado processo, especialmente
 pela razão de que certas operações tendem a seguir mais um ou outro tipo de rito. É relevante ressaltar a observação, no entanto, que o tipo de operação não é uma condição suficiente
-para identificar o tipo de rito, mas é um bom indicativo para buscarmos o mais provável\footnote[3]{Perguntas frequentes sobre Atos de Concentração Econômica}. Seguem abaixo
+para identificar o tipo de rito, mas é um bom indicativo para buscarmos o mais provável\footnote[4]{Perguntas frequentes sobre Atos de Concentração Econômica}. Seguem abaixo
 os possíveis tipos de operações que um AC pode ter:
 
 \begin{itemize}
@@ -300,7 +300,7 @@ os possíveis tipos de operações que um AC pode ter:
 
 \section{Base de Dados Pública}
 
-\indent\indent O CADE possui uma base de dados\footnote[4]{Base de Dados Pública do CADE: Pesquisa Processual} com processos datados desde 1980 até os dias atuais, de tal forma que
+\indent\indent O CADE possui uma base de dados\footnote[5]{Base de Dados Pública do CADE: Pesquisa Processual} com processos datados desde 1980 até os dias atuais, de tal forma que
 para uma pessoa que não sabe ao certo o que está procurando facilmente pode se perder em meio a tantos tipos de processos. Para nós, porém, eram relevantes apenas
 os tipos de processo \quotes{Finalístico: Ato de Concentração Ordinário} e \quotes{Finalístico: Ato de Concentração Sumário}, uma vez que foram os objetos de estudo deste trabalho.
 
@@ -361,7 +361,7 @@ necessariamente, deveríamos considerar esta interpretação correta? Está ques
 no capítulo 3 - PLN, seção 3.2 - Criação do Córpus, que responde a pergunta de outra maneira e portanto complementa a nossa resposta. Para adiantar a idéia, considere que os 3 tipos de
 documentos presentes na fase inicial, \quotes{Notificação}, \quotes{Formulário de Notificação} e \quotes{Publicação no DOU} possuem diferentes padrões uma vez que a própria
 estrutura dos documentos são diferentes. Para completar o raciocínio, lembre-se: algoritmos de aprendizado de máquina aprendem com base em padrões aprendidos no modelo
-de trainamento\footnote[5]{Documentação OpenNLP: REM} (ao menos os das ferramentas usadas neste trabalho)!
+de trainamento\footnote[6]{Documentação OpenNLP: REM} (ao menos os das ferramentas usadas neste trabalho)!
 
 Abaixo, é exposto um pouco do que cada um destes tipos de documentos contém e a diferença estrutural de cada um deles:
 
@@ -376,9 +376,32 @@ e setor econômico envolvido, declarando o AC público.
 
 \section{Ritos de um Ato de Concentração}
 
-\subsection{Sumário}
+\indent\indent Até agora, já foi dito muito sobre o objetivo de classificar os Atos em ritos Sumário ou Ordinário, mas nada foi falado a respeito deles. Esta seção, portanto,
+é dedicada a entendermos um pouco sobre eles: o que são e  qual é a sua relevância.
 
-\subsection{Ordinário}
+\indent Dizemos que um dado processo segue rito ou procedimento Sumário quando ele é simplificado de forma a ser concluído mais rápido. Tal procedimento pode ser
+aplicado pelo CADE aos casos em que for considerado de pouco potencial ofensivo à concorrência as operações suficientemente simples. Nota que a decisão de enquadramento do pedido
+de aprovação pelo procedimento Sumário é adotada pelo CADE em casos de conveniência e oportunidade, considerando experiências passadas adquiridas com relação a identificação
+dos Atos que sejam potencialmente menos agressivos à concorrência.
+
+Existem algumas características que tendem a ser enquadráveis em procedimento Sumário, descrita na Resolução CADE Nº 2, de 29 de maio de 2012, tais como:
+
+\begin{enumerate}[label=\textbf{\Roman*.}]
+\item \textit{Joint ventures} clássicas ou cooperativas, que visa apenas a participação em um mercado cujos produtos e serviços não
+estejam horizontal ou verticalmente relacionados.
+\item Substituição de agente econômico nos casos em que a empresa adquirente não participava, antes do Ato, do mercado envolvido direta ou indiretamente.
+\item For provada baixa participação de mercado com sobreposição horizontal.
+\item For provada baixa participação de mercado com integração vertical.
+\item Ausência de nexo de causalidade, isto é, concentrações horizontais que resultem em variação de HHI inferior a 200 com uma operação que não gere controle de mais da
+metade do mercado relevante.
+\item Outros casos que forem considerados simples, a critério da Superintendência-Geral.
+\end{enumerate}
+
+Em teoria, todo o procedimento é considerado Ordinário até que se prove o contrário. Na prática, porém, o que se encontra é que a maior parte dos procedimentos são Sumários.
+
+Ao submeter um Ato de Concentração a apreciação do CADE, as requerentes devem também submeter as respostas do Formulário de Notificação, que é diferente dependendo do rito.
+O procedimento Ordinário possui seções 12 seções a serem respondidas, enquanto o Sumário possui apenas 7. Ainda, estas 7 seções do procedimento Sumário estão contidas no
+procedimento Ordinário, mostrando que, de fato, o que difere um rito do outro é apenas a complexidade.
 
 \pagebreak
 \chapter{PLN}
@@ -418,6 +441,9 @@ e setor econômico envolvido, declarando o AC público.
 \item Assessoria de Comunicação Social. Perguntas frequentes sobre Atos de Concentração Econômica. Disponível em: \textless\enspace http://www.cade.gov.br/servicos/perguntas-frequentes/perguntas-sobre-atos-de-concentracao-economica\enspace\textgreater. Acesso em: 14 de outubro de 2016.
 \item Base de Dados pública do CADE: Pesquisa Processual. Disponível em: \newline\textless\enspace http://www.cade.gov.br/assuntos/processos-1\enspace\textgreater. Acesso em: 14 de outubro de 2016.
 \item Documentação OpenNLP: REM. Disponível em: \newline\textless\enspace https://opennlp.apache.org/documentation/manual/opennlp.html\#tools.namefind \enspace\textgreater. Acesso em: 14 de outubro de 2016.
+\item CADE. Resolução nº 2, de 29 de maio de 2012. Seção 2, página 3. Disponível em: \textless\enspace http://www.cade.gov.br/assuntos/normas-e-legislacao/resolucao/resolucao-2\_2012-analise-atos-concentracao.pdf \enspace\textgreater. Acesso em: 14 de outubro de 2016.
+\item CADE. Resolução nº 2, de 29 de maio de 2012. Anexo I - Formulário Procedimento Não-Sumário. Disponível em: \newline\textless\enspace http://www.cade.gov.br/assuntos/normas-e-legislacao/resolucao/resolucao-2\_2012-analise-atos-concentracao.pdf \enspace\textgreater. Acesso em: 14 de outubro de 2016.
+\item CADE. Resolução nº 2, de 29 de maio de 2012. Anexo II - Formulário Procedimento Sumário. Disponível em: \newline\textless\enspace http://www.cade.gov.br/assuntos/normas-e-legislacao/resolucao/resolucao-2\_2012-analise-atos-concentracao.pdf \enspace\textgreater. Acesso em: 14 de outubro de 2016.
 \end{enumerate}
 
 \end{document}
