@@ -9,11 +9,17 @@
 \usepackage{fancyhdr}
 \usepackage{enumitem}
 \usepackage{mathtools}
+\usepackage[table]{xcolor}
+\usepackage{caption}
+\usepackage{titlesec}
+\usepackage{color,soul}
 
-\definecolor{sblue}{rgb}{0, 0, 1}
-\definecolor{blue}{rgb}{0, 0.55, 1}
-\definecolor{red}{rgb}{1, 0, 0}
 \newcommand{\quotes}[1]{``#1''}
+
+\titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}[{\titlerule[0.4pt]}]
+
+\definecolor{fill}{rgb}{0.18, 0.31, 0.31}
+
 \pagestyle{fancy}
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
 \fancyhf{}
@@ -433,13 +439,179 @@ uma vez que para trabalhar com documentos deste tamanho também necessitava de d
 que já vem sendo explorada há algum tempo, a tecnologia poderia facilmente ser o gargalo a depender da estratégia que fosse escolhida para buscar a solução do problema. Felizmente,
 com simples computadores atuais podemos realizar estas mesmas tarefas em questão de minutos.
 
-Agora que já sabemos de que se trata um Córpus, falaremos sobre o que precisamos ter em mente para criarmos um Córpus na seção a seguir.
+Agora que já sabemos de que se trata um Córpus, falaremos na seção a seguir sobre o que precisamos ter em mente para criarmos um Córpus.
 
 \subsection{Criação do Córpus}
-\subsection{Tamanho do Córpus}
-\subsection{Anotações sobre o Córpus}
+
+\indent\indent Criação de um Córpus é mais complicado do que aparenta, e é um processo que apenas através da experiência empírica podemos ter uma idéia do
+quão bom está Córpus que estamos montando. Existem alguns pontos de extrema relevância que devem ser considerados por alguém que está inclinado a submeter-se a esta
+tarefa, destacados abaixo:
+
+\begin{enumerate}[label=\textbf{\arabic*.}]
+  \item \textbf{Linguagem}: A linguagem natural em questão. Trabalhar com textos em diferentes línguas pode não trazer bons resultados, uma vez que as línguas possuem regras
+  gramaticais diferentes e diferentes formas de construção de sentenças. Frequentemente uma pessoa que está montando um Córpus irá querer submetê-lo a outros processos diversos
+  tais como o de Tokenização e o de Segmentação de Setenças e estes podem se comportar diferentemente dependendo da linguagem natural em que os documentos estão escritos.
+  \item \textbf{Estrutura}: A estrutura do documento, de acordo com o seu tipo, convém ser similar para todos os documentos envolvidos na montagem do Corpus. Não convém
+  misturar em um mesmo Córpus, por exemplo, documentos com um formato de perguntas e respostas, tais como um formulário, com um outro documento que segue um formato dissertativo.
+  A depender dos tipos de documentos que estão sendo misturados, isso pode mais atrapalhar do que ajudar na hora de buscar extrair certas informações, uma vez que os padrões
+  no texto que estão sendo submetidos ao algoritmo de aprendizado podem ser muito diferentes. Pode ser que ao fazer isso, estejamos introduzindo \quotes{confusão} ao processo
+  de aprendizado de máquina.
+  \item \textbf{Representatividade}: Conforme mencionado por Christopher D. Manning e Hinrich Schuetze [12], os textos que formam o Córpus precisam constituir de uma amostra
+  representativa da população de interesse. Em outras palavras, um determinado Córpus precisa ser fiel aos documentos reais. Para o caso deste trabalho, este item é o principal
+  motivador para que construíssemos um Córpus considerando os Atos de Concentração passados na base de dados pública do CADE ao invés de usar qualquer outro Córpus de propósito
+  geral para a língua portuguesa, tal como o Amazônia Corpus, disponibilizado pelo sítio da linguateca [13].
+  \item \textbf{Tamanho}: O tamanho do Córpus. É de se esperar que um Córpus maior tenha mais exemplos para que o algoritmo possa gerar algum aprendizado, portanto, Córpus grandes,
+  que sejam coerentes com os itens que acabamos discutir devem conseguir atingir resultados mais satisfatórios que Córpus menores.
+\end{enumerate}
+
+O Córpus desenvolvido neste trabalho foi criado a partir de cinqüenta Atos de Concentração Econômica. O critério de escolha de tais atos foi utilizar os mais recentes, assim,
+todos os processos utilizados não necessariamente começaram no ano de 2016, mas estavam ou estão abertos ainda neste ano. A razão de escolher os mais recentes é para dar um pouco
+mais de garantia que nosso Córpus é um pouco mais fiel à realidade, apesar dos ACs mais antigos aparentarem seguir a mesma forma de apresentação das informações.
+
+Ainda, destes cinqüenta processos, uma metade é composta de procedimentos Sumários e a outra de procedimentos Ordinários, de tal forma que obtivessemos um Córpus resultante balanceado
+com relação à representação dos ritos. Mesmo sabendo que na prática há muitos mais ritos Sumários que Ordinários, para efeitos de aprender a classificar, foi julgado mais
+interessante que as amostras de cada um dos tipos aparecessem nas mesmas proporções. A seguir são listados os números dos processos utilizados:
+
+\begin{center}
+  \begin{table}
+    \caption{Processos Contidos no Córpus}
+    \begin{tabular}{| c | c | c | c |}
+      \hline
+      \multicolumn{4}{|c|}{Nº dos Processos} \\
+      \hline
+      \multicolumn{2}{| c }{Ordinários} & \multicolumn{2}{| c |}{Sumários} \\
+      \hline
+      08700.000722/2016-54 & 08700.004168/2016-84 & 08700.000625/2016-61 & 08700.005269/2016-72 \\
+      08700.000723/2016-07 & 08700.004211/2016-10 & 08700.001192/2016-61 & 08700.005334/2016-60 \\
+      08700.001221/2016-95 & 08700.004360/2016-71 & 08700.003684/2016-91 & 08700.005387/2016-81 \\
+      08700.001872/2016-85 & 08700.004557/2016-18 & 08700.003951/2016-21 & 08700.005456/2016-56 \\
+      08700.002432/2016-45 & 08700.004860/2016-11 & 08700.004768/2016-42 & 08700.005457/2016-09 \\
+      08700.002792/2016-47 & 08700.005093/2016-59 & 08700.004963/2016-72 & 08700.005559/2016-16 \\
+      08700.003024/2016-19 & 08700.005398/2016-61 & 08700.005000/2016-96 & 08700.005580/2016-11 \\
+      08700.003045/2016-26 & 08700.005524/2016-87 & 08700.005002/2016-85 & 08700.005587/2016-33 \\
+      08700.003252/2016-81 & 08700.005683/2016-81 & 08700.005138/2016-95 & 08700.005603/2016-98 \\
+      08700.003421/2016-82 & 08700.005702/2016-70 & 08700.005139/2016-30 & 08700.005619/2016-09 \\
+      08700.003462/2016-79 & 08700.005733/2016-21 & 08700.005204/2016-27 & 08700.005620/2016-25 \\
+      08700.003636/2016-01 & 08700.010790/2015-41 & 08700.005208/2016-13 & 08700.005667/2016-99 \\
+      08700.003952/2016-75 & \cellcolor{fill} & 08700.005259/2016-37 & \cellcolor{fill} \\
+      \hline
+      \multicolumn{4}{| c |}{Total: 50} \\
+      \hline
+    \end{tabular}
+  \caption*{Número dos processos usados na construção do Córpus, todos do ano de 2016.}
+  \end{table}
+\end{center}
+
+O Córpus resultante tem exatamente 50351 palavras\footnote[8]{Resultado obtido através do utilitário \textbf{wc}. Isso significa que, a rigor, o número de palavras
+reais é um pouco menor, dado que coisas como númeração de itens são consideradas palavras.}, portanto, é um Córpus pequeno. O objetivo inicial era que o Córpus
+possuisse 300 mil palavras, o que significaria utilizarmos aproximadamente 6 vezes o número de processos utilizados, ou seja, cerca de 150 processos Sumários e
+150 processos Ordinários, totalizando mais ou menos 300 processos. A meta, porém, não foi atingida pelas seguintes razões:
+
+\begin{enumerate}[label=\textbf{\arabic*.}]
+  \item \textbf{Disponibilidade da Base}: Não foi um problema freqüente, mas de vez em quando a base de dados poderia estar fora do ar.
+  \item \textbf{CAPTCHA}: A cada busca de documentos que é realizada na base de dados do CADE, o usuário deve submeter uma resposta a um teste CAPTCHA. Isso
+  retardada o processo de obtenção de documentos consideravelmente e dificulta bastante para realizar uma tarefa de obter os documentos de forma automatizada, de tal
+  forma que era mais simples fazer o processo manualmente.
+  \item \textbf{Formato dos Documentos}: Todos os documentos da base de dados do CADE estão em \textit{Portable Document Format} (PDF), que é um formato agradável à
+  leitura humana, mas não é dos melhores para leitura de máquina. Houve a necessidade, portanto,  de trabalharmos usando \textbf{Tesseract OCR} para fazer a conversão do
+  formato PDF para textos em \textit{American Standard Code for Information Interchange} (ASCII).
+  \item \textbf{Qualidade do Escaneamento}: Todos os textos presentes na base de dados são legíveis para humanos, entretanto muito deles estão com uma qualidade ruim para
+  o uso do OCR. Alguns documentos tiveram de ser descartados justamente por produzirem uma resposta muito ruim após conversão.
+  \item \textbf{\quotes{Sujeira} e Erros de OCR}: Mesmo os documentos que estavam com uma qualidade aceitável produziram \quotes{lixo}, que tiveram de ser descartados
+  manualmente. Ainda, foram extremamente comuns erros de substituição de caracteres, em particular os latinos. Trocas de sílabas tais como "ção" e "são" muitas vezes eram
+  interpretadas como "gao" ou "cao" e "6ao" e tiveram de ser corrigidas manualmente. Note que usar mecanismos de substituição automática não garantem a correção do problema,
+  pois sílabas erradas em um palavra podem ser corretas em outra, portanto, ao tentarmos fazer correção automatizada, apenas transferimos muitas vezes o erro de uma palavra
+  para a outra, de tal forma que é necessário passar por um processo de correção humana.
+  \item \textbf{Literatura}: Ler e entender textos escritos na linguagem técnica do direito não é algo trivial uma vez que estes textos são bastante densos em informações e
+  possuem um vocabulário complicado.
+  \item \textbf{Exaustão}: Todos os processos manuais envolvidos unidos à dificuldade da literatura do direito legal inevitavelmente acrescentam \quotes{erros de exaustão}
+  por se tratar de um processo cansativo para quem está corrigindo.
+  \item \textbf{Tempo Disponível}: O prazo de 1 ano para o desenvolvimento do trabalho impede que o Córpus seja muito maior. Este Córpus de 50000 palavras tomou pouco menos de 2 meses
+  para ser apenas construído e corrigido, sendo que o processo mais demorado é o de anotação, que será mencionado na próxima seção. É relevante considerar que este trabalho
+  todo foi feito por apenas uma pessoa.
+\end{enumerate}
+
+Na seção a seguir falaremos sobre as anotações.
+
+\subsection{Anotações}
+
+\indent\indent Apesar de não constituir de uma regra, é comum que alguém que esteja trabalhando com um Córpus faça diferentes tipos de anotações sobre o mesmo.
+Há diferentes tipos de anotações que podem ser feitas, tais como Tokenização, Detecção de Setenças, Etiquetas Morfológicas (\textit{Part-of-Speech Tagging}) entre outras, todas
+usadas para extrair diferentes tipos de informações dos textos. Em particular, mais será abordado sobre as duas primeiras nas próximas seções.
+
+Anotações, portanto, constituem de metadados sobre os dados. Comumente, linguagens como \textit{Standard Generalized Markup Language} (SGML) ou
+\textit{eXtensible Markup Language} (XML) são utilizadas para fazer marcações sobre texto, mas
+neste trabalho, as anotações foram feitas utilizando uma ferramenta relativamente nova chamada BRAT, que possui um
+formato próprio e que o OpenNLP, uma ferramenta celebrada na área de Processamento de Linguagem Natural, reconhece o formato.
+Mais será falado sobre estas ferramentas no capítulo 5 - Ferramentas Utilizadas.
 
 \section{Tokenização}
+
+\indent\indent Tokenização é freqüentemente um dos primeiros processos envolvidos no processamento de textos escritos em linguagens naturais. Uma \textit{Token} nada mais é que uma
+palavra, um número ou mesmo pontuações (só que o tratamento de pontuações, especificamente, pode variar de acordo com o texto em questão)[12]. Naturalmente, surge a necessidade de
+definir, portanto, o que é uma palavra.
+
+Conforme sugerido em (Kučera e Francis, 1967), uma palavra, para efeitos computacionais, é uma \textit{string} com caracteres alfanuméricos
+contíguos, delimitada por espaços em branco e que pode conter hífens e apóstrofos e mais nenhuma outra forma de pontuação. Tal definição é demasiadamente simplista,
+mas pode funcionar a depender do tipo de texto que está sendo usado. Uma outra aproximação ainda menos sofisticada é a estratégia do utilitário \textbf{wc}, já mencionado
+aqui na nota de rodapé número 8, que simplesmente considera caracteres contíguos delimitados por espaços em branco como uma palavra, independente da sua natureza. Assim, por exemplo,
+a \textit{string} de dois caracteres C\# será considerada uma palavra de acordo com a segunda definição, mas não com a primeira.
+
+Fica claro, portanto, que a definição de palavra a ser usada é fundamental para efeitos de marcação e que esta vai afetar diretamente os resultados obtidos, de tal forma que as
+respostas conseguidas com um Córpus que considera palavras com uma definição A gerará saídas diferentes do mesmo Córpus considerando palavras com uma definição B.
+
+\subsection{Tokenização dos Atos de Concentração}
+
+\indent\indent Existem outros problemas que surgem no processo de Tokenização além do que será considerado uma palavra. Um leitor observador pode ter percebido que ambos os exemplos anteriormente
+mancionados colocam grande importância nos espaços em branco para delimitar uma palavra, porém existem linguagens naturais que não fazem uso do espaço em branco entre palavras, e
+estes problemas também são pertinentes ao processo de Tokenização. Ainda, palavras não aparecem sempre delimitadas entre espaços em branco em um texto. Considere o seguinte trecho,
+retirado da Notificação do Ato de Concentração nº 08700.004168/2016-84:
+
+\begin{quote}
+  \textit{\quotes{16. Conforme exigido no art. 110, §3 da Resolução CADE nº 1/2012, as Requerentes declaram que (i) todas as informações apresentadas são, ao que é de seu
+  conhecimento, verdadeiras e corretas; (ii) todos os documentos e cópias de documentos anexos à presente notificação são autênticos ou cópias fiéis de suas versões originais;
+  e (iii) todas as estimativas foram feitas de boa-fé, de acordo com as melhores informações disponíveis.}}
+\end{quote}
+
+Vejamos o que acontece com o seguinte trecho considerando as duas aproximações mencionadas anteriormente destacando os problemas encontrados em ambas em \hl{amarelo}.
+
+\textbf{I.} Aproximação de (Kučera e Francis, 1967): caracteres alfanuméricos contíguos, com hífens e apostrofos, delimitados por espaços em branco constituem uma palavra.
+
+\begin{quote}
+  \textit{\quotes{\hl{16}. Conforme exigido no \hl{art}. \hl{110}, §\hl{\mbox{3}} da Resolução CADE \hl{n}º \hl{1/2012}, as Requerentes declaram que \hl{(i)} todas as informações apresentadas \hl{\mbox{são}}, ao que é de seu
+  \hl{conhecimento}, verdadeiras e \hl{corretas}; \hl{(ii)} todos os documentos e cópias de documentos anexos à presente notificação são autênticos ou cópias fiéis de suas versões \hl{originais};
+  e \hl{(iii)} todas as estimativas foram feitas de \hl{\mbox{boa-fé}}, de acordo com as melhores informações \hl{\mbox{disponíveis}}.}}
+\end{quote}
+
+Com relação a esta aproximação notavelmente há problemas relacionados a \textit{períodos}. Pontuações como vírgula, ponto-e-vírgula e ponto final acabam freqüentemente sendo um dos
+delimitadores de algumas palavra ao invés de um espaço em branco. Há também pontos em abreviações, como no caso de \quotes{art.}, e o caracter \quotes{/} que faz parte do número da
+Resolução do CADE mencionada no trecho. Notemos ainda que o trecho é o décimo sexto item de alguma seção do documento, então o ponto que sucede o 16 configura outro tipo de problema,
+aqui também relacionado ao delimitador ser diferente de um espaço em branco. As listagens dos itens em algarismos romanos entre parenteses e o caracter especial § que antecede o número
+do artigo também são problemáticos no que diz respeito a esta aproximação. Em todos estes casos, estas palavras \textit{não serão consideradas palavras} pelo processo de tokenização.
+
+\textbf{II.} Aproximação do utilitário \textbf{wc}: caracteres contíguos, delimitados entre espaços.
+
+\begin{quote}
+  \textit{\quotes{16. Conforme exigido no art. \hl{110,} §3 da Resolução CADE nº \hl{1/2012,} as Requerentes declaram que (i) todas as informações apresentadas \hl{\mbox{são,}} ao que é de seu
+  \hl{conhecimento,} verdadeiras e \hl{corretas;} (ii) todos os documentos e cópias de documentos anexos à presente notificação são autênticos ou cópias fiéis de suas versões \hl{originais;}
+  e (iii) todas as estimativas foram feitas de \hl{\mbox{boa-fé,}} de acordo com as melhores informações \hl{\mbox{disponíveis.}}}}
+\end{quote}
+
+Curiosamente, um problema contrário ocorre com a segunda definição. Aqui, conforme pode ser visto acima, as pontuações de período \textit{são consideradas parte das palavras}, algo
+indesejado a depender do tipo da aplicação.
+
+Desta forma, fica claro que a depender do resultado que se está procurando, uma tokenização pode obter resultados melhores ou piores que outra. Para efeitos deste trabalho,
+vale recordar de que como estamos lidando com tecnologia de OCR, parece ser mais vantajoso considerar a aproximação do utilitário \textbf{wc} sobre a dos autores
+Francis e Kučera, de tal modo que assim diminuímos os riscos de descartar palavras relevantes em determinados contextos.
+
+Ainda, além da questão do OCR, sabemos que os Atos de Concentração são constituídos de documentos oficiais de grandes organizações, ora submetidos à apreciação das
+autoridades legais do CADE, e portanto não devem apresentar cadeias de caracteres contíguas inesperadas, fora do português (com um ou outro estrangeirismos
+potencialmente oriundos do inglês).
+
+Por fim, não é um problema que a pontuação do período seja incluída nas \textit{tokens} para nós, uma vez que ela não é capaz de eliminar sozinha o sentido do contexto da qual
+a \textit{token} foi retirada. O modelo de tokenização usado no trabalho é fornecido na página do OpenNLP para a língua portuguesa. Apesar de não ser o ideal, ele se comporta
+dentro do esperado. Idealmente, deve-se considerar criar um Córpus composto de Atos de Concentração para treinar a tokenização e gerar um modelo com melhor representatividade.
+
 \section{Detecção de Setenças}
 
 \pagebreak
@@ -478,6 +650,7 @@ Agora que já sabemos de que se trata um Córpus, falaremos sobre o que precisam
 \item WIKIPEDIA. Brown Corpus. Disponível em: \textless\enspace https://en.wikipedia.org/wiki/Brown\_Corpus \enspace\textgreater. Acesso em: 15 de outubro de 2016.
 \item SAMPSON, Geoffrey. The Susanne Corpus. Disponível em: \newline\textless\enspace http://www.essex.ac.uk/linguistics/external/clmt/w3c/corpus\_ling/content/\newline corpora/list/public/susanne.html \enspace\textgreater. Acesso em: 15 de outubro de 2016.
 \item MANNING, Christopher D., SCHUETZE, Hinrich. Foundations of Statistical Natural Language Processing, MIT Press. Cambridge, MA: May 1999.
+\item LINGUATECA. Corpus Amazônia. Disponível em \textless\enspace http://www.linguateca.pt/floresta/\newline corpus.html\#amazonia \enspace\textgreater. Acesso em: 15 de outrobro de 2016.
 \end{enumerate}
 
 
