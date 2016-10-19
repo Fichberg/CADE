@@ -560,7 +560,7 @@ a \textit{string} de dois caracteres C\# será considerada uma palavra de acordo
 Fica claro, portanto, que a definição de palavra a ser usada é fundamental para efeitos de marcação e que esta vai afetar diretamente os resultados obtidos, de tal forma que as
 respostas conseguidas com um Córpus que considera palavras com uma definição A gerará saídas diferentes do mesmo Córpus considerando palavras com uma definição B.
 
-\subsection{Tokenização dos Atos de Concentração}
+\subsection{Tokenização nas Notificações dos Atos de Concentração}
 
 \indent\indent Existem outros problemas que surgem no processo de Tokenização além do que será considerado uma palavra. Um leitor observador pode ter percebido que ambos os exemplos anteriormente
 mancionados colocam grande importância nos espaços em branco para delimitar uma palavra, porém existem linguagens naturais que não fazem uso do espaço em branco entre palavras, e
@@ -614,6 +614,69 @@ dentro do esperado. Idealmente, deve-se considerar criar um Córpus composto de 
 
 \section{Detecção de Setenças}
 
+\indent\indent Outro processo que freqüentemente aparece nas primeiras etapas junto à tokenização é o de detecção de sentenças. Este processo consiste em
+quebrar um texto em sentenças e é importante por uma série de razões, como o uso posterior de \textit{POS Tagging} e, no nosso caso, Reconhecimento de Entidades Mencionadas, uma
+vez que estes processos posteriores precisam saber onde começam e terminam uma sentença para buscar as palavras que devem ser etiquetadas. Outros nomes que o processo de
+detecção de sentenças possui são Quebra de Sentenças (\textit{Sentence Breaking}) e Desambiguação de Fronteira de Sentença (\textit{Sentence Boundary Disambiguation - SBD}).
+
+Semelhantemente ao processo de tokenização, que surgia a necessidade de saber o que é uma palavra, aqui precisamos saber, então, o que é uma sentença. Uma das aproximações
+mais comuns é identificar os períodos, pois 90\% deles são indicadores de limites de sentenças (Riley 1989), conforme descrevem Manning e Schuetze [12] em seu livro.
+
+Já havíamos chamado atenção aos períodos na seção anterior, quando falamos de tokenização, e agora em Detecção de Sentenças eles ressurgem com uma importância ainda maior. Finais de
+períodos são freqüentemente marcados por pontuações tais como os pontos final, de interrogação, de exclamação dentre outros, mas nem toda linguagem natural faz uso
+de pontuações, como por exemplo o tailandês.
+
+Os autores Manning e Schuetze [12] em seu livro mencionam também pesquisas diversas em detecção de sentenças que foram realizadas ao longo das últimas décadas e o quanto
+os resultados melhoraram no decorrer deste tempo, de tal forma que hoje em dia já são conhecidas técnicas para predição de identificação das fronteiras de sentenças com uma
+taxa de precisão superior a 99\%.
+
+Conforme pode ser observado com o aqui exposto e de acordo com (Indurkhya e Damerau, 2010) [15], o escopo do problema de detecção de setenças varia de acordo com o idioma
+a ser trabalhado. Além disso, os autores também consideram a importancia do contexto: supondo que tenhamos diferentes \textit{corpora}, a maneira como os documentos que os
+constituem são redigidos variam de um meio pro outro, por exemplo, um \textit{corpora} formado apenas de textos jornalísticos pode ter sentenças com padrões diferentes de um outro
+\textit{corpora} formado apenas pelas obras de autoria de William Shakespeare.
+
+\subsection{Detecção de Sentenças nas Notificações dos Atos de Concentração}
+
+\indent\indent Apesar das Notificações dos ACs seguirem um padrão, tais documentos são redigidos por pessoas diferentes, representando diferentes organizações, e inevitavelmente
+podem acabar tendo estilos de escrita um tanto diferentes uns dos outros. Estes estilos podem acabar sendo refletidos diretamente no uso das pontuações, e conseqüentemente,
+na identificação das fronteiras de um período, causando flutuações pequenas.
+
+Um problema que surge, em particular, é o de que a depender do tipo de literatura em questão, os períodos tendem a ter um número médio de palavras, enquanto que
+nos Atos, certos períodos podem ser demasiadamente compridos, fugindo um pouco das regras e dificultando para o modelo de quebra de sentenças.
+Por exemplo: todos os Atos de Concentração se iniciam com um pequeno resumo apresentando as organizações envolvidas, o pedido formal de submissão do AC à apreciação do CADE
+com referências às Leis e contratos pertinentes à ação, e vez ou outra também o pedido do tipo de rito sumário ou ordinário e a operação que anseiam realizar.
+
+Este pequeno resumo, para efeitos de REM, é especialmente complicado de quebrar em sentenças, uma vez que sempre aparecem entidades mencionadas
+em uma posição de texto que estão relacionadas a outras há muitos caracteres (ou mesmo palavras) de distância. Notemos ainda que estes trechos não possuem pontuações como pontos finais ou
+exclamações, de tal forma que o pequeno resumo deve ser considerado inteiro a própria sentença.
+
+Um exemplo destes resumos presentes nas Notificações dos ACs é reproduzido a seguir, retirado do Ato de Contração nº 08700.005683/2016-81:
+
+\begin{quote}
+  \textit{\quotes{UNIPAR CARBOCLORO S.A. (“Unipar Carbocloro”), sociedade anônima de capital aberto devidamente constituída de acordo com a legislação brasileira, com sede na Rua
+  Joaquim Floriano, nº 960, 15º andar, Itaim Bibi, CEP 04534—004, na cidade de São Paulo, no Estado de São Paulo, no Brasil, SOLVAY INDUPA S.A.I.C. (“Solvay Indupa”),
+  sociedade anônima de capital aberto devidamente constituída de acordo com a legislação argentina, com sede na Avenida Alicia Moreau de Justo, 1930, 4º andar, na cidade de
+  Buenos Aires, na Argentina, e SOLVAY INDUPA DO BRASIL S.A. (“Indupa Brasil” e, em conjunto com a Unipar Carbocloro e com a Solvay Indupa, “Requerentes”), sociedade anônima
+  de capital fechado devidamente constituída de acordo com a legislação brasileira, com sede na Rua Urussui, 300, 3º andar, Itaim Bibi, CEP 04542-903, na cidade de São Paulo,
+  no Estado de São Paulo, no Brasil, vêm, respeitosamente, por seus advogados, submeter à apreciação do Conselho Administrativo de Defesa Econômica (“CADE”), em observância aos
+  artigos 53, 88 e 90 da Lei 12.529, de 30 de novembro de 2011, a aquisição do controle societário da Solvay Indupa pela Unipar Carbocloro.}}
+\end{quote}
+
+Conforme podemos ver no exemplo acima, de fato, a única pontuação que pode ser considerada tradicionalmente como o final de uma sentença só ocorre com o término do trecho. Este trecho
+sozinho tem exatamente \textit{181 palavras}, considerando a aproximação do \textbf{wc}, que é um número \textbf{muito distante} do que um \quotes{período normal} contém. A média
+de caracteres considerando os resumos de todos os processos que constituem o nosso Córpus, listados na tabela 3.1, é de \textit{140.72 palavras por resumo}.
+
+Uma observação final: apesar do exemplo acima conter quase 40 palavras a mais que a média calculada, este não é o resumo que contém mais palavras.
+
+É importante ressaltar aqui que, assim como no processo de tokenização, foi usado o modelo de detecção de setenças fornecido na própria página do OpenNLP, uma vez que o tempo era
+apertado para desenvolver um Córpus para servir de treinamento para quebra de setenças. Os resultados, apesar de serem satisfatórios, poderiam ser refinados com um modelo
+de detecção de setenças criado a partir de Atos de Concentração, uma vez que, assim como na tokenização, aumentaríamos a representatividade do Córpus com relação aos documentos
+reais.
+
+No próximo capítulo discutiremos sobre REM e como foram feitas as marcações no Córpus. Até então, tudo o que foi discutido no capítulo 2 - Cade e neste capítulo 3 - PLN eram
+requisitos para poder trabalhar com REM nos Atos de Concentração, e uma vez entendidos, será mais simples para o leitor entender a forma que o Reconhecimento de Entidades
+Mencionadas foi usado para chegarmos nos resultados e conclusões escritos nos dois capítulos finais desta monografia.
+
 \pagebreak
 \chapter{REM}
 
@@ -651,13 +714,8 @@ dentro do esperado. Idealmente, deve-se considerar criar um Córpus composto de 
 \item SAMPSON, Geoffrey. The Susanne Corpus. Disponível em: \newline\textless\enspace http://www.essex.ac.uk/linguistics/external/clmt/w3c/corpus\_ling/content/\newline corpora/list/public/susanne.html \enspace\textgreater. Acesso em: 15 de outubro de 2016.
 \item MANNING, Christopher D., SCHUETZE, Hinrich. Foundations of Statistical Natural Language Processing, MIT Press. Cambridge, MA: May 1999.
 \item LINGUATECA. Corpus Amazônia. Disponível em \textless\enspace http://www.linguateca.pt/floresta/\newline corpus.html\#amazonia \enspace\textgreater. Acesso em: 15 de outrobro de 2016.
+\item WIKIPEDIA. Sentence Boundary Disambiguation. Disponível em \newline\textless\enspace https://en.wikipedia.org/wiki/Sentence\_boundary\_disambiguation \enspace\textgreater. Acesso em: 19 de outubro de 2016.
+\item INDURKHYA, Nitin., DAMERAU, Fred J., Handbook of Natural Language Processing, Chapman \& Hall/CRC, 2010.
 \end{enumerate}
-
-
-%As we will see, there are a number of
-%difficult issues in determining what is a word and what is a sentence. In
-%practice these decisions are generally made by imperfect heuristic meth-
-%ods, and it is thus important to remember that the inaccuracies of these
-%methods affect all subsequent results. Livro NLP
 
 \end{document}
