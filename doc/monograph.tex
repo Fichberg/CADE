@@ -13,6 +13,8 @@
 \usepackage{caption}
 \usepackage{titlesec}
 \usepackage{color,soul}
+\usepackage{varwidth}
+
 
 \newcommand{\quotes}[1]{``#1''}
 
@@ -108,7 +110,7 @@ documentos, desde formulários, notificações de processos e cópias escaneadas
 
 O trabalho foi divido em duas partes distintas: a primeira se constituiu de explorar parte dos vários processos judiciais presentes na base de dados pública do CADE relacionados a Atos de
 Concentração com finalísticos Sumário ou Ordinário e montar um Córpus com os tipos de documentos que foram julgados pertinentes em primeira análise. Em seguida, a partir de anotações
-manuais de entidades e seus relacionamentos sobre o Córpus construído, identificar automaticamente as entidades nos processos judiciais futuros que possam ser relevantes a classificação
+manuais de entidades mencionadas e seus relacionamentos sobre o Córpus construído, identificar automaticamente as entidades nos processos judiciais futuros que possam ser relevantes a classificação
 final entre os dois tipos de rito: Sumário ou Ordinário. A segunda parte, por sua vez, constitue-se da classificação do processo judicial em um dos ritos mencionados por meio de
 algoritmos de Aprendizado de Máquina, considerando as entidades que foram encontradas de forma automatizada nos documentos do processo em questão.
 
@@ -131,7 +133,7 @@ from formularies, process notifications and scanned copies of diverse documents 
 
 The work was divided in two distinct parts: the first one constituted of exploring part of the many judicial processes within the public database owned by CADE related to Concentrations
 Acts with final procedure being either \quotes{Sumario} or \quotes{Ordinario} and build a Corpus with the document types that were considered pertinent in first analysis. After that,
-considering manual annotations of entities and its relationships done over the built Corpus, identify automatically the entities in the future judicial processes that can be relevant
+considering manual annotations of named entities and its relationships done over the built Corpus, identify automatically the entities in the future judicial processes that can be relevant
 to the final classification between the two types of rite: \quotes{Sumario} or \quotes{Ordinario}. The second part constitutes of the classification of the judicial process in one of
 the mentioned rites through the use of Machine Learning algorithms, considering the entities that were found automatically in the documents of the given process.
 
@@ -680,6 +682,120 @@ Mencionadas foi usado para chegarmos nos resultados e conclusões escritos nos d
 \pagebreak
 \chapter{REM}
 
+\indent\indent Neste capítulo falaremos um pouco sobre Reconhecimento de Entidades Mencionadas (REM), uma subtarefa da área de Extração de Informações que busca localizar e classificar
+palavras de um texto escrito em alguma linguagem natural em entidades previamente definidas tais como nomes de pessoas e nomes de organizações. Também mostraremos como
+aplicamos o Reconhecimento de Entidades Mencionadas para os Atos de Concetração Econômica que são apreciados pelo Conselho Administrativo de Defesa Econômica.
+
+\section{Entidades Mencionadas}
+
+\indent\indent Não faz sentido falarmos sobre Reconhecimento de Entidades Mencionadas sem saber, de certo, o que é uma entidade mencionada (ou entidade nomeada), portanto este
+será o nosso ponto de partida neste capítulo. Afinal, do que se trata uma entidade mencionada?
+
+Uma entidade mencionada é um objeto que existe no mundo real e que possui um nome próprio, como por exemplo, uma pessoa ou uma organização, tal como já foi mencionado na introdução
+deste capítulo. Note, porém, que pessoas e organizações possuem naturezes existenciais diferentes, no sentido de que uma pessoa pode ser encarada como um objeto \textit{físico} do mundo real
+ao passo que uma organização pode ser encarada como um objeto \textit{abstrato}. Independente disso, porém, ambas possuem seus \textit{tipos de entidade} muito bem definidos
+(pessoa e organização) e para efeitos de entidades mencionadas, não é relevante que determinado objeto seja necessariamente real ou virtual.
+
+É relevante ressaltar que entidades mencionadas são temporais no sentido de que certos tipos de entidades podem assumir um sentido em um contexto e outro em um segundo contexto.
+Sabendo que entidades mencionadas contém tanto expressões com nomes quanto com números, uma entidade relacionada a valor monetário pode ter um sentido em um determinado
+contexto histórico e outro em um contexto futuro ou passado.
+
+\section{Reconhecimento e Classificação}
+
+\indent\indent O processo de Reconhecimento de Entidades Mencionadas resume-se a basicamente duas subtarefas: reconhecimento (ou identificação) e classificação (ou etiquetagem)
+de entidades, nesta ordem. Primeiro, aprende-se sobre o modelo de REM gerado a partir do Córpus anotado, e na seqüência, busca-se reconhecer, dentre todas as \textit{tokens}
+que compõem o Córpus, aquelas que são possíveis entidades. Uma vez com estas \textit{tokens} selecionadas, para cada uma delas, dentre todas as possíveis classificações
+previamente estabelecidas, seleciona-se a classificação a mais provável para determinada \textit{token}.
+
+Aqui o leitor já deve perceber mais claramente por quais razões é necessário passar pelos processos de tokenização e detecção de sentenças. As entidades são, necessariamente,
+compostas por ao menos uma \textit{token} e ocorrem em períodos bem determinados, de tal forma que as entidades em um mesmo período podem se relacionar de alguma forma. Assim,
+ao quebrarmos o Córpus em \textit{tokens} e sentenças, a aplicação passa a conhecer quem são todas as candidatas a entidades mencionadas e em que contexto elas ocorrem.
+
+\subsection{Reconhecimento de Entidades Mencionadas nas Notificações dos Atos de Concentração}
+
+\indent\indent Já falamos nas seções anteriores sobre os processos de tokenização e detecção de sentenças dos Atos de Concentração. Nesta seção, a partir de um exemplo simples e
+de maneira superficial, apresentamos como acontece o processo de Reconhecimento de Entidades Mencionadas nos ACs, desde a a tokenização até o final. Não serão explorados aqui
+o que está por trás disso, uma vez que isso depende da implementação do algoritmo da ferramenta e não é relevante para esta seção.
+
+Suponhamos, primeiramente, que temos definidos os seguintes tipos de entidade em um documento de texto:
+
+\begin{itemize}
+  \item Document
+  \item Organization
+\end{itemize}
+
+Consideremos o trecho a seguir, retirado do Ato de Concentração nº 08700.005269/2016-72, o qual queremos marcar de forma automatizada as \textit{tokens} relativas
+aos dois tipos de entidade definidas acima:
+
+\begin{quote}
+  \textit{\quotes{2. A OP atualmente detém 20\% de participação no Contrato de Concessão, enquanto a QGOG detém outros 20\%.
+  A Petrobras detém os 60\% de participação remanescente no Contrato de Concessão; a Petrobras também é a operadora designada
+  pela Cláusula 4.1 do Joint Operating Agreement ("JOA").}}
+\end{quote}
+
+Ao aplicarmos o processo de tokenização, considerando que tenhamos à disposição um bom modelo gerado a partir do treinamento de um Córpus devidamente anotado para esta tarefa,
+esperamos como resposta algo como o exposto abaixo, onde cada \textit{token} encontrada está contida em um \textit{frame}:
+
+\begin{quote}
+  \fbox{2.} \fbox{A} \fbox{OP} \fbox{atualmente} \fbox{detém} \fbox{20\%} \fbox{de} \fbox{participação} \fbox{no} \fbox{Contrato} \fbox{de} \fbox{Concessão,}
+  \fbox{enquanto} \fbox{a} \fbox{QGOG} \fbox{detém} \fbox{outros} \fbox{20\%.}
+  \fbox{A} \fbox{Petrobras} \fbox{detém} \fbox{os} \fbox{60\%} \fbox{de} \fbox{participação} \fbox{remanescente} \fbox{no} \fbox{Contrato} \fbox{de} \fbox{Concessão;} \fbox{a}
+  \fbox{Petrobras} \fbox{também} \fbox{é} \fbox{a} \fbox{operadora} \fbox{designada}
+  \fbox{pela} \fbox{Cláusula} \fbox{4.1} \fbox{do} \fbox{Joint} \fbox{Operating} \fbox{Agreement} \fbox{("JOA").}
+\end{quote}
+
+No exemplo de saída imediatamente acima, aceitamos para efeitos de simplificação, que a pontuação faz parte da \textit{token} que a procede.
+Geralmente a pontuação sozinha é encarada como uma \textit{token}.
+
+O próximo passo é aplicarmos o processo de detecção de sentenças. Assim como no processo de tokenização, consideraremos que tenhamos à disposição um bom modelo
+gerado a partir do treinamento de um Córpus devidamente anotado para esta tarefa. A saída esperada é mostrada a seguir, onde cada uma das sentenças identificadas está contida
+em um \textit{frame} diferente:
+
+\begin{quote}
+  \fbox{
+      \begin{varwidth}{0.86\textwidth}
+      2. A OP atualmente detém 20\% de participação no Contrato de Concessão, enquanto a QGOG detém outros 20\%.
+      \end{varwidth}}
+\end{quote}
+
+\begin{quote}
+  \fbox{
+      \begin{varwidth}{0.86\textwidth}
+      A Petrobras detém os 60\% de participação remanescente no Contrato de Concessão;
+      \end{varwidth}}
+\end{quote}
+
+\begin{quote}
+  \fbox{
+      \begin{varwidth}{0.86\textwidth}
+      a Petrobras também é a operadora designada pela Cláusula 4.1 do Joint Operating Agreement ("JOA").
+      \end{varwidth}}
+\end{quote}
+
+Uma vez realizados os dois processos anteriores e a partir dos seus resultados, poderíamos então obter do processo de Reconhecimento de Entidades Mencionadas,
+finalmente, a seguinte resposta, onde cada entidade mencionada está contida em um \textit{frame} e sua classificação final apresenta-se subescrita no canto inferior direito deste:
+
+\begin{quote}
+  \begin{varwidth}{0.95\textwidth}
+  2. A \fbox{OP}$_{\text{Organization}}$ atualmente detém 20\% de participação no \fbox{Contrato de Concessão,}$_{\text{Document}}$ enquanto a \fbox{QGOG}$_{\text{Organization}}$
+  detém outros 20\%. A \fbox{Petrobras}$_{\text{Organization}}$ detém os 60\% de participação remanescente no \fbox{Contrato de Concessão;}$_{\text{Document}}$ a
+  \fbox{Petrobras}$_{\text{Organization}}$ também é a operadora designada pela Cláusula 4.1 do \fbox{Joint Operating Agreement ("JOA").}$_{\text{Document}}$
+  \end{varwidth}
+\end{quote}
+
+Todo este processo é muito bonito, mas a realidade é que nem sempre os documentos se comportam bem assim. Recordemos que o processo de Reconhecimento das Entidades Mencionadas
+é divido em duas etapas: identificação e classificação. Pois bem, o que acontece na realidade é que ambas as etapas podem ter erros que devem ser medidos. Com relação
+à atividade de identificação, é comum que a aplicação falhe ao identificar algumas \textit{tokens} que deveriam ser marcadas, passando por elas despercebidamente. Naturalmente, isso
+implica na não classificação da entidade relativa a esta \textit{token} que aconteceria na etapa seguinte. Já na etaa de classificação, o que pode acontecer são erros de etiquetagem
+de duas naturezas diferentes: precisão das fronteiras e decisão da etiqueta. Exploraremos mais sobre estes erros e como  medir a Precisão e a Cobertura na próxima seção.
+
+\section{Método de Avaliação da Informação Extraída}
+
+\subsection{Tipos de erros}
+
+\subsection{Precisão e Cobertura}
+
+
 \pagebreak
 \chapter{Ferramentas Utilizadas}
 
@@ -716,6 +832,9 @@ Mencionadas foi usado para chegarmos nos resultados e conclusões escritos nos d
 \item LINGUATECA. Corpus Amazônia. Disponível em \textless\enspace http://www.linguateca.pt/floresta/\newline corpus.html\#amazonia \enspace\textgreater. Acesso em: 15 de outrobro de 2016.
 \item WIKIPEDIA. Sentence Boundary Disambiguation. Disponível em \newline\textless\enspace https://en.wikipedia.org/wiki/Sentence\_boundary\_disambiguation \enspace\textgreater. Acesso em: 19 de outubro de 2016.
 \item INDURKHYA, Nitin., DAMERAU, Fred J., Handbook of Natural Language Processing, Chapman \& Hall/CRC, 2010.
+\item CARVALHO, Wesley Seidel. Reconhecimento de entidades mencionadas em português utilizando aprendizado de máquina, São Paulo, 2012
+\item WIKIPEDIA. Named Entity. Disponível em: \newline\textless\enspace https://en.wikipedia.org/wiki/Named\_entity \enspace\textgreater. Acesso em: 22 de outubro de 2016.
+\item WIKIPEDIA. Named Entity Recognition. Disponível em: \newline\textless\enspace https://en.wikipedia.org/wiki/Named-entity\_recognition \enspace\textgreater. Acesso em: 22 de outubro de 2016.
 \end{enumerate}
 
 \end{document}
