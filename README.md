@@ -1,4 +1,4 @@
-/bin - OpenNLP and Brat binaries compressed in their respective folders.
+/bin - Link to OpenNLP and Brat binaries.
 
 /data/corpus-brat - Contains the corpus and its brat annotations.
 
