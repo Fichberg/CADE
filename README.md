@@ -6,4 +6,6 @@
 
 /data/test - Contains directories of each of the tests performed with its own corpus (considering the arrangement). Further informations contained in .txt files.
 
-/data//training - Contains the training NER models for each of the test arrangements.
+/data/training - Contains the training NER models for each of the test arrangements.
+
+/doc - General documentation.
