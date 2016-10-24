@@ -786,14 +786,127 @@ finalmente, a seguinte resposta, onde cada entidade mencionada está contida em 
 Todo este processo é muito bonito, mas a realidade é que nem sempre os documentos se comportam bem assim. Recordemos que o processo de Reconhecimento das Entidades Mencionadas
 é divido em duas etapas: identificação e classificação. Pois bem, o que acontece na realidade é que ambas as etapas podem ter erros que devem ser medidos. Com relação
 à atividade de identificação, é comum que a aplicação falhe ao identificar algumas \textit{tokens} que deveriam ser marcadas, passando por elas despercebidamente. Naturalmente, isso
-implica na não classificação da entidade relativa a esta \textit{token} que aconteceria na etapa seguinte. Já na etaa de classificação, o que pode acontecer são erros de etiquetagem
-de duas naturezas diferentes: precisão das fronteiras e decisão da etiqueta. Exploraremos mais sobre estes erros e como  medir a Precisão e a Cobertura na próxima seção.
+implica na não classificação da entidade relativa a esta \textit{token} que aconteceria na etapa seguinte. Já na etapa de classificação, o que pode acontecer são erros de etiquetagem
+de duas naturezas diferentes: precisão das fronteiras e decisão da etiqueta. Exploraremos mais sobre estes erros e como medir a Precisão, a Cobertura e a Medida-F na próxima seção.
 
-\section{Método de Avaliação da Informação Extraída}
+\section{Avaliação das Informações Extraídas}
 
-\subsection{Tipos de erros}
+\indent\indent Ao trabalharmos com algoritmos que realizam a atividade de marcação de textos de forma automatizada com base em um Córpus que desenvolvemos, é
+esperado que busquemos métodos e técnicas para medir quão corretas estas anotações geradas estão. Além disso, estas técnicas também servem para que possamos ter
+valores de orientação para refinarmos as respostas obtidas, de tal modo que podemos melhorar os valores das taxas de precisão e cobertura e da Medida-F. Esta seção, portanto,
+é reservada para que exploremos métodos e conceitos relacionados à avaliação.
 
-\subsection{Precisão e Cobertura}
+\subsection{Padrão-ouro}
+
+\indent\indent Uma das formas de avaliação mais utilizadas de um sistema de Reconhecimento de Entidades Mencionadas é a comparação da saída obtida com a do texto anotado por
+um especialista, também conhecido como \textit{padrão-ouro} (ou \textit{gold-standard}, em inglês). Apesar desta idéia ser intuitiva e fácil de aceitar, a realidade é que
+comumente o tipo de texto que uma pessoa pretende estudar não tem um Córpus padrão-ouro disponível, que é justamente e não surpreendentemente o caso deste trabalho. Isto ocorre
+por uma série de motivos tais como o tempo e o custo, uma vez que desenvolver um bom Córpus é um processo que consome bastante tempo, bem como o tempo de trabalho de um \textit{expert}
+pode ter um custo elevado.
+
+Assim sendo, as anotações manuais realizadas sobre os Atos de Concentração foram consideradas o padrão-ouro do trabalho desenvolvido. Idealmente,
+deveríamos ter um Córpus anotado para ser o padrão-ouro e outro que serviria de treinamento, porém, como não há tempo de desenvolver tantos Corpora diferentes, tivemos de nos
+contentar usando o próprio modelo de treinamento como padrão-ouro. Portanto, sempre que o termo \quotes{padrão-ouro} for usado nesta literatura, estaremos nos referindo ao Córpus
+anotado composto pelos cinqüenta ACs listados na tabela 3.1.
+
+\subsection{Tipos de Erro}
+
+\indent\indent Uma vez com um Córpus construído e um padrão-ouro a ser tomado de referência, podemos facilmente identificar os erros que surgem na saída obtida. O autor
+Wesley Seidel de Carvalho [16], em sua tese de mestrado para a Universidade de São Paulo, apresenta 5 tipos de erro diferentes ao leitor a partir de um exemplo, listados a seguir:
+
+\begin{enumerate}[label=\textbf{E\arabic*.}]
+  \item Marcação de entidade inexistente: o máquina marcou uma ou mais \textit{tokens} que não deveriam ter sido marcadas.
+  \item Marcação perdida: a máquina passou despercebidadamente por uma ou mais \textit{tokens} contíguas que deveriam ter sido marcadas.
+  \item Tipo da etiqueta: a máquina identificou corretamente uma entidade, mas errou na sua classificação.
+  \item Fronteira da etiqueta: a máquina identificou corretamente uma entidade, mas incluiu ou perdeu \textit{tokens} que não deveria.
+  \item Tipo e fronteira da etiqueta: a máquina identificou corretamente uma entidade, mas incluiu ou perdeu \textit{tokens} que não deveria e atribuiu à entidade uma etiqueta errada.
+\end{enumerate}
+
+Uma pessoa poderia sugerir mais ou menos tipos de erros além
+dos listados acima, mas o fato é que para qualquer sistema de REM estamos interessados em pelo menos duas categorias de erro: aqueles que estão relacionados à etapa de identificação
+e aqueles que estão relacionados à etapa de classificação.
+
+Na listagem acima, podemos perceber facilmente que os erros \textbf{E1} e \textbf{E2} estão relacionados à etapa de identificação do procedimento de REM, enquanto que
+os erros \textbf{E3}, \textbf{E4} e \textbf{E5} estão relacionados à etapa de classificação. Assim, uma pessoa poderia facilmente definir apenas dois erros ao invés
+de cinco se bem entendesse, mas estaria perdendo detalhamento da informação acerca dos erros obtidos ao fazê-lo.
+
+Para ilustrar o que acabamos de dizer, suponhamos primeiramente que temos as seguintes entidades mencionadas definidas em um documento de texto:
+
+\begin{itemize}
+  \item Document
+  \item Operation
+  \item Organization
+\end{itemize}
+
+E consideremos o trecho a seguir, retirado do Ato de Concentração nº 08700.005524/2016-87, do qual queremos extrair informações a partir da entidades mencionadas
+declaradas:
+
+\begin{quote}
+  \textit{\quotes{Por meio da presente operação, a HNA visa a obter benefícios econômicos decorrentes dos novos investimentos para expansão dos negócios da gategroup,
+  bem como a  estabilidade e  continuidade do plano estratégico denominado Gateway 2020, lançado pela gategroup em 2015, com foco em inovação, expansão geográfica e eficiência.}}
+\end{quote}
+
+\pagebreak Cujo padrão-ouro é definido a seguir:
+
+\begin{quote}
+  \begin{varwidth}{0.89\textwidth}
+  Por meio da \fbox{presente operação}$_{\text{Operation}}$, a \fbox{HNA}$_{\text{Organization}}$ visa obter benefícios econômicos decorrentes dos novos investimentos para
+  expansão dos negócios da \fbox{gategroup}$_{\text{Organization}}$, bem como a
+  estabilidade e  continuidade do plano estratégico denominado \fbox{Gateway 2020}$_{\text{Document}}$, lançado pela \fbox{gategroup}$_{\text{Organization}}$ em 2015,
+  com foco em inovação, expansão geográfica e eficiência.
+  \end{varwidth}
+\end{quote}
+
+E finalmente, consideremos também os erros seguintes:
+
+\begin{enumerate}[label=\textbf{e\arabic*.}]
+  \item Marcação perdida: a máquina passou despercebidadamente por uma ou mais \textit{tokens} contíguas que deveriam ter sido marcadas (\textbf{E2}).
+  \item Atribuição de etiqueta: a máquina errou na classificação, de tal forma que ou atribuiu uma etiqueta errada  para uma ou mais \textit{tokens}
+  contíguas que \textit{representam} uma entidade ou atribuiu qualquer etiqueta para uma ou mais \textit{tokens} contíguas que \textit{não representam} uma entidade
+  (\textbf{E1} + \textbf{E3} + \textbf{E5}).
+  \item Fronteira da etiqueta: a máquina identificou corretamente uma entidade, mas incluiu ou perdeu \textit{tokens} que não deveria (\textbf{E4}).
+\end{enumerate}
+
+Agora, suponhamos que a saída que obtivemos foi:
+
+\begin{quote}
+  \begin{varwidth}{0.89\textwidth}
+  Por meio da presente \fbox{operação}$_{\text{Operation}}$, a \fbox{HNA}$_{\text{Organization}}$ visa obter benefícios econômicos decorrentes dos novos investimentos
+  para expansão dos negócios da gategroup,
+  bem como a  estabilidade e  continuidade do \fbox{plano estratégico}$_{\text{Document}}$ denominado \fbox{Gateway 2020}$_{\text{Organization}}$, lançado pela gategroup
+  em 2015, com foco em inovação, expansão geográfica e eficiência.
+  \end{varwidth}
+\end{quote}
+
+Podemos, então, construir a seguinte tabela a partir dos resultados obtidos, denotando os acertos por \textbf{A}:
+
+
+\begin{table}[h!]
+  \centering
+  \def\arraystretch{2}
+  \begin{tabular}{| c | c | c | c | c |}
+    \hline
+    \multicolumn{5}{|c|}{Exemplo} \\
+    \hline
+    Resultado Esperado & Resultado Obtido & Ocorrências & Avaliação 1 & Avaliação 2 \\
+    \hline\hline
+    \fbox{presente operação}$_{\text{Operation}}$ & \fbox{operação}$_{\text{Operation}}$         & 1 & \textbf{E4} & \textbf{e3} \\ \hline
+    \fbox{HNA}$_{\text{Organization}}$            & \fbox{HNA}$_{\text{Organization}}$           & 1 & \textbf{A}  & \textbf{A}  \\ \hline
+    \fbox{gategroup}$_{\text{Organization}}$      & gategroup                                    & 2 & \textbf{E2} & \textbf{e1} \\ \hline
+    plano estratégico                             & \fbox{plano estratégico}$_{\text{Document}}$ & 1 & \textbf{E1} & \textbf{e2} \\ \hline
+    \fbox{Gateway 2020}$_{\text{Document}}$       & \fbox{Gateway 2020}$_{\text{Organization}}$  & 1 & \textbf{E3} & \textbf{e2} \\ \hline \hline
+    \multicolumn{5}{| c |}{Total: 1 Acerto e 5 Erros para cada uma das avaliações} \\ \hline
+  \end{tabular}
+\end{table}
+
+Em suma, as classificações dos tipos de erros que
+serão considerados dependem bastante do que o pesquisador julgar relevante. Note que a quantidade de erros encontrada no final será a mesma em ambos os casos,
+diferindo apenas no número de categorias em que estes erros todos serão distribuídos.
+
+Além dos erros, é claro, também estamos interessados na quantidade de acertos. Uma vez em posse dos valores que definem as quantidades de erros e acertos em relação
+ao padrão-ouro podemos, finalmente, utilizarmos de métricas para analisarmos o rendimento do nosso Corpus. Exploraremos algumas destas métricas na seção seguinte.
+
+\subsection{Precisão, Cobertura e Medida-F}
 
 
 \pagebreak
@@ -835,6 +948,7 @@ de duas naturezas diferentes: precisão das fronteiras e decisão da etiqueta. E
 \item CARVALHO, Wesley Seidel. Reconhecimento de entidades mencionadas em português utilizando aprendizado de máquina, São Paulo, 2012
 \item WIKIPEDIA. Named Entity. Disponível em: \newline\textless\enspace https://en.wikipedia.org/wiki/Named\_entity \enspace\textgreater. Acesso em: 22 de outubro de 2016.
 \item WIKIPEDIA. Named Entity Recognition. Disponível em: \newline\textless\enspace https://en.wikipedia.org/wiki/Named-entity\_recognition \enspace\textgreater. Acesso em: 22 de outubro de 2016.
+\item WIKIPEDIA. Gold-standard. Disponível em: \newline\textless\enspace https://en.wikipedia.org/wiki/Gold\_standard\_\%28test\%29 \enspace\textgreater. Acesso em: 23 de outubro de 2016.
 \end{enumerate}
 
 \end{document}
