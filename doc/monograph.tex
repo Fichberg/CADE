@@ -30,6 +30,8 @@
 \rhead{\chaptername \enspace \thechapter}
 \cfoot{\thepage}
 
+\setcounter{secnumdepth}{3}
+
 \begin{document}
 
 \begin{center}
@@ -174,6 +176,9 @@ os seus significados:
 \vspace*{8px}
 \noindent REM - Reconhecimento de Entidades Renomadas
 
+\vspace*{8px}
+\noindent RI - Recuperação de Informações
+
 \pagebreak
 \thispagestyle{empty}
 \chapter*{Índice}
@@ -246,7 +251,7 @@ utilizadas para que os resultados apresentados no capítulo 6 - Resultados fosse
 
 Finalmente, foi estudado a partir da técnica estatística de validação cruzada o desempenho do Córpus criado e os tipos de erros que surgiram no processo de geração automatizada
 de anotações de entidades mencionadas a partir do modelo de treinamento do Córpus, de tal forma que foram percebidas algumas boas práticas com relação ao uso destas ferramentas
-para aumentar a eficácia e a acurácia das marcações. Tais percepções serão comentadas, também, no capítulo 6 - Resultados.
+para aumentar a eficácia e a precisão das marcações. Tais percepções serão comentadas, também, no capítulo 6 - Resultados.
 
 \pagebreak
 \chapter{CADE}
@@ -787,13 +792,16 @@ Todo este processo é muito bonito, mas a realidade é que nem sempre os documen
 é divido em duas etapas: identificação e classificação. Pois bem, o que acontece na realidade é que ambas as etapas podem ter erros que devem ser medidos. Com relação
 à atividade de identificação, é comum que a aplicação falhe ao identificar algumas \textit{tokens} que deveriam ser marcadas, passando por elas despercebidamente. Naturalmente, isso
 implica na não classificação da entidade relativa a esta \textit{token} que aconteceria na etapa seguinte. Já na etapa de classificação, o que pode acontecer são erros de etiquetagem
-de duas naturezas diferentes: precisão das fronteiras e decisão da etiqueta. Exploraremos mais sobre estes erros e como medir a Precisão, a Cobertura e a Medida-F na próxima seção.
+de duas naturezas diferentes: precisão das fronteiras e decisão da etiqueta. Exploraremos mais sobre estes erros e como medir a precisão, a cobertura e a medida-F na próxima seção.
 
 \section{Avaliação das Informações Extraídas}
 
 \indent\indent Ao trabalharmos com algoritmos que realizam a atividade de marcação de textos de forma automatizada com base em um Córpus que desenvolvemos, é
-esperado que busquemos métodos e técnicas para medir quão corretas estas anotações geradas estão. Além disso, estas técnicas também servem para que possamos ter
-valores de orientação para refinarmos as respostas obtidas, de tal modo que podemos melhorar os valores das taxas de precisão e cobertura e da Medida-F. Esta seção, portanto,
+esperado que busquemos métodos e técnicas para medir quão corretas estas anotações geradas estão. A obtenção destes valores é particularmente
+importante no que diz respeito à própria continuidade do desenvolvimento do Córpus, de tal forma que podemos usá-los para nossa orientação e
+reconhecermos a partir disso se o nosso critério de marcação está sendo mais ou menos efetivo em relação à resposta esperada. 
+
+Esta seção, portanto,
 é reservada para que exploremos métodos e conceitos relacionados à avaliação.
 
 \subsection{Padrão-ouro}
@@ -906,8 +914,88 @@ diferindo apenas no número de categorias em que estes erros todos serão distri
 Além dos erros, é claro, também estamos interessados na quantidade de acertos. Uma vez em posse dos valores que definem as quantidades de erros e acertos em relação
 ao padrão-ouro podemos, finalmente, utilizarmos de métricas para analisarmos o rendimento do nosso Corpus. Exploraremos algumas destas métricas na seção seguinte.
 
-\subsection{Precisão, Cobertura e Medida-F}
+\subsection{Métricas de Avaliação}
 
+\indent\indent Métricas têm uma importância fundamental para qualquer trabalho sério, uma vez que elas conferem maior credibilidade aos resultados caso elas façam
+sentido em determinado contexto. Elas servem para aumentar a garantia da qualidade do produto final (que pode ser a saída de um \textit{software}), bem como podem
+ser encaradas como um valor que indique quão bem o desenvolvimento do trabalho está caminhando em determinado ponto.
+
+Algumas métricas foram propostas para que fosse analisado o rendimento de sistemas de RI. Nesta seção, falaremos sobre as métricas tradicionalmente mais utilizadas quando trabalhamos
+com Reconhecimento de Entidades Mencionadas: a precisão, a cobertura e a medida-F. Estas métricas podem ser facilmente encontradas em diversas literaturas de
+Recuperação de Informações tais como a dos autores Manning, Raghavan e Schuetze [20], bem como na própria dissertação de mestrado do Wesley Seidel de Carvalho [16], já mencionada na seção anterior, em que abordamos o assuntos dos tipos de erros.
+
+Antes de falarmos das métricas especificamente, porém, é relevante considerarmos que uma determinada informação pode ter uma das quatro categorias distintas a seguir:
+
+\begin{itemize}
+ \item \textbf{Verdadeiros Positivos} (\textbf{VP}): EMs relevantes e recuperadas.
+ \item \textbf{Falsos Positivos} (\textbf{FP}): EMs não relevantes e recuperadas.
+ \item \textbf{Falsos Negativos} (\textbf{FN}): EMs relevantes e não recuperadas.
+ \item \textbf{Verdadeiros Negativos} (\textbf{VN}): EMs não relevantes e não recuperadas.
+\end{itemize}
+
+Uma vez definidas estas quatro categorias, podemos agora prosseguir para as métricas.
+
+\subsubsection{Precisão}
+
+\indent\indent A precisão (\textbf{P}) é definida como a razão entre o número de itens relevantes recuperados e o número de itens recuperados.
+Em outras palavras, é a taxa de itens recuperados corretamente dentre todos os que foram recuperados. Matematicamente, a definimos como
+
+\begin{equation}
+ \text{\textbf{P}} = \dfrac{\text{\#itens relevantes recuperados}}{\text{\#itens recuperados}}
+\end{equation}
+
+Deste modo, a fórmula (4.1) acima pode ser reescrita como
+
+\begin{equation}
+ \text{\textbf{P}} = \dfrac{\text{\textbf{VP}}}{\text{\textbf{VP}} + \text{\textbf{FP}}}
+\end{equation}
+
+Note que essa métrica diz bastante 
+a respeito dos erros da etapa de classificação, mas não traz informações acerca da etapa de identificação, uma vez que ela desconsidera os erros de
+marcações perdidas mencionados na seção anterior. Seu objetivo é nos mostrar o quão \textit{precisa} está a nossa coleta. Isso faz com que surja naturalmente a necessidade de uma segunda métrica que considere a recuperação em relação a coleção: a cobertura (\textbf{C}).
+
+\subsubsection{Cobertura}
+
+\indent\indent A cobertura (\textbf{C}) é definida como a razão entre o número de itens relevantes recuperados e o número de itens relevantes.
+Em outras palavras, é a taxa de itens recuperados corretamente dentre todos os que deveriam ter sido recuperados na coleção. Matematicamente, a definimos como
+
+\begin{equation}
+ \text{\textbf{C}} = \dfrac{\text{\#itens relevantes recuperados}}{\text{\#itens relevantes}}
+\end{equation}
+
+Assim, a fórmula (4.3) acima pode ser reescrita como
+
+\begin{equation}
+ \text{\textbf{C}} = \dfrac{\text{\textbf{VP}}}{\text{\textbf{VP}} + \text{\textbf{FN}}}
+\end{equation}
+
+Ao contrário da precisão (\textbf{P}), agora nós não temos mais uma idéia do quanto a nossa coleta está precisa, mas sim o quanto ela \textit{cobriu} das marcações esperadas. Este é um modo de enfatizar todas as entidades que deveriam ser identificadas num cenário ideal, portanto, dando maior foco na etapa de identificação do processo de REM.
+
+\subsubsection{Medida-F}
+
+\indent\indent Seria interessante podermos juntar tanto a precisão (\textbf{P}) quanto a cobertura (\textbf{C}) em uma única métrica. Para isso, foi definida a medida-F (\textbf{F}), descrita
+pela seguinte equação:
+
+\begin{equation}
+ \text{\textbf{F}} = \dfrac{1}{\alpha\dfrac{1}{\text{\textbf{P}}} + (1 - \alpha)\dfrac{1}{\text{\textbf{C}}}} = \dfrac{(\beta^2 + 1)\text{\textbf{PC}}}{\beta^2\text{\textbf{P}} + \text{\textbf{C}}}
+\end{equation}
+
+onde a relação entre os coeficientes $\alpha$ e $\beta$ é dada por
+
+\begin{equation}
+ \beta^2 = \dfrac{1 - \alpha}{\alpha} \enspace\enspace\enspace\enspace\enspace \alpha \in [0, 1]\text{,\enspace}\beta^2 \in [0, \infty]
+\end{equation}
+
+O objetivo da medida-F não é apenas uni-las em uma métrica, mas também podemos aumentar a enfase na cobertura a custo de precisão e vice-versa, uma vez que se trata de uma média harmônica ponderada. 
+
+Para usarmos a equação da medida-F na sua \textit{forma balanceada}, isto é, com pesos iguais para ambas a precisão e a cobertura, basta atribuirmos ou $\alpha = 0.5$ ou  $\beta = 1$ na equação correspondente em (4.5). Tradicionalmente, a medida-F em sua forma balanceada é representada por $\text{\textbf{F}}_{\beta = 1}$, ou simplesmente $\text{\textbf{F}}_{1}$ e possui
+a seguinte equação
+
+\begin{equation}
+ \text{\textbf{F}}_1 = \dfrac{2\text{\textbf{PC}}}{\text{\textbf{P}} + \text{\textbf{C}}}
+\end{equation}
+
+apoś a considerarmos $\beta = 1$. Analogamente, também pode ser feita a substituição do coeficiente $\alpha$ por 0.5 na fórmula à esquerda em (4.5).
 
 \pagebreak
 \chapter{Ferramentas Utilizadas}
@@ -949,6 +1037,7 @@ ao padrão-ouro podemos, finalmente, utilizarmos de métricas para analisarmos o
 \item WIKIPEDIA. Named Entity. Disponível em: \newline\textless\enspace https://en.wikipedia.org/wiki/Named\_entity \enspace\textgreater. Acesso em: 22 de outubro de 2016.
 \item WIKIPEDIA. Named Entity Recognition. Disponível em: \newline\textless\enspace https://en.wikipedia.org/wiki/Named-entity\_recognition \enspace\textgreater. Acesso em: 22 de outubro de 2016.
 \item WIKIPEDIA. Gold-standard. Disponível em: \newline\textless\enspace https://en.wikipedia.org/wiki/Gold\_standard\_\%28test\%29 \enspace\textgreater. Acesso em: 23 de outubro de 2016.
+\item MANNING, Christopher D., RAGHAVAN, Prabhakar., SCHUETZE, Hinrich. An Introduction to Information Retrieval. Online Edition. Cambridge University Press. 2008
 \end{enumerate}
 
 \end{document}
