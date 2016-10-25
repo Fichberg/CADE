@@ -15,12 +15,14 @@
 \usepackage{color,soul}
 \usepackage{varwidth}
 
-
 \newcommand{\quotes}[1]{``#1''}
 
 \titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}[{\titlerule[0.4pt]}]
 
 \definecolor{fill}{rgb}{0.18, 0.31, 0.31}
+\definecolor{strong}{rgb}{0.5, 1.0, 0.0}
+\definecolor{moderate}{rgb}{0.24, 0.82, 0.44}
+\definecolor{weak}{rgb}{0.99, 0.05, 0.21}
 
 \pagestyle{fancy}
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
@@ -222,7 +224,7 @@ Ordinário e Sumário. Desta forma, este é claramente um problema de classifica
 de técnicas e algoritmos clássicos de AM.
 
 Para conseguirmos desempenhar esta função, porém, é necessário estudarmos as especificidades do problema proposto e, em particular e principalmente,
-do tipo de dados com que estamos lidando. Informações com relações a isso serão tratadas no capítulo 2 - CADE, na seção 2.2 - Base de Dados Pública.
+do tipo de dados com que estamos lidando. Informações com relações a isso serão tratadas no capítulo 2 - O Conselho Administrativo de Defesa Econômica (CADE), na seção 2.2 - Base de Dados Pública.
 Note que esta etapa é essencial para garantirmos não apenas uma maior eficiência na classificação final, mas também que o algoritmo está sendo treinado sobre
 documentos totalmente fiéis à realidade.
 
@@ -242,7 +244,7 @@ ao primeiro problema. Mais sobre isso será discutido no capítulo 7, seção 7.
 Ainda, houve também um estudo do próprio funcionamento do CADE para entender mais sobre o problema e, em particular, um estudo voltado para a sua coletânea de processos
 armazenada na sua extensa base de dados pública com o intuito de identificar os tipos de documentos que poderiam ser mais pertinentes à análise dos processos no que diz respeito
 à classificação final do rito e também à forma que tais processos deveriam ser tratados para que fossem extraídas destes informações relevantes. Todo este conteúdo pode ser encontrado no
-capítulo 2 - CADE.
+capítulo 2 - O Conselho Administrativo de Defesa Econômica (CADE).
 
 Como objetivo também existiu a necessidade de estudar assuntos relacionados a AI, tais como PLN e REM, que serão abordados nos capítulos 3 e 4, respectivamente.
 Ademais, foram estudadas ferramentas de \textit{software} que trabalham com PLN e REM: OpenNLP e o BRAT. Mais será dito sobre elas no capítulo 5, em suas
@@ -254,12 +256,12 @@ de anotações de entidades mencionadas a partir do modelo de treinamento do Có
 para aumentar a eficácia e a precisão das marcações. Tais percepções serão comentadas, também, no capítulo 6 - Resultados.
 
 \pagebreak
-\chapter{CADE}
+\chapter{O Conselho Administrativo de Defesa Econômica (CADE)}
 
 \indent\indent Neste capítulo serão abordados assuntos relacionados ao CADE, aos Atos de Concentração que devem ser legalmente submetidos a ele e à base de dados pública que ele possui e
 que contém tais processos judiciais. Sobre o CADE, será exposto um pouco da sua história e da sua função, para em seguida falarmos sobre o que são os ACs que cabem à sua competência
 a análise e, finalmente, sobre a base de dados pública que foi usada para obter os Atos de Concentração que compõem o Córpus construído, posteriormente usado para treinarmos um modelo
-que busca entidades mencionadas de forma automatiza. Mais informações sobre o Córpus serão abordadas no capítulo 3 - PLN e as suas entidades mencionadas no capítulo 4 - REM.
+que busca entidades mencionadas de forma automatiza. Mais informações sobre o Córpus serão abordadas no capítulo 3 - Processamento de Linguagem Natural - PLN e as suas entidades mencionadas no capítulo 4 - Reconhecimento de Entidades Mencionadas.
 
 \section{Quem é o CADE?}
 
@@ -371,7 +373,7 @@ Conseqüentemente, temos a seguinte relação para os valores de cada um dos \te
 
 Assim sendo, concluímos que os documentos de maior valor para nós são os mais próximos da fase inicial. Há, porém, uma pergunta que deve ser feita: por qual razão,
 necessariamente, deveríamos considerar esta interpretação correta? Está questão já foi respondida: tempo. Existe ainda um outro fator que não foi mencionado aqui e será abordado
-no capítulo 3 - PLN, seção 3.2 - Criação do Córpus, que responde a pergunta de outra maneira e portanto complementa a nossa resposta. Para adiantar a idéia, considere que os 3 tipos de
+no capítulo 3 - Processamento de Linguagem Natural, seção 3.2 - Criação do Córpus, que responde a pergunta de outra maneira e portanto complementa a nossa resposta. Para adiantar a idéia, considere que os 3 tipos de
 documentos presentes na fase inicial, \quotes{Notificação}, \quotes{Formulário de Notificação} e \quotes{Publicação no DOU} possuem diferentes padrões uma vez que a própria
 estrutura dos documentos são diferentes. Para completar o raciocínio, lembre-se: algoritmos de aprendizado de máquina aprendem com base em padrões aprendidos no modelo
 de trainamento\footnote[6]{Documentação OpenNLP: REM} (ao menos os das ferramentas usadas neste trabalho)!
@@ -417,7 +419,7 @@ O procedimento Ordinário possui seções 12 seções a serem respondidas, enqua
 procedimento Ordinário, mostrando que, de fato, o que difere um rito do outro é apenas a complexidade.
 
 \pagebreak
-\chapter{PLN}
+\chapter{Processamento de Linguagem Natural (PLN)}
 
 \indent\indent Neste capítulo falaremos um pouco sobre Processamento de Linguagem Natural (PLN), um campo da Ciência da Computação já bastante maduro que começou a ser muito
 explorado a partir do ano de 1950, apesar de ainda antes desta data ser possível encontrarmos trabalhos realizados em PLN. Problemas relacionados a
@@ -680,12 +682,12 @@ apertado para desenvolver um Córpus para servir de treinamento para quebra de s
 de detecção de setenças criado a partir de Atos de Concentração, uma vez que, assim como na tokenização, aumentaríamos a representatividade do Córpus com relação aos documentos
 reais.
 
-No próximo capítulo discutiremos sobre REM e como foram feitas as marcações no Córpus. Até então, tudo o que foi discutido no capítulo 2 - Cade e neste capítulo 3 - PLN eram
+No próximo capítulo discutiremos sobre REM e como foram feitas as marcações no Córpus. Até então, tudo o que foi discutido no capítulo 2 - O Conselho Administrativo de Defesa Econômica (CADE) e neste capítulo 3 - Processamento de Linguagem Natural eram
 requisitos para poder trabalhar com REM nos Atos de Concentração, e uma vez entendidos, será mais simples para o leitor entender a forma que o Reconhecimento de Entidades
 Mencionadas foi usado para chegarmos nos resultados e conclusões escritos nos dois capítulos finais desta monografia.
 
 \pagebreak
-\chapter{REM}
+\chapter{Reconhecimento de Entidades Mencionadas (REM)}
 
 \indent\indent Neste capítulo falaremos um pouco sobre Reconhecimento de Entidades Mencionadas (REM), uma subtarefa da área de Extração de Informações que busca localizar e classificar
 palavras de um texto escrito em alguma linguagem natural em entidades previamente definidas tais como nomes de pessoas e nomes de organizações. Também mostraremos como
@@ -799,7 +801,7 @@ de duas naturezas diferentes: precisão das fronteiras e decisão da etiqueta. E
 \indent\indent Ao trabalharmos com algoritmos que realizam a atividade de marcação de textos de forma automatizada com base em um Córpus que desenvolvemos, é
 esperado que busquemos métodos e técnicas para medir quão corretas estas anotações geradas estão. A obtenção destes valores é particularmente
 importante no que diz respeito à própria continuidade do desenvolvimento do Córpus, de tal forma que podemos usá-los para nossa orientação e
-reconhecermos a partir disso se o nosso critério de marcação está sendo mais ou menos efetivo em relação à resposta esperada. 
+reconhecermos a partir disso se o nosso critério de marcação está sendo mais ou menos efetivo em relação à resposta esperada.
 
 Esta seção, portanto,
 é reservada para que exploremos métodos e conceitos relacionados à avaliação.
@@ -950,7 +952,7 @@ Deste modo, a fórmula (4.1) acima pode ser reescrita como
  \text{\textbf{P}} = \dfrac{\text{\textbf{VP}}}{\text{\textbf{VP}} + \text{\textbf{FP}}}
 \end{equation}
 
-Note que essa métrica diz bastante 
+Note que essa métrica diz bastante
 a respeito dos erros da etapa de classificação, mas não traz informações acerca da etapa de identificação, uma vez que ela desconsidera os erros de
 marcações perdidas mencionados na seção anterior. Seu objetivo é nos mostrar o quão \textit{precisa} está a nossa coleta. Isso faz com que surja naturalmente a necessidade de uma segunda métrica que considere a recuperação em relação a coleção: a cobertura (\textbf{C}).
 
@@ -986,7 +988,7 @@ onde a relação entre os coeficientes $\alpha$ e $\beta$ é dada por
  \beta^2 = \dfrac{1 - \alpha}{\alpha} \enspace\enspace\enspace\enspace\enspace \alpha \in [0, 1]\text{,\enspace}\beta^2 \in [0, \infty]
 \end{equation}
 
-O objetivo da medida-F não é apenas uni-las em uma métrica, mas também podemos aumentar a enfase na cobertura a custo de precisão e vice-versa, uma vez que se trata de uma média harmônica ponderada. 
+O objetivo da medida-F não é apenas uni-las em uma métrica, mas também podemos aumentar a enfase na cobertura a custo de precisão e vice-versa, uma vez que se trata de uma média harmônica ponderada.
 
 Para usarmos a equação da medida-F na sua \textit{forma balanceada}, isto é, com pesos iguais para ambas a precisão e a cobertura, basta atribuirmos ou $\alpha = 0.5$ ou  $\beta = 1$ na equação correspondente em (4.5). Tradicionalmente, a medida-F em sua forma balanceada é representada por $\text{\textbf{F}}_{\beta = 1}$, ou simplesmente $\text{\textbf{F}}_{1}$ e possui
 a seguinte equação
@@ -996,11 +998,72 @@ a seguinte equação
 \end{equation}
 
 apoś a considerarmos $\beta = 1$. Analogamente, também pode ser feita a substituição do coeficiente $\alpha$ por 0.5 na fórmula à esquerda em (4.5).
+Aplicações usando estas métricas serão abordadas no capítulo 6 - Resultados mais adiante.
+
+É digno de menção, a título de curiosidade do leitor, que além das três métricas discutidas aqui, há muitas outras tais como a Acurácia e a Sensibilidade, que são definidas
+a partir de outras combinações de numerador e denominador dos valores obtidos de \textbf{VP}, \textbf{VN}, \textbf{FP} e \textbf{FN}. A Acurácia (\textbf{ACC}), por exemplo, é 
+definida matematicamente pela seguinte equação:
+
+\begin{equation}
+ \text{\textbf{ACC}} = \dfrac{\text{\textbf{VP} + \textbf{VN}}}{\text{\textbf{VP}} + \text{\textbf{VN}} + \text{\textbf{FP}} + \text{\textbf{FN}}}
+\end{equation}
+
+No próximo capítulo falaremos um pouco sobre as ferramentas que foram utilizadas para o desenvolvimento do trabalho.
 
 \pagebreak
 \chapter{Ferramentas Utilizadas}
 
+\indent\indent Neste capítulo falaremos das ferramentas que foram usadas para que o Córpus anotado fosse contruído e suas entidades mencionadas extraídas
+de forma automatizada: BRAT e OpenNLP. É importante ressaltar que este capítulo apenas abordará as funcionalidades das ferramentas que foram utilizadas e desconsiderará todas as
+demais. Ainda, também serão apresentados comentários acerca das ferramentas, ressaltando seus pontos fortes e fracos que puderam ser percebidos com o uso delas,
+no final das suas respectivas seções.
+
 \section{BRAT}
+
+\indent\indent O BRAT é um projeto \textit{open source} (Licença MIT) recente, desenvolvido colaborativamente por pesquisadores de vários grupos distintos com interesse em
+anotações de texto. A ferramenta fornece uma interface limpa e amigável ao usuário para que ele faça anotações rapidamente, de tal forma que
+entidades podem ser marcadas apenas com a seleção das \textit{tokens} usando o \textit{mouse} e relacionamentos podem ser criados a partir de um clique e um arrastão do
+\textit{mouse} de uma entidade à outra. Assim, com simples ações de mouse o usuário pode rapidamente anotar seus textos sem ter que se preocupar com detalhes tais como
+posição de caracteres das \textit{tokens} anotadas e outros.
+
+\subsection{Visualização dos Dados via Browser}
+
+\indent\indent Conforme mencionado na seção anterior, o BRAT é uma ferramenta que fornece uma interface limpa e amigável ao usuário. A maneira que o BRAT encontrou para fazer isso
+é via \textit{browser}, com preferência pelo Chrome (Google) e o Safari (Apple) mas dando suporte para alguns outros, conforme pode ser vista na
+tabela\footnote[9]{Dados retirados de: http://brat.nlplab.org/supported-browsers.html} abaixo:
+
+\begin{table}[h!]
+  \centering
+  \def\arraystretch{0.97}
+  \begin{tabular}{| c | c | c |}
+    \hline
+    Browser & Visualização & Edição \\
+    \hline\hline
+    Chrome (Google) - PC/Mac                      & \cellcolor{strong} & \cellcolor{strong}   \\ \hline
+    Safari (Apple) - PC/Mac                       & \cellcolor{strong} & \cellcolor{strong}   \\ \hline
+    Firefox (Mozilla)                             & \cellcolor{strong} & \cellcolor{moderate} \\ \hline
+    Opera                                         & \cellcolor{strong} & \cellcolor{moderate} \\ \hline
+    Internet Explorer (Microsoft) versão 9        & \cellcolor{strong} & \cellcolor{moderate} \\ \hline
+    Safari (Apple) - iPad/iPhone                  & \cellcolor{strong} & \cellcolor{moderate} \\ \hline
+    Android Browser (Google) Android Tablet/Phone & \cellcolor{strong} & \cellcolor{weak}     \\ \hline
+    Internet Explorer (Microsoft) versão $<$ 9    & \cellcolor{weak}   & \cellcolor{weak}     \\ \hline
+  \end{tabular}
+  \begin{tabular}{| c |}
+    \hline
+    Total \cellcolor{strong} \\ \hline
+    Parcial \cellcolor{moderate} \\ \hline
+    Nenhum \cellcolor{weak} \\ \hline
+  \end{tabular}
+  \caption{Browsers suportados pelo BRAT.}
+\end{table}
+
+Na tabela 5.1 acima, a coluna \quotes{Visualização} compreende às funcionalidades de navegação pelas coleções e a mostra das anotações existentes na dada coleção, enquanto
+que a coluna de \quotes{Edição} corresponde a criação, deleção e mudança de anotações.Ainda, não é necessário instalar quaisquer \textit{plugins} de \textit{browser}
+para poder fazer uso do BRAT. Mais informações podem ser encontradas na página da ferramenta. Imagens de captura de tela serão mostradas em seções adiante.
+
+\subsection{Configurações}
+
+\subsection{Implementação}
 
 \section{OpenNLP}
 
@@ -1037,7 +1100,8 @@ apoś a considerarmos $\beta = 1$. Analogamente, também pode ser feita a substi
 \item WIKIPEDIA. Named Entity. Disponível em: \newline\textless\enspace https://en.wikipedia.org/wiki/Named\_entity \enspace\textgreater. Acesso em: 22 de outubro de 2016.
 \item WIKIPEDIA. Named Entity Recognition. Disponível em: \newline\textless\enspace https://en.wikipedia.org/wiki/Named-entity\_recognition \enspace\textgreater. Acesso em: 22 de outubro de 2016.
 \item WIKIPEDIA. Gold-standard. Disponível em: \newline\textless\enspace https://en.wikipedia.org/wiki/Gold\_standard\_\%28test\%29 \enspace\textgreater. Acesso em: 23 de outubro de 2016.
-\item MANNING, Christopher D., RAGHAVAN, Prabhakar., SCHUETZE, Hinrich. An Introduction to Information Retrieval. Online Edition. Cambridge University Press. 2008
+\item MANNING, Christopher D., RAGHAVAN, Prabhakar., SCHUETZE, Hinrich. An Introduction to Information Retrieval. Online Edition. Cambridge University Press. 2008.
+\item Pontus Stenetorp, Sampo Pyysalo, Goran Topić, Tomoko Ohta, Sophia Ananiadou and Jun'ichi Tsujii (2012). brat: a Web-based Tool for NLP-Assisted Text Annotation. In Proceedings of the Demonstrations Session at EACL 2012.
 \end{enumerate}
 
 \end{document}
