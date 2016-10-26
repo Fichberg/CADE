@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.6.11)  25 OCT 2016 16:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.6.11)  26 OCT 2016 18:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -517,28 +517,41 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 \f@ncyO@olf=\skip53
 \f@ncyO@orf=\skip54
 )
+(/usr/share/texlive/texmf-dist/tex/latex/moreverb/moreverb.sty
+Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks21
+\verbatim@line=\toks22
+\verbatim@in@stream=\read1
+)
+\tab@position=\count95
+\tab@size=\count96
+\listing@line=\count97
+)
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip55
 \enit@outerparindent=\dimen115
-\enit@toks=\toks21
+\enit@toks=\toks23
 \enit@inbox=\box26
-\enitdp@description=\count95
+\enitdp@description=\count98
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2014/07/16 v1.15 mathematical typesetting tools
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count96
-\calc@Bcount=\count97
+\calc@Acount=\count99
+\calc@Bcount=\count100
 \calc@Adimen=\dimen116
 \calc@Bdimen=\dimen117
 \calc@Askip=\skip56
 \calc@Bskip=\skip57
 LaTeX Info: Redefining \setlength on input line 75.
 LaTeX Info: Redefining \addtolength on input line 76.
-\calc@Ccount=\count98
+\calc@Ccount=\count101
 \calc@Cskip=\skip58
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
@@ -554,7 +567,7 @@ Package: amstext 2000/06/29 v2.01
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks22
+\@emptytoks=\toks24
 \ex@=\dimen118
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -564,13 +577,13 @@ Package: amsbsy 1999/11/29 v1.2d
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count99
+\inf@bad=\count102
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count100
-\leftroot@=\count101
+\uproot@=\count103
+\leftroot@=\count104
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count102
-\DOTSCASE@=\count103
+\classnum@=\count105
+\DOTSCASE@=\count106
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
@@ -579,32 +592,32 @@ LaTeX Info: Redefining \cdots on input line 466.
 \big@size=\dimen120
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count104
-\c@MaxMatrixCols=\count105
+\macc@depth=\count107
+\c@MaxMatrixCols=\count108
 \dotsspace@=\muskip10
-\c@parentequation=\count106
-\dspbrk@lvl=\count107
-\tag@help=\toks23
-\row@=\count108
-\column@=\count109
-\maxfields@=\count110
-\andhelp@=\toks24
+\c@parentequation=\count109
+\dspbrk@lvl=\count110
+\tag@help=\toks25
+\row@=\count111
+\column@=\count112
+\maxfields@=\count113
+\andhelp@=\toks26
 \eqnshift@=\dimen121
 \alignsep@=\dimen122
 \tagshift@=\dimen123
 \tagwidth@=\dimen124
 \totwidth@=\dimen125
 \lineht@=\dimen126
-\@envbody=\toks25
+\@envbody=\toks27
 \multlinegap=\skip60
 \multlinetaggap=\skip61
-\mathdisplay@stack=\toks26
+\mathdisplay@stack=\toks28
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count111
+\g_MT_multlinerow_int=\count114
 \l_MT_multwidth_dim=\dimen127
 \origjot=\skip62
 \l_MT_shortvdotswithinadjustabove_dim=\dimen128
@@ -628,7 +641,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \caption@parindent=\dimen139
 \caption@hangindent=\dimen140
 )
-\c@ContinuedFloat=\count112
+\c@ContinuedFloat=\count115
 )
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
@@ -637,18 +650,18 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \aftertitleunit=\skip64
 \ttl@plus=\dimen141
 \ttl@minus=\dimen142
-\ttl@toksa=\toks27
+\ttl@toksa=\toks29
 \titlewidth=\dimen143
 \titlewidthlast=\dimen144
 \titlewidthfirst=\dimen145
 )
 (/usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks28
-\SOUL@lasttoken=\toks29
-\SOUL@cmds=\toks30
-\SOUL@buffer=\toks31
-\SOUL@token=\toks32
+\SOUL@word=\toks30
+\SOUL@lasttoken=\toks31
+\SOUL@cmds=\toks32
+\SOUL@buffer=\toks33
+\SOUL@token=\toks34
 \SOUL@spaceskip=\skip65
 \SOUL@ttwidth=\dimen146
 \SOUL@uldp=\dimen147
@@ -657,49 +670,52 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box30
-\sift@deathcycles=\count113
+\sift@deathcycles=\count116
 \@vwid@loff=\dimen149
 \@vwid@roff=\dimen150
 )
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/courier.sty
+Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 30.
+less on input line 32.
 
 (./monograph.aux)
 \openout1 = `monograph.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 39.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    ... okay on input line 39.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count114
+\scratchcounter=\count117
 \scratchdimen=\dimen151
 \scratchbox=\box31
-\nofMPsegments=\count115
-\nofMParguments=\count116
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count117
+\nofMPsegments=\count118
+\nofMParguments=\count119
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count120
 \MPscratchDim=\dimen152
-\MPnumerator=\count118
-\makeMPintoPDFobject=\count119
-\everyMPtoPDFconversion=\toks34
+\MPnumerator=\count121
+\makeMPintoPDFobject=\count122
+\everyMPtoPDFconversion=\toks36
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -876,7 +892,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [17]
-Overfull \hbox (17.99918pt too wide) in paragraph at lines 487--510
+Overfull \hbox (17.99918pt too wide) in paragraph at lines 489--512
 [][] 
  []
 
@@ -924,7 +940,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [23]
 Cap\'{\i }tulo 4.
 
-Overfull \hbox (2.09346pt too wide) in paragraph at lines 692--695
+Overfull \hbox (2.09346pt too wide) in paragraph at lines 701--704
 []\OT1/cmr/m/n/10.95 Neste cap^^S^^Ptulo fa-la-re-mos um pouco so-bre Re-co-nhe
 -ci-mento de En-ti-da-des Men-ci-o-na-das (REM),
  []
@@ -939,45 +955,45 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [25]
-Overfull \hbox (1.78487pt too wide) in paragraph at lines 779--780
+Overfull \hbox (1.78487pt too wide) in paragraph at lines 791--792
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 787--790
+Underfull \hbox (badness 10000) in paragraph at lines 803--806
 []\OT1/cmr/m/n/10.95 2. A []$[]$ atu-al-mente det^^Sem 20% de par-ti-cipa^^Xc~a
 o no
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 787--790
+Underfull \hbox (badness 10000) in paragraph at lines 803--806
 []$[]$ \OT1/cmr/m/n/10.95 en-quanto a []$[]$ det^^Sem ou-tros
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 787--790
+Underfull \hbox (badness 2608) in paragraph at lines 803--806
 \OT1/cmr/m/n/10.95 20%. A []$[]$ det^^Sem os 60% de par-ti-cipa^^Xc~ao re-ma-ne
 s-cente no
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 787--790
+Underfull \hbox (badness 1028) in paragraph at lines 803--806
 []$[]$ \OT1/cmr/m/n/10.95 a []$[]$ tamb^^Sem ^^Se a ope-ra-dora de-
  []
 
 
-Underfull \hbox (badness 2809) detected at line 790
+Underfull \hbox (badness 2809) detected at line 806
 []$[]$ \OT1/cmr/m/n/10.95 en-quanto a []$[]$ det^^Sem ou-tros
  []
 
 
-Underfull \hbox (badness 10000) detected at line 790
+Underfull \hbox (badness 10000) detected at line 806
 []\OT1/cmr/m/n/10.95 2. A []$[]$ atu-al-mente det^^Sem 20% de par-ti-cipa^^Xc~a
 o no
  []
 
 
-Overfull \hbox (4.29672pt too wide) in paragraph at lines 786--791
+Overfull \hbox (4.29672pt too wide) in paragraph at lines 802--807
 []$[]$ 
  []
 
@@ -995,17 +1011,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [27]
-Overfull \hbox (2.66852pt too wide) in paragraph at lines 862--868
+Overfull \hbox (2.66852pt too wide) in paragraph at lines 881--887
 []$[]$ 
  []
 
 
-Overfull \hbox (2.89664pt too wide) in paragraph at lines 883--889
+Overfull \hbox (2.89664pt too wide) in paragraph at lines 902--908
 []$[]$ 
  []
 
 
-Overfull \hbox (32.80281pt too wide) in paragraph at lines 897--910
+Overfull \hbox (32.80281pt too wide) in paragraph at lines 916--927
  [][] 
  []
 
@@ -1034,6 +1050,14 @@ Cap\'{\i }tulo 5.
 [31
 
 ]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 1092
+.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 1115.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1041,66 +1065,89 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [32]
+Overfull \hbox (1.11264pt too wide) in paragraph at lines 1168--1172
+\OT1/cmr/m/n/10.95 ori-gi-nando por-tanto o nome deste se^^Xc~ao. Das 4 se^^Xc~
+oes exis-ten-tes no ar-quivo \OT1/pcr/m/n/10.95 annotation.conf\OT1/cmr/m/n/10.
+95 ,
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[34]
 Cap\'{\i }tulo 6.
-[33
+[35
 
 ]
 Cap\'{\i }tulo 7.
-[34
+[36
 
 ]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 1084
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 1227
 .
  (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1084.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1227.
 
 
-Overfull \hbox (7.75388pt too wide) in paragraph at lines 1084--1085
+Overfull \hbox (7.75388pt too wide) in paragraph at lines 1227--1228
 []\OT1/cmr/m/n/10.95 Acesso ^^Ra In-forma^^Xc~ao: Co-nhe^^Xca o CADE. Dis-pon^^
 S^^Pvel em: \OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.cade.gov.br/aces
 so-
  []
 
 
-Overfull \hbox (39.8942pt too wide) in paragraph at lines 1086--1087
+Overfull \hbox (39.8942pt too wide) in paragraph at lines 1229--1230
 \OT1/cmr/m/n/10.95 Econ^omica. Dis-pon^^S^^Pvel em: \OML/cmm/m/it/10.95 <\OT1/c
 mr/m/n/10.95 http://www.cade.gov.br/servicos/perguntas-frequentes/perguntas-
  []
 
 
-Overfull \hbox (3.13066pt too wide) in paragraph at lines 1088--1089
+Overfull \hbox (3.13066pt too wide) in paragraph at lines 1231--1232
 \OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 https://opennlp.apache.org/documentatio
 n/manual/opennlp.html#tools.namefind \OML/cmm/m/it/10.95 >\OT1/cmr/m/n/10.95 .
  []
 
 
-Overfull \hbox (19.99962pt too wide) in paragraph at lines 1089--1090
+Overfull \hbox (19.99962pt too wide) in paragraph at lines 1232--1233
 \OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.cade.gov.br/assuntos/normas-
 e-legislacao/resolucao/resolucao-2[]2012-analise-
  []
 
 
-Overfull \hbox (19.99962pt too wide) in paragraph at lines 1090--1091
+Overfull \hbox (19.99962pt too wide) in paragraph at lines 1233--1234
 \OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.cade.gov.br/assuntos/normas-
 e-legislacao/resolucao/resolucao-2[]2012-analise-
  []
 
 
-Overfull \hbox (19.99962pt too wide) in paragraph at lines 1091--1092
+Overfull \hbox (19.99962pt too wide) in paragraph at lines 1234--1235
 \OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.cade.gov.br/assuntos/normas-
 e-legislacao/resolucao/resolucao-2[]2012-analise-
  []
 
 
-Overfull \hbox (22.72708pt too wide) in paragraph at lines 1093--1094
+Overfull \hbox (22.72708pt too wide) in paragraph at lines 1236--1237
 []\OT1/cmr/m/n/10.95 WIKIPEDIA. Brown Cor-pus. Dis-pon^^S^^Pvel em: \OML/cmm/m/
 it/10.95 <\OT1/cmr/m/n/10.95 https://en.wikipedia.org/wiki/Brown[]Corpus
  []
 
-[35
+[37
 
 ]
 
@@ -1109,34 +1156,36 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36] (./monograph.aux) ) 
+[38] (./monograph.aux) ) 
 Here is how much of TeX's memory you used:
- 7145 strings out of 493105
- 103064 string characters out of 6137072
- 210011 words of memory out of 5000000
- 10480 multiletter control sequences out of 15000+600000
- 14422 words of font info for 50 fonts, out of 8000000 for 9000
+ 7265 strings out of 493105
+ 105041 string characters out of 6137072
+ 212587 words of memory out of 5000000
+ 10583 multiletter control sequences out of 15000+600000
+ 15452 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,15n,43p,414b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1
-.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfti1095.pfb>
-Output written on monograph.pdf (36 pages, 289881 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.
+enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfti1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on monograph.pdf (38 pages, 320632 bytes).
 PDF statistics:
- 181 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
+ 199 PDF objects out of 1000 (max. 8388607)
+ 140 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

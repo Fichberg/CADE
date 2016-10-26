@@ -7,6 +7,7 @@
 \usepackage{textcomp}
 \usepackage[bottom]{footmisc}
 \usepackage{fancyhdr}
+\usepackage{moreverb}
 \usepackage{enumitem}
 \usepackage{mathtools}
 \usepackage[table]{xcolor}
@@ -14,6 +15,7 @@
 \usepackage{titlesec}
 \usepackage{color,soul}
 \usepackage{varwidth}
+\usepackage{courier}
 
 \newcommand{\quotes}[1]{``#1''}
 
@@ -591,12 +593,16 @@ Vejamos o que acontece com o seguinte trecho considerando as duas aproximações
   \hl{conhecimento}, verdadeiras e \hl{corretas}; \hl{(ii)} todos os documentos e cópias de documentos anexos à presente notificação são autênticos ou cópias fiéis de suas versões \hl{originais};
   e \hl{(iii)} todas as estimativas foram feitas de \hl{\mbox{boa-fé}}, de acordo com as melhores informações \hl{\mbox{disponíveis}}.}}
 \end{quote}
+\begin{center}
+  Exemplo 3.1: Tokenização pela aproximação dos autores Kučera e Francis.
+\end{center}
+
 
 Com relação a esta aproximação notavelmente há problemas relacionados a \textit{períodos}. Pontuações como vírgula, ponto-e-vírgula e ponto final acabam freqüentemente sendo um dos
 delimitadores de algumas palavra ao invés de um espaço em branco. Há também pontos em abreviações, como no caso de \quotes{art.}, e o caracter \quotes{/} que faz parte do número da
 Resolução do CADE mencionada no trecho. Notemos ainda que o trecho é o décimo sexto item de alguma seção do documento, então o ponto que sucede o 16 configura outro tipo de problema,
 aqui também relacionado ao delimitador ser diferente de um espaço em branco. As listagens dos itens em algarismos romanos entre parenteses e o caracter especial § que antecede o número
-do artigo também são problemáticos no que diz respeito a esta aproximação. Em todos estes casos, estas palavras \textit{não serão consideradas palavras} pelo processo de tokenização.
+do artigo também são problemáticos no que diz respeito a esta aproximação. Em todos estes casos, estas palavras \textit{não serão consideradas palavras} pelo processo de tokenização.\pagebreak
 
 \textbf{II.} Aproximação do utilitário \textbf{wc}: caracteres contíguos, delimitados entre espaços.
 
@@ -605,6 +611,9 @@ do artigo também são problemáticos no que diz respeito a esta aproximação. 
   \hl{conhecimento,} verdadeiras e \hl{corretas;} (ii) todos os documentos e cópias de documentos anexos à presente notificação são autênticos ou cópias fiéis de suas versões \hl{originais;}
   e (iii) todas as estimativas foram feitas de \hl{\mbox{boa-fé,}} de acordo com as melhores informações \hl{\mbox{disponíveis.}}}}
 \end{quote}
+\begin{center}
+  Exemplo 3.2: Tokenização pela aproximação do utilitário wc com parâmetro -w.
+\end{center}
 
 Curiosamente, um problema contrário ocorre com a segunda definição. Aqui, conforme pode ser visto acima, as pontuações de período \textit{são consideradas parte das palavras}, algo
 indesejado a depender do tipo da aplicação.
@@ -750,6 +759,9 @@ esperamos como resposta algo como o exposto abaixo, onde cada \textit{token} enc
   \fbox{Petrobras} \fbox{também} \fbox{é} \fbox{a} \fbox{operadora} \fbox{designada}
   \fbox{pela} \fbox{Cláusula} \fbox{4.1} \fbox{do} \fbox{Joint} \fbox{Operating} \fbox{Agreement} \fbox{("JOA").}
 \end{quote}
+\begin{center}
+  Exemplo 4.1: Saída de um processo de tokenização.
+\end{center}
 
 No exemplo de saída imediatamente acima, aceitamos para efeitos de simplificação, que a pontuação faz parte da \textit{token} que a procede.
 Geralmente a pontuação sozinha é encarada como uma \textit{token}.
@@ -779,6 +791,10 @@ em um \textit{frame} diferente:
       \end{varwidth}}
 \end{quote}
 
+\begin{center}
+  Exemplo 4.2: Saída de um processo de segmentação de sentenças.
+\end{center}
+
 Uma vez realizados os dois processos anteriores e a partir dos seus resultados, poderíamos então obter do processo de Reconhecimento de Entidades Mencionadas,
 finalmente, a seguinte resposta, onde cada entidade mencionada está contida em um \textit{frame} e sua classificação final apresenta-se subescrita no canto inferior direito deste:
 
@@ -789,6 +805,9 @@ finalmente, a seguinte resposta, onde cada entidade mencionada está contida em 
   \fbox{Petrobras}$_{\text{Organization}}$ também é a operadora designada pela Cláusula 4.1 do \fbox{Joint Operating Agreement ("JOA").}$_{\text{Document}}$
   \end{varwidth}
 \end{quote}
+\begin{center}
+  Exemplo 4.3: Saída de um processo de reconhecimento de entidades mencionadas.
+\end{center}
 
 Todo este processo é muito bonito, mas a realidade é que nem sempre os documentos se comportam bem assim. Recordemos que o processo de Reconhecimento das Entidades Mencionadas
 é divido em duas etapas: identificação e classificação. Pois bem, o que acontece na realidade é que ambas as etapas podem ter erros que devem ser medidos. Com relação
@@ -856,7 +875,7 @@ declaradas:
   bem como a  estabilidade e  continuidade do plano estratégico denominado Gateway 2020, lançado pela gategroup em 2015, com foco em inovação, expansão geográfica e eficiência.}}
 \end{quote}
 
-\pagebreak Cujo padrão-ouro é definido a seguir:
+Cujo padrão-ouro é definido a seguir:
 
 \begin{quote}
   \begin{varwidth}{0.89\textwidth}
@@ -890,13 +909,11 @@ Agora, suponhamos que a saída que obtivemos foi:
 
 Podemos, então, construir a seguinte tabela a partir dos resultados obtidos, denotando os acertos por \textbf{A}:
 
-
 \begin{table}[h!]
   \centering
-  \def\arraystretch{2}
+  \caption*{Exemplo 4.4: Avaliação dos resultados hipotéticos obtidos}
+  \def\arraystretch{1.53}
   \begin{tabular}{| c | c | c | c | c |}
-    \hline
-    \multicolumn{5}{|c|}{Exemplo} \\
     \hline
     Resultado Esperado & Resultado Obtido & Ocorrências & Avaliação 1 & Avaliação 2 \\
     \hline\hline
@@ -1001,7 +1018,7 @@ apoś a considerarmos $\beta = 1$. Analogamente, também pode ser feita a substi
 Aplicações usando estas métricas serão abordadas no capítulo 6 - Resultados mais adiante.
 
 É digno de menção, a título de curiosidade do leitor, que além das três métricas discutidas aqui, há muitas outras tais como a Acurácia e a Sensibilidade, que são definidas
-a partir de outras combinações de numerador e denominador dos valores obtidos de \textbf{VP}, \textbf{VN}, \textbf{FP} e \textbf{FN}. A Acurácia (\textbf{ACC}), por exemplo, é 
+a partir de outras combinações de numerador e denominador dos valores obtidos de \textbf{VP}, \textbf{VN}, \textbf{FP} e \textbf{FN}. A Acurácia (\textbf{ACC}), por exemplo, é
 definida matematicamente pela seguinte equação:
 
 \begin{equation}
@@ -1037,7 +1054,7 @@ tabela\footnote[9]{Dados retirados de: http://brat.nlplab.org/supported-browsers
   \def\arraystretch{0.97}
   \begin{tabular}{| c | c | c |}
     \hline
-    Browser & Visualização & Edição \\
+    Navegador & Visualização & Edição \\
     \hline\hline
     Chrome (Google) - PC/Mac                      & \cellcolor{strong} & \cellcolor{strong}   \\ \hline
     Safari (Apple) - PC/Mac                       & \cellcolor{strong} & \cellcolor{strong}   \\ \hline
@@ -1048,27 +1065,153 @@ tabela\footnote[9]{Dados retirados de: http://brat.nlplab.org/supported-browsers
     Android Browser (Google) Android Tablet/Phone & \cellcolor{strong} & \cellcolor{weak}     \\ \hline
     Internet Explorer (Microsoft) versão $<$ 9    & \cellcolor{weak}   & \cellcolor{weak}     \\ \hline
   \end{tabular}
-  \begin{tabular}{| c |}
+  \begin{tabular}{| c | c |}
     \hline
-    Total \cellcolor{strong} \\ \hline
-    Parcial \cellcolor{moderate} \\ \hline
-    Nenhum \cellcolor{weak} \\ \hline
+    \cellcolor{strong} & Total \\ \hline
+    \cellcolor{moderate} & Parcial \\ \hline
+    \cellcolor{weak} & Nenhum \\ \hline
   \end{tabular}
-  \caption{Browsers suportados pelo BRAT.}
+  \caption{Navegadores suportados pelo BRAT.}
 \end{table}
 
-Na tabela 5.1 acima, a coluna \quotes{Visualização} compreende às funcionalidades de navegação pelas coleções e a mostra das anotações existentes na dada coleção, enquanto
-que a coluna de \quotes{Edição} corresponde a criação, deleção e mudança de anotações.Ainda, não é necessário instalar quaisquer \textit{plugins} de \textit{browser}
-para poder fazer uso do BRAT. Mais informações podem ser encontradas na página da ferramenta. Imagens de captura de tela serão mostradas em seções adiante.
+Na tabela 5.1, a coluna \quotes{Visualização} compreende às funcionalidades de navegação pelas coleções e a mostra das anotações existentes na dada coleção, enquanto
+que a coluna de \quotes{Edição} corresponde a criação, deleção e mudança de anotações. Ainda, não é necessário instalar quaisquer \textit{plugins} de \textit{browser}
+para poder fazer uso do BRAT. Mais informações podem ser encontradas na página da ferramenta.
+
+O trabalho de anotação textual dos Atos de Concentração Econômica foi todo relizado usando o navegador Firefox (Mozilla).
+Imagens de captura de tela serão mostradas em seções adiante.
 
 \subsection{Configurações}
 
+\indent\indent O BRAT é uma ferramenta que permite bastante flexibilidade com relação à personalização, de tal modo que isso se reflete desde
+o modo que os dados são exibidos no \textit{browser} até a definição das próprias entidades e relacionamentos. No BRAT, as configurações de um dado projeto de anotações
+textuais são controladas por 4 arquivos de texto distintos, que podem ser alterados de diferentes maneiras para que o usuário se sinta mais à vontade com relação ao desenvolvimento do
+seu projeto. Estes arquivos são os seguintes:
+
+\begin{itemize}
+  \item \texttt{annotation.conf}: configurações de anotações.
+  \item \texttt{visual.conf}: configurações de visualização.
+  \item \texttt{tools.conf}: configurações de ferramentas\footnote[10]{Ferramentas tais como segmentação de setença e tokenização do BRAT.}.
+  \item \texttt{kb\_shortcuts.conf}: configurações de atalhos de teclado.
+\end{itemize}
+
+Destes 4 arquivos de configurações, o único que de fato precisa ser modificado para o desenvolvimento de um projeto com BRAT é o \texttt{annotation.conf}, uma vez que ele
+conterá as informações pertinentes às anotações, como por exemplo os tipos de entidades mencionadas válidos para anotar o texto. Os arquivos restantes, apesar de interessantes
+para o ponto de vista do processo de desenvolvimento, são de explicação dispensável para este trabalho. Assim, a seguir, falaremos apenas das configurações de anotações.
+
+\subsubsection{Configurando Anotações no BRAT}
+
+\indent\indent Conforme já mencionado anteriormente, a configuração das anotações é toda feita por um simples arquivo de texto, e este já vem dividido em 4 seções que de vem ser
+respeitadas. Cada uma delas vem escrita no formato \quotes{\texttt{[nome-da-seção]}} e possui uma sintaxe específica para declaração dos tipos pertencentes àquela
+determinada seção. As 4 seções são apresentadas a seguir e explicadas na seqüência:
+
+\begin{enumerate}[label={\textbf{\arabic*.}}]
+  \item \texttt{entities}
+  \item \texttt{relations}
+  \item \texttt{events}
+  \item \texttt{attributes}
+\end{enumerate}
+
+A primeira seção, \textbf{\texttt{entities}}, define as entidades mencionadas, já exploradas nesta literatura no capítulo 4 - Reconhecimento de Entidades Mencionadas, que serão anotadas na
+coleção de textos a serem trabalhados. Para efeitos deste trabalho, nesta etapa já devemos ter lido bastantes Atos de Concentração, que são os nossos textos, para identificar as
+EMs que podem ser mais relevantes para a identificação dos tipos de ritos e declará-las nesta seção deste arquivo.
+
+A declaração de uma entidade é muito simples, basta apenas escrever o nome destas, uma por linha, sem espaços ou caracteres não permitidos, no espaço designado a esta seção. O BRAT
+permite que possamos criar hierarquias usando a tecla TAB antes do nome de um determinada entidade, assim, poderíamos ter, por exemplo:
+
+\begin{figure}[h!]
+\centering
+\begin{boxedverbatim}
+[entities]
+
+ATO-DE-CONCENTRACAO
+DOCUMENTO
+FORMA-LEGAL
+OPERACAO
+ORGANIZACAO
+    NACIONAL
+    INTERNACIONAL
+ORIGEM
+PESSOA
+RITO
+\end{boxedverbatim}
+\caption*{Exemplo 5.1: Declaração de entidades no BRAT.}
+\end{figure}
+
+Além disso, existem configurações mais avançadas para declaração de entidades, mas estas opções não precisaram ser usadas no desenvolvimento deste trabalho.
+
+A próxima seção no arquivo é a \textbf{\texttt{relations}}, responsável pela definição dos relacionamentos entre as entidades definidas na primeira seção. Como esperado, portanto,
+para poder definir um relacionamento é necessário que as entidades que façam parte de tal relacionamento estejam declaradas na seção \texttt{entities}.
+
+No BRAT, relacionamentos entre entidades são sempre binários, o que implica que na declaração de um novo relacionamento, este sempre precisa ter definidos dois argumentos,
+seguindo a sintaxe \texttt{ARG:TIPO}. Por convenção, \texttt{ARG} são declarados usando os nomes \texttt{Arg1} e \texttt{Arg2}. Finalmente, \texttt{TIPO} nada mais é que
+um tipo de entidade declarado no arquivo, na primeira seção. Supondo as entidades declaradas no exemplo 5.1, a seguir demonstramos como se declara um novo relacionamento entre elas.
+
+\begin{figure}[h!]
+\centering
+\begin{boxedverbatim}
+[relations]
+
+ATUA-PARA       Arg1:PESSOA, Arg2:ORGANIZACAO
+COM-BASE-NO     Arg1:ATO-DE-CONCENTRACAO|OPERACAO, Arg2:DOCUMENTO
+CONHECIDA-COMO  Arg1:ORGANIZACAO, Arg2:ORGANIZACAO
+NOTIFICADO-POR  Arg1:ATO-DE-CONCENTRACAO, Arg2:ORGANIZACAO
+POSSUI          Arg1:ORGANIZACAO, Arg2:FORMA-LEGAL|ORIGEM
+RELACIONADO-AO  Arg1:DOCUMENTO, Arg2:ATO-DE-CONCENTRACAO
+\end{boxedverbatim}
+\caption*{Exemplo 5.2: Declaração de relacionamentos entre entidades no BRAT.}
+\end{figure}
+
+Note que temos a opção de fazer uso do operador \quotes{ou} nos argumentos a partir do caracter \quotes{$\vert$}. Isso é particularmente interessante para deixar as
+declarações mais enxutas.
+
+A seção que vem na seqüência é a \textbf{\texttt{events}}, que são associações n-árias entre anotações de entidades ou outros eventos. A idéia é justamente marcar eventos que
+tenham ocorrido no texto, originando portanto o nome deste seção. Das 4 seções existentes no arquivo \texttt{annotation.conf}, esta foi a única que não foi utilizada para
+fazer anotações sobre os Atos de Concentração, uma vez que os relacionamentos binários entre as entidades já eram suficientes para interligar as entidades. Ainda, eventos
+são anotações consideravelmente mais complexas, então, para o nosso caso, foi bom evitá-las. Um exemplo de declaração de evento segue abaixo:
+
+\begin{figure}[h!]
+\centering
+\begin{boxedverbatim}
+[events]
+
+ACORDO  P1:ORGANIZACAO, P2:ORGANIZACAO, P3:DOCUMENTO
+\end{boxedverbatim}
+\caption*{Exemplo 5.3: Declaração de um evento entre anotações no BRAT.}
+\end{figure}
+
+Ao contrário dos relacionamentos, não há quaisquer convenções estabelecidas para nomear os participantes de um determinado evento na página do BRAT. Em todo o caso, as declarações
+de eventos possuem uma estrutura semelhante às declarações de relacionamentos.
+
+Finalmente, a última seção é a \textbf{\texttt{attributes}}. O objetivo dos atributos no BRAT é atribuir \textit{flags} previamente definidas para marcar anotações no texto.
+Uma das formas de identificar atributos em textos é buscar \textit{tokens} que sejam recorrentes nos textos e atribuem um sentido complementar a uma determinada entidade no texto.
+Para nós, um exemplo de atributo seriam os próprios tipos de rito: sumário ou ordinário. Assim, podemos ter a declaração de um atributo no arquivo conforme demonstrado no exemplo
+5.4 abaixo:
+
+\begin{figure}[h!]
+\centering
+\begin{boxedverbatim}
+[attributes]
+
+PROCEDIMENTO  Arg:RITO, Value:SUMARIO|ORDINARIO
+\end{boxedverbatim}
+\caption*{Exemplo 5.4: Declaração de um atributo de entidade no BRAT.}
+\end{figure}
+
+Aqui, a convenção do \texttt{ARG:TIPO} é mais uma vez sugerida. Os valores das \textit{flags} são definidas pela sintaxe \texttt{Value:VAL1|VAL2|VAL3[...]}, onde
+\quotes{\texttt{Value}} é uma \textit{string} literal e \texttt{VAL1}, \texttt{VAL2} ... são os possíveis valores do atributo.
+
 \subsection{Implementação}
+
+\subsection{Anotações nos Atos de Concentrações Econômicas}
 
 \section{OpenNLP}
 
 \pagebreak
 \chapter{Resultados}
+\section{Obtendo Valores}
+\section{Validação Cruzada}
+
 
 \pagebreak
 \chapter{Conclusão}
