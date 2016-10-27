@@ -910,12 +910,19 @@ Agora, suponhamos que a saída que obtivemos foi:
   \end{varwidth}
 \end{quote}
 
-Podemos, então, construir a seguinte tabela a partir dos resultados obtidos, denotando os acertos por \textbf{A}:
+Podemos, então, construir a tabela do exemplo 4.4, exibida mais adiante, a partir dos resultados obtidos, denotando os acertos pela letra \textbf{A}.
+
+Em suma, as classificações dos tipos de erros que
+serão considerados dependem bastante do que o pesquisador julgar relevante. Note que a quantidade de erros encontrada no final será a mesma em ambos os casos,
+diferindo apenas no número de categorias em que estes erros todos serão distribuídos.
+
+Além dos erros, é claro, também estamos interessados na quantidade de acertos. Uma vez em posse dos valores que definem as quantidades de erros e acertos em relação
+ao padrão-ouro podemos, finalmente, utilizarmos de métricas para analisarmos o rendimento do nosso Corpus. Exploraremos algumas destas métricas na seção seguinte.
 
 \begin{table}[h!]
   \centering
-  \caption*{Exemplo 4.4: Avaliação dos resultados hipotéticos obtidos}
-  \def\arraystretch{1.53}
+  \def\arraystretch{2.5}
+  \hspace*{-0.7cm}
   \begin{tabular}{| c | c | c | c | c |}
     \hline
     Resultado Esperado & Resultado Obtido & Ocorrências & Avaliação 1 & Avaliação 2 \\
@@ -927,14 +934,8 @@ Podemos, então, construir a seguinte tabela a partir dos resultados obtidos, de
     \fbox{Gateway 2020}$_{\text{Document}}$       & \fbox{Gateway 2020}$_{\text{Organization}}$  & 1 & \textbf{E3} & \textbf{e2} \\ \hline \hline
     \multicolumn{5}{| c |}{Total: 1 Acerto e 5 Erros para cada uma das avaliações} \\ \hline
   \end{tabular}
+  \caption*{Exemplo 4.4: Avaliação dos resultados hipotéticos obtidos}
 \end{table}
-
-Em suma, as classificações dos tipos de erros que
-serão considerados dependem bastante do que o pesquisador julgar relevante. Note que a quantidade de erros encontrada no final será a mesma em ambos os casos,
-diferindo apenas no número de categorias em que estes erros todos serão distribuídos.
-
-Além dos erros, é claro, também estamos interessados na quantidade de acertos. Uma vez em posse dos valores que definem as quantidades de erros e acertos em relação
-ao padrão-ouro podemos, finalmente, utilizarmos de métricas para analisarmos o rendimento do nosso Corpus. Exploraremos algumas destas métricas na seção seguinte.
 
 \subsection{Métricas de Avaliação}
 
