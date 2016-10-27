@@ -250,7 +250,7 @@ armazenada na sua extensa base de dados pública com o intuito de identificar os
 capítulo 2 - O Conselho Administrativo de Defesa Econômica (CADE).
 
 Como objetivo também existiu a necessidade de estudar assuntos relacionados a AI, tais como PLN e REM, que serão abordados nos capítulos 3 e 4, respectivamente.
-Ademais, foram estudadas ferramentas de \textit{software} que trabalham com PLN e REM: OpenNLP e o BRAT. Mais será dito sobre elas no capítulo 5, em suas
+Ademais, foram estudadas ferramentas de \textit{software} que trabalham com PLN e REM: Apache OpenNLP e o BRAT. Mais será dito sobre elas no capítulo 5, em suas
 respectivas seções. Nestas seções será apresentado um estudo de como funcionam as funcionalidades usadas destas ferramentas e também como tais ferramentas foram
 utilizadas para que os resultados apresentados no capítulo 6 - Resultados fossem alcançados.
 
@@ -379,7 +379,7 @@ necessariamente, deveríamos considerar esta interpretação correta? Está ques
 no capítulo 3 - Processamento de Linguagem Natural, seção 3.2 - Criação do Córpus, que responde a pergunta de outra maneira e portanto complementa a nossa resposta. Para adiantar a idéia, considere que os 3 tipos de
 documentos presentes na fase inicial, \quotes{Notificação}, \quotes{Formulário de Notificação} e \quotes{Publicação no DOU} possuem diferentes padrões uma vez que a própria
 estrutura dos documentos são diferentes. Para completar o raciocínio, lembre-se: algoritmos de aprendizado de máquina aprendem com base em padrões aprendidos no modelo
-de trainamento\footnote[6]{Documentação OpenNLP: REM} (ao menos os das ferramentas usadas neste trabalho)!
+de trainamento\footnote[6]{Documentação Apache OpenNLP: REM} (ao menos os das ferramentas usadas neste trabalho)!
 
 Abaixo, é exposto um pouco do que cada um destes tipos de documentos contém e a diferença estrutural de cada um deles:
 
@@ -554,12 +554,12 @@ usadas para extrair diferentes tipos de informações dos textos. Em particular,
 Anotações, portanto, constituem de metadados sobre os dados. Comumente, linguagens como \textit{Standard Generalized Markup Language} (SGML) ou
 \textit{eXtensible Markup Language} (XML) são utilizadas para fazer marcações sobre texto, mas
 neste trabalho, as anotações foram feitas utilizando uma ferramenta relativamente nova chamada BRAT, que possui um
-formato próprio e que o OpenNLP, uma ferramenta celebrada na área de Processamento de Linguagem Natural, reconhece o formato.
+formato próprio e que o Apache OpenNLP, uma ferramenta celebrada na área de Processamento de Linguagem Natural, reconhece o formato.
 Mais será falado sobre estas ferramentas no capítulo 5 - Ferramentas Utilizadas.
 
 \section{Tokenização}
 
-\indent\indent Tokenização é freqüentemente um dos primeiros processos envolvidos no processamento de textos escritos em linguagens naturais. Uma \textit{Token} nada mais é que uma
+\indent\indent Tokenização é freqüentemente um dos primeiros processos envolvidos no processamento de textos escritos em linguagens naturais. Uma \textit{token} nada mais é que uma
 palavra, um número ou mesmo pontuações (só que o tratamento de pontuações, especificamente, pode variar de acordo com o texto em questão)[12]. Naturalmente, surge a necessidade de
 definir, portanto, o que é uma palavra.
 
@@ -619,16 +619,17 @@ do artigo também são problemáticos no que diz respeito a esta aproximação. 
 Curiosamente, um problema contrário ocorre com a segunda definição. Aqui, conforme pode ser visto acima, as pontuações de período \textit{são consideradas parte das palavras}, algo
 indesejado a depender do tipo da aplicação.
 
-Desta forma, fica claro que a depender do resultado que se está procurando, uma tokenização pode obter resultados melhores ou piores que outra. Para efeitos deste trabalho,
+Desta forma, fica claro que a depender do resultado que se está procurando, uma tokenização pode obter resultados melhores ou piores que outra. 
+\textbf{Considerando apenas as duas aproximações apresentadas}, para efeitos deste trabalho,
 vale recordar de que como estamos lidando com tecnologia de OCR, parece ser mais vantajoso considerar a aproximação do utilitário \textbf{wc} sobre a dos autores
-Francis e Kučera, de tal modo que assim diminuímos os riscos de descartar palavras relevantes em determinados contextos.
+Francis e Kučera, de tal modo que assim diminuiríamos os riscos de descartar palavras relevantes em determinados contextos.
 
 Ainda, além da questão do OCR, sabemos que os Atos de Concentração são constituídos de documentos oficiais de grandes organizações, ora submetidos à apreciação das
 autoridades legais do CADE, e portanto não devem apresentar cadeias de caracteres contíguas inesperadas, fora do português (com um ou outro estrangeirismos
 potencialmente oriundos do inglês).
 
 Por fim, não é um problema que a pontuação do período seja incluída nas \textit{tokens} para nós, uma vez que ela não é capaz de eliminar sozinha o sentido do contexto da qual
-a \textit{token} foi retirada. O modelo de tokenização usado no trabalho é fornecido na página do OpenNLP para a língua portuguesa. Apesar de não ser o ideal, ele se comporta
+a \textit{token} foi retirada. O modelo de tokenização usado no trabalho é fornecido na página do Apache OpenNLP para a língua portuguesa. Apesar de não ser o ideal, ele se comporta
 dentro do esperado. Idealmente, deve-se considerar criar um Córpus composto de Atos de Concentração para treinar a tokenização e gerar um modelo com melhor representatividade.
 
 \section{Detecção de Setenças}
@@ -687,7 +688,7 @@ de caracteres considerando os resumos de todos os processos que constituem o nos
 
 Uma observação final: apesar do exemplo acima conter quase 40 palavras a mais que a média calculada, este não é o resumo que contém mais palavras.
 
-É importante ressaltar aqui que, assim como no processo de tokenização, foi usado o modelo de detecção de setenças fornecido na própria página do OpenNLP, uma vez que o tempo era
+É importante ressaltar aqui que, assim como no processo de tokenização, foi usado o modelo de detecção de setenças fornecido na própria página do Apache OpenNLP, uma vez que o tempo era
 apertado para desenvolver um Córpus para servir de treinamento para quebra de setenças. Os resultados, apesar de serem satisfatórios, poderiam ser refinados com um modelo
 de detecção de setenças criado a partir de Atos de Concentração, uma vez que, assim como na tokenização, aumentaríamos a representatividade do Córpus com relação aos documentos
 reais.
@@ -810,7 +811,8 @@ finalmente, a seguinte resposta, onde cada entidade mencionada está contida em 
   Exemplo 4.3: Saída de um processo de reconhecimento de entidades mencionadas.
 \end{center}
 
-Todo este processo é muito bonito, mas a realidade é que nem sempre os documentos se comportam bem assim. Recordemos que o processo de Reconhecimento das Entidades Mencionadas
+Todo este processo\footnote[9]{Em muitos sistemas, tais como o próprio Apache OpenNLP, a segmentação de sentenças ocorre antes da tokenização.} é muito bonito, mas a realidade é que nem sempre 
+os documentos se comportam bem assim. Recordemos que o processo de Reconhecimento das Entidades Mencionadas
 é divido em duas etapas: identificação e classificação. Pois bem, o que acontece na realidade é que ambas as etapas podem ter erros que devem ser medidos. Com relação
 à atividade de identificação, é comum que a aplicação falhe ao identificar algumas \textit{tokens} que deveriam ser marcadas, passando por elas despercebidamente. Naturalmente, isso
 implica na não classificação da entidade relativa a esta \textit{token} que aconteceria na etapa seguinte. Já na etapa de classificação, o que pode acontecer são erros de etiquetagem
@@ -1032,7 +1034,7 @@ No próximo capítulo falaremos um pouco sobre as ferramentas que foram utilizad
 \chapter{Ferramentas Utilizadas}
 
 \indent\indent Neste capítulo falaremos das ferramentas que foram usadas para que o Córpus anotado fosse contruído e suas entidades mencionadas extraídas
-de forma automatizada: BRAT e OpenNLP. É importante ressaltar que este capítulo apenas abordará as funcionalidades das ferramentas que foram utilizadas e desconsiderará todas as
+de forma automatizada: BRAT [21] e Apache OpenNLP [5]. É importante ressaltar que este capítulo apenas abordará as funcionalidades das ferramentas que foram utilizadas e desconsiderará todas as
 demais. No capítulo 6 - Resultados, serão apresentados comentários acerca das ferramentas, ressaltando seus pontos fortes e fracos que puderam ser percebidos com o  seu uso.
 
 \section{BRAT}
@@ -1048,7 +1050,7 @@ posição de caracteres das \textit{tokens} anotadas e outros.
 
 \indent\indent Conforme mencionado na seção anterior, o BRAT é uma ferramenta que fornece uma interface limpa e amigável ao usuário. A maneira que o BRAT encontrou para fazer isso
 é via \textit{browser}, com preferência pelo Chrome (Google) e o Safari (Apple) mas dando suporte para alguns outros, conforme pode ser vista na
-tabela\footnote[9]{Dados retirados de: http://brat.nlplab.org/supported-browsers.html} abaixo:
+tabela\footnote[10]{Dados retirados de: http://brat.nlplab.org/supported-browsers.html} abaixo:
 
 \begin{table}[h!]
   \centering
@@ -1092,7 +1094,7 @@ seu projeto. Estes arquivos são os seguintes:
 \begin{itemize}
   \item \texttt{annotation.conf}: configurações de anotações.
   \item \texttt{visual.conf}: configurações de visualização.
-  \item \texttt{tools.conf}: configurações de ferramentas\footnote[10]{Ferramentas tais como segmentação de setença e tokenização do BRAT.}.
+  \item \texttt{tools.conf}: configurações de ferramentas\footnote[11]{Ferramentas tais como segmentação de setença e tokenização do BRAT.}.
   \item \texttt{kb\_shortcuts.conf}: configurações de atalhos de teclado.
 \end{itemize}
 
@@ -1249,7 +1251,72 @@ A figura abaixo é uma exemplo ilustrativo de anotações geradas manualmente pe
   Figura 5.2: \textit{Screenshot} de anotações geradas manualmente no BRAT em um AC.
 \end{center}
 
-\section{OpenNLP}
+Na seqüência, falaremos sobre Apache OpenNLP e como esta outra ferramenta foi utilizada no trabalho.
+
+\section{Apache OpenNLP}
+
+\indent\indent O Apache OpenNLP é um \textit{software} escrito e mantido pela \textit{Apache OpenNLP Development Community} distribuído sob a licença \textit{open source}
+Apache 2.0 da Apache Software Foundation (ASF). Ele é uma biblioteca que contém uma série de ferramentas para processamento de linguagem natural baseadas em aprendizado
+de máquina. As rotinas mais comuns de PLN, tais como tokenização, segmentação de sentenças, \textit{POS tagging}, reconhecimento de entidades mencionadas, \textit{chunking} 
+dentre outros. Sua meta é criar um arcabouço maduro para ferramentas de PLN mencionadas, além de distribuir modelos para serem usados com vários idiomas distintos bem como
+a distribuição de texto anotados e modelos derivados destes. 
+
+Esta seção é reservada para falarmos das rotinas do OpenNLP que foram usados no desenvolvimento do trabalho
+ao mesmo tempo que fornecemos exemplos de saídas geradas por ele com relação aos Atos de Concentração.
+
+
+\subsection{Tokenizer}
+
+\indent\indent Já tratamos sobre a questão do que é uma \textit{token} no capítulo 3 - Processamento de Linguagem Natural (PLN), e agora vamos explorar sobre a ferramenta de
+tokenização fornecida pelo Apache OpenNLP. As implementações de tokenização oferecidas pelo Apache OpenNLP são as seguintes:
+
+\begin{enumerate}[label=\textbf{{\Roman*.}}]
+  \item Tokenizador de espaco em branco: identifica seqüências de caracteres não brancos como \textit{tokens}.
+  \item Tokenizador simples: identifica seqüências de caracteres da mesma classe (como pontuações, digitos, alfabéticos etc) como \textit{tokens}. 
+  \item Tokenizador com aprendizado: usa modelos probabilísticos para identificar as fronteiras das \textit{tokens}. Tem base no método da máxima entropia.
+\end{enumerate}
+
+Finalmente, a tarefa de tokenização implementada no Apache OpenNLP é contituída de duas etapas distintas: identificação de fronteira de sentenças seguida da identificação das 
+tokens pertencentes à sentença encontrada, conforme já mencionado na nona nota de rodapé, na página 26. 
+
+Agora que já apresentamos as informações básicas do tokenizador, veremos alguns exemplos de saída. Considere o trecho abaixo, retirado do Ato de Concentração nº 08700.005269/2016-72:
+
+\begin{quote}
+  \textit{\quotes{19. Mas não é só isso. O prazo de exploração do bloco \hl{CAL-M-372} \hl{encontra-se} suspenso pela ANP desde \hl{16/05/2013} em razão de pendência no processo de obtenção de licença ambiental. Dessa forma, ainda não há previsão de quando essa pendência será solucionada ou de quando a exploração do bloco será retomada, o que corrobora a absoluta ausência de efeitos da operação sobre o mercado. Para fins de esclarecimento, nenhuma operação poderá ser realizada no Bloco enquanto não houver sido expedida a licença ambiental.}}
+\end{quote}
+
+Os exemplos 5.5 e 5.6 a seguir ilustram as saídas das implementações do tokenizador simples (\textbf{II}) e do tokenizador com aprendizado (\textbf{III}), respectivamente. Repare nas tokenizações que foram feitas com relação às \textit{tokens} grifadas em \hl{\textbf{amarelo}} no trecho destacado acima.
+
+\begin{quote}
+  \fbox{19} \fbox{.} \fbox{Mas} \fbox{não} \fbox{é} \fbox{só} \fbox{isso} \fbox{.} \fbox{O} \fbox{prazo} \fbox{de} \fbox{exploração} \fbox{do} \fbox{bloco} \fbox{CAL} \fbox{-} 
+\fbox{M} \fbox{-} \fbox{372} \fbox{encontra} \fbox{-} \fbox{se} \fbox{suspenso} \fbox{pela} \fbox{ANP} \fbox{desde} \fbox{16} \fbox{/} \fbox{05} \fbox{/} \fbox{2013} \fbox{em} 
+\fbox{razão} \fbox{de} \fbox{pendência} \fbox{no} \fbox{processo} \fbox{de} \fbox{obtenção} \fbox{de} \fbox{licença} \fbox{ambiental} \fbox{.} \fbox{Dessa} \fbox{forma} \fbox{,} 
+\fbox{ainda} \fbox{não} \fbox{há} \fbox{previsão} \fbox{de} \fbox{quando} \fbox{essa} \fbox{pendência} \fbox{será} \fbox{solucionada} \fbox{ou} \fbox{de} \fbox{quando} \fbox{a} 
+\fbox{exploração} \fbox{do} \fbox{bloco} \fbox{será} \fbox{retomada} \fbox{,} \fbox{o} \fbox{que} \fbox{corrobora} \fbox{a} \fbox{absoluta} \fbox{ausência} \fbox{de} \fbox{efeitos} 
+\fbox{da} \fbox{operação} \fbox{sobre} \fbox{o} \fbox{mercado} \fbox{.} \fbox{Para} \fbox{fins} \fbox{de} \fbox{esclarecimento} \fbox{,} \fbox{nenhuma} \fbox{operação} \fbox{poderá} 
+\fbox{ser} \fbox{realizada} \fbox{no} \fbox{Bloco} \fbox{enquanto} \fbox{não} \fbox{houver} \fbox{sido} \fbox{expedida} \fbox{a} \fbox{licença} \fbox{ambiental} \fbox{.}
+\end{quote}
+\begin{center}
+  Exemplo 5.5: Saída do tokenizador do Apache OpenNLP usando a implementação do tokenizador simples.
+\end{center}
+
+\begin{quote}
+  \fbox{19} \fbox{.} \fbox{Mas} \fbox{não} \fbox{é} \fbox{só} \fbox{isso} \fbox{.} \fbox{O} \fbox{prazo} \fbox{de} \fbox{exploração} \fbox{do} \fbox{bloco} \fbox{CAL-M-372} \fbox{encontra-se} 
+\fbox{suspenso} \fbox{pela} \fbox{ANP} \fbox{desde} \fbox{16/05/2013} \fbox{em} \fbox{razão} \fbox{de} \fbox{pendência} \fbox{no} \fbox{processo} \fbox{de} \fbox{obtenção} \fbox{de} 
+\fbox{licença} \fbox{ambiental} \fbox{.} \fbox{Dessa} \fbox{forma} \fbox{,} \fbox{ainda} \fbox{não} \fbox{há} \fbox{previsão} \fbox{de} \fbox{quando} \fbox{essa} \fbox{pendência} \fbox{será} \fbox{solucionada} \fbox{ou} \fbox{de} \fbox{quando} \fbox{a} \fbox{exploração} \fbox{do} \fbox{bloco} \fbox{será} \fbox{retomada} \fbox{,} \fbox{o} \fbox{que} \fbox{corrobora} \fbox{a} \fbox{absoluta} \fbox{ausência} \fbox{de} \fbox{efeitos} \fbox{da} \fbox{operação} \fbox{sobre} \fbox{o} \fbox{mercado} \fbox{.} \fbox{Para} \fbox{fins} \fbox{de} \fbox{esclarecimento} \fbox{,} \fbox{nenhuma} \fbox{operação} \fbox{poderá} \fbox{ser} \fbox{realizada} \fbox{no} \fbox{Bloco} \fbox{enquanto} \fbox{não} \fbox{houver} \fbox{sido} \fbox{expedida} 
+\fbox{a} \fbox{licença} \fbox{ambiental} \fbox{.}
+\end{quote}
+\begin{center}
+  Exemplo 5.6: Saída do tokenizador do Apache OpenNLP usando a implementação do tokenizador com aprendizado.
+\end{center}
+
+Na seção a seguir veremos como o Apache OpenNLP trabalha com a tarefa de segmentação de sentenças.
+
+\subsection{Sentence Detector}
+
+
+
+\subsection{Name Finder}
 
 \pagebreak
 \chapter{Resultados}
@@ -1272,7 +1339,7 @@ A figura abaixo é uma exemplo ilustrativo de anotações geradas manualmente pe
 \item Assessoria de Comunicação Social. Acesso à Informação: Histórico do CADE. Disponível em: \textless\enspace http://www.cade.gov.br/acesso-a-informacao/institucional/historico-do-cade\enspace\textgreater. Acesso em: 13 de outubro de 2016.
 \item Assessoria de Comunicação Social. Perguntas frequentes sobre Atos de Concentração Econômica. Disponível em: \textless\enspace http://www.cade.gov.br/servicos/perguntas-frequentes/perguntas-sobre-atos-de-concentracao-economica\enspace\textgreater. Acesso em: 14 de outubro de 2016.
 \item Base de Dados pública do CADE: Pesquisa Processual. Disponível em: \newline\textless\enspace http://www.cade.gov.br/assuntos/processos-1\enspace\textgreater. Acesso em: 14 de outubro de 2016.
-\item Documentação OpenNLP: REM. Disponível em: \newline\textless\enspace https://opennlp.apache.org/documentation/manual/opennlp.html\#tools.namefind \enspace\textgreater. Acesso em: 14 de outubro de 2016.
+\item Documentação Apache OpenNLP: REM. Disponível em: \newline\textless\enspace https://opennlp.apache.org/documentation/manual/opennlp.html\#tools.namefind \enspace\textgreater. Acesso em: 14 de outubro de 2016.
 \item CADE. Resolução nº 2, de 29 de maio de 2012. Seção 2, página 3. Disponível em: \textless\enspace http://www.cade.gov.br/assuntos/normas-e-legislacao/resolucao/resolucao-2\_2012-analise-atos-concentracao.pdf \enspace\textgreater. Acesso em: 14 de outubro de 2016.
 \item CADE. Resolução nº 2, de 29 de maio de 2012. Anexo I - Formulário Procedimento Não-Sumário. Disponível em: \newline\textless\enspace http://www.cade.gov.br/assuntos/normas-e-legislacao/resolucao/resolucao-2\_2012-analise-atos-concentracao.pdf \enspace\textgreater. Acesso em: 14 de outubro de 2016.
 \item CADE. Resolução nº 2, de 29 de maio de 2012. Anexo II - Formulário Procedimento Sumário. Disponível em: \newline\textless\enspace http://www.cade.gov.br/assuntos/normas-e-legislacao/resolucao/resolucao-2\_2012-analise-atos-concentracao.pdf \enspace\textgreater. Acesso em: 14 de outubro de 2016.
