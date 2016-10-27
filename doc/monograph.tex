@@ -1314,7 +1314,66 @@ Na seção a seguir veremos como o Apache OpenNLP trabalha com a tarefa de segme
 
 \subsection{Sentence Detector}
 
+\indent\indent Outra ferramenta que o Apache OpenNLP fornece, conforme já mencionado anteriormente, é um segmentador de sentenças capaz de detectar características textuais
+tais como quando uma determinada pontuação marca o final de uma dada sentença ou não. 
 
+Para isso, conforme já discutido no capítulo 3 - Processamento de Linguagem Natural (PLN), existe uma
+necessidade natural de definir o que é uma sentença. Para a o segmentador de sentenças do Apache OpenNLP, uma sentença é definida como a maior seqüência de caracteres entre duas 
+pontuações desconsiderando os caracteres de espaços em branco. As exceções à definição são a primeira e a última sentença, no qual no primeiro caso é assumido que o primeiro caracter que não
+seja um espaço em branco marca o inicio da sentença, enquanto que no segundo caso o último caracter que não seja um espaço em branco é assumido como final da sentença. 
+
+A segmentação de
+sentenças é o primeiro processo realizado pelo Apache OpenNLP, e é particularmente importante para o uso do \textit{software}, uma vez que a maior parte das ferramentas fornecidas esperam
+entradas já quebradas em sentenças.
+
+Consideremos mais uma vez o trecho extraído do Ato de Concentração nº 08700.005269/2016-72, que serviu de exemplo na seção anterior para ilustrar os exemplos 5.5 e 5.6:  
+
+\begin{quote}
+  \textit{\quotes{19. Mas não é só isso. O prazo de exploração do bloco CAL-M-372 encontra-se suspenso pela ANP desde 16/05/2013 em razão de pendência no processo de obtenção de licença ambiental. Dessa forma, ainda não há previsão de quando essa pendência será solucionada ou de quando a exploração do bloco será retomada, o que corrobora a absoluta ausência de efeitos da operação sobre o mercado. Para fins de esclarecimento, nenhuma operação poderá ser realizada no Bloco enquanto não houver sido expedida a licença ambiental.}}
+\end{quote}
+
+Tal trecho, quando usado para alimentar a ferramenta de quebras de sentenças do Apache OpenNLP, gera a saída ilustrada no exemplo 5.7, exibido logo abaixo para o leitor:
+
+\begin{quote}
+  \fbox{
+      \begin{varwidth}{0.86\textwidth}
+      19.
+      \end{varwidth}}
+\end{quote}
+
+\begin{quote}
+  \fbox{
+      \begin{varwidth}{0.86\textwidth}
+      Mas não é só isso.
+      \end{varwidth}}
+\end{quote}
+
+\begin{quote}
+  \fbox{
+      \begin{varwidth}{0.86\textwidth}
+      O prazo de exploração do bloco CAL-M-372 encontra-se suspenso pela ANP desde 16/05/2013 em razão de pendência no processo de obtenção de licença ambiental.
+      \end{varwidth}}
+\end{quote}
+
+\begin{quote}
+  \fbox{
+      \begin{varwidth}{0.86\textwidth}
+      Dessa forma, ainda não há previsão de quando essa pendência será solucionada ou de quando a exploração do bloco será retomada, o que corrobora a absoluta ausência de efeitos da operação sobre o mercado.
+      \end{varwidth}}
+\end{quote}
+
+\begin{quote}
+  \fbox{
+      \begin{varwidth}{0.86\textwidth}
+      Para fins de esclarecimento, nenhuma operação poderá ser realizada no Bloco enquanto não houver sido expedida a licença ambiental.
+      \end{varwidth}}
+\end{quote}
+
+\begin{center}
+  Exemplo 5.7: Saída do segmentador de sentenças do Apache OpenNLP.
+\end{center}
+
+Finalmente, na próxima e última seção, falaremos sobre a ferramenta de REM fornecida pelo OpenNLP.
 
 \subsection{Name Finder}
 
