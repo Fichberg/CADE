@@ -116,8 +116,8 @@ O CADE dispõem de uma base de dados bastante extensa, com processos judiciais d
 documentos, desde formulários, notificações de processos e cópias escaneadas de documentos diversos até arquivos de áudio e vídeo.
 
 O trabalho foi divido em duas partes distintas: a primeira se constituiu de explorar parte dos vários processos judiciais presentes na base de dados pública do CADE relacionados a Atos de
-Concentração com finalísticos Sumário ou Ordinário e montar um Córpus com os tipos de documentos que foram julgados pertinentes em primeira análise. Em seguida, a partir de anotações
-manuais de entidades mencionadas e seus relacionamentos sobre o Córpus construído, identificar automaticamente as entidades nos processos judiciais futuros que possam ser relevantes a classificação
+Concentração com finalísticos Sumário ou Ordinário e montar um \textit{corpus} com os tipos de documentos que foram julgados pertinentes em primeira análise. Em seguida, a partir de anotações
+manuais de entidades mencionadas e seus relacionamentos sobre o \textit{corpus} construído, identificar automaticamente as entidades nos processos judiciais futuros que possam ser relevantes a classificação
 final entre os dois tipos de rito: Sumário ou Ordinário. A segunda parte, por sua vez, constitue-se da classificação do processo judicial em um dos ritos mencionados por meio de
 algoritmos de Aprendizado de Máquina, considerando as entidades que foram encontradas de forma automatizada nos documentos do processo em questão.
 
@@ -125,7 +125,7 @@ Este trabalho trata especificamente da primeira parte e serão aqui abordados as
 Mencionadas e algumas ferramentas de \textit{software} que foram usadas para solucionar o problema em questão. A segunda parte, que infelizmente não foi desenvolvida por falta de tempo,
 será discutida menos detalhadamente no capítulo 7, seção 7.2.1 - Aprendizado de Máquina.
 
-Por fim, além destes conteúdos, também serão compartilhados experimentos e resultados obtidos por meio de validação cruzada com o Córpus desenvolvido, junto de possíveis estratégias que
+Por fim, além destes conteúdos, também serão compartilhados experimentos e resultados obtidos por meio de validação cruzada com o \textit{corpus} desenvolvido, junto de possíveis estratégias que
 foram aprendidas ao longo do trabalho que poderiam, talvez, melhorar a precisão e a corretude das anotações.
 
 \pagebreak
@@ -231,16 +231,16 @@ do tipo de dados com que estamos lidando. Informações com relações a isso se
 Note que esta etapa é essencial para garantirmos não apenas uma maior eficiência na classificação final, mas também que o algoritmo está sendo treinado sobre
 documentos totalmente fiéis à realidade.
 
-Acerca do então exposto, surge naturalmente um segundo problema do qual o nosso \textit{approach} por AM irá depender diretamente: construir um Córpus para servir de modelo de
+Acerca do então exposto, surge naturalmente um segundo problema do qual o nosso \textit{approach} por AM irá depender diretamente: construir um \textit{corpus} para servir de modelo de
 treinamento para identificar entidades chaves que podem ser determinantes no julgamento da classe do rito de um futuro processo.
 
 Assim, uma das possibilidades que surge é usar REM para identificar tais entidades e, a partir destas, buscar alguma relação entre as entidades encontradas e um dos tipos de rito, com
-base nos padrões que foram aprendidos a partir do Córpus de treinamento criado com processos antigos, presentes na base de dados pública do CADE. Focamos
-a nossa atenção, portanto, em primeiramente resolver o problema da construção do Córpus para treinamento.
+base nos padrões que foram aprendidos a partir do \textit{corpus} de treinamento criado com processos antigos, presentes na base de dados pública do CADE. Focamos
+a nossa atenção, portanto, em primeiramente resolver o problema da construção do \textit{corpus} para treinamento.
 
 \section{Objetivos}
 
-\indent\indent O principal objetivo deste trabalho foi estudar os ACs analisados pelo CADE para poder então, criar um Córpus de treinamento e a partir deste classificar
+\indent\indent O principal objetivo deste trabalho foi estudar os ACs analisados pelo CADE para poder então, criar um \textit{corpus} de treinamento e a partir deste classificar
 o AC em um dos ritos. Infelizmente, conforme já mencionado no Resumo, o escopo acabou revelando-se grande demais para o tempo disponível, e portanto teve de ser reduzido
 ao primeiro problema. Mais sobre isso será discutido no capítulo 7, seção 7.1 - Dificuldades Encontradas.
 
@@ -254,8 +254,8 @@ Ademais, foram estudadas ferramentas de \textit{software} que trabalham com PLN 
 respectivas seções. Nestas seções será apresentado um estudo de como funcionam as funcionalidades usadas destas ferramentas e também como tais ferramentas foram
 utilizadas para que os resultados apresentados no capítulo 6 - Resultados fossem alcançados.
 
-Finalmente, foi estudado a partir da técnica estatística de validação cruzada o desempenho do Córpus criado e os tipos de erros que surgiram no processo de geração automatizada
-de anotações de entidades mencionadas a partir do modelo de treinamento do Córpus, de tal forma que foram percebidas algumas boas práticas com relação ao uso destas ferramentas
+Finalmente, foi estudado a partir da técnica estatística de validação cruzada o desempenho do \textit{corpus} criado e os tipos de erros que surgiram no processo de geração automatizada
+de anotações de entidades mencionadas a partir do modelo de treinamento do \textit{corpus}, de tal forma que foram percebidas algumas boas práticas com relação ao uso destas ferramentas
 para aumentar a eficácia e a precisão das marcações. Tais percepções serão comentadas, também, no capítulo 6 - Resultados.
 
 \pagebreak
@@ -263,8 +263,8 @@ para aumentar a eficácia e a precisão das marcações. Tais percepções serã
 
 \indent\indent Neste capítulo serão abordados assuntos relacionados ao CADE, aos Atos de Concentração que devem ser legalmente submetidos a ele e à base de dados pública que ele possui e
 que contém tais processos judiciais. Sobre o CADE, será exposto um pouco da sua história e da sua função, para em seguida falarmos sobre o que são os ACs que cabem à sua competência
-a análise e, finalmente, sobre a base de dados pública que foi usada para obter os Atos de Concentração que compõem o Córpus construído, posteriormente usado para treinarmos um modelo
-que busca entidades mencionadas de forma automatiza. Mais informações sobre o Córpus serão abordadas no capítulo 3 - Processamento de Linguagem Natural - PLN e as suas entidades mencionadas no capítulo 4 - Reconhecimento de Entidades Mencionadas.
+a análise e, finalmente, sobre a base de dados pública que foi usada para obter os Atos de Concentração que compõem o \textit{corpus} construído, posteriormente usado para treinarmos um modelo
+que busca entidades mencionadas de forma automatiza. Mais informações sobre o \textit{corpus} serão abordadas no capítulo 3 - Processamento de Linguagem Natural - PLN e as suas entidades mencionadas no capítulo 4 - Reconhecimento de Entidades Mencionadas.
 
 \section{Quem é o CADE?}
 
@@ -376,7 +376,7 @@ Conseqüentemente, temos a seguinte relação para os valores de cada um dos \te
 
 Assim sendo, concluímos que os documentos de maior valor para nós são os mais próximos da fase inicial. Há, porém, uma pergunta que deve ser feita: por qual razão,
 necessariamente, deveríamos considerar esta interpretação correta? Está questão já foi respondida: tempo. Existe ainda um outro fator que não foi mencionado aqui e será abordado
-no capítulo 3 - Processamento de Linguagem Natural, seção 3.2 - Criação do Córpus, que responde a pergunta de outra maneira e portanto complementa a nossa resposta. Para adiantar a idéia, considere que os 3 tipos de
+no capítulo 3 - Processamento de Linguagem Natural, seção 3.2 - Criação do corpus, que responde a pergunta de outra maneira e portanto complementa a nossa resposta. Para adiantar a idéia, considere que os 3 tipos de
 documentos presentes na fase inicial, \quotes{Notificação}, \quotes{Formulário de Notificação} e \quotes{Publicação no DOU} possuem diferentes padrões uma vez que a própria
 estrutura dos documentos são diferentes. Para completar o raciocínio, lembre-se: algoritmos de aprendizado de máquina aprendem com base em padrões aprendidos no modelo
 de trainamento\footnote[6]{Documentação Apache OpenNLP: REM} (ao menos os das ferramentas usadas neste trabalho)!
@@ -431,19 +431,18 @@ de uma representação entendida por computadores em uma representação em ling
 
 Estamos particularmente interessados na primeira
 categoria de problemas de PLN mencionada, uma vez que os Atos de Concentração estão escritos em linguagem natural, mais especificamente o português, e buscamos extrair informações
-deles. Isso significa, naturalmente, que é necessário que exista algum entendimento por parte da máquina sobre o conteúdo presente nos ACs, usados para construir nosso Córpus. Sendo
-assim, nosso ponto de partida neste capítulo será justamente o Córpus.
+deles. Isso significa, naturalmente, que é necessário que exista algum entendimento por parte da máquina sobre o conteúdo presente nos ACs, usados para construir nosso \textit{corpus}. Sendo
+assim, nosso ponto de partida neste capítulo será justamente o \textit{corpus}.
 
-\section{Córpus}
+\section{Corpus}
 
-\indent\indent Já falamos muitas vezes a palavra Córpus neste trabalho, mas afinal, o que é um Córpus? Um Córpus é, como o próprio nome em latim sugere, um corpo composto de textos.
-Uma coleção destes corpos é o que chamamos de \textit{Corpora}. Para trabalhar com um Córpus ou um \textit{Corpora}, é necessário que este que este seja suficientemente extenso.
+\indent\indent Já falamos muitas vezes a palavra \textit{corpus} neste trabalho, mas afinal, o que é um \textit{corpus}? Um \textit{corpus} é, como o próprio nome em latim sugere, um corpo composto de textos.
+Uma coleção destes corpos é o que chamamos de \textit{Corpora}. Para trabalhar com um \textit{corpus} ou um \textit{Corpora}, é necessário que este que este seja suficientemente extenso.
 
-Mas de quão extenso estamos falando, afinal? Um exemplo de Córpus extenso é o Brown University Standard Corpus of Present-Day American English\footnote[7]{
+Mas de quão extenso estamos falando, afinal? Um exemplo de \textit{corpus} extenso é o Brown University Standard Corpus of Present-Day American English\footnote[7]{
 Versões do Brown Corpus podem ser encontradas na internet.} (ou apenas Brown Corpus), compilado na década de 1960 na universidade de Brown, Providence, Rhode Island, como um Corpus de
-propósito geral no campo de linguística de corpus. Ele contém 500 exemplares de textos em inglês americano, com cerca de um milhão de palavras. Um Córpus mais modesto é o Susanne Corpus,
-com aproximadamente cento e trinta mil palavras, que é na realidade um subconjunto do Brown Corpus. Mais será discutido sobre tamanho de Córpus, na seção 3.1.2 - Tamanho do Córpus,
-deste mesmo capítulo.
+propósito geral no campo de linguística de corpus. Ele contém 500 exemplares de textos em inglês americano, com cerca de um milhão de palavras. Um \textit{corpus} mais modesto é o Susanne Corpus,
+com aproximadamente cento e trinta mil palavras, que é na realidade um subconjunto do Brown Corpus.
 
 De acordo com os autores Christopher D. Manning e Hinrich Schuetze [12], apenas para fazer a ordenação do Brown Corpus e criar uma lista de palavras nos primeiros anos de trabalho na
 sua construção era necessário 17 horas dedicadas de tempo de processamento, uma vez que os computadores tinham poucos kilobytes de memória. E os problemas não terminavam por aí,
@@ -451,42 +450,42 @@ uma vez que para trabalhar com documentos deste tamanho também necessitava de d
 que já vem sendo explorada há algum tempo, a tecnologia poderia facilmente ser o gargalo a depender da estratégia que fosse escolhida para buscar a solução do problema. Felizmente,
 com simples computadores atuais podemos realizar estas mesmas tarefas em questão de minutos.
 
-Agora que já sabemos de que se trata um Córpus, falaremos na seção a seguir sobre o que precisamos ter em mente para criarmos um Córpus.
+Agora que já sabemos de que se trata um \textit{corpus}, falaremos na seção a seguir sobre o que precisamos ter em mente para criarmos um \textit{corpus}.
 
-\subsection{Criação do Córpus}
+\subsection{Criação do Corpus}
 
-\indent\indent Criação de um Córpus é mais complicado do que aparenta, e é um processo que apenas através da experiência empírica podemos ter uma idéia do
-quão bom está Córpus que estamos montando. Existem alguns pontos de extrema relevância que devem ser considerados por alguém que está inclinado a submeter-se a esta
+\indent\indent Criação de um \textit{corpus} é mais complicado do que aparenta, e é um processo que apenas através da experiência empírica podemos ter uma idéia do
+quão bom está \textit{corpus} que estamos montando. Existem alguns pontos de extrema relevância que devem ser considerados por alguém que está inclinado a submeter-se a esta
 tarefa, destacados abaixo:
 
 \begin{enumerate}[label=\textbf{\arabic*.}]
   \item \textbf{Linguagem}: A linguagem natural em questão. Trabalhar com textos em diferentes línguas pode não trazer bons resultados, uma vez que as línguas possuem regras
-  gramaticais diferentes e diferentes formas de construção de sentenças. Frequentemente uma pessoa que está montando um Córpus irá querer submetê-lo a outros processos diversos
+  gramaticais diferentes e diferentes formas de construção de sentenças. Frequentemente uma pessoa que está montando um \textit{corpus} irá querer submetê-lo a outros processos diversos
   tais como o de Tokenização e o de Segmentação de Setenças e estes podem se comportar diferentemente dependendo da linguagem natural em que os documentos estão escritos.
   \item \textbf{Estrutura}: A estrutura do documento, de acordo com o seu tipo, convém ser similar para todos os documentos envolvidos na montagem do Corpus. Não convém
-  misturar em um mesmo Córpus, por exemplo, documentos com um formato de perguntas e respostas, tais como um formulário, com um outro documento que segue um formato dissertativo.
+  misturar em um mesmo \textit{corpus}, por exemplo, documentos com um formato de perguntas e respostas, tais como um formulário, com um outro documento que segue um formato dissertativo.
   A depender dos tipos de documentos que estão sendo misturados, isso pode mais atrapalhar do que ajudar na hora de buscar extrair certas informações, uma vez que os padrões
   no texto que estão sendo submetidos ao algoritmo de aprendizado podem ser muito diferentes. Pode ser que ao fazer isso, estejamos introduzindo \quotes{confusão} ao processo
   de aprendizado de máquina.
-  \item \textbf{Representatividade}: Conforme mencionado por Christopher D. Manning e Hinrich Schuetze [12], os textos que formam o Córpus precisam constituir de uma amostra
-  representativa da população de interesse. Em outras palavras, um determinado Córpus precisa ser fiel aos documentos reais. Para o caso deste trabalho, este item é o principal
-  motivador para que construíssemos um Córpus considerando os Atos de Concentração passados na base de dados pública do CADE ao invés de usar qualquer outro Córpus de propósito
+  \item \textbf{Representatividade}: Conforme mencionado por Christopher D. Manning e Hinrich Schuetze [12], os textos que formam o \textit{corpus} precisam constituir de uma amostra
+  representativa da população de interesse. Em outras palavras, um determinado \textit{corpus} precisa ser fiel aos documentos reais. Para o caso deste trabalho, este item é o principal
+  motivador para que construíssemos um \textit{corpus} considerando os Atos de Concentração passados na base de dados pública do CADE ao invés de usar qualquer outro \textit{corpus} de propósito
   geral para a língua portuguesa, tal como o Amazônia Corpus, disponibilizado pelo sítio da linguateca [13].
-  \item \textbf{Tamanho}: O tamanho do Córpus. É de se esperar que um Córpus maior tenha mais exemplos para que o algoritmo possa gerar algum aprendizado, portanto, Córpus grandes,
-  que sejam coerentes com os itens que acabamos discutir devem conseguir atingir resultados mais satisfatórios que Córpus menores.
+  \item \textbf{Tamanho}: O tamanho do \textit{corpus}. É de se esperar que um \textit{corpus} maior tenha mais exemplos para que o algoritmo possa gerar algum aprendizado, portanto, \textit{corpus} grandes,
+  que sejam coerentes com os itens que acabamos discutir devem conseguir atingir resultados mais satisfatórios que \textit{corpus} menores.
 \end{enumerate}
 
-O Córpus desenvolvido neste trabalho foi criado a partir de cinqüenta Atos de Concentração Econômica. O critério de escolha de tais atos foi utilizar os mais recentes, assim,
+O \textit{corpus} desenvolvido neste trabalho foi criado a partir de cinqüenta Atos de Concentração Econômica. O critério de escolha de tais atos foi utilizar os mais recentes, assim,
 todos os processos utilizados não necessariamente começaram no ano de 2016, mas estavam ou estão abertos ainda neste ano. A razão de escolher os mais recentes é para dar um pouco
-mais de garantia que nosso Córpus é um pouco mais fiel à realidade, apesar dos ACs mais antigos aparentarem seguir a mesma forma de apresentação das informações.
+mais de garantia que nosso \textit{corpus} é um pouco mais fiel à realidade, apesar dos ACs mais antigos aparentarem seguir a mesma forma de apresentação das informações.
 
-Ainda, destes cinqüenta processos, uma metade é composta de procedimentos Sumários e a outra de procedimentos Ordinários, de tal forma que obtivessemos um Córpus resultante balanceado
+Ainda, destes cinqüenta processos, uma metade é composta de procedimentos Sumários e a outra de procedimentos Ordinários, de tal forma que obtivessemos um \textit{corpus} resultante balanceado
 com relação à representação dos ritos. Mesmo sabendo que na prática há muitos mais ritos Sumários que Ordinários, para efeitos de aprender a classificar, foi julgado mais
 interessante que as amostras de cada um dos tipos aparecessem nas mesmas proporções. A seguir são listados os números dos processos utilizados:
 
 \begin{center}
   \begin{table}
-    \caption{Processos Contidos no Córpus}
+    \caption{Processos Contidos no \textit{corpus}}
     \begin{tabular}{| c | c | c | c |}
       \hline
       \multicolumn{4}{|c|}{Nº dos Processos} \\
@@ -510,12 +509,12 @@ interessante que as amostras de cada um dos tipos aparecessem nas mesmas propor�
       \multicolumn{4}{| c |}{Total: 50} \\
       \hline
     \end{tabular}
-  \caption*{Número dos processos usados na construção do Córpus, todos do ano de 2016.}
+  \caption*{Número dos processos usados na construção do \textit{corpus}, todos do ano de 2016.}
   \end{table}
 \end{center}
 
-O Córpus resultante tem exatamente 50351 palavras\footnote[8]{Resultado obtido através do utilitário \textbf{wc}. Isso significa que, a rigor, o número de palavras
-reais é um pouco menor, dado que coisas como númeração de itens são consideradas palavras.}, portanto, é um Córpus pequeno. O objetivo inicial era que o Córpus
+O \textit{corpus} resultante tem exatamente 50351 palavras\footnote[8]{Resultado obtido através do utilitário \textbf{wc}. Isso significa que, a rigor, o número de palavras
+reais é um pouco menor, dado que coisas como númeração de itens são consideradas palavras.}, portanto, é um \textit{corpus} pequeno. O objetivo inicial era que o \textit{corpus}
 possuisse 300 mil palavras, o que significaria utilizarmos aproximadamente 6 vezes o número de processos utilizados, ou seja, cerca de 150 processos Sumários e
 150 processos Ordinários, totalizando mais ou menos 300 processos. A meta, porém, não foi atingida pelas seguintes razões:
 
@@ -538,7 +537,7 @@ possuisse 300 mil palavras, o que significaria utilizarmos aproximadamente 6 vez
   possuem um vocabulário complicado.
   \item \textbf{Exaustão}: Todos os processos manuais envolvidos unidos à dificuldade da literatura do direito legal inevitavelmente acrescentam \quotes{erros de exaustão}
   por se tratar de um processo cansativo para quem está corrigindo.
-  \item \textbf{Tempo Disponível}: O prazo de 1 ano para o desenvolvimento do trabalho impede que o Córpus seja muito maior. Este Córpus de 50000 palavras tomou pouco menos de 2 meses
+  \item \textbf{Tempo Disponível}: O prazo de 1 ano para o desenvolvimento do trabalho impede que o \textit{corpus} seja muito maior. Este \textit{corpus} de 50000 palavras tomou pouco menos de 2 meses
   para ser apenas construído e corrigido, sendo que o processo mais demorado é o de anotação, que será mencionado na próxima seção. É relevante considerar que este trabalho
   todo foi feito por apenas uma pessoa.
 \end{enumerate}
@@ -547,7 +546,7 @@ Na seção a seguir falaremos sobre as anotações.
 
 \subsection{Anotações}
 
-\indent\indent Apesar de não constituir de uma regra, é comum que alguém que esteja trabalhando com um Córpus faça diferentes tipos de anotações sobre o mesmo.
+\indent\indent Apesar de não constituir de uma regra, é comum que alguém que esteja trabalhando com um \textit{corpus} faça diferentes tipos de anotações sobre o mesmo.
 Há diferentes tipos de anotações que podem ser feitas, tais como Tokenização, Detecção de Setenças, Etiquetas Morfológicas (\textit{Part-of-Speech Tagging}) entre outras, todas
 usadas para extrair diferentes tipos de informações dos textos. Em particular, mais será abordado sobre as duas primeiras nas próximas seções.
 
@@ -570,7 +569,7 @@ aqui na nota de rodapé número 8, que simplesmente considera caracteres contíg
 a \textit{string} de dois caracteres C\# será considerada uma palavra de acordo com a segunda definição, mas não com a primeira.
 
 Fica claro, portanto, que a definição de palavra a ser usada é fundamental para efeitos de marcação e que esta vai afetar diretamente os resultados obtidos, de tal forma que as
-respostas conseguidas com um Córpus que considera palavras com uma definição A gerará saídas diferentes do mesmo Córpus considerando palavras com uma definição B.
+respostas conseguidas com um \textit{corpus} que considera palavras com uma definição A gerará saídas diferentes do mesmo \textit{corpus} considerando palavras com uma definição B.
 
 \subsection{Tokenização nas Notificações dos Atos de Concentração}
 
@@ -619,7 +618,7 @@ do artigo também são problemáticos no que diz respeito a esta aproximação. 
 Curiosamente, um problema contrário ocorre com a segunda definição. Aqui, conforme pode ser visto acima, as pontuações de período \textit{são consideradas parte das palavras}, algo
 indesejado a depender do tipo da aplicação.
 
-Desta forma, fica claro que a depender do resultado que se está procurando, uma tokenização pode obter resultados melhores ou piores que outra. 
+Desta forma, fica claro que a depender do resultado que se está procurando, uma tokenização pode obter resultados melhores ou piores que outra.
 \textbf{Considerando apenas as duas aproximações apresentadas}, para efeitos deste trabalho,
 vale recordar de que como estamos lidando com tecnologia de OCR, parece ser mais vantajoso considerar a aproximação do utilitário \textbf{wc} sobre a dos autores
 Francis e Kučera, de tal modo que assim diminuiríamos os riscos de descartar palavras relevantes em determinados contextos.
@@ -630,7 +629,7 @@ potencialmente oriundos do inglês).
 
 Por fim, não é um problema que a pontuação do período seja incluída nas \textit{tokens} para nós, uma vez que ela não é capaz de eliminar sozinha o sentido do contexto da qual
 a \textit{token} foi retirada. O modelo de tokenização usado no trabalho é fornecido na página do Apache OpenNLP para a língua portuguesa. Apesar de não ser o ideal, ele se comporta
-dentro do esperado. Idealmente, deve-se considerar criar um Córpus composto de Atos de Concentração para treinar a tokenização e gerar um modelo com melhor representatividade.
+dentro do esperado. Idealmente, deve-se considerar criar um \textit{corpus} composto de Atos de Concentração para treinar a tokenização e gerar um modelo com melhor representatividade.
 
 \section{Detecção de Setenças}
 
@@ -684,16 +683,16 @@ Um exemplo destes resumos presentes nas Notificações dos ACs é reproduzido a 
 
 Conforme podemos ver no exemplo acima, de fato, a única pontuação que pode ser considerada tradicionalmente como o final de uma sentença só ocorre com o término do trecho. Este trecho
 sozinho tem exatamente \textit{181 palavras}, considerando a aproximação do \textbf{wc}, que é um número \textbf{muito distante} do que um \quotes{período normal} contém. A média
-de caracteres considerando os resumos de todos os processos que constituem o nosso Córpus, listados na tabela 3.1, é de \textit{140.72 palavras por resumo}.
+de caracteres considerando os resumos de todos os processos que constituem o nosso \textit{corpus}, listados na tabela 3.1, é de \textit{140.72 palavras por resumo}.
 
 Uma observação final: apesar do exemplo acima conter quase 40 palavras a mais que a média calculada, este não é o resumo que contém mais palavras.
 
 É importante ressaltar aqui que, assim como no processo de tokenização, foi usado o modelo de detecção de setenças fornecido na própria página do Apache OpenNLP, uma vez que o tempo era
-apertado para desenvolver um Córpus para servir de treinamento para quebra de setenças. Os resultados, apesar de serem satisfatórios, poderiam ser refinados com um modelo
-de detecção de setenças criado a partir de Atos de Concentração, uma vez que, assim como na tokenização, aumentaríamos a representatividade do Córpus com relação aos documentos
+apertado para desenvolver um \textit{corpus} para servir de treinamento para quebra de setenças. Os resultados, apesar de serem satisfatórios, poderiam ser refinados com um modelo
+de detecção de setenças criado a partir de Atos de Concentração, uma vez que, assim como na tokenização, aumentaríamos a representatividade do \textit{corpus} com relação aos documentos
 reais.
 
-No próximo capítulo discutiremos sobre REM e como foram feitas as marcações no Córpus. Até então, tudo o que foi discutido no capítulo 2 - O Conselho Administrativo de Defesa Econômica (CADE) e neste capítulo 3 - Processamento de Linguagem Natural eram
+No próximo capítulo discutiremos sobre REM e como foram feitas as marcações no \textit{corpus}. Até então, tudo o que foi discutido no capítulo 2 - O Conselho Administrativo de Defesa Econômica (CADE) e neste capítulo 3 - Processamento de Linguagem Natural eram
 requisitos para poder trabalhar com REM nos Atos de Concentração, e uma vez entendidos, será mais simples para o leitor entender a forma que o Reconhecimento de Entidades
 Mencionadas foi usado para chegarmos nos resultados e conclusões escritos nos dois capítulos finais desta monografia.
 
@@ -721,13 +720,13 @@ contexto histórico e outro em um contexto futuro ou passado.
 \section{Reconhecimento e Classificação}
 
 \indent\indent O processo de Reconhecimento de Entidades Mencionadas resume-se a basicamente duas subtarefas: reconhecimento (ou identificação) e classificação (ou etiquetagem)
-de entidades, nesta ordem. Primeiro, aprende-se sobre o modelo de REM gerado a partir do Córpus anotado, e na seqüência, busca-se reconhecer, dentre todas as \textit{tokens}
-que compõem o Córpus, aquelas que são possíveis entidades. Uma vez com estas \textit{tokens} selecionadas, para cada uma delas, dentre todas as possíveis classificações
+de entidades, nesta ordem. Primeiro, aprende-se sobre o modelo de REM gerado a partir do \textit{corpus} anotado, e na seqüência, busca-se reconhecer, dentre todas as \textit{tokens}
+que compõem o \textit{corpus}, aquelas que são possíveis entidades. Uma vez com estas \textit{tokens} selecionadas, para cada uma delas, dentre todas as possíveis classificações
 previamente estabelecidas, seleciona-se a classificação a mais provável para determinada \textit{token}.
 
 Aqui o leitor já deve perceber mais claramente por quais razões é necessário passar pelos processos de tokenização e detecção de sentenças. As entidades são, necessariamente,
 compostas por ao menos uma \textit{token} e ocorrem em períodos bem determinados, de tal forma que as entidades em um mesmo período podem se relacionar de alguma forma. Assim,
-ao quebrarmos o Córpus em \textit{tokens} e sentenças, a aplicação passa a conhecer quem são todas as candidatas a entidades mencionadas e em que contexto elas ocorrem.
+ao quebrarmos o \textit{corpus} em \textit{tokens} e sentenças, a aplicação passa a conhecer quem são todas as candidatas a entidades mencionadas e em que contexto elas ocorrem.
 
 \subsection{Reconhecimento de Entidades Mencionadas nas Notificações dos Atos de Concentração}
 
@@ -738,8 +737,8 @@ o que está por trás disso, uma vez que isso depende da implementação do algo
 Suponhamos, primeiramente, que temos definidos os seguintes tipos de entidade em um documento de texto:
 
 \begin{itemize}
-  \item Document
-  \item Organization
+  \item Documento
+  \item Organização
 \end{itemize}
 
 Consideremos o trecho a seguir, retirado do Ato de Concentração nº 08700.005269/2016-72, o qual queremos marcar de forma automatizada as \textit{tokens} relativas
@@ -751,7 +750,7 @@ aos dois tipos de entidade definidas acima:
   pela Cláusula 4.1 do Joint Operating Agreement ("JOA").}}
 \end{quote}
 
-Ao aplicarmos o processo de tokenização, considerando que tenhamos à disposição um bom modelo gerado a partir do treinamento de um Córpus devidamente anotado para esta tarefa,
+Ao aplicarmos o processo de tokenização, considerando que tenhamos à disposição um bom modelo gerado a partir do treinamento de um \textit{corpus} devidamente anotado para esta tarefa,
 esperamos como resposta algo como o exposto abaixo, onde cada \textit{token} encontrada está contida em um \textit{frame}:
 
 \begin{quote}
@@ -769,7 +768,7 @@ No exemplo de saída imediatamente acima, aceitamos para efeitos de simplificaç
 Geralmente a pontuação sozinha é encarada como uma \textit{token}.
 
 O próximo passo é aplicarmos o processo de detecção de sentenças. Assim como no processo de tokenização, consideraremos que tenhamos à disposição um bom modelo
-gerado a partir do treinamento de um Córpus devidamente anotado para esta tarefa. A saída esperada é mostrada a seguir, onde cada uma das sentenças identificadas está contida
+gerado a partir do treinamento de um \textit{corpus} devidamente anotado para esta tarefa. A saída esperada é mostrada a seguir, onde cada uma das sentenças identificadas está contida
 em um \textit{frame} diferente:
 
 \begin{quote}
@@ -802,16 +801,16 @@ finalmente, a seguinte resposta, onde cada entidade mencionada está contida em 
 
 \begin{quote}
   \begin{varwidth}{0.95\textwidth}
-  2. A \fbox{OP}$_{\text{Organization}}$ atualmente detém 20\% de participação no \fbox{Contrato de Concessão,}$_{\text{Document}}$ enquanto a \fbox{QGOG}$_{\text{Organization}}$
-  detém outros 20\%. A \fbox{Petrobras}$_{\text{Organization}}$ detém os 60\% de participação remanescente no \fbox{Contrato de Concessão;}$_{\text{Document}}$ a
-  \fbox{Petrobras}$_{\text{Organization}}$ também é a operadora designada pela Cláusula 4.1 do \fbox{Joint Operating Agreement ("JOA").}$_{\text{Document}}$
+  2. A \fbox{OP}$_{\text{Organização}}$ atualmente detém 20\% de participação no \fbox{Contrato de Concessão,}$_{\text{Documento}}$ enquanto a \fbox{QGOG}$_{\text{Organização}}$
+  detém outros 20\%. A \fbox{Petrobras}$_{\text{Organização}}$ detém os 60\% de participação remanescente no \fbox{Contrato de Concessão;}$_{\text{Documento}}$ a
+  \fbox{Petrobras}$_{\text{Organização}}$ também é a operadora designada pela Cláusula 4.1 do \fbox{Joint Operating Agreement ("JOA").}$_{\text{Documento}}$
   \end{varwidth}
 \end{quote}
 \begin{center}
   Exemplo 4.3: Saída de um processo de reconhecimento de entidades mencionadas.
 \end{center}
 
-Todo este processo\footnote[9]{Em muitos sistemas, tais como o próprio Apache OpenNLP, a segmentação de sentenças ocorre antes da tokenização.} é muito bonito, mas a realidade é que nem sempre 
+Todo este processo\footnote[9]{Em muitos sistemas, tais como o próprio Apache OpenNLP, a segmentação de sentenças ocorre antes da tokenização.} é muito bonito, mas a realidade é que nem sempre
 os documentos se comportam bem assim. Recordemos que o processo de Reconhecimento das Entidades Mencionadas
 é divido em duas etapas: identificação e classificação. Pois bem, o que acontece na realidade é que ambas as etapas podem ter erros que devem ser medidos. Com relação
 à atividade de identificação, é comum que a aplicação falhe ao identificar algumas \textit{tokens} que deveriam ser marcadas, passando por elas despercebidamente. Naturalmente, isso
@@ -820,9 +819,9 @@ de duas naturezas diferentes: precisão das fronteiras e decisão da etiqueta. E
 
 \section{Avaliação das Informações Extraídas}
 
-\indent\indent Ao trabalharmos com algoritmos que realizam a atividade de marcação de textos de forma automatizada com base em um Córpus que desenvolvemos, é
+\indent\indent Ao trabalharmos com algoritmos que realizam a atividade de marcação de textos de forma automatizada com base em um \textit{corpus} que desenvolvemos, é
 esperado que busquemos métodos e técnicas para medir quão corretas estas anotações geradas estão. A obtenção destes valores é particularmente
-importante no que diz respeito à própria continuidade do desenvolvimento do Córpus, de tal forma que podemos usá-los para nossa orientação e
+importante no que diz respeito à própria continuidade do desenvolvimento do \textit{corpus}, de tal forma que podemos usá-los para nossa orientação e
 reconhecermos a partir disso se o nosso critério de marcação está sendo mais ou menos efetivo em relação à resposta esperada.
 
 Esta seção, portanto,
@@ -832,18 +831,18 @@ Esta seção, portanto,
 
 \indent\indent Uma das formas de avaliação mais utilizadas de um sistema de Reconhecimento de Entidades Mencionadas é a comparação da saída obtida com a do texto anotado por
 um especialista, também conhecido como \textit{padrão-ouro} (ou \textit{gold-standard}, em inglês). Apesar desta idéia ser intuitiva e fácil de aceitar, a realidade é que
-comumente o tipo de texto que uma pessoa pretende estudar não tem um Córpus padrão-ouro disponível, que é justamente e não surpreendentemente o caso deste trabalho. Isto ocorre
-por uma série de motivos tais como o tempo e o custo, uma vez que desenvolver um bom Córpus é um processo que consome bastante tempo, bem como o tempo de trabalho de um \textit{expert}
+comumente o tipo de texto que uma pessoa pretende estudar não tem um \textit{corpus} padrão-ouro disponível, que é justamente e não surpreendentemente o caso deste trabalho. Isto ocorre
+por uma série de motivos tais como o tempo e o custo, uma vez que desenvolver um bom \textit{corpus} é um processo que consome bastante tempo, bem como o tempo de trabalho de um \textit{expert}
 pode ter um custo elevado.
 
 Assim sendo, as anotações manuais realizadas sobre os Atos de Concentração foram consideradas o padrão-ouro do trabalho desenvolvido. Idealmente,
-deveríamos ter um Córpus anotado para ser o padrão-ouro e outro que serviria de treinamento, porém, como não há tempo de desenvolver tantos Corpora diferentes, tivemos de nos
-contentar usando o próprio modelo de treinamento como padrão-ouro. Portanto, sempre que o termo \quotes{padrão-ouro} for usado nesta literatura, estaremos nos referindo ao Córpus
+deveríamos ter um \textit{corpus} anotado para ser o padrão-ouro e outro que serviria de treinamento, porém, como não há tempo de desenvolver tantos \textit{Corpora} diferentes, tivemos de nos
+contentar usando o próprio modelo de treinamento como padrão-ouro. Portanto, sempre que o termo \quotes{padrão-ouro} for usado nesta literatura, estaremos nos referindo ao \textit{corpus}
 anotado composto pelos cinqüenta ACs listados na tabela 3.1.
 
 \subsection{Tipos de Erro}
 
-\indent\indent Uma vez com um Córpus construído e um padrão-ouro a ser tomado de referência, podemos facilmente identificar os erros que surgem na saída obtida. O autor
+\indent\indent Uma vez com um \textit{corpus} construído e um padrão-ouro a ser tomado de referência, podemos facilmente identificar os erros que surgem na saída obtida. O autor
 Wesley Seidel de Carvalho [16], em sua tese de mestrado para a Universidade de São Paulo, apresenta 5 tipos de erro diferentes ao leitor a partir de um exemplo, listados a seguir:
 
 \begin{enumerate}[label=\textbf{E\arabic*.}]
@@ -865,9 +864,9 @@ de cinco se bem entendesse, mas estaria perdendo detalhamento da informação ac
 Para ilustrar o que acabamos de dizer, suponhamos primeiramente que temos as seguintes entidades mencionadas definidas em um documento de texto:
 
 \begin{itemize}
-  \item Document
-  \item Operation
-  \item Organization
+  \item Documento
+  \item Operação
+  \item Organização
 \end{itemize}
 
 E consideremos o trecho a seguir, retirado do Ato de Concentração nº 08700.005524/2016-87, do qual queremos extrair informações a partir da entidades mencionadas
@@ -882,9 +881,9 @@ Cujo padrão-ouro é definido a seguir:
 
 \begin{quote}
   \begin{varwidth}{0.89\textwidth}
-  Por meio da \fbox{presente operação}$_{\text{Operation}}$, a \fbox{HNA}$_{\text{Organization}}$ visa obter benefícios econômicos decorrentes dos novos investimentos para
-  expansão dos negócios da \fbox{gategroup}$_{\text{Organization}}$, bem como a
-  estabilidade e  continuidade do plano estratégico denominado \fbox{Gateway 2020}$_{\text{Document}}$, lançado pela \fbox{gategroup}$_{\text{Organization}}$ em 2015,
+  Por meio da \fbox{presente operação}$_{\text{Operação}}$, a \fbox{HNA}$_{\text{Organização}}$ visa obter benefícios econômicos decorrentes dos novos investimentos para
+  expansão dos negócios da \fbox{gategroup}$_{\text{Organização}}$, bem como a
+  estabilidade e  continuidade do plano estratégico denominado \fbox{Gateway 2020}$_{\text{Documento}}$, lançado pela \fbox{gategroup}$_{\text{Organização}}$ em 2015,
   com foco em inovação, expansão geográfica e eficiência.
   \end{varwidth}
 \end{quote}
@@ -903,9 +902,9 @@ Agora, suponhamos que a saída que obtivemos foi:
 
 \begin{quote}
   \begin{varwidth}{0.89\textwidth}
-  Por meio da presente \fbox{operação}$_{\text{Operation}}$, a \fbox{HNA}$_{\text{Organization}}$ visa obter benefícios econômicos decorrentes dos novos investimentos
+  Por meio da presente \fbox{operação}$_{\text{Operação}}$, a \fbox{HNA}$_{\text{Organização}}$ visa obter benefícios econômicos decorrentes dos novos investimentos
   para expansão dos negócios da gategroup,
-  bem como a  estabilidade e  continuidade do \fbox{plano estratégico}$_{\text{Document}}$ denominado \fbox{Gateway 2020}$_{\text{Organization}}$, lançado pela gategroup
+  bem como a  estabilidade e  continuidade do \fbox{plano estratégico}$_{\text{Documento}}$ denominado \fbox{Gateway 2020}$_{\text{Organização}}$, lançado pela gategroup
   em 2015, com foco em inovação, expansão geográfica e eficiência.
   \end{varwidth}
 \end{quote}
@@ -927,11 +926,11 @@ ao padrão-ouro podemos, finalmente, utilizarmos de métricas para analisarmos o
     \hline
     Resultado Esperado & Resultado Obtido & Ocorrências & Avaliação 1 & Avaliação 2 \\
     \hline\hline
-    \fbox{presente operação}$_{\text{Operation}}$ & \fbox{operação}$_{\text{Operation}}$         & 1 & \textbf{E4} & \textbf{e3} \\ \hline
-    \fbox{HNA}$_{\text{Organization}}$            & \fbox{HNA}$_{\text{Organization}}$           & 1 & \textbf{A}  & \textbf{A}  \\ \hline
-    \fbox{gategroup}$_{\text{Organization}}$      & gategroup                                    & 2 & \textbf{E2} & \textbf{e1} \\ \hline
-    plano estratégico                             & \fbox{plano estratégico}$_{\text{Document}}$ & 1 & \textbf{E1} & \textbf{e2} \\ \hline
-    \fbox{Gateway 2020}$_{\text{Document}}$       & \fbox{Gateway 2020}$_{\text{Organization}}$  & 1 & \textbf{E3} & \textbf{e2} \\ \hline \hline
+    \fbox{presente operação}$_{\text{Operação}}$ & \fbox{operação}$_{\text{Operação}}$           & 1 & \textbf{E4} & \textbf{e3} \\ \hline
+    \fbox{HNA}$_{\text{Organização}}$            & \fbox{HNA}$_{\text{Organização}}$             & 1 & \textbf{A}  & \textbf{A}  \\ \hline
+    \fbox{gategroup}$_{\text{Organização}}$      & gategroup                                     & 2 & \textbf{E2} & \textbf{e1} \\ \hline
+    plano estratégico                            & \fbox{plano estratégico}$_{\text{Documento}}$ & 1 & \textbf{E1} & \textbf{e2} \\ \hline
+    \fbox{Gateway 2020}$_{\text{Documento}}$     & \fbox{Gateway 2020}$_{\text{Organização}}$    & 1 & \textbf{E3} & \textbf{e2} \\ \hline \hline
     \multicolumn{5}{| c |}{Total: 1 Acerto e 5 Erros para cada uma das avaliações} \\ \hline
   \end{tabular}
   \caption*{Exemplo 4.4: Avaliação dos resultados hipotéticos obtidos}
@@ -1034,7 +1033,7 @@ No próximo capítulo falaremos um pouco sobre as ferramentas que foram utilizad
 \pagebreak
 \chapter{Ferramentas Utilizadas}
 
-\indent\indent Neste capítulo falaremos das ferramentas que foram usadas para que o Córpus anotado fosse contruído e suas entidades mencionadas extraídas
+\indent\indent Neste capítulo falaremos das ferramentas que foram usadas para que o \textit{corpus} anotado fosse contruído e suas entidades mencionadas extraídas
 de forma automatizada: BRAT [21] e Apache OpenNLP [5]. É importante ressaltar que este capítulo apenas abordará as funcionalidades das ferramentas que foram utilizadas e desconsiderará todas as
 demais. No capítulo 6 - Resultados, serão apresentados comentários acerca das ferramentas, ressaltando seus pontos fortes e fracos que puderam ser percebidos com o  seu uso.
 
@@ -1258,9 +1257,9 @@ Na seqüência, falaremos sobre Apache OpenNLP e como esta outra ferramenta foi 
 
 \indent\indent O Apache OpenNLP é um \textit{software} escrito e mantido pela \textit{Apache OpenNLP Development Community} distribuído sob a licença \textit{open source}
 Apache 2.0 da Apache Software Foundation (ASF). Ele é uma biblioteca que contém uma série de ferramentas para processamento de linguagem natural baseadas em aprendizado
-de máquina. As rotinas mais comuns de PLN, tais como tokenização, segmentação de sentenças, \textit{POS tagging}, reconhecimento de entidades mencionadas, \textit{chunking} 
+de máquina. As rotinas mais comuns de PLN, tais como tokenização, segmentação de sentenças, \textit{POS tagging}, reconhecimento de entidades mencionadas, \textit{chunking}
 dentre outros. Sua meta é criar um arcabouço maduro para ferramentas de PLN mencionadas, além de distribuir modelos para serem usados com vários idiomas distintos bem como
-a distribuição de texto anotados e modelos derivados destes. 
+a distribuição de texto anotados e modelos derivados destes.
 
 Esta seção é reservada para falarmos das rotinas do OpenNLP que foram usados no desenvolvimento do trabalho
 ao mesmo tempo que fornecemos exemplos de saídas geradas por ele com relação aos Atos de Concentração.
@@ -1273,12 +1272,12 @@ tokenização fornecida pelo Apache OpenNLP. As implementações de tokenizaçã
 
 \begin{enumerate}[label=\textbf{{\Roman*.}}]
   \item Tokenizador de espaco em branco: identifica seqüências de caracteres não brancos como \textit{tokens}.
-  \item Tokenizador simples: identifica seqüências de caracteres da mesma classe (como pontuações, digitos, alfabéticos etc) como \textit{tokens}. 
+  \item Tokenizador simples: identifica seqüências de caracteres da mesma classe (como pontuações, digitos, alfabéticos etc) como \textit{tokens}.
   \item Tokenizador com aprendizado: usa modelos probabilísticos para identificar as fronteiras das \textit{tokens}. Tem base no método da máxima entropia.
 \end{enumerate}
 
-Finalmente, a tarefa de tokenização implementada no Apache OpenNLP é contituída de duas etapas distintas: identificação de fronteira de sentenças seguida da identificação das 
-tokens pertencentes à sentença encontrada, conforme já mencionado na nona nota de rodapé, na página 26. 
+Finalmente, a tarefa de tokenização implementada no Apache OpenNLP é contituída de duas etapas distintas: identificação de fronteira de sentenças seguida da identificação das
+tokens pertencentes à sentença encontrada, conforme já mencionado na nona nota de rodapé, na página 26.
 
 Agora que já apresentamos as informações básicas do tokenizador, veremos alguns exemplos de saída. Considere o trecho abaixo, retirado do Ato de Concentração nº 08700.005269/2016-72:
 
@@ -1289,12 +1288,12 @@ Agora que já apresentamos as informações básicas do tokenizador, veremos alg
 Os exemplos 5.5 e 5.6 a seguir ilustram as saídas das implementações do tokenizador simples (\textbf{II}) e do tokenizador com aprendizado (\textbf{III}), respectivamente. Repare nas tokenizações que foram feitas com relação às \textit{tokens} grifadas em \hl{\textbf{amarelo}} no trecho destacado acima.
 
 \begin{quote}
-  \fbox{19} \fbox{.} \fbox{Mas} \fbox{não} \fbox{é} \fbox{só} \fbox{isso} \fbox{.} \fbox{O} \fbox{prazo} \fbox{de} \fbox{exploração} \fbox{do} \fbox{bloco} \fbox{CAL} \fbox{-} 
-\fbox{M} \fbox{-} \fbox{372} \fbox{encontra} \fbox{-} \fbox{se} \fbox{suspenso} \fbox{pela} \fbox{ANP} \fbox{desde} \fbox{16} \fbox{/} \fbox{05} \fbox{/} \fbox{2013} \fbox{em} 
-\fbox{razão} \fbox{de} \fbox{pendência} \fbox{no} \fbox{processo} \fbox{de} \fbox{obtenção} \fbox{de} \fbox{licença} \fbox{ambiental} \fbox{.} \fbox{Dessa} \fbox{forma} \fbox{,} 
-\fbox{ainda} \fbox{não} \fbox{há} \fbox{previsão} \fbox{de} \fbox{quando} \fbox{essa} \fbox{pendência} \fbox{será} \fbox{solucionada} \fbox{ou} \fbox{de} \fbox{quando} \fbox{a} 
-\fbox{exploração} \fbox{do} \fbox{bloco} \fbox{será} \fbox{retomada} \fbox{,} \fbox{o} \fbox{que} \fbox{corrobora} \fbox{a} \fbox{absoluta} \fbox{ausência} \fbox{de} \fbox{efeitos} 
-\fbox{da} \fbox{operação} \fbox{sobre} \fbox{o} \fbox{mercado} \fbox{.} \fbox{Para} \fbox{fins} \fbox{de} \fbox{esclarecimento} \fbox{,} \fbox{nenhuma} \fbox{operação} \fbox{poderá} 
+  \fbox{19} \fbox{.} \fbox{Mas} \fbox{não} \fbox{é} \fbox{só} \fbox{isso} \fbox{.} \fbox{O} \fbox{prazo} \fbox{de} \fbox{exploração} \fbox{do} \fbox{bloco} \fbox{CAL} \fbox{-}
+\fbox{M} \fbox{-} \fbox{372} \fbox{encontra} \fbox{-} \fbox{se} \fbox{suspenso} \fbox{pela} \fbox{ANP} \fbox{desde} \fbox{16} \fbox{/} \fbox{05} \fbox{/} \fbox{2013} \fbox{em}
+\fbox{razão} \fbox{de} \fbox{pendência} \fbox{no} \fbox{processo} \fbox{de} \fbox{obtenção} \fbox{de} \fbox{licença} \fbox{ambiental} \fbox{.} \fbox{Dessa} \fbox{forma} \fbox{,}
+\fbox{ainda} \fbox{não} \fbox{há} \fbox{previsão} \fbox{de} \fbox{quando} \fbox{essa} \fbox{pendência} \fbox{será} \fbox{solucionada} \fbox{ou} \fbox{de} \fbox{quando} \fbox{a}
+\fbox{exploração} \fbox{do} \fbox{bloco} \fbox{será} \fbox{retomada} \fbox{,} \fbox{o} \fbox{que} \fbox{corrobora} \fbox{a} \fbox{absoluta} \fbox{ausência} \fbox{de} \fbox{efeitos}
+\fbox{da} \fbox{operação} \fbox{sobre} \fbox{o} \fbox{mercado} \fbox{.} \fbox{Para} \fbox{fins} \fbox{de} \fbox{esclarecimento} \fbox{,} \fbox{nenhuma} \fbox{operação} \fbox{poderá}
 \fbox{ser} \fbox{realizada} \fbox{no} \fbox{Bloco} \fbox{enquanto} \fbox{não} \fbox{houver} \fbox{sido} \fbox{expedida} \fbox{a} \fbox{licença} \fbox{ambiental} \fbox{.}
 \end{quote}
 \begin{center}
@@ -1302,9 +1301,9 @@ Os exemplos 5.5 e 5.6 a seguir ilustram as saídas das implementações do token
 \end{center}
 
 \begin{quote}
-  \fbox{19} \fbox{.} \fbox{Mas} \fbox{não} \fbox{é} \fbox{só} \fbox{isso} \fbox{.} \fbox{O} \fbox{prazo} \fbox{de} \fbox{exploração} \fbox{do} \fbox{bloco} \fbox{CAL-M-372} \fbox{encontra-se} 
-\fbox{suspenso} \fbox{pela} \fbox{ANP} \fbox{desde} \fbox{16/05/2013} \fbox{em} \fbox{razão} \fbox{de} \fbox{pendência} \fbox{no} \fbox{processo} \fbox{de} \fbox{obtenção} \fbox{de} 
-\fbox{licença} \fbox{ambiental} \fbox{.} \fbox{Dessa} \fbox{forma} \fbox{,} \fbox{ainda} \fbox{não} \fbox{há} \fbox{previsão} \fbox{de} \fbox{quando} \fbox{essa} \fbox{pendência} \fbox{será} \fbox{solucionada} \fbox{ou} \fbox{de} \fbox{quando} \fbox{a} \fbox{exploração} \fbox{do} \fbox{bloco} \fbox{será} \fbox{retomada} \fbox{,} \fbox{o} \fbox{que} \fbox{corrobora} \fbox{a} \fbox{absoluta} \fbox{ausência} \fbox{de} \fbox{efeitos} \fbox{da} \fbox{operação} \fbox{sobre} \fbox{o} \fbox{mercado} \fbox{.} \fbox{Para} \fbox{fins} \fbox{de} \fbox{esclarecimento} \fbox{,} \fbox{nenhuma} \fbox{operação} \fbox{poderá} \fbox{ser} \fbox{realizada} \fbox{no} \fbox{Bloco} \fbox{enquanto} \fbox{não} \fbox{houver} \fbox{sido} \fbox{expedida} 
+  \fbox{19} \fbox{.} \fbox{Mas} \fbox{não} \fbox{é} \fbox{só} \fbox{isso} \fbox{.} \fbox{O} \fbox{prazo} \fbox{de} \fbox{exploração} \fbox{do} \fbox{bloco} \fbox{CAL-M-372} \fbox{encontra-se}
+\fbox{suspenso} \fbox{pela} \fbox{ANP} \fbox{desde} \fbox{16/05/2013} \fbox{em} \fbox{razão} \fbox{de} \fbox{pendência} \fbox{no} \fbox{processo} \fbox{de} \fbox{obtenção} \fbox{de}
+\fbox{licença} \fbox{ambiental} \fbox{.} \fbox{Dessa} \fbox{forma} \fbox{,} \fbox{ainda} \fbox{não} \fbox{há} \fbox{previsão} \fbox{de} \fbox{quando} \fbox{essa} \fbox{pendência} \fbox{será} \fbox{solucionada} \fbox{ou} \fbox{de} \fbox{quando} \fbox{a} \fbox{exploração} \fbox{do} \fbox{bloco} \fbox{será} \fbox{retomada} \fbox{,} \fbox{o} \fbox{que} \fbox{corrobora} \fbox{a} \fbox{absoluta} \fbox{ausência} \fbox{de} \fbox{efeitos} \fbox{da} \fbox{operação} \fbox{sobre} \fbox{o} \fbox{mercado} \fbox{.} \fbox{Para} \fbox{fins} \fbox{de} \fbox{esclarecimento} \fbox{,} \fbox{nenhuma} \fbox{operação} \fbox{poderá} \fbox{ser} \fbox{realizada} \fbox{no} \fbox{Bloco} \fbox{enquanto} \fbox{não} \fbox{houver} \fbox{sido} \fbox{expedida}
 \fbox{a} \fbox{licença} \fbox{ambiental} \fbox{.}
 \end{quote}
 \begin{center}
@@ -1316,18 +1315,18 @@ Na seção a seguir veremos como o Apache OpenNLP trabalha com a tarefa de segme
 \subsection{Sentence Detector}
 
 \indent\indent Outra ferramenta que o Apache OpenNLP fornece, conforme já mencionado anteriormente, é um segmentador de sentenças capaz de detectar características textuais
-tais como quando uma determinada pontuação marca o final de uma dada sentença ou não. 
+tais como quando uma determinada pontuação marca o final de uma dada sentença ou não.
 
 Para isso, conforme já discutido no capítulo 3 - Processamento de Linguagem Natural (PLN), existe uma
-necessidade natural de definir o que é uma sentença. Para a o segmentador de sentenças do Apache OpenNLP, uma sentença é definida como a maior seqüência de caracteres entre duas 
+necessidade natural de definir o que é uma sentença. Para a o segmentador de sentenças do Apache OpenNLP, uma sentença é definida como a maior seqüência de caracteres entre duas
 pontuações desconsiderando os caracteres de espaços em branco. As exceções à definição são a primeira e a última sentença, no qual no primeiro caso é assumido que o primeiro caracter que não
-seja um espaço em branco marca o inicio da sentença, enquanto que no segundo caso o último caracter que não seja um espaço em branco é assumido como final da sentença. 
+seja um espaço em branco marca o inicio da sentença, enquanto que no segundo caso o último caracter que não seja um espaço em branco é assumido como final da sentença.
 
 A segmentação de
 sentenças é o primeiro processo realizado pelo Apache OpenNLP, e é particularmente importante para o uso do \textit{software}, uma vez que a maior parte das ferramentas fornecidas esperam
 entradas já quebradas em sentenças.
 
-Consideremos mais uma vez o trecho extraído do Ato de Concentração nº 08700.005269/2016-72, que serviu de exemplo na seção anterior para ilustrar os exemplos 5.5 e 5.6:  
+Consideremos mais uma vez o trecho extraído do Ato de Concentração nº 08700.005269/2016-72, que serviu de exemplo na seção anterior para ilustrar os exemplos 5.5 e 5.6:
 
 \begin{quote}
   \textit{\quotes{19. Mas não é só isso. O prazo de exploração do bloco CAL-M-372 encontra-se suspenso pela ANP desde 16/05/2013 em razão de pendência no processo de obtenção de licença ambiental. Dessa forma, ainda não há previsão de quando essa pendência será solucionada ou de quando a exploração do bloco será retomada, o que corrobora a absoluta ausência de efeitos da operação sobre o mercado. Para fins de esclarecimento, nenhuma operação poderá ser realizada no Bloco enquanto não houver sido expedida a licença ambiental.}}
@@ -1376,7 +1375,44 @@ Tal trecho, quando usado para alimentar a ferramenta de quebras de sentenças do
 
 Finalmente, na próxima e última seção, falaremos sobre a ferramenta de REM fornecida pelo OpenNLP.
 
+\pagebreak
+
 \subsection{Name Finder}
+
+\indent\indent A última ferramenta que foi usada para o desenvolvimento do trabalho disponibilizada pelo Apache OpenNLP é a \textit{Name Finder}, que faz o
+reonhecimento de entidades mencionadas. Para usá-la, é necessário ter um modelo de REM criado no idioma correspondente. Nosso modelo, no caso, foi o \textit{corpus} desenvolvido
+a partir dos Atos de Concentração do CADE e manualmente anotados com uso do BRAT.
+
+Para usar a ferramenta de REM, é necessário que se tenha modelos de detecção de sentença e tokenização pré-criados. Conforme já mencionados anteriormente nessa literatura,
+idealmente deveríamos dispôr de \textit{Corpora} de tokenização e detecção de sentenças criados em cima dos Atos de Concentração também, mas tal tarefa exigiria mais tempo que o
+disponível, restando focarmos no desenvolvimento do \textit{corpus} de REM (que é mais complexo) e aceitar os erros oriundos de modelos de baixa representatividade com relação
+à tokenização e à detecção de sentenças.
+
+Consideremos o trecho transcrito abaixo, retirado do Ato de Concentração nº , para avaliarmos a saída da ferramenta de REM do Apache OpenNLP. Ainda, considere
+que a saída esperada tenha as seguintes anotações, representadas pelos \textit{frames} logo abaixo:
+
+\begin{quote}
+  \textit{``Pelo exposto, as \fbox{Requerentes}}$_{\text{Requerente}}$\textit{ submetem a \fbox{presente operação}}$_{\text{Operação}}$\textit{ para aprovação do \fbox{CADE}}$_{\text{Organização}}$\textit{, sem restrições,
+  entendendo que a mesma nao resulta em
+  concentração econômica, nao podendo, ainda que potencialmente, causar efeitos deletérios ao \fbox{mercado}}$_{\text{Mercado}}$\textit{ e ao bem—estar econômico da sociedade.
+  Para tanto, requer-se que a \fbox{operação em tela}}$_{\text{Operation}}$\textit{ seja incondicionalmente aprovada, na forma da lei."}
+\end{quote}
+
+E abaixo, a resposta obtida, ilustrada no exemplo 5.8:
+
+\begin{quote}
+  \quotes{Pelo exposto, as \fbox{Requerentes}$_{\text{Requerente}}$ submetem a \fbox{presente operação}$_{\text{Operação}}$ para aprovação do \hl{\mbox{CADE}}, sem restrições,
+  entendendo que a mesma nao resulta em concentração econômica, nao podendo, ainda que potencialmente, causar efeitos deletérios ao \fbox{mercado}$_{\text{Mercado}}$ e
+  ao bem—estar econômico da sociedade. Para tanto, requer-se que a \hl{\mbox{operação em tela}} seja incondicionalmente aprovada, na forma da lei.}
+\end{quote}
+\begin{center}
+  Exemplo 5.8: Saída do reconhecedor de EMs do Apache OpenNLP.
+\end{center}
+
+Notavelmente, temos 2 erros de saída com relação à fase de identificação, caracterizados pela perda das entidades. Acima, os termos \quotes{CADE} e \quotes{operação em tela}
+grifados em \hl{\textbf{amarelo}} deveriam ter sido marcados com as etiquetas \quotes{Organização} e \quotes{Operação}, respectivamente.
+
+No próximo capítulo serão apresentados os resultados obtidos do \textit{corpus} desenvolvido, além de falarmos como os obtivemos.
 
 \pagebreak
 \chapter{Resultados}
