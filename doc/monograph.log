@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.6.11)  28 OCT 2016 20:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.6.11)  30 OCT 2016 19:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -955,45 +955,121 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
 )))
+(/usr/share/texlive/texmf-dist/tex/latex/diagbox/diagbox.sty
+Package: diagbox 2011/11/23 v2.0 Making table heads with diagonal lines
+
+(/usr/share/texlive/texmf-dist/tex/latex/pict2e/pict2e.sty
+Package: pict2e 2014/01/12 v0.2z Improved picture commands (HjG,RN,JT)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pict2e/pict2e.cfg
+File: pict2e.cfg 2011/04/05 v0.1t pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: pdftex.def on input line 119.
+Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 121.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
+File: p2e-pdftex.def 2011/04/05 v0.1t Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks47
+\@arclen=\dimen199
+\@arcrad=\dimen200
+\@tempdimd=\dimen201
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count136
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count137
+\FP@xia=\count138
+\FP@xib=\count139
+\FP@xfa=\count140
+\FP@xfb=\count141
+\FP@rega=\count142
+\FP@regb=\count143
+\FP@regs=\count144
+\FP@times=\count145
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count146
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+))
+\diagbox@boxa=\box42
+\diagbox@boxb=\box43
+\diagbox@boxm=\box44
+\diagbox@wd=\dimen202
+\diagbox@ht=\dimen203
+\diagbox@sepl=\dimen204
+\diagbox@sepr=\dimen205
+)
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 33.
+less on input line 37.
 
 (./monograph.aux)
 \openout1 = `monograph.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 46.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    ... okay on input line 46.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count136
-\scratchdimen=\dimen199
-\scratchbox=\box42
-\nofMPsegments=\count137
-\nofMParguments=\count138
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count139
-\MPscratchDim=\dimen200
-\MPnumerator=\count140
-\makeMPintoPDFobject=\count141
-\everyMPtoPDFconversion=\toks48
+\scratchcounter=\count147
+\scratchdimen=\dimen206
+\scratchbox=\box45
+\nofMPsegments=\count148
+\nofMParguments=\count149
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count150
+\MPscratchDim=\dimen207
+\MPnumerator=\count151
+\makeMPintoPDFobject=\count152
+\everyMPtoPDFconversion=\toks49
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1153,7 +1229,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [17]
-Overfull \hbox (17.99918pt too wide) in paragraph at lines 489--512
+Overfull \hbox (17.99918pt too wide) in paragraph at lines 494--517
 [][] 
  []
 
@@ -1201,7 +1277,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [23]
 Cap\'{\i }tulo 4.
 
-Overfull \hbox (2.09346pt too wide) in paragraph at lines 702--705
+Overfull \hbox (2.09346pt too wide) in paragraph at lines 707--710
 []\OT1/cmr/m/n/10.95 Neste cap^^S^^Ptulo fa-la-re-mos um pouco so-bre Re-co-nhe
 -ci-mento de En-ti-da-des Men-ci-o-na-das (REM),
  []
@@ -1216,40 +1292,40 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [25]
-Overfull \hbox (1.78487pt too wide) in paragraph at lines 792--793
+Overfull \hbox (1.78487pt too wide) in paragraph at lines 797--798
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 804--807
+Underfull \hbox (badness 10000) in paragraph at lines 809--812
 []\OT1/cmr/m/n/10.95 2. A []$[]$ atu-al-mente det^^Sem 20% de par-ti-cipa^^Xc~a
 o no
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 804--807
+Underfull \hbox (badness 10000) in paragraph at lines 809--812
 []$[]$ \OT1/cmr/m/n/10.95 en-quanto a []$[]$ det^^Sem ou-tros
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 804--807
+Underfull \hbox (badness 2932) in paragraph at lines 809--812
 \OT1/cmr/m/n/10.95 20%. A []$[]$ det^^Sem os 60% de par-ti-cipa^^Xc~ao re-ma-ne
 s-cente no
  []
 
 
-Underfull \hbox (badness 2809) detected at line 807
+Underfull \hbox (badness 2809) detected at line 812
 []$[]$ \OT1/cmr/m/n/10.95 en-quanto a []$[]$ det^^Sem ou-tros
  []
 
 
-Underfull \hbox (badness 10000) detected at line 807
+Underfull \hbox (badness 10000) detected at line 812
 []\OT1/cmr/m/n/10.95 2. A []$[]$ atu-al-mente det^^Sem 20% de par-ti-cipa^^Xc~a
 o no
  []
 
 
-Overfull \hbox (6.18564pt too wide) in paragraph at lines 803--808
+Overfull \hbox (6.18564pt too wide) in paragraph at lines 808--813
 []$[]$ 
  []
 
@@ -1267,17 +1343,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [27]
-Overfull \hbox (0.30737pt too wide) in paragraph at lines 883--889
+Overfull \hbox (0.30737pt too wide) in paragraph at lines 888--894
 []$[]$ 
  []
 
 
-Overfull \hbox (4.17259pt too wide) in paragraph at lines 904--910
+Overfull \hbox (4.17259pt too wide) in paragraph at lines 909--915
 []$[]$ 
  []
 
 
-Overfull \hbox (17.20822pt too wide) in paragraph at lines 924--936
+Overfull \hbox (17.20822pt too wide) in paragraph at lines 929--941
  []|  [] 
  []
 
@@ -1316,13 +1392,13 @@ Cap\'{\i }tulo 5.
 [32
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 1095
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 1100
 .
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 1118.
+(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 1123.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1331,7 +1407,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [33]
-Overfull \hbox (1.11264pt too wide) in paragraph at lines 1171--1175
+Overfull \hbox (1.11264pt too wide) in paragraph at lines 1176--1180
 \OT1/cmr/m/n/10.95 ori-gi-nando por-tanto o nome deste se^^Xc~ao. Das 4 se^^Xc~
 oes exis-ten-tes no ar-quivo \OT1/pcr/m/n/10.95 annotation.conf\OT1/cmr/m/n/10.
 95 ,
@@ -1356,10 +1432,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [35] <brat.png, id=133, 921.4425pt x 114.4275pt>
 File: brat.png Graphic file (type png)
  <use brat.png>
-Package pdftex.def Info: brat.png used on input line 1247.
+Package pdftex.def Info: brat.png used on input line 1252.
 (pdftex.def)             Requested size: 543.64638pt x 67.51163pt.
 
-Overfull \hbox (41.89677pt too wide) in paragraph at lines 1246--1248
+Overfull \hbox (41.89677pt too wide) in paragraph at lines 1251--1253
 []|  [] 
  []
 
@@ -1370,12 +1446,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [36 <./brat.png>]
-Overfull \hbox (13.57616pt too wide) in paragraph at lines 1304--1308
+Overfull \hbox (13.57616pt too wide) in paragraph at lines 1309--1313
 [][] [] [] [] [] [] [] [] [] [] [] [] [] [] []
  []
 
 
-Overfull \hbox (10.35786pt too wide) in paragraph at lines 1304--1308
+Overfull \hbox (10.35786pt too wide) in paragraph at lines 1309--1313
 [] [] [] [] [] [] [] [] [] []
  []
 
@@ -1386,14 +1462,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [37]
-Overfull \hbox (1.39703pt too wide) in paragraph at lines 1329--1330
+Overfull \hbox (1.39703pt too wide) in paragraph at lines 1334--1335
 []\OT1/cmr/m/n/10.95 Consideremos mais uma vez o tre-cho ex-tra^^S^^Pdo do Ato 
 de Con-cen-tra^^Xc~ao n\TS1/cmr/m/n/10.95 º \OT1/cmr/m/n/10.95 08700.005269/201
 6-
  []
 
 
-Overfull \hbox (1.78487pt too wide) in paragraph at lines 1355--1356
+Overfull \hbox (1.78487pt too wide) in paragraph at lines 1360--1361
 [][] 
  []
 
@@ -1404,7 +1480,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [38]
-Overfull \hbox (1.10907pt too wide) in paragraph at lines 1395--1399
+Overfull \hbox (1.10907pt too wide) in paragraph at lines 1400--1404
 []\OT1/cmr/m/it/10.95 ``Pelo ex-posto, as []$[]$ sub-me-tem a []$[]$ para
  []
 
@@ -1416,65 +1492,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [39]
 Cap\'{\i }tulo 6.
+
+Overfull \hbox (56.8176pt too wide) in paragraph at lines 1445--1462
+ []|   [] 
+ []
+
+
+Overfull \hbox (59.44716pt too wide) in paragraph at lines 1467--1484
+ []|   [] 
+ []
+
 [40
-
-]
-Cap\'{\i }tulo 7.
-[41
-
-]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 1434
-.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1434.
-
-
-Overfull \hbox (7.75388pt too wide) in paragraph at lines 1434--1435
-[]\OT1/cmr/m/n/10.95 Acesso ^^Ra In-forma^^Xc~ao: Co-nhe^^Xca o CADE. Dis-pon^^
-S^^Pvel em: \OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.cade.gov.br/aces
-so-
- []
-
-
-Overfull \hbox (39.8942pt too wide) in paragraph at lines 1436--1437
-\OT1/cmr/m/n/10.95 Econ^omica. Dis-pon^^S^^Pvel em: \OML/cmm/m/it/10.95 <\OT1/c
-mr/m/n/10.95 http://www.cade.gov.br/servicos/perguntas-frequentes/perguntas-
- []
-
-
-Overfull \hbox (3.13066pt too wide) in paragraph at lines 1438--1439
-\OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 https://opennlp.apache.org/documentatio
-n/manual/opennlp.html#tools.namefind \OML/cmm/m/it/10.95 >\OT1/cmr/m/n/10.95 .
- []
-
-
-Overfull \hbox (19.99962pt too wide) in paragraph at lines 1439--1440
-\OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.cade.gov.br/assuntos/normas-
-e-legislacao/resolucao/resolucao-2[]2012-analise-
- []
-
-
-Overfull \hbox (19.99962pt too wide) in paragraph at lines 1440--1441
-\OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.cade.gov.br/assuntos/normas-
-e-legislacao/resolucao/resolucao-2[]2012-analise-
- []
-
-
-Overfull \hbox (19.99962pt too wide) in paragraph at lines 1441--1442
-\OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.cade.gov.br/assuntos/normas-
-e-legislacao/resolucao/resolucao-2[]2012-analise-
- []
-
-
-Overfull \hbox (22.72708pt too wide) in paragraph at lines 1443--1444
-[]\OT1/cmr/m/n/10.95 WIKIPEDIA. Brown Cor-pus. Dis-pon^^S^^Pvel em: \OML/cmm/m/
-it/10.95 <\OT1/cmr/m/n/10.95 https://en.wikipedia.org/wiki/Brown[]Corpus
- []
-
-[42
 
 ]
 
@@ -1483,15 +1511,103 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[43] (./monograph.aux) ) 
+[41]
+Overfull \hbox (1.08836pt too wide) in paragraph at lines 1585--1585
+ []|$[]$| 
+ []
+
+
+Overfull \hbox (57.16171pt too wide) in paragraph at lines 1581--1596
+ []|   [] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[42]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[43]
+Cap\'{\i }tulo 7.
+[44
+
+]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 1613
+.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1613.
+
+
+Overfull \hbox (7.75388pt too wide) in paragraph at lines 1613--1614
+[]\OT1/cmr/m/n/10.95 Acesso ^^Ra In-forma^^Xc~ao: Co-nhe^^Xca o CADE. Dis-pon^^
+S^^Pvel em: \OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.cade.gov.br/aces
+so-
+ []
+
+
+Overfull \hbox (39.8942pt too wide) in paragraph at lines 1615--1616
+\OT1/cmr/m/n/10.95 Econ^omica. Dis-pon^^S^^Pvel em: \OML/cmm/m/it/10.95 <\OT1/c
+mr/m/n/10.95 http://www.cade.gov.br/servicos/perguntas-frequentes/perguntas-
+ []
+
+
+Overfull \hbox (3.13066pt too wide) in paragraph at lines 1617--1618
+\OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 https://opennlp.apache.org/documentatio
+n/manual/opennlp.html#tools.namefind \OML/cmm/m/it/10.95 >\OT1/cmr/m/n/10.95 .
+ []
+
+
+Overfull \hbox (19.99962pt too wide) in paragraph at lines 1618--1619
+\OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.cade.gov.br/assuntos/normas-
+e-legislacao/resolucao/resolucao-2[]2012-analise-
+ []
+
+
+Overfull \hbox (19.99962pt too wide) in paragraph at lines 1619--1620
+\OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.cade.gov.br/assuntos/normas-
+e-legislacao/resolucao/resolucao-2[]2012-analise-
+ []
+
+
+Overfull \hbox (19.99962pt too wide) in paragraph at lines 1620--1621
+\OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.cade.gov.br/assuntos/normas-
+e-legislacao/resolucao/resolucao-2[]2012-analise-
+ []
+
+
+Overfull \hbox (22.72708pt too wide) in paragraph at lines 1622--1623
+[]\OT1/cmr/m/n/10.95 WIKIPEDIA. Brown Cor-pus. Dis-pon^^S^^Pvel em: \OML/cmm/m/
+it/10.95 <\OT1/cmr/m/n/10.95 https://en.wikipedia.org/wiki/Brown[]Corpus
+ []
+
+[45
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46] (./monograph.aux) ) 
 Here is how much of TeX's memory you used:
- 16727 strings out of 493105
- 311741 string characters out of 6137072
- 400220 words of memory out of 5000000
- 19841 multiletter control sequences out of 15000+600000
- 15452 words of font info for 54 fonts, out of 8000000 for 9000
+ 17585 strings out of 493105
+ 321632 string characters out of 6137072
+ 456264 words of memory out of 5000000
+ 20649 multiletter control sequences out of 15000+600000
+ 15987 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,15n,54p,776b,644s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,20n,54p,776b,644s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.
 enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/t
@@ -1499,20 +1615,22 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sfti1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on monograph.pdf (43 pages, 359470 bytes).
+ublic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/
+cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on monograph.pdf (46 pages, 391521 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
+ 238 PDF objects out of 1000 (max. 8388607)
+ 167 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

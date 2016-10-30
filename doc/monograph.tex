@@ -17,6 +17,8 @@
 \usepackage{varwidth}
 \usepackage{courier}
 \usepackage{tikz}
+\usepackage{diagbox}
+\usepackage{array}
 
 \newcommand{\quotes}[1]{``#1''}
 
@@ -26,6 +28,8 @@
 \definecolor{strong}{rgb}{0.5, 1.0, 0.0}
 \definecolor{moderate}{rgb}{0.24, 0.82, 0.44}
 \definecolor{weak}{rgb}{0.99, 0.05, 0.21}
+\definecolor{train}{rgb}{0.59, 0.0, 0.09}
+\definecolor{test}{rgb}{0.98, 0.93, 0.36}
 
 \pagestyle{fancy}
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
@@ -36,6 +40,8 @@
 \cfoot{\thepage}
 
 \setcounter{secnumdepth}{3}
+
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
 
 \begin{document}
 
@@ -485,7 +491,6 @@ interessante que as amostras de cada um dos tipos aparecessem nas mesmas propor�
 
 \begin{center}
   \begin{table}
-    \caption{Processos Contidos no \textit{corpus}}
     \begin{tabular}{| c | c | c | c |}
       \hline
       \multicolumn{4}{|c|}{Nº dos Processos} \\
@@ -509,7 +514,7 @@ interessante que as amostras de cada um dos tipos aparecessem nas mesmas propor�
       \multicolumn{4}{| c |}{Total: 50} \\
       \hline
     \end{tabular}
-  \caption*{Número dos processos usados na construção do \textit{corpus}, todos do ano de 2016.}
+  \caption{Número dos processos usados na construção do \textit{corpus}, todos do ano de 2016.}
   \end{table}
 \end{center}
 
@@ -1416,15 +1421,189 @@ No próximo capítulo serão apresentados os resultados obtidos do \textit{corpu
 
 \pagebreak
 \chapter{Resultados}
-\section{Obtendo Valores}
+
+\indent\indent Agora que os objetivos foram introduzidos, as teorias foram cobertas, o que foi desenvolvido foi abordado e as ferramentas que possibilitaram o desenvolvimento do trabalho
+foram exploradas, podemos finalmente falar dos resultados obtidos com o \textit{corpus} construído em cima dos Atos de Concentração Econômica do CADE. Neste capítulo, serão apresentados
+valores de validação do \textit{corpus}, a forma que obtivemos tais valores e comentários acerca dos valores.
+
 \section{Validação Cruzada}
 
+\indent\indent Para realizarmos os testes com o \textit{corpus} foi usada a técnica de validação cruzada com o método \textit{holdout}. A idéia de usarmos a validação cruzada
+é para testarmos a capacidade de generalização do nosso modelo a partir dos dados do nosso \textit{corpus} anotado e assim ganharmos também mais garantia acerca da sua robustez.
+
+O incentivo para que o método de \textit{holdout} tenha sido usado 
+é que como não dispunhamos de muitos dados (no sentido de que o \textit{corpus} possui apenas pouco mais de 50000 palavras quando idealmente havia uma meta de 300000 palavras), dividirmos o \textit{corpus} composto de 50 ACs
+em um grupo de treinamento composto de 45 processos e um segundo grupo composto dos 5 restantes para o grupo de teste pareceu uma aproximação mais razoável, uma vez que a quantidade de palavras
+continuaria sendo suficientemente grande no grupo de treinamento (cerca de 45000) e ainda restaria 10\% do total que poderia ser usado para fazermos a validação. Como, porém, este é um 
+método que pode ter alta variância, foram feito 10 casos distintos, onde os grupos de treinamento e de teste são compostos por ACs diferentes.
+
+Na tabela 6.3 a seguir, são apresentadas as $C_i, 1 \leq i \leq 10$ combinações dos $A_j, 1 \leq j \leq 50$ que foram selecionadas pseudo-aleatoriamente a partir de \textit{script} para compôr os grupos de treinamento e de teste. As tabelas 6.1 e 6.2 abaixo mostram a atribuição de um valor \textit{j} para um AC.
+
+
+\begin{table}[h!]
+  \centering
+  \hspace*{-2.15cm}
+  \def\arraystretch{1.1}
+  \begin{tabular}{| c | c || c | c || c | c || c | c |}
+    \hline
+    \multicolumn{8}{| c |}{Ordinários} \\
+    \hline
+    \textit{j} & Nº Processo & \textit{j} & Nº Processo & \textit{j} & Nº Processo & \textit{j} & Nº Processo \\
+    \hline\hline
+    1 & 08700.000722/2016-54 & 8  & 08700.003045/2016-26 & 15 & 08700.004211/2016-10 & 22 & 08700.005683/2016-81 \\
+    2 & 08700.000723/2016-07 & 9  & 08700.003252/2016-81 & 16 & 08700.004360/2016-71 & 23 & 08700.005702/2016-70 \\
+    3 & 08700.001221/2016-95 & 10 & 08700.003421/2016-82 & 17 & 08700.004557/2016-18 & 24 & 08700.005733/2016-21 \\
+    4 & 08700.001872/2016-85 & 11 & 08700.003462/2016-79 & 18 & 08700.004860/2016-11 & 25 & 08700.010790/2015-41 \\
+    5 & 08700.002432/2016-45 & 12 & 08700.003636/2016-01 & 19 & 08700.005093/2016-59 & &  \\
+    6 & 08700.002792/2016-47 & 13 & 08700.003952/2016-75 & 20 & 08700.005398/2016-61 & &  \\  
+    7 & 08700.003024/2016-19 & 14 & 08700.004168/2016-84 & 21 & 08700.005524/2016-87 & &  \\ 
+    \hline
+    \end{tabular}
+  \caption{ACs Ordinários que compõem o \textit{corpus} e seus respectivos número \textit{j}.}
+\end{table}
+
+\begin{table}[h!]
+  \centering
+  \hspace*{-2.25cm}
+  \def\arraystretch{1.1}
+  \begin{tabular}{| c | c || c | c || c | c || c | c |}
+    \hline
+    \multicolumn{8}{| c |}{Sumários} \\
+    \hline
+    \textit{j} & Nº Processo & \textit{j} & Nº Processo & \textit{j} & Nº Processo & \textit{j} & Nº Processo \\
+    \hline\hline
+    26 & 08700.000625/2016-61 & 33 & 08700.005002/2016-85 & 40 & 08700.005334/2016-60 & 47 & 08700.005603/2016-98 \\
+    27 & 08700.001192/2016-61 & 34 & 08700.005138/2016-95 & 41 & 08700.005387/2016-81 & 48 & 08700.005619/2016-09 \\
+    28 & 08700.003684/2016-91 & 35 & 08700.005139/2016-30 & 42 & 08700.005456/2016-56 & 49 & 08700.005620/2016-25 \\
+    29 & 08700.003951/2016-21 & 36 & 08700.005204/2016-27 & 43 & 08700.005457/2016-09 & 50 & 08700.005667/2016-99 \\
+    30 & 08700.004768/2016-42 & 37 & 08700.005208/2016-13 & 44 & 08700.005559/2016-16 &    & \\
+    31 & 08700.004963/2016-72 & 38 & 08700.005259/2016-37 & 45 & 08700.005580/2016-11 &    & \\
+    32 & 08700.005000/2016-96 & 39 & 08700.005269/2016-72 & 46 & 08700.005587/2016-33 &    & \\
+   \hline
+  \end{tabular}
+  \caption{ACs Sumários que compõem o \textit{corpus} e seus respectivos número \textit{j}.}
+\end{table}
+
+\begin{table}[h!]
+  \centering
+  \def\arraystretch{0.475}
+  \begin{tabular}{| c | c | c | c | c | c | c | c | c | c | c |}
+    \hline
+    \backslashbox{\small{$A_j$}}{\small{$C_i$}} & \small{$C_1$} & \small{$C_2$} & \small{$C_3$} & \small{$C_4$} & \small{$C_5$} & \small{$C_6$} & \small{$C_7$} & \small{$C_8$} & \small{$C_9$} & \small{$C_{10}$} \\
+    \hline
+    \small{$A_1$}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_2$}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_3$}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_4$}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_5$}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  &  \cellcolor{train} \\ \hline
+    \small{$A_6$}  & \cellcolor{test}  & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_7$}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_8$}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_9$}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{10}$} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{11}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  \\ \hline
+    \small{$A_{12}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{13}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{14}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{15}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  \\ \hline
+    \small{$A_{16}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{17}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{18}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{19}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{20}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{21}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{22}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{23}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{24}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{25}$} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{26}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{27}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{28}$} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  &  \cellcolor{train} \\ \hline
+    \small{$A_{29}$} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{30}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  \\ \hline
+    \small{$A_{31}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{test}  &  \cellcolor{train} \\ \hline
+    \small{$A_{32}$} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{33}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{34}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  &  \cellcolor{train} \\ \hline
+    \small{$A_{35}$} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{36}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{37}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  \\ \hline
+    \small{$A_{38}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{39}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{40}$} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{41}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{42}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  &  \cellcolor{train} \\ \hline
+    \small{$A_{43}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{test}  \\ \hline
+    \small{$A_{44}$} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{45}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{46}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{47}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{48}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{49}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{test}  & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+    \small{$A_{50}$} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} & \cellcolor{train} &  \cellcolor{train} \\ \hline
+  \end{tabular}
+  \begin{tabular}{| c | c |}
+    \hline
+    \cellcolor{train} & Treinamento \\ \hline
+    \cellcolor{test} & Teste \\ \hline
+  \end{tabular}
+  \caption{Composição dos grupos de treinamento e teste de cada combinação $C_i$}
+\end{table}
+
+\subsection{Obtendo Valores}
+
+\indent\indent Uma vez com os grupos de treinamento e de teste determinados, podemos fazer estimativas com o \textit{corpus} usando as métricas. Para isso, precisamos
+apenas obter as quantidades de acertos e erros em relação à resposta esperada. Fazemos isso da seguinte forma:
+
+
+\begin{itemize}
+  \item Para cada $C_i, 1 \leq i \leq 10$, treinamos um modelo de REM no Apache OpenNLP usando as anotações BRAT dos 45 ACs do grupo de treinamento e depois, usando modelo, marcamos
+o grupo de teste de forma automatizada e comparamos as anotações geradas com as anotações originais do grupo de teste.
+  \item Efetuadas as computações de treinamento e geração de anotações, contabilizamos as quantidades de acertos e de erros de cada uma das 10 combinações $C_i$.
+  \item Foram consideradas 3 categorias de erro:
+  \begin{enumerate}[label={\textbf{E\arabic*.}}]
+    \item Entidades mencionadas perdidas (não identificadas).
+    \item Entidades mencionadas com etiquetas erradas.
+    \item Entidades mencionadas com erros posicionais (isto é, incluiu ou deixou de incluir palavras que deveriam consideradas em uma dada marcação).
+  \end{enumerate}
+  \item São verdadeiros positivos (\textbf{VP}) os acertos \textbf{A}.
+  \item São falsos negativos (\textbf{FN}) os erros \textbf{E1} e \textbf{E3}, ou seja, \textbf{FN} = \textbf{E1} + \textbf{E3}.
+  \item São falsos positivos (\textbf{FP}) os erros \textbf{E2} e \textbf{E3}, ou seja, \textbf{FP} = \textbf{E2} + \textbf{E3}.
+  \item São verdadeiros negativos (\textbf{VN}) todas as \textit{tokens} que não eram EMs e, de fato, não foram recuperadas. Não há necessidade de contabilizar essa categoria.
+  \item Chamamos de \textbf{R} (= \textbf{A} + \textbf{E2} + \textbf{E3}) o número de EMs que foram recuperadas naquela dada combinação e de \textbf{T} (= \textbf{A} + \textbf{E1} + \textbf{E3}) o número total de EMs que tinham ser marcadas.
+  \item Aplicamos o cálculo das métricas de Precisão (\textbf{P}), Cobertura (\textbf{C}) e Medida-F balanceada (\textbf{F$_1$}) usando os valores obtidos acima de \textbf{VP}, \textbf{FN}, \textbf{FP}, \textbf{VN}, \textbf{R} e \textbf{T} para cada uma das $C_i$ combinações.
+\end{itemize}
+
+Os valores obtidos para cada uma das combinações $C_i$ estão descritos na tabela a seguir para cada uma das categorias \textit{L}:
+
+\begin{table}[h!]
+  \centering
+  \hspace*{-2.1cm}
+  \def\arraystretch{1.1}
+  \begin{tabular}{| P{1.45cm} | P{1.36cm} | P{1.36cm} | P{1.36cm} | P{1.36cm} | P{1.36cm} | P{1.36cm} | P{1.36cm} | P{1.36cm} | P{1.36cm} | P{1.36cm} |}
+    \hline
+    \backslashbox[19.1mm]{\textit{L}}{$C_i$} & $C_1$ & $C_2$ & $C_3$ & $C_4$ & $C_5$ & $C_6$ & $C_7$ & $C_8$ & $C_9$ & $C_{10}$ \\
+    \hline
+    \small{\textbf{R}}                 & \small{327} & \small{263} & \small{218} & \small{324} & \small{293} & \small{210} & \small{270} & \small{263} & \small{220} & \small{243} \\ \hline
+    \small{\textbf{T}}                 & \small{774} & \small{527} & \small{491} & \small{741} & \small{653} & \small{520} & \small{702} & \small{623} & \small{587} & \small{605} \\ \hline
+    \small{\textbf{A}}   & \small{258} & \small{208} & \small{168} & \small{248} & \small{231} & \small{162} & \small{208} & \small{210} & \small{179} & \small{184} \\ \hline
+    \small{\textbf{E1} + \textbf{E3}} & \small{461 + 55} & \small{272 + 47} & \small{286 + 37} & \small{431 + 62} & \small{379 + 43} & \small{323 + 35} & \small{443 + 51} & \small{371 + 42} & \small{375 + 33} & \small{375 + 46} \\ \hline
+    \small{\textbf{E2} + \textbf{E3}} & \small{14 + 55} & \small{8 + 47} & \small{13 + 37} & \small{14 + 62} & \small{19 + 43} & \small{13 + 35} & \small{11 + 51} & \small{11 + 42} & \small{8 + 33} & \small{13 + 46} \\ \hline\hline
+    \small{\textbf{P}} & \small{0.789} & \small{0.790} & \small{0.770} & \small{0.765} & \small{0.788} & \small{0.771} & \small{0.770} & \small{0.798} & \small{0.813} & \small{0.757} \\ \hline
+    \small{\textbf{C}} & \small{0.333} & \small{0.394} & \small{0.342} & \small{0.334} & \small{0.353} & \small{0.311} & \small{0.296} & \small{0.337} & \small{0.305} & \small{0.304} \\ \hline
+\small{\textbf{F$_1$}} & \small{0.468} & \small{0.525} & \small{0.473} & \small{0.465} & \small{0.487} & \small{0.443} & \small{0.427} & \small{0.473} & \small{0.443} & \small{0.433} \\ \hline
+    \end{tabular}
+  \caption{Valores obtidos para cada $C_i$ em cada uma das categorias.}
+\end{table}
+
+Note que \textbf{E3} faz tanto parte de \textbf{FN} quanto de \textbf{FP}. A razão dele fazer parte de \textbf{FN} é porque parte da marcação é relevante, mas como está com limites imprecisos, devemos considerar como não recuperada. Já com relação a \textbf{FP}, como ele foi recuperado com erro de fronteira de marcação, devemos considerar que não é relevante.
+
+\subsection{Interpretação}
 
 \pagebreak
 \chapter{Conclusão}
 \section{Dificuldades encontradas}
 \section{Próximo Passo}
-\subsection{Aprendizado de Máquina}
 
 \pagebreak
 \chapter*{Referências}
