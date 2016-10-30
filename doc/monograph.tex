@@ -1600,6 +1600,25 @@ Note que \textbf{E3} faz tanto parte de \textbf{FN} quanto de \textbf{FP}. A raz
 
 \subsection{Interpretação}
 
+\indent\indent Os resultados obtidos, expostos na tabela 6.4, nos revelam taxas que podem ser melhoradas. Em particular, é importante ressaltar 2 pontos:
+
+\begin{enumerate}[label={\textbf{\arabic*.}}]
+\item Os resultados obtidos foram feitos a partir de um \textit{corpus} relativamente pequeno, o que justifica os valores baixo das taxas de cobertura de todas as combinações $C_i$.
+\item Considerando a figura 5.1, é importante perceber que apenas 1 ciclo foi concluído. O \textit{loop} em busca do refinamento dos resultados deveria ser reiniciado considerando os
+valores obtidos. Isso melhoraria as taxas de precisão de cobertura e conseqüentemente da Medida-F.
+\end{enumerate}
+
+É muito claro que o fato do \textit{corpus} ser pequeno favoreceu um desbalanceamento entre as taxas de precisão e de cobertura, de tal modo que se ele fosse maior, mais entidades mencionadas
+seriam identificadas, reduzindo o valor de \textbf{E1}, enquanto em contrapartida, ao identificar mais \textit{tokens} candidatas a anotações, poderíamos aumentar o valor de \textbf{E2}, afetando um pouco a precisão. Note, porém, que supondo que o processo fosse bem feito, a introdução de possíveis erros do tipo \textbf{E2} não seria um problema comparado à redução dos 
+erros do tipo \textbf{E1}.
+
+Ainda, é importante considerar os erros humanos envolvidos no processo de anotação de entidades mencioonadas no \textit{corpus}, que pode gerar imprecisão. Idealmente, convém que mais
+pessoas trabalhem no processo de anotação, revisando o conteúdo produzido pelo(s) anotador(es). Além disso, não podemos ignorar os eventuais erros de OCR que não foram corrigidos
+e acabam impactando diretamente nos processos de tokenização e detecção de sentenças introduzindo possíveis erros que conseqüentemente afetam consideravelmente o processo de REM.
+
+Os valores da Medida-F da tabela 6.4 nos mostram que a estimativa de erro, considerando nossas amostras diferentes, é em média de $\mu_{E} = 1 - \mu_{F_1} = 0.5363$. Em outras palavras, 
+considerando tanto os valores de precisão quantos os valores de cobertura, nosso \textit{corpus} quase tem um desempenho mediano (50\%) no sentido de cobrir a coleção de Atos de Concentração Econômica precisamente.
+
 \pagebreak
 \chapter{Conclusão}
 \section{Dificuldades encontradas}
