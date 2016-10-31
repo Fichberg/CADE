@@ -253,7 +253,7 @@ a nossa atenção, portanto, em primeiramente resolver o problema da construçã
 
 \indent\indent O principal objetivo deste trabalho foi estudar os ACs analisados pelo CADE para poder então, criar um \textit{corpus} de treinamento e a partir deste classificar
 o AC em um dos ritos. Infelizmente, conforme já mencionado no Resumo, o escopo acabou revelando-se grande demais para o tempo disponível, e portanto teve de ser reduzido
-ao primeiro problema. Mais sobre isso será discutido no capítulo 7, seção 7.1 - Dificuldades Encontradas.
+ao primeiro problema. Dificuldades encontradas seguem listadas na seção 7.1.
 
 Ainda, houve também um estudo do próprio funcionamento do CADE para entender mais sobre o problema e, em particular, um estudo voltado para a sua coletânea de processos
 armazenada na sua extensa base de dados pública com o intuito de identificar os tipos de documentos que poderiam ser mais pertinentes à análise dos processos no que diz respeito
@@ -263,11 +263,11 @@ capítulo 2 - O Conselho Administrativo de Defesa Econômica (CADE).
 Como objetivo também existiu a necessidade de estudar assuntos relacionados a AI, tais como PLN e REM, que serão abordados nos capítulos 3 e 4, respectivamente.
 Ademais, foram estudadas ferramentas de \textit{software} que trabalham com PLN e REM: Apache OpenNLP e o BRAT. Mais será dito sobre elas no capítulo 5, em suas
 respectivas seções. Nestas seções será apresentado um estudo de como funcionam as funcionalidades usadas destas ferramentas e também como tais ferramentas foram
-utilizadas para que os resultados apresentados no capítulo 6 - Resultados fossem alcançados.
+utilizadas para que os resultados apresentados no capítulo 6 fossem alcançados.
 
 Finalmente, foi estudado a partir da técnica estatística de validação cruzada o desempenho do \textit{corpus} criado e os tipos de erros que surgiram no processo de geração automatizada
 de anotações de entidades mencionadas a partir do modelo de treinamento do \textit{corpus}, de tal forma que foram percebidas algumas boas práticas com relação ao uso destas ferramentas
-para aumentar a eficácia e a precisão das marcações. Tais percepções serão comentadas, também, no capítulo 6 - Resultados.
+para aumentar a eficácia e a precisão das marcações. Tais percepções serão comentadas, também, no capítulo 6.
 
 \pagebreak
 \chapter{O Conselho Administrativo de Defesa Econômica (CADE)}
@@ -364,7 +364,7 @@ O item \textbf{1} da heurística é particularmente importante pois ele encapsul
 de um determinado Ato de Concentração, mas queremos fazer isso com o mínimo possível de informações}, ou seja: quanto menor o número de análises forem
 necessárias por parte do CADE para chegar a uma conclusão relacionada ao rito, melhor.
 
-Está idéia está diretamente relacionada ao \textit{pipeline} mencionado no capítulo 1 - Introdução, seção 1.1 - Motivação. Suponhamos aqui para ilustrar a idéia do
+Está idéia está diretamente relacionada ao \textit{pipeline} mencionado na seção 1.1. Suponhamos aqui para ilustrar a idéia do
 \textit{pipeline} de análise que um determinado AC pode ter no máximo \textit{n} fases $F_i$ e que $F_1$ e $F_n$ sejam suas fases inicial e final, respectivamente.
 Suponhamos ainda que existam vários tipos de documentos $D_j$ que podem fazer parte do AC, mas que certos documentos só podem aparecer em uma fase $F_i$ específica.
 Diremos que o valor $V_j$ de um dado documento $D_j$ é tão maior quanto menor for o valor de \textit{i}, para $i = 1, 2, 3 ... n$ e que $V_i \in [0, 1]$ de tal
@@ -387,7 +387,7 @@ Conseqüentemente, temos a seguinte relação para os valores de cada um dos \te
 
 Assim sendo, concluímos que os documentos de maior valor para nós são os mais próximos da fase inicial. Há, porém, uma pergunta que deve ser feita: por qual razão,
 necessariamente, deveríamos considerar esta interpretação correta? Está questão já foi respondida: tempo. Existe ainda um outro fator que não foi mencionado aqui e será abordado
-no capítulo 3 - Processamento de Linguagem Natural, seção 3.2 - Criação do corpus, que responde a pergunta de outra maneira e portanto complementa a nossa resposta. Para adiantar a idéia, considere que os 3 tipos de
+na seção 3.2 - Criação do corpus, que responde a pergunta de outra maneira e portanto complementa a nossa resposta. Para adiantar a idéia, considere que os 3 tipos de
 documentos presentes na fase inicial, \quotes{Notificação}, \quotes{Formulário de Notificação} e \quotes{Publicação no DOU} possuem diferentes padrões uma vez que a própria
 estrutura dos documentos são diferentes. Para completar o raciocínio, lembre-se: algoritmos de aprendizado de máquina aprendem com base em padrões aprendidos no modelo
 de trainamento\footnote[6]{Documentação Apache OpenNLP: REM} (ao menos os das ferramentas usadas neste trabalho)!
@@ -564,7 +564,7 @@ Anotações, portanto, constituem de metadados sobre os dados. Comumente, lingua
 \textit{eXtensible Markup Language} (XML) são utilizadas para fazer marcações sobre texto, mas
 neste trabalho, as anotações foram feitas utilizando uma ferramenta relativamente nova chamada BRAT, que possui um
 formato próprio e que o Apache OpenNLP, uma ferramenta celebrada na área de Processamento de Linguagem Natural, reconhece o formato.
-Mais será falado sobre estas ferramentas no capítulo 5 - Ferramentas Utilizadas.
+Mais será falado sobre estas ferramentas no capítulo 5.
 
 \section{Tokenização}
 
@@ -702,7 +702,7 @@ apertado para desenvolver um \textit{corpus} para servir de treinamento para que
 de detecção de setenças criado a partir de Atos de Concentração, uma vez que, assim como na tokenização, aumentaríamos a representatividade do \textit{corpus} com relação aos documentos
 reais.
 
-No próximo capítulo discutiremos sobre REM e como foram feitas as marcações no \textit{corpus}. Até então, tudo o que foi discutido no capítulo 2 - O Conselho Administrativo de Defesa Econômica (CADE) e neste capítulo 3 - Processamento de Linguagem Natural eram
+No próximo capítulo discutiremos sobre REM e como foram feitas as marcações no \textit{corpus}. Até então, tudo o que foi discutido no capítulo 2 e neste capítulo 3 eram
 requisitos para poder trabalhar com REM nos Atos de Concentração, e uma vez entendidos, será mais simples para o leitor entender a forma que o Reconhecimento de Entidades
 Mencionadas foi usado para chegarmos nos resultados e conclusões escritos nos dois capítulos finais desta monografia.
 
@@ -1045,7 +1045,7 @@ No próximo capítulo falaremos um pouco sobre as ferramentas que foram utilizad
 
 \indent\indent Neste capítulo falaremos das ferramentas que foram usadas para que o \textit{corpus} anotado fosse contruído e suas entidades mencionadas extraídas
 de forma automatizada: BRAT [21] e Apache OpenNLP [5]. É importante ressaltar que este capítulo apenas abordará as funcionalidades das ferramentas que foram utilizadas e desconsiderará todas as
-demais. No capítulo 6 - Resultados, serão apresentados comentários acerca das ferramentas, ressaltando seus pontos fortes e fracos que puderam ser percebidos com o  seu uso.
+demais.
 
 \section{BRAT}
 
@@ -1125,7 +1125,7 @@ determinada seção. As 4 seções são apresentadas a seguir e explicadas na se
   \item \texttt{attributes}
 \end{enumerate}
 
-A primeira seção, \textbf{\texttt{entities}}, define as entidades mencionadas, já exploradas nesta literatura no capítulo 4 - Reconhecimento de Entidades Mencionadas, que serão anotadas na
+A primeira seção, \textbf{\texttt{entities}}, define as entidades mencionadas, já exploradas nesta literatura no capítulo 4, que serão anotadas na
 coleção de textos a serem trabalhados. Para efeitos deste trabalho, nesta etapa já devemos ter lido bastantes Atos de Concentração, que são os nossos textos, para identificar as
 EMs que podem ser mais relevantes para a identificação dos tipos de ritos e declará-las nesta seção deste arquivo.
 
@@ -1277,7 +1277,7 @@ ao mesmo tempo que fornecemos exemplos de saídas geradas por ele com relação 
 
 \subsection{Tokenizer}
 
-\indent\indent Já tratamos sobre a questão do que é uma \textit{token} no capítulo 3 - Processamento de Linguagem Natural (PLN), e agora vamos explorar sobre a ferramenta de
+\indent\indent Já tratamos sobre a questão do que é uma \textit{token} no capítulo 3, e agora vamos explorar sobre a ferramenta de
 tokenização fornecida pelo Apache OpenNLP. As implementações de tokenização oferecidas pelo Apache OpenNLP são as seguintes:
 
 \begin{enumerate}[label=\textbf{{\Roman*.}}]
@@ -1327,7 +1327,7 @@ Na seção a seguir veremos como o Apache OpenNLP trabalha com a tarefa de segme
 \indent\indent Outra ferramenta que o Apache OpenNLP fornece, conforme já mencionado anteriormente, é um segmentador de sentenças capaz de detectar características textuais
 tais como quando uma determinada pontuação marca o final de uma dada sentença ou não.
 
-Para isso, conforme já discutido no capítulo 3 - Processamento de Linguagem Natural (PLN), existe uma
+Para isso, conforme já discutido no capítulo 3, existe uma
 necessidade natural de definir o que é uma sentença. Para a o segmentador de sentenças do Apache OpenNLP, uma sentença é definida como a maior seqüência de caracteres entre duas
 pontuações desconsiderando os caracteres de espaços em branco. As exceções à definição são a primeira e a última sentença, no qual no primeiro caso é assumido que o primeiro caracter que não
 seja um espaço em branco marca o inicio da sentença, enquanto que no segundo caso o último caracter que não seja um espaço em branco é assumido como final da sentença.
