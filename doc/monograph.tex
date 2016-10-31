@@ -1,4 +1,4 @@
-\documentclass[11pt]{report}
+  \documentclass[11pt]{report}
 \usepackage[brazil]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
@@ -53,7 +53,7 @@
   {\LARGE \textbf{Instituto de Matemática e Estatística (IME-USP)}}
   \vspace*{150px}
 
-  {\Large \textbf{Reconhecimento de Entidades Mencionadas para Notificações de Processos Judiciais do Conselho Administrativo de Defesa Econômica}}
+  {\Large \textbf{Reconhecimento de Entidades Mencionadas para Notificações de Atos de Concentração Econômica do Conselho Administrativo de Defesa Econômica}}
   \vspace*{100px}
 
   {\Large Aluno: Renan Fichberg}
@@ -87,11 +87,11 @@ as pessoas mais presentes na minha vida, me incentivando a seguir adiante em tod
 Em seguida, aos meus grandes amigos que acompanharam a minha trajetória de perto, Eduardo Gromatzky Feder e Gabriel Engel Pesso, que sempre foram companheiros
 em todos os momentos.
 
-Aos meus colegas e amigos de curso Maurício Cardoso, Luiz da Silva Armesto, Renato Cordeiro Ferreira, Pedro de Carvalho Rogrigues, João Marco Maciel da Silva,
-Gervásio Santos, Renato Massao, Yara Grassi Gouffon, Rafael Raposa, Lucas Hiroshi Hayashida, Victor Sanches Portella, Luciana Abud, Vinícius Vendramini, Ruan Costa,
+Aos meus colegas e amigos do BCC, Maurício Cardoso, Luiz da Silva Armesto, Renato Cordeiro Ferreira, Pedro de Carvalho Rogrigues, João Marco Maciel da Silva,
+Gervásio Santos, Renato Massao, Yara Grassi Gouffon, Rafael Raposa, Lucas Hiroshi Hayashida, Victor Sanches Portella, Luciana Abud, Karina Suemi Awoki, Vinícius Vendramini, Ruan Costa,
 Vinícius Bitencourt Matos e tantos outros que percorreram juntos comigo essa trilha e sempre se mostraram dispostos a ajudar.
 
-Aos meus colegas e amigos do Mezuro, Rafael Reggiani Manzo, Diego Araújo Martinez Camarinha, Fellipe Souto Sampaio, Heitor Reis Ribeiro, Guilherme Rojas, Alessandro Palmeira e
+Aos meus colegas e amigos do Mezuro e do BCC, Rafael Reggiani Manzo, Diego Araújo Martinez Camarinha, Fellipe Souto Sampaio, Heitor Reis Ribeiro, Guilherme Rojas, Alessandro Palmeira e
 Daniel Paulino Alves, que sempre tinham algo de novo a ensinar.
 
 Aos meus grandes amigos do colégio, Jonathan Schiriak, Allon Rozansky, Aaron Zarenczanski e Walter Caspari, pelos bons momentos, eventuais apoios e conselhos.
@@ -179,7 +179,7 @@ os seus significados:
 \noindent DOU - Diário Oficial da União
 
 \vspace*{8px}
-\noindent IA - Inteligência Artificial
+\noindent EM - Entidade Mencionada
 
 \vspace*{8px}
 \noindent PLN - Processamento de Linguagem Natural
@@ -192,8 +192,13 @@ os seus significados:
 
 \pagebreak
 \thispagestyle{empty}
-\chapter*{Índice}
-\markboth{UNNUMBERED CHAPTER}{}
+
+\tableofcontents
+
+\vspace*{10px}
+
+\hspace*{-0.7cm}
+\textbf{Referências}\thinspace\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\enspace.\thinspace\thinspace\enspace\textbf{47}
 
 \pagebreak
 \chapter{Introdução}
@@ -1431,10 +1436,10 @@ valores de validação do \textit{corpus}, a forma que obtivemos tais valores e 
 \indent\indent Para realizarmos os testes com o \textit{corpus} foi usada a técnica de validação cruzada com o método \textit{holdout}. A idéia de usarmos a validação cruzada
 é para testarmos a capacidade de generalização do nosso modelo a partir dos dados do nosso \textit{corpus} anotado e assim ganharmos também mais garantia acerca da sua robustez.
 
-O incentivo para que o método de \textit{holdout} tenha sido usado 
+O incentivo para que o método de \textit{holdout} tenha sido usado
 é que como não dispunhamos de muitos dados (no sentido de que o \textit{corpus} possui apenas pouco mais de 50000 palavras quando idealmente havia uma meta de 300000 palavras), dividirmos o \textit{corpus} composto de 50 ACs
 em um grupo de treinamento composto de 45 processos e um segundo grupo composto dos 5 restantes para o grupo de teste pareceu uma aproximação mais razoável, uma vez que a quantidade de palavras
-continuaria sendo suficientemente grande no grupo de treinamento (cerca de 45000) e ainda restaria 10\% do total que poderia ser usado para fazermos a validação. Como, porém, este é um 
+continuaria sendo suficientemente grande no grupo de treinamento (cerca de 45000) e ainda restaria 10\% do total que poderia ser usado para fazermos a validação. Como, porém, este é um
 método que pode ter alta variância, foram feito 10 casos distintos, onde os grupos de treinamento e de teste são compostos por ACs diferentes.
 
 Na tabela 6.3 a seguir, são apresentadas as $C_i, 1 \leq i \leq 10$ combinações dos $A_j, 1 \leq j \leq 50$ que foram selecionadas pseudo-aleatoriamente a partir de \textit{script} para compôr os grupos de treinamento e de teste. As tabelas 6.1 e 6.2 abaixo mostram a atribuição de um valor \textit{j} para um AC.
@@ -1455,8 +1460,8 @@ Na tabela 6.3 a seguir, são apresentadas as $C_i, 1 \leq i \leq 10$ combinaçõ
     3 & 08700.001221/2016-95 & 10 & 08700.003421/2016-82 & 17 & 08700.004557/2016-18 & 24 & 08700.005733/2016-21 \\
     4 & 08700.001872/2016-85 & 11 & 08700.003462/2016-79 & 18 & 08700.004860/2016-11 & 25 & 08700.010790/2015-41 \\
     5 & 08700.002432/2016-45 & 12 & 08700.003636/2016-01 & 19 & 08700.005093/2016-59 & &  \\
-    6 & 08700.002792/2016-47 & 13 & 08700.003952/2016-75 & 20 & 08700.005398/2016-61 & &  \\  
-    7 & 08700.003024/2016-19 & 14 & 08700.004168/2016-84 & 21 & 08700.005524/2016-87 & &  \\ 
+    6 & 08700.002792/2016-47 & 13 & 08700.003952/2016-75 & 20 & 08700.005398/2016-61 & &  \\
+    7 & 08700.003024/2016-19 & 14 & 08700.004168/2016-84 & 21 & 08700.005524/2016-87 & &  \\
     \hline
     \end{tabular}
   \caption{ACs Ordinários que compõem o \textit{corpus} e seus respectivos número \textit{j}.}
@@ -1609,20 +1614,52 @@ valores obtidos. Isso melhoraria as taxas de precisão de cobertura e conseqüen
 \end{enumerate}
 
 É muito claro que o fato do \textit{corpus} ser pequeno favoreceu um desbalanceamento entre as taxas de precisão e de cobertura, de tal modo que se ele fosse maior, mais entidades mencionadas
-seriam identificadas, reduzindo o valor de \textbf{E1}, enquanto em contrapartida, ao identificar mais \textit{tokens} candidatas a anotações, poderíamos aumentar o valor de \textbf{E2}, afetando um pouco a precisão. Note, porém, que supondo que o processo fosse bem feito, a introdução de possíveis erros do tipo \textbf{E2} não seria um problema comparado à redução dos 
+seriam identificadas, reduzindo o valor de \textbf{E1}, enquanto em contrapartida, ao identificar mais \textit{tokens} candidatas a anotações, poderíamos aumentar o valor de \textbf{E2}, afetando um pouco a precisão. Note, porém, que supondo que o processo fosse bem feito, a introdução de possíveis erros do tipo \textbf{E2} não seria um problema comparado à redução dos
 erros do tipo \textbf{E1}.
 
 Ainda, é importante considerar os erros humanos envolvidos no processo de anotação de entidades mencioonadas no \textit{corpus}, que pode gerar imprecisão. Idealmente, convém que mais
 pessoas trabalhem no processo de anotação, revisando o conteúdo produzido pelo(s) anotador(es). Além disso, não podemos ignorar os eventuais erros de OCR que não foram corrigidos
 e acabam impactando diretamente nos processos de tokenização e detecção de sentenças introduzindo possíveis erros que conseqüentemente afetam consideravelmente o processo de REM.
 
-Os valores da Medida-F da tabela 6.4 nos mostram que a estimativa de erro, considerando nossas amostras diferentes, é em média de $\mu_{E} = 1 - \mu_{F_1} = 0.5363$. Em outras palavras, 
+Os valores da Medida-F da tabela 6.4 nos mostram que a estimativa de erro, considerando nossas amostras diferentes, é em média de $\mu_{E} = 1 - \mu_{F_1} = 0.5363$. Em outras palavras,
 considerando tanto os valores de precisão quantos os valores de cobertura, nosso \textit{corpus} quase tem um desempenho mediano (50\%) no sentido de cobrir a coleção de Atos de Concentração Econômica precisamente.
 
 \pagebreak
 \chapter{Conclusão}
+
+\indent\indent Tratar volumes muito grandes de dados é uma tarefa bastante trabalhosa é longe de ser trivial. É necessário, primeiramente, saber de todo o contexto
+em que estes dados são gerados para, então, arriscar-se a entendê-los e partir para a identificação de quais possíveis informações sejam relevantes à tarefa que se deseja realizar. Nesse sentido, apesar de o objetivo inicial de classificação dos ritos não ter sido cumprido, um grande
+aprendizado ficou com relação à tarefa de extrair informações de um grande volume de dados, além de um \textit{corpus} que pode servir de base ou exemplo para aplicações futuras. 
+
+Em particular, com relação aos resultados, dada a minha até então total inexperiência no que diz respeito a mexer com todas essas ferramentas e teorias abordadas nessa monografia, 
+fico bastante satisfeito em ter conseguido uma  média superior a 75\% da taxa de precisão e quase atingir uma média de 50\% da Medida-F. Entretanto, o trabalho desenvolvido aqui, apesar de ter sido um grande passo numa possível direção correta (só saberíamos com convicção ao ver resultados da classificação) para solucionar o 
+problema proposto, ainda há muito a ser realizado no sentido de melhorar a qualidade do \textit{corpus} construído, buscando refinar os resultados obtidos.
+
+Finalmente, foi legal ter tido a oportunidade de aprender um pouco sobre essa área tão específica que é o direito econômico e ter vivenciado essa experiência interdisciplinar.
+
 \section{Dificuldades encontradas}
+
+\indent\indent São listadas a seguir algumas das dificuldades encontradas:
+
+\begin{enumerate}[label={\textbf{\Roman*.}}]
+  \item Identificar os dados potencialmente relevantes em meio a um grande volume de dados.
+  \item Identificar nos dados uma estratégia que (talvez) solucione o desafio proposto.
+  \item Idioma: a maior parte das ferramentas, modelos e textos providenciados são para o inglês.
+  \item O próprio ato de anotar quando não se tem qualquer experiência, gerando sempre resquícios de dúvidas do quão correto a tarefa está sendo realizada. Como é necessário
+um volume suficientemente grande de anotações, demorou uns meses para ter a primeira resposta.
+  \item A falta de um especialista do direito econômico para trabalhar em conjunto no processo de anotações ou mesmo a falta de um texto gerado por um especialista que pudesse ser
+o real documento padrão-ouro.
+  \item Acostumar-se com as ferramentas.
+  \item A falta de modelos de alta representatividade para os processos de tokenização e detecção de sentenças e a falta de tempo para desenvolvê-los também.
+  \item O tratamento da \quotes{sujeira} gerado pelo OCR na hora de montar o \textit{corpus}, uma vez que 100\% dos documentos de leitura estão em formato pdf.
+\end{enumerate}
+
 \section{Próximo Passo}
+
+\indent\indent O próximo passo a ser seguido seria, antes de tudo, engordar o \textit{corpus} com cerca de mais 250 Atos de Concentração para atingir cerca de 300 mil palavras e anotá-lo
+na sequência. Em seguida, refinar os resultados seguindo o procedimento descrito na figura 5.1. Depois, achar um método de alimentar uma Rede Neural (ou algum outro método como Máquina de
+Vetores de Suporte) com as entidades mencionadas encontradas sem que haja perda de informações (precisaríamos considerar o contexto em que as informações foram retiradas e seus relacionamentos) para, então, atribuirmos um ou outro tipo de rito. Este último passo é particularmente difícil de resolver, uma vez que o vetor de entrada da rede neural deveria ser
+muito bem pensado de forma a não desperdiçar o valor das EMs.
 
 \pagebreak
 \chapter*{Referências}

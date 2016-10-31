@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.6.11)  30 OCT 2016 20:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.6.11)  31 OCT 2016 19:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1165,20 +1165,24 @@ e
 ] [6
 
 ]
-[7
+(./monograph.toc [7
 
-]
-Cap\'{\i }tulo 1.
-[8
+])
+\tf@toc=\write4
+\openout4 = `monograph.toc'.
 
-]
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
+ Make it at least 14.4521pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9]
+[8]
+Cap\'{\i }tulo 1.
+[9
+
+]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1186,17 +1190,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [10]
-Cap\'{\i }tulo 2.
-[11
-
-]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12]
+[11]
+Cap\'{\i }tulo 2.
+[12
+
+]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1218,8 +1222,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [15]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16]
 Cap\'{\i }tulo 3.
-[16
+[17
 
 ]
 
@@ -1228,18 +1239,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17]
-Overfull \hbox (17.99918pt too wide) in paragraph at lines 494--517
+[18]
+Overfull \hbox (17.99918pt too wide) in paragraph at lines 499--522
 [][] 
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[18]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1275,14 +1279,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [23]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24]
 Cap\'{\i }tulo 4.
 
-Overfull \hbox (2.09346pt too wide) in paragraph at lines 707--710
+Overfull \hbox (2.09346pt too wide) in paragraph at lines 712--715
 []\OT1/cmr/m/n/10.95 Neste cap^^S^^Ptulo fa-la-re-mos um pouco so-bre Re-co-nhe
 -ci-mento de En-ti-da-des Men-ci-o-na-das (REM),
  []
 
-[24
+[25
 
 ]
 
@@ -1291,51 +1302,44 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25]
-Overfull \hbox (1.78487pt too wide) in paragraph at lines 797--798
+[26]
+Overfull \hbox (1.78487pt too wide) in paragraph at lines 802--803
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 809--812
+Underfull \hbox (badness 10000) in paragraph at lines 814--817
 []\OT1/cmr/m/n/10.95 2. A []$[]$ atu-al-mente det^^Sem 20% de par-ti-cipa^^Xc~a
 o no
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 809--812
+Underfull \hbox (badness 10000) in paragraph at lines 814--817
 []$[]$ \OT1/cmr/m/n/10.95 en-quanto a []$[]$ det^^Sem ou-tros
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 809--812
+Underfull \hbox (badness 2932) in paragraph at lines 814--817
 \OT1/cmr/m/n/10.95 20%. A []$[]$ det^^Sem os 60% de par-ti-cipa^^Xc~ao re-ma-ne
 s-cente no
  []
 
 
-Underfull \hbox (badness 2809) detected at line 812
+Underfull \hbox (badness 2809) detected at line 817
 []$[]$ \OT1/cmr/m/n/10.95 en-quanto a []$[]$ det^^Sem ou-tros
  []
 
 
-Underfull \hbox (badness 10000) detected at line 812
+Underfull \hbox (badness 10000) detected at line 817
 []\OT1/cmr/m/n/10.95 2. A []$[]$ atu-al-mente det^^Sem 20% de par-ti-cipa^^Xc~a
 o no
  []
 
 
-Overfull \hbox (6.18564pt too wide) in paragraph at lines 808--813
+Overfull \hbox (6.18564pt too wide) in paragraph at lines 813--818
 []$[]$ 
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[26]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1343,23 +1347,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [27]
-Overfull \hbox (0.30737pt too wide) in paragraph at lines 888--894
-[]$[]$ 
- []
-
-
-Overfull \hbox (4.17259pt too wide) in paragraph at lines 909--915
-[]$[]$ 
- []
-
-
-Overfull \hbox (17.20822pt too wide) in paragraph at lines 929--941
- []|  [] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1367,6 +1354,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [28]
+Overfull \hbox (0.30737pt too wide) in paragraph at lines 893--899
+[]$[]$ 
+ []
+
+
+Overfull \hbox (4.17259pt too wide) in paragraph at lines 914--920
+[]$[]$ 
+ []
+
+
+Overfull \hbox (17.20822pt too wide) in paragraph at lines 934--946
+ []|  [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1388,17 +1392,24 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [31]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32]
 Cap\'{\i }tulo 5.
-[32
+[33
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 1100
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 1105
 .
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 1123.
+(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 1128.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1406,8 +1417,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33]
-Overfull \hbox (1.11264pt too wide) in paragraph at lines 1176--1180
+[34]
+Overfull \hbox (1.11264pt too wide) in paragraph at lines 1181--1185
 \OT1/cmr/m/n/10.95 ori-gi-nando por-tanto o nome deste se^^Xc~ao. Das 4 se^^Xc~
 oes exis-ten-tes no ar-quivo \OT1/pcr/m/n/10.95 annotation.conf\OT1/cmr/m/n/10.
 95 ,
@@ -1422,20 +1433,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34]
+[35]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35] <brat.png, id=133, 921.4425pt x 114.4275pt>
+[36] <brat.png, id=136, 921.4425pt x 114.4275pt>
 File: brat.png Graphic file (type png)
  <use brat.png>
-Package pdftex.def Info: brat.png used on input line 1252.
+Package pdftex.def Info: brat.png used on input line 1257.
 (pdftex.def)             Requested size: 543.64638pt x 67.51163pt.
 
-Overfull \hbox (41.89677pt too wide) in paragraph at lines 1251--1253
+Overfull \hbox (41.89677pt too wide) in paragraph at lines 1256--1258
 []|  [] 
  []
 
@@ -1445,13 +1456,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36 <./brat.png>]
-Overfull \hbox (13.57616pt too wide) in paragraph at lines 1309--1313
+[37 <./brat.png>]
+Overfull \hbox (13.57616pt too wide) in paragraph at lines 1314--1318
 [][] [] [] [] [] [] [] [] [] [] [] [] [] [] []
  []
 
 
-Overfull \hbox (10.35786pt too wide) in paragraph at lines 1309--1313
+Overfull \hbox (10.35786pt too wide) in paragraph at lines 1314--1318
 [] [] [] [] [] [] [] [] [] []
  []
 
@@ -1461,15 +1472,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37]
-Overfull \hbox (1.39703pt too wide) in paragraph at lines 1334--1335
+[38]
+Overfull \hbox (1.39703pt too wide) in paragraph at lines 1339--1340
 []\OT1/cmr/m/n/10.95 Consideremos mais uma vez o tre-cho ex-tra^^S^^Pdo do Ato 
 de Con-cen-tra^^Xc~ao n\TS1/cmr/m/n/10.95 º \OT1/cmr/m/n/10.95 08700.005269/201
 6-
  []
 
 
-Overfull \hbox (1.78487pt too wide) in paragraph at lines 1360--1361
+Overfull \hbox (1.78487pt too wide) in paragraph at lines 1365--1366
 [][] 
  []
 
@@ -1479,8 +1490,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38]
-Overfull \hbox (1.10907pt too wide) in paragraph at lines 1400--1404
+[39]
+Overfull \hbox (1.10907pt too wide) in paragraph at lines 1405--1409
 []\OT1/cmr/m/it/10.95 ``Pelo ex-posto, as []$[]$ sub-me-tem a []$[]$ para
  []
 
@@ -1490,37 +1501,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39]
+[40]
 Cap\'{\i }tulo 6.
 
-Overfull \hbox (56.8176pt too wide) in paragraph at lines 1445--1462
+Overfull \hbox (56.8176pt too wide) in paragraph at lines 1450--1467
  []|   [] 
  []
 
 
-Overfull \hbox (59.44716pt too wide) in paragraph at lines 1467--1484
+Overfull \hbox (59.44716pt too wide) in paragraph at lines 1472--1489
  []|   [] 
  []
 
-[40
+[41
 
 ]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[41]
-Overfull \hbox (1.08836pt too wide) in paragraph at lines 1585--1585
- []|$[]$| 
- []
-
-
-Overfull \hbox (57.16171pt too wide) in paragraph at lines 1581--1596
- []|   [] 
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1528,6 +1523,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [42]
+Overfull \hbox (1.08836pt too wide) in paragraph at lines 1590--1590
+ []|$[]$| 
+ []
+
+
+Overfull \hbox (57.16171pt too wide) in paragraph at lines 1586--1601
+ []|   [] 
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1535,59 +1539,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [43]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[44]
 Cap\'{\i }tulo 7.
-[44
 
-]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 1632
-.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1632.
-
-
-Overfull \hbox (7.75388pt too wide) in paragraph at lines 1632--1633
-[]\OT1/cmr/m/n/10.95 Acesso ^^Ra In-forma^^Xc~ao: Co-nhe^^Xca o CADE. Dis-pon^^
-S^^Pvel em: \OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.cade.gov.br/aces
-so-
- []
-
-
-Overfull \hbox (39.8942pt too wide) in paragraph at lines 1634--1635
-\OT1/cmr/m/n/10.95 Econ^omica. Dis-pon^^S^^Pvel em: \OML/cmm/m/it/10.95 <\OT1/c
-mr/m/n/10.95 http://www.cade.gov.br/servicos/perguntas-frequentes/perguntas-
- []
-
-
-Overfull \hbox (3.13066pt too wide) in paragraph at lines 1636--1637
-\OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 https://opennlp.apache.org/documentatio
-n/manual/opennlp.html#tools.namefind \OML/cmm/m/it/10.95 >\OT1/cmr/m/n/10.95 .
- []
-
-
-Overfull \hbox (19.99962pt too wide) in paragraph at lines 1637--1638
-\OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.cade.gov.br/assuntos/normas-
-e-legislacao/resolucao/resolucao-2[]2012-analise-
- []
-
-
-Overfull \hbox (19.99962pt too wide) in paragraph at lines 1638--1639
-\OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.cade.gov.br/assuntos/normas-
-e-legislacao/resolucao/resolucao-2[]2012-analise-
- []
-
-
-Overfull \hbox (19.99962pt too wide) in paragraph at lines 1639--1640
-\OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.cade.gov.br/assuntos/normas-
-e-legislacao/resolucao/resolucao-2[]2012-analise-
- []
-
-
-Overfull \hbox (22.72708pt too wide) in paragraph at lines 1641--1642
-[]\OT1/cmr/m/n/10.95 WIKIPEDIA. Brown Cor-pus. Dis-pon^^S^^Pvel em: \OML/cmm/m/
-it/10.95 <\OT1/cmr/m/n/10.95 https://en.wikipedia.org/wiki/Brown[]Corpus
+Overfull \hbox (1.57813pt too wide) in paragraph at lines 1648--1650
+[]\OT1/cmr/m/n/10.95 O pr^^Soprio ato de ano-tar quando n~ao se tem qual-quer e
+x-peri^encia, ge-rando sem-pre resqu^^S^^Pcios
  []
 
 [45
@@ -1599,10 +1562,71 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[46] (./monograph.aux) ) 
+[46]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 1669
+.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1669.
+
+
+Overfull \hbox (7.75388pt too wide) in paragraph at lines 1669--1670
+[]\OT1/cmr/m/n/10.95 Acesso ^^Ra In-forma^^Xc~ao: Co-nhe^^Xca o CADE. Dis-pon^^
+S^^Pvel em: \OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.cade.gov.br/aces
+so-
+ []
+
+
+Overfull \hbox (39.8942pt too wide) in paragraph at lines 1671--1672
+\OT1/cmr/m/n/10.95 Econ^omica. Dis-pon^^S^^Pvel em: \OML/cmm/m/it/10.95 <\OT1/c
+mr/m/n/10.95 http://www.cade.gov.br/servicos/perguntas-frequentes/perguntas-
+ []
+
+
+Overfull \hbox (3.13066pt too wide) in paragraph at lines 1673--1674
+\OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 https://opennlp.apache.org/documentatio
+n/manual/opennlp.html#tools.namefind \OML/cmm/m/it/10.95 >\OT1/cmr/m/n/10.95 .
+ []
+
+
+Overfull \hbox (19.99962pt too wide) in paragraph at lines 1674--1675
+\OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.cade.gov.br/assuntos/normas-
+e-legislacao/resolucao/resolucao-2[]2012-analise-
+ []
+
+
+Overfull \hbox (19.99962pt too wide) in paragraph at lines 1675--1676
+\OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.cade.gov.br/assuntos/normas-
+e-legislacao/resolucao/resolucao-2[]2012-analise-
+ []
+
+
+Overfull \hbox (19.99962pt too wide) in paragraph at lines 1676--1677
+\OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.cade.gov.br/assuntos/normas-
+e-legislacao/resolucao/resolucao-2[]2012-analise-
+ []
+
+
+Overfull \hbox (22.72708pt too wide) in paragraph at lines 1678--1679
+[]\OT1/cmr/m/n/10.95 WIKIPEDIA. Brown Cor-pus. Dis-pon^^S^^Pvel em: \OML/cmm/m/
+it/10.95 <\OT1/cmr/m/n/10.95 https://en.wikipedia.org/wiki/Brown[]Corpus
+ []
+
+[47
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[48] (./monograph.aux) ) 
 Here is how much of TeX's memory you used:
- 17585 strings out of 493105
- 321632 string characters out of 6137072
+ 17588 strings out of 493105
+ 321664 string characters out of 6137072
  456264 words of memory out of 5000000
  20649 multiletter control sequences out of 15000+600000
  15987 words of font info for 56 fonts, out of 8000000 for 9000
@@ -1627,10 +1651,10 @@ fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/
 cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on monograph.pdf (46 pages, 394387 bytes).
+Output written on monograph.pdf (48 pages, 400725 bytes).
 PDF statistics:
- 238 PDF objects out of 1000 (max. 8388607)
- 167 compressed objects within 2 object streams
+ 244 PDF objects out of 1000 (max. 8388607)
+ 171 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
