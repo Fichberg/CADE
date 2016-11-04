@@ -4,14 +4,14 @@
 \contentsline {subsection}{\numberline {1.1.1}Retorno}{9}
 \contentsline {section}{\numberline {1.2}Problema}{10}
 \contentsline {section}{\numberline {1.3}Objetivos}{10}
-\contentsline {chapter}{\numberline {2}O Conselho Administrativo de Defesa Econ\IeC {\^o}mica (CADE)}{12}
+\contentsline {chapter}{\numberline {2}O Conselho Administrativo de Defesa Econ\IeC {\^o}mica}{12}
 \contentsline {section}{\numberline {2.1}Quem \IeC {\'e} o CADE?}{12}
 \contentsline {section}{\numberline {2.2}Atos de Concentra\IeC {\c c}\IeC {\~a}o Econ\IeC {\^o}mica}{13}
 \contentsline {subsection}{\numberline {2.2.1}Opera\IeC {\c c}\IeC {\~o}es}{13}
 \contentsline {section}{\numberline {2.3}Base de Dados P\IeC {\'u}blica}{13}
 \contentsline {subsection}{\numberline {2.3.1}Heur\IeC {\'\i }stica de Sele\IeC {\c c}\IeC {\~a}o de Tipos de Documentos}{14}
-\contentsline {section}{\numberline {2.4}Ritos de um Ato de Concentra\IeC {\c c}\IeC {\~a}o}{16}
-\contentsline {chapter}{\numberline {3}Processamento de Linguagem Natural (PLN)}{17}
+\contentsline {section}{\numberline {2.4}Ritos de um Ato de Concentra\IeC {\c c}\IeC {\~a}o}{15}
+\contentsline {chapter}{\numberline {3}Processamento de Linguagem Natural}{17}
 \contentsline {section}{\numberline {3.1}Corpus}{17}
 \contentsline {subsection}{\numberline {3.1.1}Cria\IeC {\c c}\IeC {\~a}o do Corpus}{18}
 \contentsline {subsection}{\numberline {3.1.2}Anota\IeC {\c c}\IeC {\~o}es}{20}
@@ -19,10 +19,10 @@
 \contentsline {subsection}{\numberline {3.2.1}Tokeniza\IeC {\c c}\IeC {\~a}o nas Notifica\IeC {\c c}\IeC {\~o}es dos Atos de Concentra\IeC {\c c}\IeC {\~a}o}{21}
 \contentsline {section}{\numberline {3.3}Detec\IeC {\c c}\IeC {\~a}o de Seten\IeC {\c c}as}{22}
 \contentsline {subsection}{\numberline {3.3.1}Detec\IeC {\c c}\IeC {\~a}o de Senten\IeC {\c c}as nas Notifica\IeC {\c c}\IeC {\~o}es dos Atos de Concentra\IeC {\c c}\IeC {\~a}o}{23}
-\contentsline {chapter}{\numberline {4}Reconhecimento de Entidades Mencionadas (REM)}{25}
+\contentsline {chapter}{\numberline {4}Reconhecimento de Entidades Mencionadas}{25}
 \contentsline {section}{\numberline {4.1}Entidades Mencionadas}{25}
 \contentsline {section}{\numberline {4.2}Reconhecimento e Classifica\IeC {\c c}\IeC {\~a}o}{25}
-\contentsline {subsection}{\numberline {4.2.1}Reconhecimento de Entidades Mencionadas nas Notifica\IeC {\c c}\IeC {\~o}es dos Atos de Concentra\IeC {\c c}\IeC {\~a}o}{26}
+\contentsline {subsection}{\numberline {4.2.1}Reconhecimento de Entidades Mencionadas em Notifica\IeC {\c c}\IeC {\~o}es dos Atos de Concentra\IeC {\c c}\IeC {\~a}o}{26}
 \contentsline {section}{\numberline {4.3}Avalia\IeC {\c c}\IeC {\~a}o das Informa\IeC {\c c}\IeC {\~o}es Extra\IeC {\'\i }das}{27}
 \contentsline {subsection}{\numberline {4.3.1}Padr\IeC {\~a}o-ouro}{28}
 \contentsline {subsection}{\numberline {4.3.2}Tipos de Erro}{28}

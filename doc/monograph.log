@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.6.11)  31 OCT 2016 19:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.6.11)  3 NOV 2016 23:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1233,6 +1233,10 @@ Cap\'{\i }tulo 3.
 [17
 
 ]
+Overfull \hbox (17.99918pt too wide) in paragraph at lines 496--519
+ [][] 
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1240,10 +1244,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [18]
-Overfull \hbox (17.99918pt too wide) in paragraph at lines 499--522
-[][] 
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1287,12 +1287,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [24]
 Cap\'{\i }tulo 4.
-
-Overfull \hbox (2.09346pt too wide) in paragraph at lines 712--715
-[]\OT1/cmr/m/n/10.95 Neste cap^^S^^Ptulo fa-la-re-mos um pouco so-bre Re-co-nhe
--ci-mento de En-ti-da-des Men-ci-o-na-das (REM),
- []
-
 [25
 
 ]
@@ -1303,40 +1297,40 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [26]
-Overfull \hbox (1.78487pt too wide) in paragraph at lines 802--803
+Overfull \hbox (1.78487pt too wide) in paragraph at lines 799--800
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 814--817
+Underfull \hbox (badness 10000) in paragraph at lines 811--814
 []\OT1/cmr/m/n/10.95 2. A []$[]$ atu-al-mente det^^Sem 20% de par-ti-cipa^^Xc~a
 o no
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 814--817
+Underfull \hbox (badness 10000) in paragraph at lines 811--814
 []$[]$ \OT1/cmr/m/n/10.95 en-quanto a []$[]$ det^^Sem ou-tros
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 814--817
+Underfull \hbox (badness 2932) in paragraph at lines 811--814
 \OT1/cmr/m/n/10.95 20%. A []$[]$ det^^Sem os 60% de par-ti-cipa^^Xc~ao re-ma-ne
 s-cente no
  []
 
 
-Underfull \hbox (badness 2809) detected at line 817
+Underfull \hbox (badness 2809) detected at line 814
 []$[]$ \OT1/cmr/m/n/10.95 en-quanto a []$[]$ det^^Sem ou-tros
  []
 
 
-Underfull \hbox (badness 10000) detected at line 817
+Underfull \hbox (badness 10000) detected at line 814
 []\OT1/cmr/m/n/10.95 2. A []$[]$ atu-al-mente det^^Sem 20% de par-ti-cipa^^Xc~a
 o no
  []
 
 
-Overfull \hbox (6.18564pt too wide) in paragraph at lines 813--818
+Overfull \hbox (6.18564pt too wide) in paragraph at lines 810--815
 []$[]$ 
  []
 
@@ -1354,17 +1348,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [28]
-Overfull \hbox (0.30737pt too wide) in paragraph at lines 893--899
+Overfull \hbox (0.30737pt too wide) in paragraph at lines 890--896
 []$[]$ 
  []
 
 
-Overfull \hbox (4.17259pt too wide) in paragraph at lines 914--920
+Overfull \hbox (4.17259pt too wide) in paragraph at lines 911--917
 []$[]$ 
  []
 
 
-Overfull \hbox (17.20822pt too wide) in paragraph at lines 934--946
+Overfull \hbox (17.20822pt too wide) in paragraph at lines 931--943
  []|  [] 
  []
 
@@ -1403,13 +1397,13 @@ Cap\'{\i }tulo 5.
 [33
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 1105
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 1102
 .
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 1128.
+(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 1125.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1418,8 +1412,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [34]
-Overfull \hbox (1.11264pt too wide) in paragraph at lines 1181--1185
-\OT1/cmr/m/n/10.95 ori-gi-nando por-tanto o nome deste se^^Xc~ao. Das 4 se^^Xc~
+Overfull \hbox (1.72098pt too wide) in paragraph at lines 1178--1182
+\OT1/cmr/m/n/10.95 ori-gi-nando por-tanto o nome desta se^^Xc~ao. Das 4 se^^Xc~
 oes exis-ten-tes no ar-quivo \OT1/pcr/m/n/10.95 annotation.conf\OT1/cmr/m/n/10.
 95 ,
  []
@@ -1443,10 +1437,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [36] <brat.png, id=136, 921.4425pt x 114.4275pt>
 File: brat.png Graphic file (type png)
  <use brat.png>
-Package pdftex.def Info: brat.png used on input line 1257.
+Package pdftex.def Info: brat.png used on input line 1254.
 (pdftex.def)             Requested size: 543.64638pt x 67.51163pt.
 
-Overfull \hbox (41.89677pt too wide) in paragraph at lines 1256--1258
+Overfull \hbox (41.89677pt too wide) in paragraph at lines 1253--1255
 []|  [] 
  []
 
@@ -1457,12 +1451,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [37 <./brat.png>]
-Overfull \hbox (13.57616pt too wide) in paragraph at lines 1314--1318
+Overfull \hbox (13.57616pt too wide) in paragraph at lines 1311--1315
 [][] [] [] [] [] [] [] [] [] [] [] [] [] [] []
  []
 
 
-Overfull \hbox (10.35786pt too wide) in paragraph at lines 1314--1318
+Overfull \hbox (10.35786pt too wide) in paragraph at lines 1311--1315
 [] [] [] [] [] [] [] [] [] []
  []
 
@@ -1473,14 +1467,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [38]
-Overfull \hbox (1.39703pt too wide) in paragraph at lines 1339--1340
+Overfull \hbox (1.39703pt too wide) in paragraph at lines 1336--1337
 []\OT1/cmr/m/n/10.95 Consideremos mais uma vez o tre-cho ex-tra^^S^^Pdo do Ato 
 de Con-cen-tra^^Xc~ao n\TS1/cmr/m/n/10.95 º \OT1/cmr/m/n/10.95 08700.005269/201
 6-
  []
 
 
-Overfull \hbox (1.78487pt too wide) in paragraph at lines 1365--1366
+Overfull \hbox (1.78487pt too wide) in paragraph at lines 1362--1363
 [][] 
  []
 
@@ -1491,7 +1485,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [39]
-Overfull \hbox (1.10907pt too wide) in paragraph at lines 1405--1409
+Overfull \hbox (1.10907pt too wide) in paragraph at lines 1402--1406
 []\OT1/cmr/m/it/10.95 ``Pelo ex-posto, as []$[]$ sub-me-tem a []$[]$ para
  []
 
@@ -1504,12 +1498,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [40]
 Cap\'{\i }tulo 6.
 
-Overfull \hbox (56.8176pt too wide) in paragraph at lines 1450--1467
+Overfull \hbox (56.8176pt too wide) in paragraph at lines 1447--1464
  []|   [] 
  []
 
 
-Overfull \hbox (59.44716pt too wide) in paragraph at lines 1472--1489
+Overfull \hbox (59.44716pt too wide) in paragraph at lines 1469--1486
  []|   [] 
  []
 
@@ -1523,12 +1517,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [42]
-Overfull \hbox (1.08836pt too wide) in paragraph at lines 1590--1590
+Overfull \hbox (1.08836pt too wide) in paragraph at lines 1587--1587
  []|$[]$| 
  []
 
 
-Overfull \hbox (57.16171pt too wide) in paragraph at lines 1586--1601
+Overfull \hbox (57.16171pt too wide) in paragraph at lines 1583--1598
  []|   [] 
  []
 
@@ -1548,7 +1542,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [44]
 Cap\'{\i }tulo 7.
 
-Overfull \hbox (1.57813pt too wide) in paragraph at lines 1648--1650
+Overfull \hbox (1.57813pt too wide) in paragraph at lines 1645--1647
 []\OT1/cmr/m/n/10.95 O pr^^Soprio ato de ano-tar quando n~ao se tem qual-quer e
 x-peri^encia, ge-rando sem-pre resqu^^S^^Pcios
  []
@@ -1563,60 +1557,52 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [46]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 1669
-.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1669.
-
-
-Overfull \hbox (7.75388pt too wide) in paragraph at lines 1669--1670
+Overfull \hbox (0.45386pt too wide) in paragraph at lines 1666--1667
 []\OT1/cmr/m/n/10.95 Acesso ^^Ra In-forma^^Xc~ao: Co-nhe^^Xca o CADE. Dis-pon^^
-S^^Pvel em: \OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.cade.gov.br/aces
-so-
+S^^Pvel em: $\OMS/cmsy/m/n/10.95 h$ \OT1/cmr/m/n/10.95 http://www.cade.gov.br/a
+cesso-
  []
 
 
-Overfull \hbox (39.8942pt too wide) in paragraph at lines 1671--1672
-\OT1/cmr/m/n/10.95 Econ^omica. Dis-pon^^S^^Pvel em: \OML/cmm/m/it/10.95 <\OT1/c
-mr/m/n/10.95 http://www.cade.gov.br/servicos/perguntas-frequentes/perguntas-
+Overfull \hbox (15.19585pt too wide) in paragraph at lines 1667--1668
+\OT1/cmr/m/n/10.95 em: $\OMS/cmsy/m/n/10.95 h$ \OT1/cmr/m/n/10.95 http://www.ca
+de.gov.br/acesso-a-informacao/institucional/historico-do-cade $\OMS/cmsy/m/n/10
+.95 i$\OT1/cmr/m/n/10.95 . Acesso
  []
 
 
-Overfull \hbox (3.13066pt too wide) in paragraph at lines 1673--1674
-\OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 https://opennlp.apache.org/documentatio
-n/manual/opennlp.html#tools.namefind \OML/cmm/m/it/10.95 >\OT1/cmr/m/n/10.95 .
+Overfull \hbox (9.36595pt too wide) in paragraph at lines 1668--1669
+\OT1/cmr/m/n/10.95 pon^^S^^Pvel em: $\OMS/cmsy/m/n/10.95 h$ \OT1/cmr/m/n/10.95 
+http://www.cade.gov.br/servicos/perguntas-frequentes/perguntas-sobre-atos-
  []
 
 
-Overfull \hbox (19.99962pt too wide) in paragraph at lines 1674--1675
-\OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.cade.gov.br/assuntos/normas-
-e-legislacao/resolucao/resolucao-2[]2012-analise-
+Overfull \hbox (12.6996pt too wide) in paragraph at lines 1671--1672
+\OMS/cmsy/m/n/10.95 h$ \OT1/cmr/m/n/10.95 http://www.cade.gov.br/assuntos/norma
+s-e-legislacao/resolucao/resolucao-2[]2012-analise-
  []
 
 
-Overfull \hbox (19.99962pt too wide) in paragraph at lines 1675--1676
-\OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.cade.gov.br/assuntos/normas-
-e-legislacao/resolucao/resolucao-2[]2012-analise-
+Overfull \hbox (15.42706pt too wide) in paragraph at lines 1673--1674
+[]\OT1/cmr/m/n/10.95 WIKIPEDIA. Brown Cor-pus. Dis-pon^^S^^Pvel em: $\OMS/cmsy/
+m/n/10.95 h$ \OT1/cmr/m/n/10.95 https://en.wikipedia.org/wiki/Brown[]Corpus
  []
 
 
-Overfull \hbox (19.99962pt too wide) in paragraph at lines 1676--1677
-\OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.cade.gov.br/assuntos/normas-
-e-legislacao/resolucao/resolucao-2[]2012-analise-
- []
-
-
-Overfull \hbox (22.72708pt too wide) in paragraph at lines 1678--1679
-[]\OT1/cmr/m/n/10.95 WIKIPEDIA. Brown Cor-pus. Dis-pon^^S^^Pvel em: \OML/cmm/m/
-it/10.95 <\OT1/cmr/m/n/10.95 https://en.wikipedia.org/wiki/Brown[]Corpus
+Overfull \hbox (9.25246pt too wide) in paragraph at lines 1680--1681
+[]\OT1/cmr/m/n/10.95 WIKIPEDIA. Na-med En-tity. Dis-pon^^S^^Pvel em: $\OMS/cmsy
+/m/n/10.95 h$ \OT1/cmr/m/n/10.95 https://en.wikipedia.org/wiki/Named[]entity
  []
 
 [47
 
 ]
+Overfull \hbox (7.04427pt too wide) in paragraph at lines 1685--1686
+[]\OT1/cmr/m/n/10.95 WIKIPEDIA. Her-fin-dahl in-dex. Dis-pon^^S^^Pvel em: $\OMS
+/cmsy/m/n/10.95 h$ \OT1/cmr/m/n/10.95 https://en.wikipedia.org/wiki/Herfindahl 
+
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1625,10 +1611,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [48] (./monograph.aux) ) 
 Here is how much of TeX's memory you used:
- 17588 strings out of 493105
- 321664 string characters out of 6137072
+ 17572 strings out of 493105
+ 321380 string characters out of 6137072
  456264 words of memory out of 5000000
- 20649 multiletter control sequences out of 15000+600000
+ 20636 multiletter control sequences out of 15000+600000
  15987 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,20n,54p,776b,644s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1651,7 +1637,7 @@ fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/
 cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on monograph.pdf (48 pages, 400137 bytes).
+Output written on monograph.pdf (48 pages, 396361 bytes).
 PDF statistics:
  244 PDF objects out of 1000 (max. 8388607)
  171 compressed objects within 2 object streams
