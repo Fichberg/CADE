@@ -17,7 +17,7 @@
 \contentsline {subsection}{\numberline {3.1.2}Anota\IeC {\c c}\IeC {\~o}es}{20}
 \contentsline {section}{\numberline {3.2}Tokeniza\IeC {\c c}\IeC {\~a}o}{20}
 \contentsline {subsection}{\numberline {3.2.1}Tokeniza\IeC {\c c}\IeC {\~a}o nas Notifica\IeC {\c c}\IeC {\~o}es dos Atos de Concentra\IeC {\c c}\IeC {\~a}o}{21}
-\contentsline {section}{\numberline {3.3}Detec\IeC {\c c}\IeC {\~a}o de Seten\IeC {\c c}as}{22}
+\contentsline {section}{\numberline {3.3}Detec\IeC {\c c}\IeC {\~a}o de Senten\IeC {\c c}as}{22}
 \contentsline {subsection}{\numberline {3.3.1}Detec\IeC {\c c}\IeC {\~a}o de Senten\IeC {\c c}as nas Notifica\IeC {\c c}\IeC {\~o}es dos Atos de Concentra\IeC {\c c}\IeC {\~a}o}{23}
 \contentsline {chapter}{\numberline {4}Reconhecimento de Entidades Mencionadas}{25}
 \contentsline {section}{\numberline {4.1}Entidades Mencionadas}{25}
